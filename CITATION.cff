@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "AlphaLuck: Risk Measurement and Performance Benchmarks in a Live LLM Trading Competition"
+abstract: >-
+  Five standalone Quantlets reproducing descriptive risk profiles, risk-return
+  associations, accounting attribution, paired denominator sensitivities and
+  conditional frozen-position stress calculations from minimal derived inputs.
+  This package does not rebuild the original transaction ledger. The short
+  unreplicated design does not establish persistent model skill; historical
+  liquidation feasibility remains unverified.
+type: software
+authors:
+  - family-names: Pele
+    given-names: Daniel Traian
+    affiliation: "Bucharest University of Economic Studies"
+    email: danpele@ase.ro
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-15"
+repository-code: "https://github.com/QuantLet/AlphaLuck"
+keywords:
+  - large language models
+  - algorithmic trading
+  - risk measurement
+  - performance benchmarks
+  - reproducibility
+  - Hyperliquid
+  - Alpha Arena

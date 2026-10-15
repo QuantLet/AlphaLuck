@@ -1,0 +1,39 @@
+{
+  "summary": {
+    "accounts": 32,
+    "formation_hours": 24,
+    "initial_capital": 320000.0,
+    "frozen_net_dollars": 9023.4615431163,
+    "actual_net_dollars": -84161.5359359174,
+    "frozen_return_pct": 2.819831732223844,
+    "actual_return_pct": -26.300479979974188,
+    "gap_dollars": 93184.9974790337,
+    "gap_pp": 29.120311712198028,
+    "accounts_ahead": 26,
+    "frozen_terminal_gross": 1101712.77666,
+    "actual_terminal_gross": 1751363.82199,
+    "frozen_only_break_even_cost_bps": 845.8193410585412,
+    "common_endpoint_break_even_pct": 4.2543526535103355,
+    "separate_account_bound_break_even_pct": 3.587143261391578,
+    "common_endpoint_differential_exposure": 2190344.92597
+  },
+  "interpretation": "Conditional mark-to-market accounting comparison, not an executable trading strategy.",
+  "reproduction_scope": "Aggregates the supplied hourly-funded endpoints and independently recomputes terminal costs and differential-exposure price stresses; does not reconstruct hourly funding from fills or simulate liquidations.",
+  "verification": {
+    "input_sha256": "passed",
+    "reference_aggregates": "passed",
+    "common_price_vertices_checked": 128,
+    "closing_cost_identity": "passed",
+    "bound_ordering": "passed"
+  },
+  "limitations": [
+    "This is not a tested trading strategy or a causal effect of trading.",
+    "The formation choices are retrospective; 32 accounts share one market path.",
+    "Funding uses actual rates but pooled fills in place of historical oracle prices.",
+    "Terminal prices and grid marks are pooled fills, possibly stale.",
+    "No complete historical mark/oracle series, margin-mode changes, isolated collateral allocations or order-book replay is present.",
+    "Current API documentation illustrates strict-isolated XYZ markets; account-wide equity cannot certify per-position isolated solvency.",
+    "No margin screen here establishes executable performance or excludes intra-grid liquidation.",
+    "Stress magnitudes are hypothetical; thresholds are conditional break-even amounts, not confidence intervals."
+  ]
+}

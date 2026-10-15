@@ -1,0 +1,47 @@
+{
+  "vol": {
+    "metric": "vol",
+    "equity_F": 12.693627384922904,
+    "equity_W": 0.8690476190476191,
+    "equity_rho": -0.5119047619047619,
+    "equity_partial_model_ss": 0.808839605629853,
+    "fixed_F": 7.865185551694626,
+    "fixed_W": 0.7946428571428571,
+    "fixed_rho": -0.3630952380952381,
+    "fixed_partial_model_ss": 0.7238887467014223,
+    "delta_F": -4.828441833228277,
+    "delta_W": -0.0744047619047619,
+    "delta_rho": 0.1488095238095237,
+    "delta_partial_model_ss": -0.0849508589284306
+  },
+  "leverage": {
+    "metric": "leverage",
+    "equity_F": 8.180452769308953,
+    "equity_W": 0.6875,
+    "equity_rho": -0.3452380952380952,
+    "equity_partial_model_ss": 0.7316745518361127,
+    "fixed_F": 2.109639266339069,
+    "fixed_W": 0.3095238095238095,
+    "fixed_rho": 0.2559523809523809,
+    "fixed_partial_model_ss": 0.4128744039206066,
+    "delta_F": -6.070813502969884,
+    "delta_W": -0.3779761904761904,
+    "delta_rho": 0.6011904761904762,
+    "delta_partial_model_ss": -0.3188001479155061
+  },
+  "turnover": {
+    "metric": "turnover",
+    "equity_F": 1.5364193237460848,
+    "equity_W": 0.4732142857142857,
+    "equity_rho": -0.4464285714285714,
+    "equity_partial_model_ss": 0.3386854728582146,
+    "fixed_F": 2.398189462726081,
+    "fixed_W": 0.5267857142857143,
+    "fixed_rho": -0.119047619047619,
+    "fixed_partial_model_ss": 0.4442581127034021,
+    "delta_F": 0.8617701389799961,
+    "delta_W": 0.0535714285714286,
+    "delta_rho": 0.3273809523809524,
+    "delta_partial_model_ss": 0.1055726398451875
+  }
+}

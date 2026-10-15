@@ -1,0 +1,13 @@
+Name of Quantlet: AlphaLuckPnlAttribution
+Published in: Risk Measurement and Performance Benchmarks in a Live LLM Trading Competition (working paper)
+Description: Signed accounting attribution combining timing and residual execution adjustment alongside
+  exposure, fees and daily-booked funding. Intermediate-mark invariance is conditional on fixed endpoint
+  valuations; the combined contribution is not measured trading cost.
+Keywords: profit and loss, accounting attribution, execution adjustment, funding, large language models,
+  trading
+Author: Daniel Traian Pele
+Submitted: 15 October 2026
+Datafile: data/a1_pnl_decomposition.csv
+Output: AlphaLuckPnlAttribution.png, AlphaLuckPnlAttribution.pdf
+Note: Run the named Python script from any directory. Inputs are included derived data, not raw organiser
+  payloads. One run per model-arm cell; no population-model significance claim.

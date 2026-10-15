@@ -1,0 +1,97 @@
+{
+  "created": "2026-10-15",
+  "season": "Alpha Arena Season 1.5",
+  "formation_hours": 24,
+  "window_utc": [
+    "2025-11-19T21:00:00Z",
+    "2025-12-03T22:00:00Z"
+  ],
+  "formation_utc": "2025-11-20T21:00:00Z",
+  "accounts": 32,
+  "instruments": 7,
+  "upstream_script": "src/frozen_book_robustness.py",
+  "upstream_hourly_funding_script": "src/funding_hourly_sensitivity.py",
+  "data_description": "Derived dollar P&L endpoints and terminal position quantities. Frozen quantities are held from the formation cut. Account endpoints use actual hourly funding rates with pooled fill prices in place of oracle prices. No raw organizer payloads or account credentials included.",
+  "reproduction_scope": "Aggregates the supplied hourly-funded endpoints and independently recomputes terminal costs and differential-exposure price stresses; does not reconstruct hourly funding from fills or simulate liquidations.",
+  "input_sha256": {
+    "accounts.csv": "b500a3301d63da5b670d35fb32d01aa0b89a7e29d30d62b64a4dfcbe9bc455c0",
+    "positions.csv": "65fcc11cce72fd1cb75869b30e2cd0d64b6943a6c8015543e96baf6bcd5ead91"
+  },
+  "upstream_sha256": {
+    "src/frozen_book_robustness.py": "903a90e730c9d6eb4a6edfa5c6efbc8256683e1e1d6444dde0531f6d73a1725d",
+    "src/funding_hourly_sensitivity.py": "86df094ba26c688e6914658e1615ef16ed1caf813605394ee9a53e8a992b7fd9",
+    "src/wallets.py": "72fb0b8b778283ed543e9dc077c4778ec3054955e1f4349e47c2dfeee3ca7d9c"
+  },
+  "upstream_derived_sha256": {
+    "frozen_book_robustness_accounts.csv": "02f74a97c654771d674114d69363abae633fe74311bc849e0803d61bee578fb8",
+    "frozen_book_robustness_positions.csv": "5e6f47206c83ebaacbf8ba713c8f30417d4a172e03fcd5a6b4e0e5f417de6857"
+  },
+  "terminal_price_coverage": [
+    {
+      "coin": "xyz:AMZN",
+      "terminal_pooled_price": 232.44,
+      "last_fill_timestamp_ms": 1764798863070,
+      "age_minutes": 5.6155
+    },
+    {
+      "coin": "xyz:GOOGL",
+      "terminal_pooled_price": 319.62,
+      "last_fill_timestamp_ms": 1764798143700,
+      "age_minutes": 17.605
+    },
+    {
+      "coin": "xyz:MSFT",
+      "terminal_pooled_price": 478.62,
+      "last_fill_timestamp_ms": 1764797401563,
+      "age_minutes": 29.97395
+    },
+    {
+      "coin": "xyz:NVDA",
+      "terminal_pooled_price": 179.88,
+      "last_fill_timestamp_ms": 1764799165703,
+      "age_minutes": 0.5716166666666667
+    },
+    {
+      "coin": "xyz:PLTR",
+      "terminal_pooled_price": 175.63,
+      "last_fill_timestamp_ms": 1764799166688,
+      "age_minutes": 0.5552
+    },
+    {
+      "coin": "xyz:TSLA",
+      "terminal_pooled_price": 446.48,
+      "last_fill_timestamp_ms": 1764799199538,
+      "age_minutes": 0.0077
+    },
+    {
+      "coin": "xyz:XYZ100",
+      "terminal_pooled_price": 25605.0,
+      "last_fill_timestamp_ms": 1764797188080,
+      "age_minutes": 33.532
+    }
+  ],
+  "public_sources": [
+    {
+      "title": "Hyperliquid funding mechanics",
+      "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/trading/funding"
+    },
+    {
+      "title": "Hyperliquid API perpetuals endpoints",
+      "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint/perpetuals"
+    },
+    {
+      "title": "Hyperliquid liquidation mechanics",
+      "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/trading/liquidations"
+    }
+  ],
+  "limitations": [
+    "This is not a tested trading strategy or a causal effect of trading.",
+    "The formation choices are retrospective; 32 accounts share one market path.",
+    "Funding uses actual rates but pooled fills in place of historical oracle prices.",
+    "Terminal prices and grid marks are pooled fills, possibly stale.",
+    "No complete historical mark/oracle series, margin-mode changes, isolated collateral allocations or order-book replay is present.",
+    "Current API documentation illustrates strict-isolated XYZ markets; account-wide equity cannot certify per-position isolated solvency.",
+    "No margin screen here establishes executable performance or excludes intra-grid liquidation.",
+    "Stress magnitudes are hypothetical; thresholds are conditional break-even amounts, not confidence intervals."
+  ]
+}

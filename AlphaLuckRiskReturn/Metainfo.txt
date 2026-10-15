@@ -1,0 +1,11 @@
+Name of Quantlet: AlphaLuckRiskReturn
+Published in: Risk Measurement and Performance Benchmarks in a Live LLM Trading Competition (working paper)
+Description: Descriptive volatility-return associations at model and account levels in a short live competition.
+  Volatility is scaled by initial capital; account ranks are formed separately within each observed arm.
+Keywords: risk return, Spearman correlation, volatility, large language models, trading, initial capital
+Author: Daniel Traian Pele
+Submitted: 15 October 2026
+Datafile: data/c4_wallet_risk.csv, data/i6_vol_denominator.csv
+Output: AlphaLuckRiskReturn.png, AlphaLuckRiskReturn.pdf
+Note: Run the named Python script from any directory. Inputs are included derived data, not raw organiser
+  payloads. One run per model-arm cell; no population-model significance claim.

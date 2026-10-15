@@ -1,0 +1,23 @@
+{
+  "analysis": "Season 1.5 derived analytical summaries; not raw organiser payloads",
+  "source_window_utc": [
+    "2025-11-19T21:00:00Z",
+    "2025-12-03T22:00:00Z"
+  ],
+  "analytical_initial_capital_usd": 10000,
+  "n_accounts": 32,
+  "n_models": 8,
+  "n_arms": 4,
+  "n_dates": 14,
+  "basis": "Reconstructed exchange fill/funding account histories. No licensed external market data or organiser API response is bundled.",
+  "date_convention": "14 changes between 15 UTC date-end marks. Opening partial interval excluded for volatility; final interval shorter than 24h. Total turnover covers the full season window.",
+  "upstream_files": {
+    "data/derived/equity.parquet": "136a874edf76e1bf564691736490c2054380fa4a4d7d2d03ac4bda5f44ec84a4",
+    "data/derived/i6_vol_denominator.csv": "59ede333462a02f1f8d60423941389caceec999dae1da34b7d68064b915867f1"
+  },
+  "input_sha256": {
+    "account_measures.csv": "8b93ffa6c7c6910fd0a030cff58032c3fed867ffd1650209f0121b3f16f1d57d",
+    "paired_daily_inputs.csv": "c469d9e0ec9f608f6ea73d9643d3366a84ac4594db9e4ef8bb0afecb53db9c40"
+  },
+  "scope": "This compact Quantlet recalculates statistics from derived account/date data. It does not rerun raw transaction reconstruction or independently validate valuations."
+}
