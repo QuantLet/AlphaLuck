@@ -21,6 +21,43 @@
     "isolated_A_hours_positive": 48,
     "isolated_B_hours_positive": 47
   },
+  "per_day": {
+    "median": 0.670120527938799,
+    "min": -1.824049063664729,
+    "max": 4.048081579198215,
+    "at_24h": 2.2328673517327813,
+    "percentile_of_24h": 96.42857142857143
+  },
+  "horizon_24h": {
+    "formations": 313,
+    "median": 0.8666171852939187,
+    "min": -8.913527258120405,
+    "max": 19.746567272950397,
+    "positive": 249,
+    "at_24h": 10.66898418202797,
+    "percentile_of_24h": 96.48562300319489,
+    "accounts_ahead_median": 22.0
+  },
+  "horizon_72h": {
+    "formations": 265,
+    "median": 2.0172076032280155,
+    "min": -9.003721940098053,
+    "max": 20.713250619189175,
+    "positive": 206,
+    "at_24h": 14.015871534236634,
+    "percentile_of_24h": 84.90566037735849,
+    "accounts_ahead_median": 21.0
+  },
+  "horizon_168h": {
+    "formations": 169,
+    "median": 7.424660073334427,
+    "min": -5.7823212592017,
+    "max": 27.825437202788393,
+    "positive": 151,
+    "at_24h": 22.196593187747293,
+    "percentile_of_24h": 88.75739644970415,
+    "accounts_ahead_median": 23.0
+  },
   "reference_rows_12_24_48": [
     {
       "formation_hour": 12,
@@ -35,8 +72,16 @@
       "isolated_A_accounts_ahead": 25,
       "isolated_B_advantage_pp": 5.7376528153810105,
       "isolated_B_accounts_ahead": 21,
+      "advantage_pp_24h": 6.7600144675669505,
+      "accounts_ahead_24h": 21.0,
+      "advantage_pp_72h": 11.6481265598554,
+      "accounts_ahead_72h": 23.0,
+      "advantage_pp_168h": 22.562472675100658,
+      "accounts_ahead_168h": 28.0,
+      "remaining_days": 13.541666666666666,
       "endpoint_common_break_even_pct": 3.904207527278304,
-      "advantage_pp_organiser_close_prices": 27.03490233064286
+      "advantage_pp_organiser_close_prices": 27.03490233064286,
+      "advantage_pp_per_day": 2.018083694839781
     },
     {
       "formation_hour": 24,
@@ -51,8 +96,16 @@
       "isolated_A_accounts_ahead": 26,
       "isolated_B_advantage_pp": 10.104399040000013,
       "isolated_B_accounts_ahead": 21,
+      "advantage_pp_24h": 10.66898418202797,
+      "accounts_ahead_24h": 25.0,
+      "advantage_pp_72h": 14.015871534236634,
+      "accounts_ahead_72h": 27.0,
+      "advantage_pp_168h": 22.196593187747293,
+      "accounts_ahead_168h": 27.0,
+      "remaining_days": 13.041666666666666,
       "endpoint_common_break_even_pct": 4.2543526535079454,
-      "advantage_pp_organiser_close_prices": 28.983078703587932
+      "advantage_pp_organiser_close_prices": 28.983078703587932,
+      "advantage_pp_per_day": 2.2328673517327813
     },
     {
       "formation_hour": 48,
@@ -67,8 +120,16 @@
       "isolated_A_accounts_ahead": 27,
       "isolated_B_advantage_pp": 24.31676674505812,
       "isolated_B_accounts_ahead": 25,
+      "advantage_pp_24h": 0.9432697387628511,
+      "accounts_ahead_24h": 21.0,
+      "advantage_pp_72h": 19.73172019170031,
+      "accounts_ahead_72h": 30.0,
+      "advantage_pp_168h": 23.64321270691483,
+      "accounts_ahead_168h": 28.0,
+      "remaining_days": 12.041666666666666,
       "endpoint_common_break_even_pct": 4.628828356713522,
-      "advantage_pp_organiser_close_prices": 26.9812978013854
+      "advantage_pp_organiser_close_prices": 26.9812978013854,
+      "advantage_pp_per_day": 2.248327088912629
     }
   ],
   "reconciliation": {
@@ -118,5 +179,5 @@
     "xyz:TSLA": 0.04999999999999846,
     "xyz:XYZ100": 0.025020124956619892
   },
-  "interpretation": "Descriptive sweep on one market path. Passive isolated and account-wide policies bracket, but do not establish, feasibility."
+  "interpretation": "Descriptive sweep on one market path; overlapping horizons are not independent trials. Passive isolated and account-wide policies bracket, but do not establish, feasibility."
 }
