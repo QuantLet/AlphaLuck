@@ -3,8 +3,8 @@ PY := .venv/bin/python
 .PHONY: all setup download build recon analyse followup checks figures quantlets tables numbers audit paper frl frl-figures frl-appendix frl-audit frl-review frl-organiser frl-extensions frl-words bib test verify-raw verdict clean-derived clean-paper
 
 # The published Quantlets (QuantLet/AlphaLuck) carry their own styling;
-# `make quantlets` regenerates local copies with the draft style, so it is
-# run on its own, not as part of `all`.
+# `make quantlets` reruns the local copies in quantlets/, so it is run on
+# its own, not as part of `all`.
 all: download build recon analyse followup checks tables audit figures numbers frl-review test
 
 setup:

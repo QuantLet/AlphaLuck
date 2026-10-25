@@ -56,4 +56,4 @@ The formation cut was retrospectively selected. The 32 accounts share a market p
 
 Primary technical sources: [Hyperliquid funding mechanics](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/funding), [perpetuals API](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint/perpetuals), and [liquidation mechanics](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/liquidations). The data files are derived numerical extracts of public exchange records. Raw organiser responses, private data and credentials are not included. The code licence is MIT; it does not purport to license third-party raw data.
 
-Prepared for the working paper *Risk Measurement and Performance Benchmarks in a Live LLM Trading Competition*. Preparation of this Quantlet does not imply journal acceptance or publication.
+Prepared for the working paper *Trading versus Holding in a Live Language-Model Competition*. Preparation of this Quantlet does not imply journal acceptance or publication.

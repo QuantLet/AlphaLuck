@@ -1,12 +1,13 @@
 Name of Quantlet: AlphaLuckDenominatorSensitivity
-Published in: Risk Measurement and Performance Benchmarks in a Live LLM Trading Competition (working paper)
+Published in: Trading versus Holding in a Live Language-Model Competition (working paper;
+  not yet published)
 Description: Recalculates descriptive mean-square ratios, rank concordance and risk-return correlations
   on current equity and initial capital from derived Alpha Arena account data. Common-date block reweighting
   retains all 32 accounts and both volatility definitions together while final outcomes remain fixed.
   The resulting ranges are sensitivity summaries, not confidence intervals or tests of model skill.
 Keywords: risk measurement, volatility, trading, large language models, Spearman correlation, Kendall
   concordance, sensitivity analysis, resampling
-Author: Daniel Traian Pele
+Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu
 Submitted: 15 October 2026, Daniel Traian Pele
 Datafile: data/account_measures.csv, data/paired_daily_inputs.csv
 Input: 'Derived Season 1.5 observations: 32 accounts, 8 models, 4 arms, and 14 daily equity changes.'

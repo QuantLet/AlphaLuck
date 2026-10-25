@@ -1,6 +1,6 @@
 # AlphaLuckDenominatorSensitivity
 
-A standalone replication Quantlet for *Risk Measurement and Performance Benchmarks in a Live LLM Trading Competition* (working paper). It compares descriptive risk summaries on two legitimate capital bases and reweights the observed dates jointly across the entire account panel.
+A standalone replication Quantlet for *Trading versus Holding in a Live Language-Model Competition* (working paper). It compares descriptive risk summaries on two legitimate capital bases and reweights the observed dates jointly across the entire account panel.
 
 ## Run
 

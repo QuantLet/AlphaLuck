@@ -1,17 +1,14 @@
 # Quantlets
 
-One folder per figure, each self-contained: the plotting script, the shared `style.py`, the rendered figure in PDF and PNG, and a `Metainfo.txt` in QuantNet format.
+Standalone Quantlets for *Trading versus Holding in a Live Language-Model Competition*, published at https://github.com/QuantLet/AlphaLuck. Each folder holds the script, its minimal derived inputs, the rendered output, a `Metainfo.txt` in QuantNet format and a README.
 
-Regenerate with `python paper/code/make_quantlets.py`. The data dependencies in each `Metainfo.txt` are discovered by scanning the script, not maintained by hand.
-
-| Quantlet | Figure |
+| Quantlet | What it reproduces |
 |---|---|
-| `AlphaLuckFigOne` | `fig1_equity_curves` |
-| `AlphaLuckFigTwo` | `fig2_risk_trait` |
-| `AlphaLuckFigThree` | `fig3_risk_return` |
-| `AlphaLuckFigFour` | `fig4_model_effect` |
-| `AlphaLuckFigFive` | `fig5_pnl_decomposition` |
-| `AlphaLuckFigSix` | `fig6_design_horizon` |
-| `AlphaLuckFigSeven` | `fig7_pilot` |
+| `AlphaLuckFrozenBenchmark` | 24-hour frozen-book comparison, closing-cost and endpoint-price stresses |
+| `AlphaLuckFormationHour` | frozen-book comparison for every formation hour and fixed horizons, two margin policies (Online Appendix Section 2) |
+| `AlphaLuckPnlAttribution` | accounting attribution of the gap |
+| `AlphaLuckRiskReturn` | exposure and return on current equity and initial capital |
+| `AlphaLuckRiskProfiles` | gross exposure and daily P&L volatility by model |
+| `AlphaLuckDenominatorSensitivity` | risk summaries on the two capital bases with resampled dates |
 
-Published standalone Quantlets (https://github.com/QuantLet/AlphaLuck, commit `beea27e`): `AlphaLuckRiskProfiles`, `AlphaLuckRiskReturn`, `AlphaLuckPnlAttribution`, `AlphaLuckDenominatorSensitivity`, `AlphaLuckFrozenBenchmark` and `AlphaLuckFormationHour` (frozen-book comparison for every formation hour, to the close and over fixed horizons, under two margin policies; Online Appendix Section 2).
+Rerun all six with `make quantlets`.

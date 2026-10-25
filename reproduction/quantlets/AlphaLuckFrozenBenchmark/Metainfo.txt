@@ -1,12 +1,12 @@
 Name of Quantlet: AlphaLuckFrozenBenchmark
-Published in: Risk Measurement and Performance Benchmarks in a Live LLM Trading Competition (working paper;
+Published in: Trading versus Holding in a Live Language-Model Competition (working paper;
   not yet published)
 Description: Reproduces the Season 1.5 24-hour frozen-position accounting comparison from derived hourly-funded
   account endpoints and terminal quantities. Recomputes notional-based closing-cost and common endpoint-price
   stresses. It does not simulate an executable strategy, historical liquidations or market impact.
 Keywords: LLM, trading agents, performance evaluation, frozen positions, funding, transaction costs, sensitivity
   analysis, reproducibility
-Author: Daniel Traian Pele
+Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu
 Submitted: 2026-10-15
 Datafile: data/accounts.csv, data/positions.csv, data/provenance.json
 Input: Derived hourly-funded dollar profit and loss for 32 accounts and signed terminal quantities for
