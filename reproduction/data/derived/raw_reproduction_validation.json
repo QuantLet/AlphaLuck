@@ -1,0 +1,122 @@
+{
+  "mode": "fresh build from original archived raw files; no network acquisition",
+  "integrated_files_modified": false,
+  "frames": {
+    "fills": {
+      "fresh_rows": 245474,
+      "integrated_rows": 245474,
+      "additional_metadata_columns": [],
+      "exactly_equal_on_existing_columns": true
+    },
+    "funding": {
+      "fresh_rows": 20366,
+      "integrated_rows": 20366,
+      "additional_metadata_columns": [
+        "aggregation_end_ms",
+        "aggregation_start_ms",
+        "n_samples",
+        "szi"
+      ],
+      "exactly_equal_on_existing_columns": true
+    },
+    "ledger": {
+      "fresh_rows": 455,
+      "integrated_rows": 455,
+      "additional_metadata_columns": [],
+      "exactly_equal_on_existing_columns": true
+    },
+    "roundtrips": {
+      "fresh_rows": 19486,
+      "integrated_rows": 19486,
+      "additional_metadata_columns": [],
+      "exactly_equal_on_existing_columns": true
+    },
+    "panel": {
+      "fresh_rows": 1796012,
+      "integrated_rows": 1796012,
+      "additional_metadata_columns": [],
+      "exactly_equal_on_existing_columns": true
+    },
+    "equity": {
+      "fresh_rows": 260786,
+      "integrated_rows": 260786,
+      "additional_metadata_columns": [],
+      "exactly_equal_on_existing_columns": true
+    },
+    "recon": {
+      "fresh_rows": 38,
+      "integrated_rows": 38,
+      "additional_metadata_columns": [],
+      "exactly_equal_on_existing_columns": true
+    }
+  },
+  "provenance": {
+    "matching_hashes": 408,
+    "unrecorded_paths": [
+      "data/raw/.gitkeep",
+      "data/raw/nof1/wallet_array.json"
+    ],
+    "hash_mismatches": []
+  },
+  "seconds": 5.215375900268555,
+  "raw_prompt_evidence": [
+    {
+      "competition_id": 1,
+      "n_prompts_sampled": 29,
+      "n_with_peer_standings": 0,
+      "prompt_name": [
+        "TestPrompt1"
+      ],
+      "skill": [
+        "swing_trading"
+      ],
+      "mean_prompt_chars": 22483
+    },
+    {
+      "competition_id": 2,
+      "n_prompts_sampled": 27,
+      "n_with_peer_standings": 0,
+      "prompt_name": [
+        "TestPrompt1"
+      ],
+      "skill": [
+        "swing_trading"
+      ],
+      "mean_prompt_chars": 22123
+    },
+    {
+      "competition_id": 3,
+      "n_prompts_sampled": 25,
+      "n_with_peer_standings": 25,
+      "prompt_name": [
+        "TestPrompt1"
+      ],
+      "skill": [
+        "swing_trading"
+      ],
+      "mean_prompt_chars": 24063
+    },
+    {
+      "competition_id": 4,
+      "n_prompts_sampled": 19,
+      "n_with_peer_standings": 0,
+      "prompt_name": [
+        "TestPrompt1"
+      ],
+      "skill": [
+        "swing_trading"
+      ],
+      "mean_prompt_chars": 22639
+    }
+  ],
+  "complete": true,
+  "all_existing_columns_exact": true,
+  "wallet_array_rederived_from_hash_verified_bundle": true,
+  "wallet_array_address_count": 40,
+  "source_sha256": {
+    "src/build.py": "5f3aaa6cce56cb18ecf564ba5f6fdd73afd05e05de13825f2fc84ed50cab978b",
+    "src/reconcile.py": "1666b71b135222c46e184dd21d8e0d921e01da3b5ca3efd923631ecf0342a4a0",
+    "src/wallets.py": "72fb0b8b778283ed543e9dc077c4778ec3054955e1f4349e47c2dfeee3ca7d9c",
+    "src/extract_wallets.py": "797a67bc81252fd39f89ebd2249916a1ba914fb5c96a11fe378048d9ff1f4ab8"
+  }
+}

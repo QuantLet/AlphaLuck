@@ -1,0 +1,17 @@
+Name of QuantLet: AlphaLuckFigSix
+
+Published in: Risk appetite, not skill: what a real-money LLM trading arena can and cannot identify
+
+Description: 'Season length needed to detect an annualised Sharpe-ratio gap of 1 against the number of independent instances run per model, for four configurations of the path-component share iota and the cross-agent path correlation rho_m. Dotted lines mark the R-to-infinity floor; the solid horizontal line is one year.'
+
+Keywords: 'experimental design, statistical power, Sharpe ratio, replicates, variance components, LLM, trading'
+
+Author: Daniel Traian Pele
+
+Submitted: 8 October 2026
+
+Datafile: none (the figure is generated from a closed-form expression)
+
+Output: fig6_design_horizon.pdf, fig6_design_horizon.png
+
+Note: 'Run from the repository root after `make all`. Requires style.py, the shared figure style, which is included here.'

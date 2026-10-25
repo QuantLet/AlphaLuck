@@ -1,0 +1,17 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:MSFT",
+    "startTime": 1763510400000,
+    "endTime": 1764806400000
+  },
+  "fetched_at_utc": "2026-10-12T06:25:30.273896+00:00",
+  "timestamp_source": "request start",
+  "status": 200,
+  "bytes": 32202,
+  "sha256": "f7e79f78f461b004fe89aec1ac96cf545c83d00a5413c84af20ca174b4e8b4d2",
+  "etag": null,
+  "last_modified": null,
+  "path": "/private/tmp/alphaluck-frl-20261012/dataset_agent/raw/funding/fundingHistory_xyz_MSFT.json"
+}

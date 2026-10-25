@@ -1,0 +1,87 @@
+[
+ {
+  "specification": "A: model + arm",
+  "covariate": "-",
+  "F_model": 4.253308873444066,
+  "df": [
+   7,
+   21
+  ],
+  "p_F": 0.00455760128521405,
+  "ss_model": 12237.615260988085,
+  "partial_R2_model": 0.586395664055663,
+  "sse_full": 8631.596452396006,
+  "beta_cov": NaN,
+  "r2_total": 0.6565249292996107,
+  "perm_p": 0.0027997200279972004,
+  "share_of_between_model_SS_removed": 0.0
+ },
+ {
+  "specification": "B: + volatility on initial capital",
+  "covariate": "vol_fixed",
+  "F_model": 4.417507159323012,
+  "df": [
+   7,
+   20
+  ],
+  "p_F": 0.004126219802094311,
+  "ss_model": 12009.802925507069,
+  "partial_R2_model": 0.6072466921878258,
+  "sse_full": 7767.666560967053,
+  "beta_cov": 275.7177345961457,
+  "r2_total": 0.6909030865936034,
+  "perm_p": 0.006899310068993101,
+  "share_of_between_model_SS_removed": 0.01861574584774306
+ },
+ {
+  "specification": "C: + gross exposure on initial capital",
+  "covariate": "leverage_fixed",
+  "F_model": 5.924571586015579,
+  "df": [
+   7,
+   20
+  ],
+  "p_F": 0.000786697692626233,
+  "ss_model": 12595.619788088099,
+  "partial_R2_model": 0.6746486263432571,
+  "sse_full": 6074.276356752676,
+  "beta_cov": 6.422643931209251,
+  "r2_total": 0.7582877614128746,
+  "perm_p": 0.00029997000299970003,
+  "share_of_between_model_SS_removed": -0.02925443556321672
+ },
+ {
+  "specification": "D: + volatility on current equity",
+  "covariate": "daily_vol",
+  "F_model": 3.104437261028332,
+  "df": [
+   7,
+   20
+  ],
+  "p_F": 0.021897247491401053,
+  "ss_model": 9356.669544452518,
+  "partial_R2_model": 0.5207406760442345,
+  "sse_full": 8611.332524311769,
+  "beta_cov": 44.32459077762953,
+  "r2_total": 0.6573312869844014,
+  "perm_p": 0.026697330266973303,
+  "share_of_between_model_SS_removed": 0.23541724879353287
+ },
+ {
+  "specification": "E: + gross leverage on current equity",
+  "covariate": "mean_leverage",
+  "F_model": 3.4142401805894353,
+  "df": [
+   7,
+   20
+  ],
+  "p_F": 0.014465930173932499,
+  "ss_model": 9890.458079070824,
+  "partial_R2_model": 0.5444158266282538,
+  "sse_full": 8276.644336605961,
+  "beta_cov": -2.4669248464153894,
+  "r2_total": 0.6706494546685413,
+  "perm_p": 0.016798320167983202,
+  "share_of_between_model_SS_removed": 0.1917985761000095
+ }
+]

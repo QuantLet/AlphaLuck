@@ -1,0 +1,183 @@
+{
+  "summary_all_hours": {
+    "hours": 336,
+    "advantage_pp_min": -17.40446814913429,
+    "advantage_pp_median": 2.43431020370427,
+    "advantage_pp_max": 33.76637012173535,
+    "hours_positive": 269,
+    "accounts_ahead_min": 8,
+    "accounts_ahead_max": 31,
+    "isolated_A_hours_positive": 307,
+    "isolated_B_hours_positive": 251
+  },
+  "summary_first_48h": {
+    "hours": 48,
+    "advantage_pp_min": 1.5699228168706527,
+    "advantage_pp_median": 26.47242102291583,
+    "advantage_pp_max": 33.76637012173535,
+    "hours_positive": 48,
+    "accounts_ahead_min": 17,
+    "accounts_ahead_max": 28,
+    "isolated_A_hours_positive": 48,
+    "isolated_B_hours_positive": 47
+  },
+  "per_day": {
+    "median": 0.670120527938799,
+    "min": -1.824049063664729,
+    "max": 4.048081579198215,
+    "at_24h": 2.2328673517327813,
+    "percentile_of_24h": 96.42857142857143
+  },
+  "horizon_24h": {
+    "formations": 313,
+    "median": 0.8666171852939187,
+    "min": -8.913527258120405,
+    "max": 19.746567272950397,
+    "positive": 249,
+    "at_24h": 10.66898418202797,
+    "percentile_of_24h": 96.48562300319489,
+    "accounts_ahead_median": 22.0
+  },
+  "horizon_72h": {
+    "formations": 265,
+    "median": 2.0172076032280155,
+    "min": -9.003721940098053,
+    "max": 20.713250619189175,
+    "positive": 206,
+    "at_24h": 14.015871534236634,
+    "percentile_of_24h": 84.90566037735849,
+    "accounts_ahead_median": 21.0
+  },
+  "horizon_168h": {
+    "formations": 169,
+    "median": 7.424660073334427,
+    "min": -5.7823212592017,
+    "max": 27.825437202788393,
+    "positive": 151,
+    "at_24h": 22.196593187747293,
+    "percentile_of_24h": 88.75739644970415,
+    "accounts_ahead_median": 23.0
+  },
+  "reference_rows_12_24_48": [
+    {
+      "formation_hour": 12,
+      "frozen_return_pct": 1.0277367209918404,
+      "actual_return_pct": -26.300479979963526,
+      "advantage_pp": 27.32821670095537,
+      "accounts_ahead": 26,
+      "accountwide_maintenance_breaches": 2,
+      "isolated_accounts_liquidated": 27,
+      "isolated_positions_liquidated": 55,
+      "isolated_A_advantage_pp": 20.357347167911545,
+      "isolated_A_accounts_ahead": 25,
+      "isolated_B_advantage_pp": 5.7376528153810105,
+      "isolated_B_accounts_ahead": 21,
+      "advantage_pp_24h": 6.7600144675669505,
+      "accounts_ahead_24h": 21.0,
+      "advantage_pp_72h": 11.6481265598554,
+      "accounts_ahead_72h": 23.0,
+      "advantage_pp_168h": 22.562472675100658,
+      "accounts_ahead_168h": 28.0,
+      "remaining_days": 13.541666666666666,
+      "endpoint_common_break_even_pct": 3.904207527278304,
+      "advantage_pp_organiser_close_prices": 27.03490233064286,
+      "advantage_pp_per_day": 2.018083694839781
+    },
+    {
+      "formation_hour": 24,
+      "frozen_return_pct": 2.8198317322181548,
+      "actual_return_pct": -26.300479979963526,
+      "advantage_pp": 29.120311712181685,
+      "accounts_ahead": 26,
+      "accountwide_maintenance_breaches": 0,
+      "isolated_accounts_liquidated": 26,
+      "isolated_positions_liquidated": 52,
+      "isolated_A_advantage_pp": 20.440630517200603,
+      "isolated_A_accounts_ahead": 26,
+      "isolated_B_advantage_pp": 10.104399040000013,
+      "isolated_B_accounts_ahead": 21,
+      "advantage_pp_24h": 10.66898418202797,
+      "accounts_ahead_24h": 25.0,
+      "advantage_pp_72h": 14.015871534236634,
+      "accounts_ahead_72h": 27.0,
+      "advantage_pp_168h": 22.196593187747293,
+      "accounts_ahead_168h": 27.0,
+      "remaining_days": 13.041666666666666,
+      "endpoint_common_break_even_pct": 4.2543526535079454,
+      "advantage_pp_organiser_close_prices": 28.983078703587932,
+      "advantage_pp_per_day": 2.2328673517327813
+    },
+    {
+      "formation_hour": 48,
+      "frozen_return_pct": 0.7731253823593743,
+      "actual_return_pct": -26.300479979963526,
+      "advantage_pp": 27.073605362322905,
+      "accounts_ahead": 25,
+      "accountwide_maintenance_breaches": 0,
+      "isolated_accounts_liquidated": 19,
+      "isolated_positions_liquidated": 32,
+      "isolated_A_advantage_pp": 29.56822441004883,
+      "isolated_A_accounts_ahead": 27,
+      "isolated_B_advantage_pp": 24.31676674505812,
+      "isolated_B_accounts_ahead": 25,
+      "advantage_pp_24h": 0.9432697387628511,
+      "accounts_ahead_24h": 21.0,
+      "advantage_pp_72h": 19.73172019170031,
+      "accounts_ahead_72h": 30.0,
+      "advantage_pp_168h": 23.64321270691483,
+      "accounts_ahead_168h": 28.0,
+      "remaining_days": 12.041666666666666,
+      "endpoint_common_break_even_pct": 4.628828356713522,
+      "advantage_pp_organiser_close_prices": 26.9812978013854,
+      "advantage_pp_per_day": 2.248327088912629
+    }
+  ],
+  "reconciliation": {
+    "snapshots": 16552,
+    "position_cells_held": 51132,
+    "position_cells_exact": 51130,
+    "in_season_equity_abs_pct": {
+      "pooled": {
+        "0.5": 0.06887200988005385,
+        "0.9": 0.6794842646641498,
+        "0.99": 2.5161928824515076,
+        "1.0": 10.38131010658
+      },
+      "organiser_prices": {
+        "0.5": 0.018041671059006774,
+        "0.9": 0.12849452425540822,
+        "0.99": 0.5465950249629329,
+        "1.0": 8.343171568922394
+      }
+    }
+  },
+  "liquidation_trigger_validation": {
+    "events": 18,
+    "accounts": 13,
+    "events_in_season": 17,
+    "accounts_in_season": 12,
+    "events_with_unchanged_position": 14,
+    "mark_minus_threshold_abs_pct_max_unchanged": 0.058623134272450805,
+    "pooled_prints_crossed_unchanged": 12,
+    "same_quantity_consecutive_pairs": 37764,
+    "same_quantity_threshold_drift_abs_pct": {
+      "0.5": 0.00139134868595292,
+      "0.9": 0.008126417780438547,
+      "0.99": 0.029031986137517233,
+      "1.0": 2.6963282457075466
+    },
+    "same_quantity_share_drift_over_0.5pct": 0.0002648024573668044,
+    "fill_free_same_quantity_intervals": 37701,
+    "print_crossings_without_fill": 0
+  },
+  "maintenance_rates": {
+    "xyz:AMZN": 0.04999999999999646,
+    "xyz:GOOGL": 0.05001510261175378,
+    "xyz:MSFT": 0.04998921462224096,
+    "xyz:NVDA": 0.04997349261697158,
+    "xyz:PLTR": 0.05002978234408551,
+    "xyz:TSLA": 0.04999999999999846,
+    "xyz:XYZ100": 0.025020124956619892
+  },
+  "interpretation": "Descriptive sweep on one market path; overlapping horizons are not independent trials. Passive isolated and account-wide policies bracket, but do not establish, feasibility."
+}

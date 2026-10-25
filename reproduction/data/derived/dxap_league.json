@@ -1,0 +1,21 @@
+{
+ "n_models": 3,
+ "n_baselines": 4,
+ "model_names": [
+  "claude-fable-5",
+  "qwen3.7-max",
+  "qwen3.7-plus"
+ ],
+ "cells": 416,
+ "n_tested": 2,
+ "holm_p_min": 0.4572,
+ "regret_lo": 263.27,
+ "regret_hi": 264.37,
+ "ci_lo_min": 218.67,
+ "ci_hi_max": 328.34,
+ "skill_absmax": 0.004,
+ "baseline_flat_regret": 264.35,
+ "source_url": "https://raw.githubusercontent.com/ProjectDXAI/continuous-record-llm-trading-agents/HEAD/data/league.csv",
+ "licence": "CC BY 4.0",
+ "intervals_all_overlap": true
+}

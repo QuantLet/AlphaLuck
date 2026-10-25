@@ -1,0 +1,64 @@
+{
+ "reproduces_published_max_abs": 1.7763568394002505e-15,
+ "leverage_equity": {
+  "assoc_rho": -0.34523809523809534,
+  "assoc_p_two_sided": 0.06624668766561671,
+  "profile_rho": -0.34523809523809523,
+  "profile_p": 0.1638888888888889
+ },
+ "leverage_fixed": {
+  "assoc_rho": 0.255952380952381,
+  "assoc_p_two_sided": 0.17959102044897754,
+  "profile_rho": 0.25595238095238093,
+  "profile_p": 0.22457837301587302
+ },
+ "leverage_prev_dayend": {
+  "assoc_rho": -0.3214285714285715,
+  "assoc_p_two_sided": 0.08989550522473877,
+  "profile_rho": -0.3214285714285714,
+  "profile_p": 0.20709325396825398
+ },
+ "wealth_factor": {
+  "assoc_rho": -0.9464285714285715,
+  "assoc_p_two_sided": 4.999750012499375e-05,
+  "profile_rho": -0.9464285714285715,
+  "profile_p": 2.48015873015873e-05
+ },
+ "leverage_equity_day1": {
+  "assoc_rho": -0.386904761904762,
+  "assoc_p_two_sided": 0.04339783010849457,
+  "profile_rho": -0.38690476190476186,
+  "profile_p": 0.06371527777777777
+ },
+ "leverage_fixed_day1": {
+  "assoc_rho": -0.39880952380952384,
+  "assoc_p_two_sided": 0.035398230088495575,
+  "profile_rho": -0.3988095238095238,
+  "profile_p": 0.05329861111111111
+ },
+ "leverage_equity_day1__after_day1_fixed": {
+  "assoc_rho": -0.3928571428571429,
+  "assoc_p_two_sided": 0.03349832508374581,
+  "profile_rho": -0.39285714285714285,
+  "profile_p": 0.11252480158730159
+ },
+ "leverage_fixed_day1__after_day1_fixed": {
+  "assoc_rho": -0.42857142857142866,
+  "assoc_p_two_sided": 0.02094895255237238,
+  "profile_rho": -0.42857142857142855,
+  "profile_p": 0.06939484126984127
+ },
+ "leverage_equity_day1__after_day1_equity": {
+  "assoc_rho": -0.4464285714285715,
+  "assoc_p_two_sided": 0.01664916754162292,
+  "profile_rho": -0.4464285714285714,
+  "profile_p": 0.04134424603174603
+ },
+ "leverage_fixed_day1__after_day1_equity": {
+  "assoc_rho": -0.46428571428571436,
+  "assoc_p_two_sided": 0.010749462526873657,
+  "profile_rho": -0.4642857142857143,
+  "profile_p": 0.029166666666666667
+ },
+ "day1_rank_corr_eq_fixed": 0.9941348973607038
+}

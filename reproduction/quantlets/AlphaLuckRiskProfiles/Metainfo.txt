@@ -1,0 +1,12 @@
+Name of Quantlet: AlphaLuckRiskProfiles
+Published in: Risk Measurement and Performance Benchmarks in a Live LLM Trading Competition (working paper)
+Description: Gross exposure and daily profit-and-loss volatility on initial capital across the eight observed
+  implementations and four competition arms. Descriptive concordance does not identify persistent model
+  preferences.
+Keywords: risk measurement, gross exposure, volatility, large language models, trading, concordance
+Author: Daniel Traian Pele
+Submitted: 15 October 2026
+Datafile: data/c4_wallet_risk.csv, data/i6_vol_denominator.csv
+Output: AlphaLuckRiskProfiles.png, AlphaLuckRiskProfiles.pdf
+Note: Run the named Python script from any directory. Inputs are included derived data, not raw organiser
+  payloads. One run per model-arm cell; no population-model significance claim.

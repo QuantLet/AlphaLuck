@@ -1,0 +1,28 @@
+outcome,test,df,F,p_F,p_perm,perm_scheme
+"final return % (published, sec 9/13)",F_model_oneway,"(7,24)",3.254393605026061,0.014189954950213449,0.0036996300369963003,model labels within arm
+"final return % (published, sec 9/13)",F_model_armFE,"(7,21)",4.253308873444067,0.004557601285214046,0.0036996300369963003,model labels within arm
+"final return % (published, sec 9/13)",F_arm,"(3,21)",3.455548749543483,0.03486149508357647,0.036996300369963,arm labels within model
+cumulative return % arithmetic (sec 15),F_model_oneway,"(7,24)",2.130969329931865,0.07905780053555188,0.0105989401059894,model labels within arm
+cumulative return % arithmetic (sec 15),F_model_armFE,"(7,21)",2.808303113130986,0.03139582458387749,0.0105989401059894,model labels within arm
+cumulative return % arithmetic (sec 15),F_arm,"(3,21)",3.5428194528572705,0.03215793482983246,0.026197380261973803,arm labels within model
+leverage-scaled cumulative % (sec 15/16),F_model_oneway,"(7,24)",2.444814768290355,0.048300974995056055,0.0324967503249675,model labels within arm
+leverage-scaled cumulative % (sec 15/16),F_model_armFE,"(7,21)",2.8387830964169467,0.030057505188234315,0.0324967503249675,model labels within arm
+leverage-scaled cumulative % (sec 15/16),F_arm,"(3,21)",2.289155589982273,0.10791937734840173,0.1156884311568843,arm labels within model
+vol-standardised cumulative (sec 15),F_model_oneway,"(7,24)",1.8440738062315296,0.12460834685394505,0.04739526047395261,model labels within arm
+vol-standardised cumulative (sec 15),F_model_armFE,"(7,21)",2.4687819496372203,0.05140165189288727,0.04739526047395261,model labels within arm
+vol-standardised cumulative (sec 15),F_arm,"(3,21)",3.710122084244849,0.0275879777738867,0.030796920307969204,arm labels within model
+daily Sharpe (sec 16),F_model_oneway,"(7,24)",1.8440738062315294,0.12460834685394505,0.045995400459954004,model labels within arm
+daily Sharpe (sec 16),F_model_armFE,"(7,21)",2.4687819496372203,0.05140165189288727,0.045995400459954004,model labels within arm
+daily Sharpe (sec 16),F_arm,"(3,21)",3.71012208424485,0.0275879777738867,0.0268973102689731,arm labels within model
+realised daily volatility (sec 17),F_model_oneway,"(7,24)",6.887414603246898,0.000153204505781817,9.999000099990002e-05,model labels within arm
+realised daily volatility (sec 17),F_model_armFE,"(7,21)",12.693627384922904,2.778932295277147e-06,9.999000099990002e-05,model labels within arm
+realised daily volatility (sec 17),F_arm,"(3,21)",7.744142022684472,0.0011415244852563018,0.0021997800219978004,arm labels within model
+mean gross leverage (sec 17),F_model_oneway,"(7,24)",3.75490714498322,0.006928947407150404,0.0005999400059994001,model labels within arm
+mean gross leverage (sec 17),F_model_armFE,"(7,21)",8.180452769308953,7.82821855673577e-05,0.0005999400059994001,model labels within arm
+mean gross leverage (sec 17),F_arm,"(3,21)",10.42882570129816,0.00020843313988837543,0.00019998000199980003,arm labels within model
+share of time in market (sec 17),F_model_oneway,"(7,24)",0.6875575676346253,0.6814960961654952,0.33486651334866513,model labels within arm
+share of time in market (sec 17),F_model_armFE,"(7,21)",1.1263986464118858,0.3840635533746957,0.33486651334866513,model labels within arm
+share of time in market (sec 17),F_arm,"(3,21)",6.106086814367986,0.0037374197721765545,0.0051994800519948,arm labels within model
+turnover per day (sec 17),F_model_oneway,"(7,24)",0.6842488807864548,0.6840777669985373,0.12058794120587941,model labels within arm
+turnover per day (sec 17),F_model_armFE,"(7,21)",1.4759411809998833,0.22934731672901992,0.12058794120587941,model labels within arm
+turnover per day (sec 17),F_arm,"(3,21)",10.256191101734576,0.00023072487022519008,0.00019998000199980003,arm labels within model

@@ -1,0 +1,48 @@
+{
+  "alphaluck_frl": {
+    "pages": 13,
+    "unresolved_double_question_marks": false,
+    "replacement_characters": false,
+    "compile_errors_overfull_undefined": [],
+    "all_pages_visually_reviewed": true,
+    "sha256": "551f077dd555a0f6ca629ffe11cd8bce40281aee17efa38f22e74d44647f5595",
+    "review_date": "2026-10-15",
+    "publication_update_qa": {
+      "unchanged_pages_pixel_checked": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "changed_pages_visually_reviewed": [
+        12,
+        13
+      ]
+    }
+  },
+  "online_appendix": {
+    "pages": 13,
+    "unresolved_double_question_marks": false,
+    "replacement_characters": false,
+    "compile_errors_overfull_undefined": [],
+    "all_pages_visually_reviewed": true,
+    "sha256": "e5db7068af9709ab0428df83cd84e5c22ff133b7d73a23eae3132a3b65dad4c9",
+    "review_date": "2026-10-15"
+  },
+  "highlights": {
+    "pages": 1,
+    "unresolved_double_question_marks": false,
+    "replacement_characters": false,
+    "compile_errors_overfull_undefined": [],
+    "all_pages_visually_reviewed": true,
+    "sha256": "a11f95e30e891ab1838cff13a370f392a998720a048da34f231dfad605f34ed1",
+    "review_date": "2026-10-15"
+  }
+}

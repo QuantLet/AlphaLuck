@@ -1,0 +1,130 @@
+commit 3301b12c598594b99ecc934b3ec242663654ed31
+Author: danpele <danpele@ase.ro>
+Date:   Fri Oct 9 04:22:29 2026 +0000
+
+    Phase 3-5: estimation results, figures, PILOT.md
+    
+    Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+
+ PILOT.md                             | 305 ++++++++++++++++++++++++++
+ data/derived/llm_gemma-3-27b.parquet | Bin 0 -> 984685 bytes
+ data/derived/llm_mistral-24b.parquet | Bin 0 -> 1350006 bytes
+ data/derived/llm_qwen3-32b.parquet   | Bin 0 -> 1359864 bytes
+ figures/formula_check.png            | Bin 0 -> 131706 bytes
+ figures/temperature.png              | Bin 0 -> 89781 bytes
+ results/boundary.json                |  30 +++
+ results/descriptives.parquet         | Bin 0 -> 11497 bytes
+ results/formula_check.parquet        | Bin 0 -> 5688 bytes
+ results/iota_cells.parquet           | Bin 0 -> 22097 bytes
+ results/n_models.json                |  36 +++
+ results/pairs.parquet                | Bin 0 -> 74506 bytes
+ results/phase4.parquet               | Bin 0 -> 5788 bytes
+ results/sizing.json                  | 842 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ results/stop_conditions.json         |   4 +
+ results/tables.md                    | 272 +++++++++++++++++++++++
+ src/make_figures.py                  |   5 +-
+ 17 files changed, 1492 insertions(+), 2 deletions(-)
+
+commit 126b6c96488611e29da9584ccee4e1bb1edee44c
+Author: danpele <danpele@ase.ro>
+Date:   Thu Oct 8 11:02:48 2026 +0000
+
+    Reporting scripts (figures, tables) and synthetic dry run
+    
+    Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+
+ src/make_figures.py      |  75 +++++++++++++++++++++++++++++++++++++++++++++++++
+ src/make_tables.py       | 126 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ tests/dryrun_analysis.py |  31 +++++++++++++++++++++
+ 3 files changed, 232 insertions(+)
+
+commit 8fe4b8a29d3ea1b6e84a194bca7c4d259da21d83
+Author: danpele <danpele@ase.ro>
+Date:   Thu Oct 8 10:58:51 2026 +0000
+
+    Reference agents, estimator with duplicate-replicate bootstrap correction (Deviation 2), async scheduler (Deviation 3), coverage study
+    
+    Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+
+ PLAN.md                         |  31 +++++++
+ data/derived/ref_agents.parquet | Bin 0 -> 4118352 bytes
+ data/derived/ref_known.json     |  46 ++++++++++
+ results/bootstrap_coverage.json |  30 +++++++
+ results/ref_validation.json     | 167 ++++++++++++++++++++++++++++++++++
+ run_all_llm.sh                  |  14 +++
+ src/analyze.py                  | 370 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ src/arena.py                    |   9 +-
+ src/coverage_sim.py             |  24 +++++
+ src/estimate.py                 |  92 +++++++++++++++++++
+ src/run_llm.py                  | 158 ++++++++++++++++++---------------
+ src/run_ref.py                  | 120 +++++++++++++++++++++++++
+ tests/test_estimate.py          |  62 +++++++++++++
+ 13 files changed, 1050 insertions(+), 73 deletions(-)
+
+commit 77c694120b268c9699c1f303626222bb456d5a78
+Author: danpele <danpele@ase.ro>
+Date:   Thu Oct 8 10:46:01 2026 +0000
+
+    PLAN §9: benchmark timing and projected runtime; Deviation 1 (eager mode); model file hashes
+    
+    Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+
+ MODEL_HASHES.sha256 | 11 +++++++++++
+ PLAN.md             | 31 ++++++++++++++++++++++++++++---
+ src/run_llm.py      |  2 +-
+ 3 files changed, 40 insertions(+), 4 deletions(-)
+
+commit 58c65494479142802432c1e7ae29ee014a63eb4d
+Author: danpele <danpele@ase.ro>
+Date:   Thu Oct 8 10:36:27 2026 +0000
+
+    Phase 0: freeze PLAN.md before any model output; data fetch, features, arena code, tests
+    
+    Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+
+ .gitignore                                      |   6 ++
+ PLAN.md                                         | 312 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ PROVENANCE.csv                                  |  37 +++++++
+ data/raw/binance_BNBUSDT_20261008T102852Z.json  |   1 +
+ data/raw/binance_BTCUSDT_20261008T102852Z.json  |   1 +
+ data/raw/binance_DOGEUSDT_20261008T102852Z.json |   1 +
+ data/raw/binance_ETHUSDT_20261008T102852Z.json  |   1 +
+ data/raw/binance_SOLUSDT_20261008T102852Z.json  |   1 +
+ data/raw/binance_XRPUSDT_20261008T102852Z.json  |   1 +
+ data/raw/yahoo_AAPL_20261008T102852Z.json       |   1 +
+ data/raw/yahoo_AMZN_20261008T102852Z.json       |   1 +
+ data/raw/yahoo_BAC_20261008T102852Z.json        |   1 +
+ data/raw/yahoo_BA_20261008T102852Z.json         |   1 +
+ data/raw/yahoo_CAT_20261008T102852Z.json        |   1 +
+ data/raw/yahoo_CVX_20261008T102852Z.json        |   1 +
+ data/raw/yahoo_DIS_20261008T102852Z.json        |   1 +
+ data/raw/yahoo_GOOGL_20261008T102852Z.json      |   1 +
+ data/raw/yahoo_GS_20261008T102852Z.json         |   1 +
+ data/raw/yahoo_HD_20261008T102852Z.json         |   1 +
+ data/raw/yahoo_JNJ_20261008T102852Z.json        |   1 +
+ data/raw/yahoo_JPM_20261008T102852Z.json        |   1 +
+ data/raw/yahoo_KO_20261008T102852Z.json         |   1 +
+ data/raw/yahoo_LLY_20261008T102852Z.json        |   1 +
+ data/raw/yahoo_MA_20261008T102852Z.json         |   1 +
+ data/raw/yahoo_META_20261008T102852Z.json       |   1 +
+ data/raw/yahoo_MSFT_20261008T102852Z.json       |   1 +
+ data/raw/yahoo_MS_20261008T102852Z.json         |   1 +
+ data/raw/yahoo_NFLX_20261008T102852Z.json       |   1 +
+ data/raw/yahoo_NVDA_20261008T102852Z.json       |   1 +
+ data/raw/yahoo_PEP_20261008T102852Z.json        |   1 +
+ data/raw/yahoo_PFE_20261008T102852Z.json        |   1 +
+ data/raw/yahoo_PG_20261008T102852Z.json         |   1 +
+ data/raw/yahoo_TSLA_20261008T102852Z.json       |   1 +
+ data/raw/yahoo_T_20261008T102852Z.json          |   1 +
+ data/raw/yahoo_UNH_20261008T102852Z.json        |   1 +
+ data/raw/yahoo_V_20261008T102852Z.json          |   1 +
+ data/raw/yahoo_WFC_20261008T102852Z.json        |   1 +
+ data/raw/yahoo_WMT_20261008T102852Z.json        |   1 +
+ data/raw/yahoo_XOM_20261008T102852Z.json        |   1 +
+ src/arena.py                                    | 188 ++++++++++++++++++++++++++++++++++++
+ src/features.py                                 |  90 ++++++++++++++++++
+ src/fetch_data.py                               |  72 ++++++++++++++
+ src/run_llm.py                                  | 223 +++++++++++++++++++++++++++++++++++++++++++
+ tests/test_arena.py                             |  62 ++++++++++++
+ tests/test_no_lookahead.py                      |  69 ++++++++++++++
+ 45 files changed, 1095 insertions(+)

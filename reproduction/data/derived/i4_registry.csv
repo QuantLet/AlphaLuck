@@ -1,0 +1,7 @@
+Test,Null hypothesis,Permuted unit,Dependence preserved,Draws,Sidedness
+Model effect on each risk measure (Table 2),"No difference between models, given arm effects","Model labels, permuted within arm",Arm composition; each arm keeps one account per model,"20,000",One-sided on $F$
+Kendall's $W$ across arms (Table 2),Model ranks in different arms are unrelated,"Ranks within each arm, permuted independently",The set of ranks in each arm,"20,000",One-sided on $W$
+"Risk-return rank correlation, accounts","No association between a risk measure and the return, given arm","Accounts, permuted within arm",Arm means of both variables,"20,000","Two-sided, $|\rho|$"
+"Risk-return, whole model profiles",The pairing of a model's risk profile with its return profile is arbitrary,"The eight model profiles, re-paired against one another","Each model's cross-arm structure, on both variables","40,320 (exact)","Two-sided, $|\rho|$"
+Rank association with the continuation sample,In-season and continuation values are unrelated,"Continuation-sample values, permuted within arm",Arm composition,"20,000",Upper tail of Spearman $\rho$
+Arm effect on each risk measure,"No difference between arms, given model effects","Arm labels, permuted within model",Each model's set of four values,"20,000",One-sided on $F$

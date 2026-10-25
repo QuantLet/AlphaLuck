@@ -1,0 +1,279 @@
+{
+  "derived_artifact": "user_funding_enriched.parquet",
+  "sha256": "5d7fa7a147b92c1917b4851811af5005266082a47f3d53c857666980eb433b0e",
+  "source": "Frozen original project raw Hyperliquid userFunding payloads, downloaded before this audit",
+  "source_endpoint": "https://api.hyperliquid.xyz/info",
+  "request_type": "userFunding",
+  "deduplication_key": [
+    "tag",
+    "time",
+    "coin",
+    "usdc"
+  ],
+  "preserved_fields": [
+    "tag",
+    "time",
+    "coin",
+    "usdc",
+    "szi",
+    "funding_rate",
+    "nSamples"
+  ],
+  "rows": 20366,
+  "aggregate_rows": 3363,
+  "original_derived_funding_matches": true,
+  "raw_sources": [
+    {
+      "path": "data/raw/hl/userFunding/S15__c1__claude-sonnet-4-5.p000.json",
+      "sha256": "4edd63bf26bd6f6682bee2e64aff50cc553fa149fce826d29c460ddf94d01260"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c1__deepseek-chat-v3.1.p000.json",
+      "sha256": "ccfd5567b85c9fb1ee37f923714cb60d8a5fa67e9c6b547f67b4324dbb64febc"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c1__deepseek-chat-v3.1.p001.json",
+      "sha256": "5edecedac8849d66f18feec682ff7d94885a8e9178175bf628728f0fe755a863"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c1__gemini-3-pro-preview.p000.json",
+      "sha256": "b2325b172e75f163e3fad7353cd7cb6564e2f120211c8f0790cab417168c7a37"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c1__gemini-3-pro-preview.p001.json",
+      "sha256": "64ed915c89c0425538c42c28a1f86a2b7f5f8bfd4963e7c526fc6cfddbc120eb"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c1__gpt-5.1.p000.json",
+      "sha256": "65a953532f1eb013362b86c4adf00007a9bd146a3f0f8828e33c58eb5942ab82"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c1__gpt-5.1.p001.json",
+      "sha256": "e4df0520c8756ce55ff1fd2aae3ea9188aa3d4eb0d540e8a89519997d3590533"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c1__grok-4.p000.json",
+      "sha256": "db135c46d6e836a77d9fe9f1afe843ddb8603b25b5e193f2b5e0784a7c3b1f34"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c1__grok-4.p001.json",
+      "sha256": "ddcb5b9a8e0bc7ca6b3c80b3117f974f9c2304e1f5cac29487bfd1ef7350fe29"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c1__kimi-k2-thinking.p000.json",
+      "sha256": "e44787510b0ff406274a49aa14d70af4c8f8c4d16191499a702d25f944c355a4"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c1__kimi-k2-thinking.p001.json",
+      "sha256": "3e48f26fc2fa6bdd4bbc484ff683976597469c154cc1d3afa0e178a3a0a5d9cb"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c1__qwen3-max.p000.json",
+      "sha256": "7c79358f758d78e765efa586d6633431e6e65ab9fc86dabfc872b84f6af8a6bf"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c1__qwen3-max.p001.json",
+      "sha256": "bae6d09c7f7c6b020156e9c96baef89f5ce4b763a8f5f30bb48c72f96f95d5fd"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c1__typhoon.p000.json",
+      "sha256": "9b68734b2a7441fc3035451ad7ea1fd4218787e0423791ee1e86a201341d6a02"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c1__typhoon.p001.json",
+      "sha256": "7c860942a00484dfe96a71210a8a66b82ae22a5de0075c0939ff7c515390245f"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c2__claude-sonnet-4-5.p000.json",
+      "sha256": "5c4033d7093d8f13981c49bc79508b95400ad12be94961e9b1debbda7d8b1f0a"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c2__deepseek-chat-v3.1.p000.json",
+      "sha256": "0d4a98218ecad37f2119112990520cb3eece07b67e1330cf6d3dda4d0bb26eb1"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c2__deepseek-chat-v3.1.p001.json",
+      "sha256": "cdf5bc34a66b7571dc1a7d6dce0a87f3e6b62ad700352763371f340415dca5c2"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c2__gemini-3-pro-preview.p000.json",
+      "sha256": "5c95f051ac4ac1d1ebe7b9491c05b1d328ce880baee9c1352b679dce2c07942b"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c2__gpt-5.1.p000.json",
+      "sha256": "01766a03eac0b1e0d719f07fb3316c549f60a8556974a766654da7805eb949f2"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c2__gpt-5.1.p001.json",
+      "sha256": "39488d3dc0c31d1c999cddbaa11e5a47f95d1cd26655f40225cc64d3cf256de5"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c2__grok-4.p000.json",
+      "sha256": "68c3e96e86f5ff57381a22ac20f2c45371ce4fcc8fddb9282d991ab8fdf53321"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c2__grok-4.p001.json",
+      "sha256": "3401ec4ba046618489dddce0b25cebdde3ebf552741a7cfad15854ca0940a471"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c2__kimi-k2-thinking.p000.json",
+      "sha256": "c4a6ad16fcbfa72a9310632901019722639b5743a16ef7da46ae5788b4544114"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c2__qwen3-max.p000.json",
+      "sha256": "28ea4ce435f231bb124c0dc9b10348b3ca227911c1e77ab0609989576f907587"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c2__typhoon.p000.json",
+      "sha256": "b8c4ebc139635ce1922d0cbcf58125f04f30f3f71d4f48d1025aa0914e420307"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c3__claude-sonnet-4-5.p000.json",
+      "sha256": "036b747ce9ce3b6cc9fd0793952ddf3f1504f1e9a98756d32c1ba3efe07feb5d"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c3__deepseek-chat-v3.1.p000.json",
+      "sha256": "5b3de06d14f9eac48d7af0ba72b480a237d425590a48802e70f73eb91168ba42"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c3__deepseek-chat-v3.1.p001.json",
+      "sha256": "0d62547ca391a0b222657227535f184abcdd05b384be803ed80d25e4ce4309de"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c3__gemini-3-pro-preview.p000.json",
+      "sha256": "ed0fcaeda0667acb9c28953db75efde5e78556c434ff13b4843f9187a397074e"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c3__gemini-3-pro-preview.p001.json",
+      "sha256": "aef15f3d36c9da8a3fb5d9c9bcab720126f14263760e2cdf310a3c4ed1d36475"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c3__gpt-5.1.p000.json",
+      "sha256": "14129ce4f4bca69049ceacbfae979a5e93459ea537011ad3d6f42572d6cd137d"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c3__gpt-5.1.p001.json",
+      "sha256": "7dd75dcec46c83f28637b3e46fcc5cccc89cbc70868e032acd6f5e03f4d26111"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c3__grok-4.p000.json",
+      "sha256": "695e69fd451470ff2225298c42c946c7384415269df761ae3d19f6c435bde9f1"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c3__grok-4.p001.json",
+      "sha256": "06c01797bea1159fc81e2e83853ea52e08a6a6597a7c860275c71a5ec8e449ef"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c3__kimi-k2-thinking.p000.json",
+      "sha256": "657fc18c94481bbd1f456b35f09c6f9a40c40fb8dce64d6101df0dce22336e25"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c3__kimi-k2-thinking.p001.json",
+      "sha256": "8b39bbee66290e3abe8b85065c6d25dfe9e64c79eda2404494f3595632347b53"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c3__qwen3-max.p000.json",
+      "sha256": "6cd6caa356b8e824270af72a5fd97c30c54e7d1d1c0e9a99aaa666b3794dea31"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c3__qwen3-max.p001.json",
+      "sha256": "51674732929facfe4d1e76098fa03c5a4e42ea7dbf452596b8bf27bfcffe28ff"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c3__typhoon.p000.json",
+      "sha256": "6579a7cc2cfac17db4802a66ec2d8db2f8c68ff88b71539d15ddd070209784f6"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c3__typhoon.p001.json",
+      "sha256": "0bb103ff15852f958e0398a07e297b36b60beee9af68ebd7337c16cc8e34604a"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c4__claude-sonnet-4-5.p000.json",
+      "sha256": "5a6c1ed86b76b39b580efa475c7afb4215ae088ad2e1ddd6a31c6d5b145e4043"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c4__deepseek-chat-v3.1.p000.json",
+      "sha256": "0b2b87e94efbb373e04e7e06aa62f884f12a4ab619335f0c3752051150d42584"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c4__gemini-3-pro-preview.p000.json",
+      "sha256": "fb28e03575ee2692207bc443c57c24f230145403b2edb65bef2d97ad88b03782"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c4__gemini-3-pro-preview.p001.json",
+      "sha256": "8162e13bcb64127f066aeec13cb2df2ff500eb0de8e340690eb38faeb71bf5b7"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c4__gpt-5.1.p000.json",
+      "sha256": "6ab94c4eddb867dc273de1bfb18db398a9d98bd14bfe83dde589d2aaa426cd36"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c4__gpt-5.1.p001.json",
+      "sha256": "21eee4127d1acdf690e59223621a5bb10d1f451e07c56e9c66dc988b7ff48c29"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c4__grok-4.p000.json",
+      "sha256": "0662cb65b1a506faf006533be180c5a7ca60a773396fce20408f792e789ba1f0"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c4__grok-4.p001.json",
+      "sha256": "cf7de43c1cba2c11c3f4a0a8369f583c44c1503e41cc158e2fbc7e17923d1820"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c4__kimi-k2-thinking.p000.json",
+      "sha256": "44f2105a8983d60b63e6dfc8542d82dcafff23b5ea48a368308f647d835b763d"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c4__kimi-k2-thinking.p001.json",
+      "sha256": "8f9ac3842c35b6cd8a1edefc5c08ce358f38057560bc29b1f60d866b0eb975ca"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c4__qwen3-max.p000.json",
+      "sha256": "9e8b76e79a628a71ee0ff785ff8f8cc8595888faf787c04995483c6901088dcd"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c4__qwen3-max.p001.json",
+      "sha256": "75504e5cae17fd68b227f946219e6848d9be9f03371fde39d5ead6e00b064c54"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S15__c4__typhoon.p000.json",
+      "sha256": "cae3e8e231f31c92229dc8946e22c0de11d099b0db199b45faa88cf573cf79d1"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S1__claude-sonnet-4-5.p000.json",
+      "sha256": "fc1e1f6c4b2b5ea27722949abf6fa46a40ecf7fa506da0d22d8db81bbe8e0114"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S1__deepseek-chat-v3.1.p000.json",
+      "sha256": "4bd560d87166bfd352c0bc06a95984536b204e5823790e24e9a125ced012142d"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S1__deepseek-chat-v3.1.p001.json",
+      "sha256": "58ae988501fe0b941c4362cd664a4478d4fe733e7b9fa4d24b053054e66212be"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S1__deepseek-chat-v3.1.p002.json",
+      "sha256": "033f6c7cfb3df586b79a90358b569fd3a561c0c2e0dabfd231bf8034b2dc9152"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S1__gemini-2.5-pro.p000.json",
+      "sha256": "0ea707ec5d363708e360106061f2a97fc4b36b73dd2dbf1f4ffb8933c5259747"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S1__gpt-5.p000.json",
+      "sha256": "171485448feeb793785c6ed077049c4d0ee5c06fcdec51c6b77784669d167853"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S1__gpt-5.p001.json",
+      "sha256": "226512db875c4c135dbec2b4b8601239cc9b85de8f3e5cebc63d13497077baa0"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S1__grok-4.p000.json",
+      "sha256": "7c19387465689ee355ce9556e966d2f4b29c97ef353f2fb9458ff90f25b06be2"
+    },
+    {
+      "path": "data/raw/hl/userFunding/S1__qwen3-max.p000.json",
+      "sha256": "349a8dedbda76c1a15e3b468816b0cc16a22a47237077fa1feb8818cc9dd2bbb"
+    }
+  ]
+}

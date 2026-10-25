@@ -1,24 +1,28 @@
 cff-version: 1.2.0
 message: "If you use this software or data, please cite it as below."
-title: "AlphaLuck: Risk Measurement and Performance Benchmarks in a Live LLM Trading Competition"
+title: "AlphaLuck: Trading versus Holding in a Live Language-Model Competition"
 abstract: >-
-  Six standalone Quantlets reproducing descriptive risk profiles, risk-return
-  associations, accounting attribution, paired denominator sensitivities,
-  conditional frozen-position stress calculations and the formation-hour and
-  margin-policy sensitivity of the frozen-position comparison from minimal
-  derived inputs.
-  This package does not rebuild the original transaction ledger. The short
-  unreplicated design does not establish persistent model skill; frozen-book
-  feasibility depends on an unspecified margin policy.
+  Reconstruction of the 38 accounts of the Alpha Arena language-model trading
+  competition from public Hyperliquid records, with the raw on-chain data, the
+  derived data and the code that reproduces every number, table and figure of
+  the letter, plus six standalone Quantlets that reproduce selected results
+  from minimal derived inputs. Organiser payloads and licensed prices are not
+  redistributed.
 type: software
 authors:
   - family-names: Pele
     given-names: Daniel Traian
     affiliation: "Bucharest University of Economic Studies"
     email: danpele@ase.ro
+  - family-names: Micu
+    given-names: Diana Ioana
+    affiliation: "Bucharest University of Economic Studies"
+  - family-names: Curescu
+    given-names: "Victor Rareș"
+    affiliation: "Bucharest University of Economic Studies"
 license: MIT
-version: "1.2.0"
-date-released: "2026-10-19"
+version: "2.0.0"
+date-released: "2026-10-25"
 repository-code: "https://github.com/QuantLet/AlphaLuck"
 keywords:
   - large language models

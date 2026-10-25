@@ -1,0 +1,17 @@
+Name of QuantLet: AlphaLuckFigFive
+
+Published in: Risk appetite, not skill: what a real-money LLM trading arena can and cannot identify
+
+Description: 'Decomposes each model's P&L into exposure (what a constant average-size position would have earned), timing, execution slippage, fees and funding, as a percentage of starting capital, by model and by rule set. The net is marked separately.'
+
+Keywords: 'PnL decomposition, transaction costs, slippage, market exposure, timing, LLM, trading'
+
+Author: Daniel Traian Pele
+
+Submitted: 8 October 2026
+
+Datafile: data/derived/a1_pnl_decomposition.csv
+
+Output: fig5_pnl_decomposition.pdf, fig5_pnl_decomposition.png
+
+Note: 'Run from the repository root after `make all`. Requires style.py, the shared figure style, which is included here.'

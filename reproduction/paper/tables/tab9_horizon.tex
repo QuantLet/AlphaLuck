@@ -1,0 +1,19 @@
+\begin{table}[ht]
+\centering
+\small
+\caption{Conditional estimated years to detect an annualised Sharpe difference of one between two models at the 5\% level with 80\% power, across the \alShPairs{} model pairs of Season 1.5. Each row is a different estimator of the long-run variance of the paired Sharpe difference; the block bootstrap resamples common time blocks across all accounts at once.}
+\label{tab:horizon}
+\begin{tabular}{lrrrrr}
+\toprule
+Long-run variance & Median & Q1 & Q3 & Min & Max \\
+\midrule
+HAC bandwidth 0 & 7.1 & 3.1 & 8.3 & 0.8 & 10.6 \\
+HAC bandwidth 1 & 6.3 & 3.2 & 7.6 & 0.8 & 9.0 \\
+HAC bandwidth 2 & 5.6 & 3.1 & 7.6 & 0.7 & 9.3 \\
+HAC bandwidth 3 & 5.8 & 2.4 & 7.4 & 0.6 & 9.6 \\
+Block bootstrap, $b=1$ & 8.5 & 3.9 & 10.1 & 1.4 & 12.0 \\
+Block bootstrap, $b=2$ & 8.1 & 4.5 & 9.3 & 1.1 & 11.4 \\
+Block bootstrap, $b=3$ & 6.9 & 3.4 & 8.7 & 0.9 & 11.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

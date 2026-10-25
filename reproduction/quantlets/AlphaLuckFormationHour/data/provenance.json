@@ -1,0 +1,8 @@
+{
+  "input_sha256": {
+    "sweep_accounts.csv": "d4508a753dba2b5a4df817266c7ab48c5e50552bba1ad193623c5d04fae9c11f",
+    "sweep_hours.csv": "0d3c6de0ce4019d9c61ec01dc79c5874174f187337dd915a31d89b01370feb3c",
+    "reference.json": "10fae970fe45bda72538d74225da81c061b3c2eb572a3f1dfecd35451d72cf4b"
+  },
+  "source": "Derived by src/organiser_hourly.py in the AlphaLuck reconstruction project from on-chain Hyperliquid fills, hourly funding rates and organiser hourly snapshots; organiser values themselves are not included."
+}

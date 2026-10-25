@@ -1,0 +1,907 @@
+{
+  "source_sha256": {
+    "equity.parquet": "6e6d9b726365597d343c6e5a017c9ff5a12119c12ea3733e1f495c66ff4797e8",
+    "recon.parquet": "86176fb36e8569840dbf7bc2fd2122aee22d4282251d9d12e86ff8f5142826bd"
+  },
+  "accounts": [
+    {
+      "cached_comparison": {
+        "season": "S1",
+        "competition_id": 1,
+        "model": "claude-sonnet-4-5",
+        "tag": "S1__claude-sonnet-4-5",
+        "pub_equity": 6670.962856,
+        "recon_equity": 6644.200798000001,
+        "tips": 86.0,
+        "recon_plus_tips": 6730.200798000001,
+        "diff": 59.23794200000066,
+        "diff_pct": 0.8879968795916896,
+        "n_fills": 320,
+        "n_roundtrips": 39,
+        "status": "RECONCILED",
+        "pub_source": "nof1.ai/api/account-totals @Wayback 20251112224724"
+      },
+      "candidate_grid_ms": [
+        1762211100000,
+        1762211400000,
+        1762211700000,
+        1762212000000,
+        1762212300000,
+        1762212600000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S1",
+        "competition_id": 1,
+        "model": "deepseek-chat-v3.1",
+        "tag": "S1__deepseek-chat-v3.1",
+        "pub_equity": 10311.922764,
+        "recon_equity": 10385.246573000004,
+        "tips": 111.0,
+        "recon_plus_tips": 10496.246573000004,
+        "diff": 184.32380900000317,
+        "diff_pct": 1.7874824435603496,
+        "n_fills": 341,
+        "n_roundtrips": 44,
+        "status": "RECONCILED",
+        "pub_source": "nof1.ai/api/account-totals @Wayback 20251112224724"
+      },
+      "candidate_grid_ms": [
+        1762207500000,
+        1762207800000,
+        1762208100000,
+        1762208400000,
+        1762208700000,
+        1762209000000,
+        1762209300000,
+        1762209600000,
+        1762209900000,
+        1762210200000,
+        1762210500000,
+        1762210800000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S1",
+        "competition_id": 1,
+        "model": "gemini-2.5-pro",
+        "tag": "S1__gemini-2.5-pro",
+        "pub_equity": 4480.487783,
+        "recon_equity": 4511.794863999993,
+        "tips": 1.0,
+        "recon_plus_tips": 4512.794863999993,
+        "diff": 32.30708099999356,
+        "diff_pct": 0.7210616915991613,
+        "n_fills": 1286,
+        "n_roundtrips": 243,
+        "status": "RECONCILED",
+        "pub_source": "nof1.ai/api/account-totals @Wayback 20251112224724"
+      },
+      "candidate_grid_ms": [
+        1762206300000,
+        1762206600000,
+        1762206900000,
+        1762207200000,
+        1762207500000,
+        1762207800000,
+        1762208100000,
+        1762208400000,
+        1762208700000,
+        1762209000000,
+        1762209300000,
+        1762209600000,
+        1762209900000,
+        1762210200000,
+        1762210500000,
+        1762210800000,
+        1762211100000,
+        1762211400000,
+        1762211700000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S1",
+        "competition_id": 1,
+        "model": "gpt-5",
+        "tag": "S1__gpt-5",
+        "pub_equity": 3734.985548,
+        "recon_equity": 3767.6933790000026,
+        "tips": 56.0,
+        "recon_plus_tips": 3823.6933790000026,
+        "diff": 88.70783100000244,
+        "diff_pct": 2.3750515192087818,
+        "n_fills": 684,
+        "n_roundtrips": 121,
+        "status": "RECONCILED",
+        "pub_source": "nof1.ai/api/account-totals @Wayback 20251112224724"
+      },
+      "candidate_grid_ms": [
+        1762212600000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S1",
+        "competition_id": 1,
+        "model": "grok-4",
+        "tag": "S1__grok-4",
+        "pub_equity": 5051.578693,
+        "recon_equity": 4973.633875000003,
+        "tips": 145.29999999999998,
+        "recon_plus_tips": 5118.933875000003,
+        "diff": 67.35518200000297,
+        "diff_pct": 1.333349158617234,
+        "n_fills": 346,
+        "n_roundtrips": 54,
+        "status": "RECONCILED",
+        "pub_source": "nof1.ai/api/account-totals @Wayback 20251112224724"
+      },
+      "candidate_grid_ms": [
+        1762206300000,
+        1762206600000,
+        1762206900000,
+        1762207200000,
+        1762207500000,
+        1762207800000,
+        1762208100000,
+        1762208400000,
+        1762208700000,
+        1762209000000,
+        1762209300000,
+        1762209600000,
+        1762209900000,
+        1762210200000,
+        1762210500000,
+        1762210800000,
+        1762211100000,
+        1762211400000,
+        1762211700000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S1",
+        "competition_id": 1,
+        "model": "qwen3-max",
+        "tag": "S1__qwen3-max",
+        "pub_equity": 11799.651628,
+        "recon_equity": 11504.604127,
+        "tips": 195.0,
+        "recon_plus_tips": 11699.604127,
+        "diff": -100.0475009999991,
+        "diff_pct": -0.8478852101242654,
+        "n_fills": 456,
+        "n_roundtrips": 38,
+        "status": "RECONCILED",
+        "pub_source": "nof1.ai/api/account-totals @Wayback 20251112224724"
+      },
+      "candidate_grid_ms": [
+        1762207500000,
+        1762207800000,
+        1762208100000,
+        1762208400000,
+        1762208700000,
+        1762209000000,
+        1762209300000,
+        1762209600000,
+        1762209900000,
+        1762210200000,
+        1762210500000,
+        1762210800000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 1,
+        "model": "gpt-5.1",
+        "tag": "S15__c1__gpt-5.1",
+        "pub_equity": 8040.761562,
+        "recon_equity": 8069.387597000001,
+        "tips": 0.0,
+        "recon_plus_tips": 8069.387597000001,
+        "diff": 28.62603500000114,
+        "diff_pct": 0.3560114894500231,
+        "n_fills": 6658,
+        "n_roundtrips": 630,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765502100000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 2,
+        "model": "gpt-5.1",
+        "tag": "S15__c2__gpt-5.1",
+        "pub_equity": 8747.960911,
+        "recon_equity": 8762.016306000005,
+        "tips": 0.0,
+        "recon_plus_tips": 8762.016306000005,
+        "diff": 14.055395000004864,
+        "diff_pct": 0.16067052817224076,
+        "n_fills": 4084,
+        "n_roundtrips": 391,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765502100000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 3,
+        "model": "gpt-5.1",
+        "tag": "S15__c3__gpt-5.1",
+        "pub_equity": 7487.933715,
+        "recon_equity": 7519.427240060526,
+        "tips": 0.0,
+        "recon_plus_tips": 7519.427240060526,
+        "diff": 31.493525060525826,
+        "diff_pct": 0.42059032917769124,
+        "n_fills": 11511,
+        "n_roundtrips": 756,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765500900000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 4,
+        "model": "gpt-5.1",
+        "tag": "S15__c4__gpt-5.1",
+        "pub_equity": 10888.249927,
+        "recon_equity": 10995.273027,
+        "tips": 0.0,
+        "recon_plus_tips": 10995.273027,
+        "diff": 107.02309999999852,
+        "diff_pct": 0.9829228821668516,
+        "n_fills": 6849,
+        "n_roundtrips": 510,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501200000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 1,
+        "model": "kimi-k2-thinking",
+        "tag": "S15__c1__kimi-k2-thinking",
+        "pub_equity": 4234.588624,
+        "recon_equity": 4230.722692999985,
+        "tips": 0.0,
+        "recon_plus_tips": 4230.722692999985,
+        "diff": -3.8659310000148253,
+        "diff_pct": -0.09129413369941612,
+        "n_fills": 7336,
+        "n_roundtrips": 467,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765500900000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 2,
+        "model": "kimi-k2-thinking",
+        "tag": "S15__c2__kimi-k2-thinking",
+        "pub_equity": 8955.360872000001,
+        "recon_equity": 8927.828719999983,
+        "tips": 0.0,
+        "recon_plus_tips": 8927.828719999983,
+        "diff": -27.53215200001796,
+        "diff_pct": -0.30743766101152326,
+        "n_fills": 7574,
+        "n_roundtrips": 484,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501500000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 1,
+        "model": "grok-4",
+        "tag": "S15__c1__grok-4",
+        "pub_equity": 5160.400161,
+        "recon_equity": 5171.4866130000055,
+        "tips": 0.0,
+        "recon_plus_tips": 5171.4866130000055,
+        "diff": 11.08645200000592,
+        "diff_pct": 0.2148370601914242,
+        "n_fills": 4988,
+        "n_roundtrips": 393,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501200000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 2,
+        "model": "grok-4",
+        "tag": "S15__c2__grok-4",
+        "pub_equity": 5100.636667,
+        "recon_equity": 5103.612644999996,
+        "tips": 0.0,
+        "recon_plus_tips": 5103.612644999996,
+        "diff": 2.9759779999958482,
+        "diff_pct": 0.0583452261802879,
+        "n_fills": 4963,
+        "n_roundtrips": 406,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501800000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 3,
+        "model": "grok-4",
+        "tag": "S15__c3__grok-4",
+        "pub_equity": 385.018497,
+        "recon_equity": 389.32449799999756,
+        "tips": 0.0,
+        "recon_plus_tips": 389.32449799999756,
+        "diff": 4.306000999997536,
+        "diff_pct": 1.118388086169672,
+        "n_fills": 12917,
+        "n_roundtrips": 1050,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501800000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 4,
+        "model": "grok-4",
+        "tag": "S15__c4__grok-4",
+        "pub_equity": 3924.297614,
+        "recon_equity": 3939.821220999997,
+        "tips": 0.0,
+        "recon_plus_tips": 3939.821220999997,
+        "diff": 15.5236069999969,
+        "diff_pct": 0.3955767000090962,
+        "n_fills": 2099,
+        "n_roundtrips": 277,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501800000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 3,
+        "model": "kimi-k2-thinking",
+        "tag": "S15__c3__kimi-k2-thinking",
+        "pub_equity": 4403.5087459999995,
+        "recon_equity": 4377.773660999985,
+        "tips": 0.0,
+        "recon_plus_tips": 4377.773660999985,
+        "diff": -25.735085000014806,
+        "diff_pct": -0.5844222524456594,
+        "n_fills": 15753,
+        "n_roundtrips": 797,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501500000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 4,
+        "model": "kimi-k2-thinking",
+        "tag": "S15__c4__kimi-k2-thinking",
+        "pub_equity": 6343.910647000001,
+        "recon_equity": 6316.307785999986,
+        "tips": 0.0,
+        "recon_plus_tips": 6316.307785999986,
+        "diff": -27.602861000014855,
+        "diff_pct": -0.43510797260469125,
+        "n_fills": 5220,
+        "n_roundtrips": 317,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501500000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 1,
+        "model": "deepseek-chat-v3.1",
+        "tag": "S15__c1__deepseek-chat-v3.1",
+        "pub_equity": 5278.484355,
+        "recon_equity": 5267.551219000024,
+        "tips": 0.0,
+        "recon_plus_tips": 5267.551219000024,
+        "diff": -10.933135999976002,
+        "diff_pct": -0.207126426160943,
+        "n_fills": 8914,
+        "n_roundtrips": 779,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765502100000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 2,
+        "model": "deepseek-chat-v3.1",
+        "tag": "S15__c2__deepseek-chat-v3.1",
+        "pub_equity": 10729.627252,
+        "recon_equity": 10807.602992999935,
+        "tips": 0.0,
+        "recon_plus_tips": 10807.602992999935,
+        "diff": 77.97574099993471,
+        "diff_pct": 0.7267329905183804,
+        "n_fills": 11582,
+        "n_roundtrips": 663,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501800000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 3,
+        "model": "deepseek-chat-v3.1",
+        "tag": "S15__c3__deepseek-chat-v3.1",
+        "pub_equity": 3340.916994,
+        "recon_equity": 3347.3947600000256,
+        "tips": 0.0,
+        "recon_plus_tips": 3347.3947600000256,
+        "diff": 6.47776600002544,
+        "diff_pct": 0.19389185698593983,
+        "n_fills": 14612,
+        "n_roundtrips": 1043,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501800000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 4,
+        "model": "deepseek-chat-v3.1",
+        "tag": "S15__c4__deepseek-chat-v3.1",
+        "pub_equity": 3772.3705200000004,
+        "recon_equity": 3777.208696999952,
+        "tips": 0.0,
+        "recon_plus_tips": 3777.208696999952,
+        "diff": 4.838176999951429,
+        "diff_pct": 0.12825296386717147,
+        "n_fills": 3349,
+        "n_roundtrips": 349,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501500000,
+        1765501800000,
+        1765502100000,
+        1765502400000,
+        1765502700000,
+        1765503000000,
+        1765503300000,
+        1765503600000,
+        1765503900000,
+        1765504200000,
+        1765504500000,
+        1765504800000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 1,
+        "model": "typhoon",
+        "tag": "S15__c1__typhoon",
+        "pub_equity": 10047.581643,
+        "recon_equity": 10128.291609000073,
+        "tips": 0.0,
+        "recon_plus_tips": 10128.291609000073,
+        "diff": 80.70996600007311,
+        "diff_pct": 0.8032775335177549,
+        "n_fills": 4230,
+        "n_roundtrips": 285,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765500900000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 2,
+        "model": "typhoon",
+        "tag": "S15__c2__typhoon",
+        "pub_equity": 10366.372621,
+        "recon_equity": 10381.709966,
+        "tips": 0.0,
+        "recon_plus_tips": 10381.709966,
+        "diff": 15.337344999999914,
+        "diff_pct": 0.1479528622088098,
+        "n_fills": 1113,
+        "n_roundtrips": 109,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765500900000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 1,
+        "model": "qwen3-max",
+        "tag": "S15__c1__qwen3-max",
+        "pub_equity": 5863.0242880000005,
+        "recon_equity": 5868.623503337083,
+        "tips": 0.0,
+        "recon_plus_tips": 5868.623503337083,
+        "diff": 5.599215337082569,
+        "diff_pct": 0.09550046293587124,
+        "n_fills": 7520,
+        "n_roundtrips": 897,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501800000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 2,
+        "model": "qwen3-max",
+        "tag": "S15__c2__qwen3-max",
+        "pub_equity": 9321.275478,
+        "recon_equity": 9321.552596,
+        "tips": 0.0,
+        "recon_plus_tips": 9321.552596,
+        "diff": 0.2771179999999731,
+        "diff_pct": 0.002972962237346432,
+        "n_fills": 5968,
+        "n_roundtrips": 797,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501800000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 3,
+        "model": "qwen3-max",
+        "tag": "S15__c3__qwen3-max",
+        "pub_equity": 1793.557181,
+        "recon_equity": 1809.6494020000612,
+        "tips": 0.0,
+        "recon_plus_tips": 1809.6494020000612,
+        "diff": 16.092221000061272,
+        "diff_pct": 0.897223750128169,
+        "n_fills": 16084,
+        "n_roundtrips": 1374,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501800000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 4,
+        "model": "qwen3-max",
+        "tag": "S15__c4__qwen3-max",
+        "pub_equity": 7976.322596,
+        "recon_equity": 8032.846818999985,
+        "tips": 0.0,
+        "recon_plus_tips": 8032.846818999985,
+        "diff": 56.524222999984886,
+        "diff_pct": 0.7086501620224198,
+        "n_fills": 8296,
+        "n_roundtrips": 520,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765500900000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 3,
+        "model": "typhoon",
+        "tag": "S15__c3__typhoon",
+        "pub_equity": 13459.338498,
+        "recon_equity": 13425.89919599998,
+        "tips": 0.0,
+        "recon_plus_tips": 13425.89919599998,
+        "diff": -33.43930200001887,
+        "diff_pct": -0.24844684606890458,
+        "n_fills": 2131,
+        "n_roundtrips": 108,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501500000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 4,
+        "model": "typhoon",
+        "tag": "S15__c4__typhoon",
+        "pub_equity": 10192.968272,
+        "recon_equity": 10187.322877894638,
+        "tips": 0.0,
+        "recon_plus_tips": 10187.322877894638,
+        "diff": -5.645394105362357,
+        "diff_pct": -0.05538518275260611,
+        "n_fills": 1154,
+        "n_roundtrips": 103,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501500000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 1,
+        "model": "gemini-3-pro-preview",
+        "tag": "S15__c1__gemini-3-pro-preview",
+        "pub_equity": 3505.877395,
+        "recon_equity": 3548.8602169999967,
+        "tips": 0.0,
+        "recon_plus_tips": 3548.8602169999967,
+        "diff": 42.98282199999676,
+        "diff_pct": 1.226021824416845,
+        "n_fills": 12280,
+        "n_roundtrips": 1427,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765502100000,
+        1765502400000,
+        1765502700000,
+        1765503000000,
+        1765503300000,
+        1765503600000,
+        1765503900000,
+        1765504200000,
+        1765504500000,
+        1765504800000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 2,
+        "model": "gemini-3-pro-preview",
+        "tag": "S15__c2__gemini-3-pro-preview",
+        "pub_equity": 8906.030735,
+        "recon_equity": 8915.256314475411,
+        "tips": 0.0,
+        "recon_plus_tips": 8915.256314475411,
+        "diff": 9.225579475410996,
+        "diff_pct": 0.10358800401569684,
+        "n_fills": 7121,
+        "n_roundtrips": 492,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501800000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 3,
+        "model": "gemini-3-pro-preview",
+        "tag": "S15__c3__gemini-3-pro-preview",
+        "pub_equity": 4849.955453,
+        "recon_equity": 4876.237950999977,
+        "tips": 0.0,
+        "recon_plus_tips": 4876.237950999977,
+        "diff": 26.28249799997775,
+        "diff_pct": 0.5419121526924621,
+        "n_fills": 10592,
+        "n_roundtrips": 732,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501800000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 4,
+        "model": "gemini-3-pro-preview",
+        "tag": "S15__c4__gemini-3-pro-preview",
+        "pub_equity": 4713.875143,
+        "recon_equity": 4745.1109520000045,
+        "tips": 0.0,
+        "recon_plus_tips": 4745.1109520000045,
+        "diff": 31.235809000004338,
+        "diff_pct": 0.6626354761726946,
+        "n_fills": 7088,
+        "n_roundtrips": 533,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501800000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 1,
+        "model": "claude-sonnet-4-5",
+        "tag": "S15__c1__claude-sonnet-4-5",
+        "pub_equity": 4574.819769,
+        "recon_equity": 4595.937312999973,
+        "tips": 0.0,
+        "recon_plus_tips": 4595.937312999973,
+        "diff": 21.11754399997335,
+        "diff_pct": 0.4616038459716062,
+        "n_fills": 8542,
+        "n_roundtrips": 632,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765502100000,
+        1765502400000,
+        1765502700000,
+        1765503000000,
+        1765503300000,
+        1765503600000,
+        1765503900000,
+        1765504200000,
+        1765504500000,
+        1765504800000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 2,
+        "model": "claude-sonnet-4-5",
+        "tag": "S15__c2__claude-sonnet-4-5",
+        "pub_equity": 8084.910039,
+        "recon_equity": 8134.968343,
+        "tips": 0.0,
+        "recon_plus_tips": 8134.968343,
+        "diff": 50.058303999999225,
+        "diff_pct": 0.6191572170689335,
+        "n_fills": 1645,
+        "n_roundtrips": 108,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765502100000,
+        1765502400000,
+        1765502700000,
+        1765503000000,
+        1765503300000,
+        1765503600000,
+        1765503900000,
+        1765504200000,
+        1765504500000,
+        1765504800000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 3,
+        "model": "claude-sonnet-4-5",
+        "tag": "S15__c3__claude-sonnet-4-5",
+        "pub_equity": 2838.683258,
+        "recon_equity": 2848.1464849999975,
+        "tips": 0.0,
+        "recon_plus_tips": 2848.1464849999975,
+        "diff": 9.46322699999746,
+        "diff_pct": 0.3333667810005966,
+        "n_fills": 16271,
+        "n_roundtrips": 1175,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765502100000
+      ]
+    },
+    {
+      "cached_comparison": {
+        "season": "S15",
+        "competition_id": 4,
+        "model": "claude-sonnet-4-5",
+        "tag": "S15__c4__claude-sonnet-4-5",
+        "pub_equity": 4130.514361,
+        "recon_equity": 4121.893290938099,
+        "tips": 0.0,
+        "recon_plus_tips": 4121.893290938099,
+        "diff": -8.621070061900355,
+        "diff_pct": -0.20871662239695468,
+        "n_fills": 3090,
+        "n_roundtrips": 237,
+        "status": "RECONCILED",
+        "pub_source": "alphaarena.ai/api/account-totals"
+      },
+      "candidate_grid_ms": [
+        1765501800000
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+price_error_bound_pct,convention,gap_pp,accounts_ahead
+0.0,common_market_adverse,29.120311712198028,26
+0.0,separate_account_lower_bounds,29.120311712198028,26
+0.1,common_market_adverse,28.435828922832407,26
+0.1,separate_account_lower_bounds,28.30851498175741,26
+0.5,common_market_adverse,25.69789776536991,25
+0.5,separate_account_lower_bounds,25.061328059994903,25
+1.0,common_market_adverse,22.27548381854178,24
+1.0,separate_account_lower_bounds,21.002344407791778,23
+2.0,common_market_adverse,15.430655924885532,21
+2.0,separate_account_lower_bounds,12.884377103385527,21
+3.0,common_market_adverse,8.585828031229282,17
+3.0,separate_account_lower_bounds,4.766409798979284,17
+4.0,common_market_adverse,1.7410001375730313,15
+4.0,separate_account_lower_bounds,-3.3515575054269706,14
+5.0,common_market_adverse,-5.103827756083221,13
+5.0,separate_account_lower_bounds,-11.46952480983322,13

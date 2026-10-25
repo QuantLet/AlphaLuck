@@ -1,0 +1,32 @@
+[
+ {
+  "model": "one-way (audit T6; arms treated as replicates)",
+  "n_models": 8,
+  "k_arms": 4,
+  "F": 3.254393605026061,
+  "df": "(7,24)",
+  "p_value": 0.014189954950213449,
+  "ICC": 0.36044958910395714,
+  "ICC_lo_exactF": 0.03204709027771708,
+  "ICC_hi_exactF": 0.7696933055513753,
+  "sd_model_pp": 17.39999866453287,
+  "sd_err_pp": 23.17737986629947,
+  "pboot_lo_check": -0.07834357283604482,
+  "pboot_hi_check": 0.6773372005507549
+ },
+ {
+  "model": "consistency, arm fixed effect removed (item 1)",
+  "n_models": 8,
+  "k_arms": 4,
+  "F": 4.253308873444067,
+  "df": "(7,21)",
+  "p_value": 0.004557601285214046,
+  "ICC": 0.44852755207421746,
+  "ICC_lo_exactF": 0.09762588533476625,
+  "ICC_hi_exactF": 0.8176506140317862,
+  "sd_model_pp": 18.283888734858067,
+  "sd_err_pp": 20.27383541649305,
+  "pboot_lo_check": -0.011800940886850119,
+  "pboot_hi_check": 0.7373813523310349
+ }
+]

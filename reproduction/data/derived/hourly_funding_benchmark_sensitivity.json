@@ -1,0 +1,41 @@
+{
+  "label": "Hourly funding rates with pooled account prices as an oracle-price proxy; sensitivity, not exact oracle valuation",
+  "results": [
+    {
+      "freeze_h": 12,
+      "hold": 3288.7575071738884,
+      "actual": -84161.53593588328,
+      "advantage": 87450.29344305716,
+      "better": 26,
+      "frozen_postfreeze_funding": 6218.177197239274,
+      "freeze_funding_adjustment": -506.9884923703966,
+      "breaches_025": 2,
+      "breaches_05": 3
+    },
+    {
+      "freeze_h": 24,
+      "hold": 9023.461543098088,
+      "actual": -84161.53593588328,
+      "advantage": 93184.99747898137,
+      "better": 26,
+      "frozen_postfreeze_funding": 5528.205489786689,
+      "freeze_funding_adjustment": -43.00796010575348,
+      "breaches_025": 0,
+      "breaches_05": 0
+    },
+    {
+      "freeze_h": 48,
+      "hold": 2474.001223549998,
+      "actual": -84161.53593588328,
+      "advantage": 86635.53715943328,
+      "better": 25,
+      "frozen_postfreeze_funding": 3082.733323827317,
+      "freeze_funding_adjustment": -26.659402113005196,
+      "breaches_025": 0,
+      "breaches_05": 0
+    }
+  ],
+  "volatility_F": 7.864905535063705,
+  "volatility_W": 0.7946428571428571,
+  "actual_opening_date_funding": 28.771956721713003
+}

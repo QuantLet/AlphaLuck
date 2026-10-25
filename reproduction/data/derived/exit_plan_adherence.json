@@ -1,0 +1,939 @@
+{
+  "definitions": {
+    "episode": "flat to non-flat to flat in one account-instrument, official window; reversing fills split",
+    "plan_in_force": "latest organiser snapshot at or before t; primary tests from the first snapshot on",
+    "crossing": "first price at or beyond a declared level (stop or target), prices strictly before the closing fill",
+    "near_tolerance_primary": 0.0025,
+    "near_tolerances": [
+      0.001,
+      0.0025,
+      0.005,
+      0.01
+    ],
+    "grace_minutes_primary": 15,
+    "grace_minutes": [
+      5,
+      15,
+      60
+    ],
+    "buffer_primary": 0.0,
+    "buffers": [
+      0.0,
+      0.001,
+      0.0025
+    ],
+    "price_source_primary": "pooled trade prints of all Season 1.5 accounts",
+    "plan_follow": "exit the remaining position at the first crossing print; fills after it dropped",
+    "undeclared": "stop_loss or profit_target zero or missing"
+  },
+  "coverage": {
+    "episodes": 12226,
+    "closed": 12117,
+    "open_at_close": 109,
+    "planned": 1858,
+    "planned_share": 0.15197120889906757,
+    "planned_share_of_abs_gross": 0.5973401448230968,
+    "planned_share_of_gross_notional": 0.28359711430439954,
+    "planned_gross_usd": -24497.970070000014,
+    "unplanned_gross_usd": -24033.772520000064,
+    "median_hold_h_planned": 3.4214295833333335,
+    "median_hold_h_unplanned": 0.21394680555555556,
+    "episodes_over_2h_planned_share": 0.5269728042799822,
+    "liquidated_episodes": 17,
+    "episodes_with_partial_liquidation": 1,
+    "liquidations_after_stop_cross": 6,
+    "liquidations_planned": 15
+  },
+  "plan_coverage": {
+    "snapshot_position_rows": 32886,
+    "matched": 32886,
+    "unmatched": 0,
+    "with_declared_level": 31242,
+    "linked_rows": 20207,
+    "unlinked_rows": 11035,
+    "unlinked_entry_time_zero": 11020,
+    "unlinked_repeat_earlier_episode_share": 0.8749433620299049,
+    "wrong_side_share_linked": 0.0020784876527935865,
+    "wrong_side_share_unlinked": 0.2763026733121885,
+    "episodes_with_declared_level": 4954,
+    "episodes_with_linked_plan": 1858,
+    "stop_declared_share": 0.9500091224229156,
+    "target_declared_share": 0.9500091224229156,
+    "invalidation_declared_share": 0.9584321595815849,
+    "invalidation_na_text": 196
+  },
+  "identity_episode_gross_vs_decomposition_max_abs_usd": 3.667312999986052,
+  "classes_primary": {
+    "sl": 0.06404736275565123,
+    "tp": 0.04682454251883746,
+    "discretionary": 0.8266953713670614,
+    "missed_sl": 0.01991388589881593,
+    "missed_tp": 0.012378902045209902,
+    "liquidation": 0.008073196986006458,
+    "open_no_cross": 0.022066738428417654,
+    "n": 1858
+  },
+  "class_counts_primary": {
+    "discretionary": 1536,
+    "sl": 119,
+    "tp": 87,
+    "open_no_cross": 41,
+    "missed_sl": 37,
+    "missed_tp": 23,
+    "liquidation": 15
+  },
+  "pnl_overall": {
+    "episodes": 12226,
+    "planned": 1858,
+    "gross_usd": -48531.74259000008,
+    "plan_minus_actual_gross_usd": 2949.9101500000047,
+    "plan_minus_actual_net_usd": 3472.720469817047,
+    "plan_minus_actual_gross_level_usd": 3338.023975000022,
+    "missed_sl_delta_usd": 676.9180900000056,
+    "missed_tp_delta_usd": 1750.1428300000143,
+    "liquidation_delta_usd": 112.81722000000195,
+    "other_delta_usd": 410.03200999998285,
+    "gross_by_class_usd": {
+      "discretionary": -25369.93075,
+      "liquidation": -12929.405720000013,
+      "missed_sl": -11527.316109999994,
+      "missed_tp": 18480.52226000001,
+      "no_plan": -24033.772520000064,
+      "open_no_cross": 7427.062429999989,
+      "sl": -32081.384950000003,
+      "tp": 31502.482770000002
+    },
+    "discretionary_in_profit_share": 0.392578125,
+    "classes": {
+      "sl": 0.06404736275565123,
+      "tp": 0.04682454251883746,
+      "discretionary": 0.8266953713670614,
+      "missed_sl": 0.01991388589881593,
+      "missed_tp": 0.012378902045209902,
+      "liquidation": 0.008073196986006458,
+      "open_no_cross": 0.022066738428417654,
+      "n": 1858
+    }
+  },
+  "by_model": {
+    "claude-sonnet-4-5": {
+      "episodes": 1443,
+      "planned": 154,
+      "gross_usd": -10523.72468000006,
+      "plan_minus_actual_gross_usd": 77.38692999999836,
+      "plan_minus_actual_net_usd": 82.28821775911892,
+      "plan_minus_actual_gross_level_usd": 72.33588999999876,
+      "missed_sl_delta_usd": 0.0,
+      "missed_tp_delta_usd": 17.563199999999142,
+      "liquidation_delta_usd": 16.23482999999976,
+      "other_delta_usd": 43.588899999999455,
+      "gross_by_class_usd": {
+        "discretionary": -6393.085370000003,
+        "liquidation": -62.11182999999994,
+        "missed_tp": 258.23759999999993,
+        "no_plan": -4740.315440000054,
+        "sl": -2484.1644000000015,
+        "tp": 2897.714759999999
+      },
+      "discretionary_in_profit_share": 0.31654676258992803,
+      "classes": {
+        "sl": 0.032467532467532464,
+        "tp": 0.05194805194805195,
+        "discretionary": 0.9025974025974026,
+        "missed_sl": 0.0,
+        "missed_tp": 0.006493506493506494,
+        "liquidation": 0.006493506493506494,
+        "open_no_cross": 0.0,
+        "n": 154
+      }
+    },
+    "deepseek-chat-v3.1": {
+      "episodes": 1786,
+      "planned": 239,
+      "gross_usd": -6812.783599999983,
+      "plan_minus_actual_gross_usd": 986.7351999999942,
+      "plan_minus_actual_net_usd": 1147.0279462174722,
+      "plan_minus_actual_gross_level_usd": 1146.4884649999906,
+      "missed_sl_delta_usd": 203.55630999998834,
+      "missed_tp_delta_usd": 676.2875600000131,
+      "liquidation_delta_usd": 0.0,
+      "other_delta_usd": 106.89132999999265,
+      "gross_by_class_usd": {
+        "discretionary": 427.7927600000138,
+        "liquidation": -3094.2175099999995,
+        "missed_sl": -2800.8804500000024,
+        "missed_tp": 4332.14401,
+        "no_plan": -1480.5318599999905,
+        "open_no_cross": 821.8813999999911,
+        "sl": -8397.762359999995,
+        "tp": 3378.79041
+      },
+      "discretionary_in_profit_share": 0.4444444444444444,
+      "classes": {
+        "sl": 0.06276150627615062,
+        "tp": 0.0502092050209205,
+        "discretionary": 0.8284518828451883,
+        "missed_sl": 0.016736401673640166,
+        "missed_tp": 0.029288702928870293,
+        "liquidation": 0.0041841004184100415,
+        "open_no_cross": 0.008368200836820083,
+        "n": 239
+      }
+    },
+    "gemini-3-pro-preview": {
+      "episodes": 1946,
+      "planned": 200,
+      "gross_usd": -7338.40822000003,
+      "plan_minus_actual_gross_usd": 401.66186999999275,
+      "plan_minus_actual_net_usd": 532.3348741939818,
+      "plan_minus_actual_gross_level_usd": 544.5224799999929,
+      "missed_sl_delta_usd": 119.5277700000054,
+      "missed_tp_delta_usd": 23.775629999988155,
+      "liquidation_delta_usd": 42.33262000000195,
+      "other_delta_usd": 216.0258499999973,
+      "gross_by_class_usd": {
+        "discretionary": -210.3791500000225,
+        "liquidation": -3126.4334400000016,
+        "missed_sl": -3749.1613599999955,
+        "missed_tp": 1551.31971,
+        "no_plan": -3914.7304000000036,
+        "open_no_cross": 863.4687999999983,
+        "sl": -6286.841540000005,
+        "tp": 7534.349160000001
+      },
+      "discretionary_in_profit_share": 0.41304347826086957,
+      "classes": {
+        "sl": 0.135,
+        "tp": 0.065,
+        "discretionary": 0.69,
+        "missed_sl": 0.045,
+        "missed_tp": 0.02,
+        "liquidation": 0.015,
+        "open_no_cross": 0.03,
+        "n": 200
+      }
+    },
+    "gpt-5.1": {
+      "episodes": 1484,
+      "planned": 162,
+      "gross_usd": 796.2249599999891,
+      "plan_minus_actual_gross_usd": 223.7133999999981,
+      "plan_minus_actual_net_usd": 230.21199734090794,
+      "plan_minus_actual_gross_level_usd": 125.76180000000141,
+      "missed_sl_delta_usd": 52.56962999999797,
+      "missed_tp_delta_usd": 125.32259999999962,
+      "liquidation_delta_usd": 13.440960000000018,
+      "other_delta_usd": 32.38021000000049,
+      "gross_by_class_usd": {
+        "discretionary": -119.72216000001212,
+        "liquidation": -378.26943999999946,
+        "missed_sl": -1057.9297799999997,
+        "missed_tp": 2027.8842999999997,
+        "no_plan": -2588.9691500000035,
+        "open_no_cross": 1676.3764000000065,
+        "sl": -2407.1396700000014,
+        "tp": 3643.9944599999994
+      },
+      "discretionary_in_profit_share": 0.4198473282442748,
+      "classes": {
+        "sl": 0.06172839506172839,
+        "tp": 0.06172839506172839,
+        "discretionary": 0.808641975308642,
+        "missed_sl": 0.024691358024691357,
+        "missed_tp": 0.012345679012345678,
+        "liquidation": 0.012345679012345678,
+        "open_no_cross": 0.018518518518518517,
+        "n": 162
+      }
+    },
+    "grok-4": {
+      "episodes": 1496,
+      "planned": 330,
+      "gross_usd": -18120.140600000035,
+      "plan_minus_actual_gross_usd": 863.5549400000177,
+      "plan_minus_actual_net_usd": 985.7692401094683,
+      "plan_minus_actual_gross_level_usd": 795.3642650000183,
+      "missed_sl_delta_usd": 428.94548000001134,
+      "missed_tp_delta_usd": 419.8808900000115,
+      "liquidation_delta_usd": 0.0,
+      "other_delta_usd": 14.728569999994846,
+      "gross_by_class_usd": {
+        "discretionary": -9251.644780000008,
+        "liquidation": -5480.848670000013,
+        "missed_sl": -2515.6024299999954,
+        "missed_tp": 2762.9000800000013,
+        "no_plan": -5361.32530000002,
+        "open_no_cross": 1042.5473400000035,
+        "sl": -4350.274280000005,
+        "tp": 5034.107440000005
+      },
+      "discretionary_in_profit_share": 0.3832752613240418,
+      "classes": {
+        "sl": 0.02727272727272727,
+        "tp": 0.024242424242424242,
+        "discretionary": 0.8696969696969697,
+        "missed_sl": 0.01818181818181818,
+        "missed_tp": 0.00909090909090909,
+        "liquidation": 0.012121212121212121,
+        "open_no_cross": 0.03939393939393939,
+        "n": 330
+      }
+    },
+    "kimi-k2-thinking": {
+      "episodes": 1289,
+      "planned": 329,
+      "gross_usd": -7311.760309999993,
+      "plan_minus_actual_gross_usd": 442.9934600000165,
+      "plan_minus_actual_net_usd": 524.7225643792099,
+      "plan_minus_actual_gross_level_usd": 565.5730650000237,
+      "missed_sl_delta_usd": 405.0674600000102,
+      "missed_tp_delta_usd": 8.42604000000199,
+      "liquidation_delta_usd": 17.720080000000166,
+      "other_delta_usd": 11.779880000004141,
+      "gross_by_class_usd": {
+        "discretionary": -6765.07578,
+        "liquidation": -169.88370000000043,
+        "missed_sl": -1661.1817800000035,
+        "missed_tp": 3389.8620800000035,
+        "no_plan": -3140.8796699999903,
+        "open_no_cross": 301.5101400000003,
+        "sl": -4209.751580000003,
+        "tp": 4943.639979999998
+      },
+      "discretionary_in_profit_share": 0.39603960396039606,
+      "classes": {
+        "sl": 0.02735562310030395,
+        "tp": 0.015197568389057751,
+        "discretionary": 0.9209726443768997,
+        "missed_sl": 0.0060790273556231,
+        "missed_tp": 0.0060790273556231,
+        "liquidation": 0.00303951367781155,
+        "open_no_cross": 0.02127659574468085,
+        "n": 329
+      }
+    },
+    "qwen3-max": {
+      "episodes": 2415,
+      "planned": 341,
+      "gross_usd": -5488.656789999983,
+      "plan_minus_actual_gross_usd": -780.9471400000076,
+      "plan_minus_actual_net_usd": -770.2363063036609,
+      "plan_minus_actual_gross_level_usd": -695.0077400000005,
+      "missed_sl_delta_usd": -807.552700000002,
+      "missed_tp_delta_usd": 0.383700000000033,
+      "liquidation_delta_usd": 23.088730000000055,
+      "other_delta_usd": 3.1331299999943383,
+      "gross_by_class_usd": {
+        "discretionary": -1342.8980600000018,
+        "liquidation": -109.74859000000026,
+        "missed_sl": 394.97930000000184,
+        "missed_tp": 6.090339999999955,
+        "no_plan": -3895.50506999999,
+        "open_no_cross": -271.1386999999986,
+        "sl": -3229.7932999999935,
+        "tp": 2959.3572900000004
+      },
+      "discretionary_in_profit_share": 0.3903345724907063,
+      "classes": {
+        "sl": 0.10850439882697947,
+        "tp": 0.06451612903225806,
+        "discretionary": 0.7888563049853372,
+        "missed_sl": 0.017595307917888565,
+        "missed_tp": 0.002932551319648094,
+        "liquidation": 0.002932551319648094,
+        "open_no_cross": 0.01466275659824047,
+        "n": 341
+      }
+    },
+    "typhoon": {
+      "episodes": 367,
+      "planned": 103,
+      "gross_usd": 6267.506650000011,
+      "plan_minus_actual_gross_usd": 734.8114899999947,
+      "plan_minus_actual_net_usd": 740.6019361205492,
+      "plan_minus_actual_gross_level_usd": 782.985749999997,
+      "missed_sl_delta_usd": 274.8041399999943,
+      "missed_tp_delta_usd": 478.50321000000076,
+      "liquidation_delta_usd": 0.0,
+      "other_delta_usd": -18.495860000000363,
+      "gross_by_class_usd": {
+        "discretionary": -1714.918209999965,
+        "liquidation": -507.8925400000003,
+        "missed_sl": -137.53960999999913,
+        "missed_tp": 4152.084140000004,
+        "no_plan": 1088.4843699999872,
+        "open_no_cross": 2992.417049999988,
+        "sl": -715.6578200000016,
+        "tp": 1110.5292699999986
+      },
+      "discretionary_in_profit_share": 0.3380281690140845,
+      "classes": {
+        "sl": 0.06796116504854369,
+        "tp": 0.08737864077669903,
+        "discretionary": 0.6893203883495146,
+        "missed_sl": 0.05825242718446602,
+        "missed_tp": 0.02912621359223301,
+        "liquidation": 0.019417475728155338,
+        "open_no_cross": 0.04854368932038835,
+        "n": 103
+      }
+    }
+  },
+  "by_arm": {
+    "1": {
+      "episodes": 3261,
+      "planned": 403,
+      "gross_usd": -14716.332070000042,
+      "plan_minus_actual_gross_usd": 1190.0160300000255,
+      "plan_minus_actual_net_usd": 1380.479931619569,
+      "plan_minus_actual_gross_level_usd": 1645.4391480000327,
+      "missed_sl_delta_usd": 291.9674100000212,
+      "missed_tp_delta_usd": 807.88804000001,
+      "liquidation_delta_usd": 54.24977000000024,
+      "other_delta_usd": 35.91080999999377,
+      "gross_by_class_usd": {
+        "discretionary": -1725.3580800000009,
+        "liquidation": -3481.503200000006,
+        "missed_sl": -4632.842589999999,
+        "missed_tp": 3827.183170000003,
+        "no_plan": -5700.93926000002,
+        "open_no_cross": 1010.1880999999911,
+        "sl": -10993.127580000006,
+        "tp": 6980.06737
+      },
+      "discretionary_in_profit_share": 0.4033898305084746,
+      "classes": {
+        "sl": 0.10173697270471464,
+        "tp": 0.062034739454094295,
+        "discretionary": 0.7320099255583127,
+        "missed_sl": 0.03722084367245657,
+        "missed_tp": 0.019851116625310174,
+        "liquidation": 0.01488833746898263,
+        "open_no_cross": 0.03225806451612903,
+        "n": 403
+      }
+    },
+    "2": {
+      "episodes": 2249,
+      "planned": 488,
+      "gross_usd": -2104.9276700000446,
+      "plan_minus_actual_gross_usd": 469.88011999999895,
+      "plan_minus_actual_net_usd": 489.8219901447191,
+      "plan_minus_actual_gross_level_usd": 299.29909999999614,
+      "missed_sl_delta_usd": -209.4062399999995,
+      "missed_tp_delta_usd": 420.39564999999925,
+      "liquidation_delta_usd": 0.0,
+      "other_delta_usd": 258.89070999999916,
+      "gross_by_class_usd": {
+        "discretionary": -1559.8416200000258,
+        "liquidation": -270.47000000000116,
+        "missed_sl": -52.00401999999946,
+        "missed_tp": 128.07118999999992,
+        "no_plan": -3011.1280100000167,
+        "open_no_cross": 839.0682399999994,
+        "sl": -4200.165579999999,
+        "tp": 6021.54213
+      },
+      "discretionary_in_profit_share": 0.40930232558139534,
+      "classes": {
+        "sl": 0.03483606557377049,
+        "tp": 0.040983606557377046,
+        "discretionary": 0.8811475409836066,
+        "missed_sl": 0.00819672131147541,
+        "missed_tp": 0.0020491803278688526,
+        "liquidation": 0.0020491803278688526,
+        "open_no_cross": 0.030737704918032786,
+        "n": 488
+      }
+    },
+    "3": {
+      "episodes": 4689,
+      "planned": 686,
+      "gross_usd": -15518.736919999983,
+      "plan_minus_actual_gross_usd": 621.2132200000111,
+      "plan_minus_actual_net_usd": 837.9561277928703,
+      "plan_minus_actual_gross_level_usd": 659.0257400000205,
+      "missed_sl_delta_usd": 113.13617000000605,
+      "missed_tp_delta_usd": 396.19283000001195,
+      "liquidation_delta_usd": 16.23482999999976,
+      "other_delta_usd": 95.64938999999342,
+      "gross_by_class_usd": {
+        "discretionary": -13152.138019999971,
+        "liquidation": -2031.5261300000088,
+        "missed_sl": -3763.9776899999983,
+        "missed_tp": 8119.54946,
+        "no_plan": -12313.846520000006,
+        "open_no_cross": 13.207600000000639,
+        "sl": -3885.651780000002,
+        "tp": 11495.646160000004
+      },
+      "discretionary_in_profit_share": 0.4016260162601626,
+      "classes": {
+        "sl": 0.03644314868804665,
+        "tp": 0.030612244897959183,
+        "discretionary": 0.8965014577259475,
+        "missed_sl": 0.018950437317784258,
+        "missed_tp": 0.01020408163265306,
+        "liquidation": 0.004373177842565598,
+        "open_no_cross": 0.0029154518950437317,
+        "n": 686
+      }
+    },
+    "4": {
+      "episodes": 2027,
+      "planned": 281,
+      "gross_usd": -16191.74593000002,
+      "plan_minus_actual_gross_usd": 668.8007799999693,
+      "plan_minus_actual_net_usd": 764.4624202598886,
+      "plan_minus_actual_gross_level_usd": 734.259986999973,
+      "missed_sl_delta_usd": 481.2207499999778,
+      "missed_tp_delta_usd": 125.66630999999313,
+      "liquidation_delta_usd": 42.33262000000195,
+      "other_delta_usd": 19.581099999996496,
+      "gross_by_class_usd": {
+        "discretionary": -8932.593030000002,
+        "liquidation": -7145.906389999998,
+        "missed_sl": -3078.491809999997,
+        "missed_tp": 6405.718440000004,
+        "no_plan": -3007.8587300000218,
+        "open_no_cross": 5564.5984899999985,
+        "sl": -13002.440009999997,
+        "tp": 7005.227109999998
+      },
+      "discretionary_in_profit_share": 0.3112244897959184,
+      "classes": {
+        "sl": 0.12811387900355872,
+        "tp": 0.07473309608540925,
+        "discretionary": 0.697508896797153,
+        "missed_sl": 0.017793594306049824,
+        "missed_tp": 0.02491103202846975,
+        "liquidation": 0.017793594306049824,
+        "open_no_cross": 0.03914590747330961,
+        "n": 281
+      }
+    }
+  },
+  "explain_timing": {
+    "timing_exec_pp_total": -19.379579381255027,
+    "plan_minus_actual_gross_pp_total": 0.9218469218750017,
+    "plan_minus_actual_net_pp_total": 1.0852251468178273,
+    "plan_minus_actual_gross_level_pp_total": 1.0431324921875067,
+    "accounts_plan_ahead_gross": 21,
+    "accounts_plan_ahead_net": 20,
+    "share_of_timing_loss_offset_gross": 0.04756795303651748,
+    "by_model_pp_of_40k": {
+      "claude-sonnet-4-5": {
+        "delta_gross": 0.1934673249999959,
+        "delta_net": 0.2057205443977973,
+        "timing_exec": -25.940394726950878
+      },
+      "deepseek-chat-v3.1": {
+        "delta_gross": 2.4668379999999854,
+        "delta_net": 2.8675698655436803,
+        "timing_exec": -22.87181398969892
+      },
+      "gemini-3-pro-preview": {
+        "delta_gross": 1.004154674999982,
+        "delta_net": 1.3308371854849546,
+        "timing_exec": -21.683798900565826
+      },
+      "gpt-5.1": {
+        "delta_gross": 0.5592834999999953,
+        "delta_net": 0.5755299933522698,
+        "timing_exec": -2.5286980784895
+      },
+      "grok-4": {
+        "delta_gross": 2.1588873500000445,
+        "delta_net": 2.464423100273671,
+        "timing_exec": -46.384576446542006
+      },
+      "kimi-k2-thinking": {
+        "delta_gross": 1.1074836500000413,
+        "delta_net": 1.3118064109480247,
+        "timing_exec": -18.61229274711728
+      },
+      "qwen3-max": {
+        "delta_gross": -1.952367850000019,
+        "delta_net": -1.9255907657591522,
+        "timing_exec": -15.021739484419236
+      },
+      "typhoon": {
+        "delta_gross": 1.8370287249999868,
+        "delta_net": 1.851504840301373,
+        "timing_exec": -1.9933206762565754
+      }
+    },
+    "by_arm_pp_of_80k": {
+      "1": {
+        "delta_gross": 1.4875200375000315,
+        "delta_net": 1.7255999145244614,
+        "timing_exec": -24.58603625003
+      },
+      "2": {
+        "delta_gross": 0.5873501499999986,
+        "delta_net": 0.612277487680899,
+        "timing_exec": -3.7040469436572754
+      },
+      "3": {
+        "delta_gross": 0.776516525000014,
+        "delta_net": 1.0474451597410879,
+        "timing_exec": -22.10770151036252
+      },
+      "4": {
+        "delta_gross": 0.8360009749999616,
+        "delta_net": 0.9555780253248609,
+        "timing_exec": -27.120532820970315
+      }
+    }
+  },
+  "tests": {
+    "delta_gross_vs_timing_exec": {
+      "rho": -0.19047619047619052,
+      "p_two_sided": 0.32123393830308483,
+      "draws": 20000
+    },
+    "missed_share_vs_net_return": {
+      "rho": 0.1073792364108099,
+      "p_two_sided": 0.5695215239238038,
+      "draws": 20000
+    },
+    "missed_sl_share_vs_timing_exec": {
+      "rho": -0.06833124758290068,
+      "p_two_sided": 0.7162641867906605,
+      "draws": 20000
+    }
+  },
+  "crossing_to_close_lag": {
+    "episodes": 113,
+    "within_1min": 0.19469026548672566,
+    "within_5min": 0.36283185840707965,
+    "within_15min": 0.4778761061946903,
+    "within_60min": 0.672566371681416,
+    "within_240min": 0.8053097345132744,
+    "median_min": 16.739133333333335,
+    "quantiles_min": {
+      "0.25": 2.0976833333333333,
+      "0.5": 16.739133333333335,
+      "0.75": 153.84363333333334,
+      "0.9": 529.2346066666667
+    }
+  },
+  "crossing_gap": {
+    "crossed_episodes": 120,
+    "fresh": 111,
+    "stale": 9,
+    "gap_pct_median_fresh": 0.07058823529412228,
+    "gap_pct_median_stale": 0.9769053117782978,
+    "gap_pct_median_fresh_stop": 0.05616210774445074,
+    "gap_pct_median_fresh_target": 0.09756097560975618,
+    "gap_pct_p90_fresh": 0.2448979591836764
+  },
+  "snapshot_level": {
+    "rows": 20205,
+    "beyond_stop_share": 0.0027715911902994306,
+    "beyond_target_share": 0.0026231130908191042,
+    "by_model_beyond_stop_share": {
+      "claude-sonnet-4-5": 0.0,
+      "deepseek-chat-v3.1": 0.00315955766192733,
+      "gemini-3-pro-preview": 0.0006004202942059442,
+      "gpt-5.1": 0.0016227180527383367,
+      "grok-4": 0.001422137947380896,
+      "kimi-k2-thinking": 0.0017035775127768314,
+      "qwen3-max": 0.0024703557312252965,
+      "typhoon": 0.013059701492537313
+    },
+    "by_model_beyond_target_share": {
+      "claude-sonnet-4-5": 0.001735106998264893,
+      "deepseek-chat-v3.1": 0.00315955766192733,
+      "gemini-3-pro-preview": 0.0012008405884118883,
+      "gpt-5.1": 0.00040567951318458417,
+      "grok-4": 0.0009480919649205973,
+      "kimi-k2-thinking": 0.0005678591709256105,
+      "qwen3-max": 0.001976284584980237,
+      "typhoon": 0.013059701492537313
+    },
+    "by_arm_beyond_stop_share": {
+      "1": 0.0020913210177762286,
+      "2": 0.0006738544474393531,
+      "3": 0.007556080283353011,
+      "4": 0.0015570934256055363
+    }
+  },
+  "revisions": {
+    "all": {
+      "snapshot_pairs": 18349,
+      "episodes_with_two_snapshots": 1307,
+      "episodes_with_any_revision": 6,
+      "episodes_with_any_revision_share": 0.0045906656465187455,
+      "pairs_sl_changed": 4,
+      "pairs_tp_changed": 5,
+      "sl_tighter": 4,
+      "sl_looser": 0,
+      "tp_further": 2,
+      "tp_closer": 3,
+      "pairs_same_quantity": 16550,
+      "sl_looser_same_quantity": 0,
+      "changes_with_same_quantity_share": 0.0
+    },
+    "claude-sonnet-4-5": {
+      "snapshot_pairs": 1575,
+      "episodes_with_two_snapshots": 101,
+      "episodes_with_any_revision": 0,
+      "episodes_with_any_revision_share": 0.0,
+      "pairs_sl_changed": 0,
+      "pairs_tp_changed": 0,
+      "sl_tighter": 0,
+      "sl_looser": 0,
+      "tp_further": 0,
+      "tp_closer": 0,
+      "pairs_same_quantity": 1536,
+      "sl_looser_same_quantity": 0,
+      "changes_with_same_quantity_share": 0.0
+    },
+    "deepseek-chat-v3.1": {
+      "snapshot_pairs": 2293,
+      "episodes_with_two_snapshots": 173,
+      "episodes_with_any_revision": 0,
+      "episodes_with_any_revision_share": 0.0,
+      "pairs_sl_changed": 0,
+      "pairs_tp_changed": 0,
+      "sl_tighter": 0,
+      "sl_looser": 0,
+      "tp_further": 0,
+      "tp_closer": 0,
+      "pairs_same_quantity": 1899,
+      "sl_looser_same_quantity": 0,
+      "changes_with_same_quantity_share": 0.0
+    },
+    "gemini-3-pro-preview": {
+      "snapshot_pairs": 3132,
+      "episodes_with_two_snapshots": 155,
+      "episodes_with_any_revision": 3,
+      "episodes_with_any_revision_share": 0.01935483870967742,
+      "pairs_sl_changed": 1,
+      "pairs_tp_changed": 2,
+      "sl_tighter": 1,
+      "sl_looser": 0,
+      "tp_further": 1,
+      "tp_closer": 1,
+      "pairs_same_quantity": 2915,
+      "sl_looser_same_quantity": 0,
+      "changes_with_same_quantity_share": 0.0
+    },
+    "gpt-5.1": {
+      "snapshot_pairs": 2303,
+      "episodes_with_two_snapshots": 125,
+      "episodes_with_any_revision": 0,
+      "episodes_with_any_revision_share": 0.0,
+      "pairs_sl_changed": 0,
+      "pairs_tp_changed": 0,
+      "sl_tighter": 0,
+      "sl_looser": 0,
+      "tp_further": 0,
+      "tp_closer": 0,
+      "pairs_same_quantity": 2245,
+      "sl_looser_same_quantity": 0,
+      "changes_with_same_quantity_share": 0.0
+    },
+    "grok-4": {
+      "snapshot_pairs": 3889,
+      "episodes_with_two_snapshots": 240,
+      "episodes_with_any_revision": 0,
+      "episodes_with_any_revision_share": 0.0,
+      "pairs_sl_changed": 0,
+      "pairs_tp_changed": 0,
+      "sl_tighter": 0,
+      "sl_looser": 0,
+      "tp_further": 0,
+      "tp_closer": 0,
+      "pairs_same_quantity": 3327,
+      "sl_looser_same_quantity": 0,
+      "changes_with_same_quantity_share": 0.0
+    },
+    "kimi-k2-thinking": {
+      "snapshot_pairs": 1432,
+      "episodes_with_two_snapshots": 203,
+      "episodes_with_any_revision": 0,
+      "episodes_with_any_revision_share": 0.0,
+      "pairs_sl_changed": 0,
+      "pairs_tp_changed": 0,
+      "sl_tighter": 0,
+      "sl_looser": 0,
+      "tp_further": 0,
+      "tp_closer": 0,
+      "pairs_same_quantity": 1262,
+      "sl_looser_same_quantity": 0,
+      "changes_with_same_quantity_share": 0.0
+    },
+    "qwen3-max": {
+      "snapshot_pairs": 1684,
+      "episodes_with_two_snapshots": 227,
+      "episodes_with_any_revision": 0,
+      "episodes_with_any_revision_share": 0.0,
+      "pairs_sl_changed": 0,
+      "pairs_tp_changed": 0,
+      "sl_tighter": 0,
+      "sl_looser": 0,
+      "tp_further": 0,
+      "tp_closer": 0,
+      "pairs_same_quantity": 1495,
+      "sl_looser_same_quantity": 0,
+      "changes_with_same_quantity_share": 0.0
+    },
+    "typhoon": {
+      "snapshot_pairs": 2041,
+      "episodes_with_two_snapshots": 83,
+      "episodes_with_any_revision": 3,
+      "episodes_with_any_revision_share": 0.03614457831325301,
+      "pairs_sl_changed": 3,
+      "pairs_tp_changed": 3,
+      "sl_tighter": 3,
+      "sl_looser": 0,
+      "tp_further": 1,
+      "tp_closer": 2,
+      "pairs_same_quantity": 1871,
+      "sl_looser_same_quantity": 0,
+      "changes_with_same_quantity_share": 0.0
+    },
+    "missed_share_revised": {
+      "sl": 0.16666666666666666,
+      "tp": 0.0,
+      "discretionary": 0.5,
+      "missed_sl": 0.16666666666666666,
+      "missed_tp": 0.16666666666666666,
+      "liquidation": 0.0,
+      "open_no_cross": 0.0,
+      "n": 6
+    },
+    "missed_share_unrevised": {
+      "sl": 0.06371490280777538,
+      "tp": 0.04697624190064795,
+      "discretionary": 0.8277537796976242,
+      "missed_sl": 0.019438444924406047,
+      "missed_tp": 0.011879049676025918,
+      "liquidation": 0.008099352051835854,
+      "open_no_cross": 0.022138228941684664,
+      "n": 1852
+    }
+  },
+  "sensitivity": {
+    "tolerances_missed_range": [
+      0.020452099031216364,
+      0.03928955866523143
+    ],
+    "tolerances_discretionary_range": [
+      0.7109795479009687,
+      0.8482238966630786
+    ],
+    "tolerances_sl_range": [
+      0.04628632938643703,
+      0.16792249730893433
+    ],
+    "tolerances_tp_range": [
+      0.03606027987082885,
+      0.07050592034445641
+    ],
+    "by_source_primary_tolerances": {
+      "prints": {
+        "missed": 0.03229278794402583,
+        "missed_sl": 0.01991388589881593,
+        "missed_tp": 0.012378902045209902,
+        "sl": 0.06404736275565123,
+        "tp": 0.04682454251883746,
+        "discretionary": 0.8266953713670614,
+        "plan_minus_actual_gross_pp": 0.9218469218750015,
+        "plan_minus_actual_net_pp": 1.0852251468178273
+      },
+      "grid5m": {
+        "missed": 0.031216361679224973,
+        "missed_sl": 0.0193756727664155,
+        "missed_tp": 0.011840688912809472,
+        "sl": 0.059203444564047365,
+        "tp": 0.044671689989235736,
+        "discretionary": 0.8347685683530678,
+        "plan_minus_actual_gross_pp": 0.46807264062500226,
+        "plan_minus_actual_net_pp": 0.5544394248743242
+      },
+      "organiser": {
+        "missed": 0.022604951560818085,
+        "missed_sl": 0.012378902045209902,
+        "missed_tp": 0.01022604951560818,
+        "sl": 0.060279870828848225,
+        "tp": 0.044671689989235736,
+        "discretionary": 0.8423035522066739,
+        "plan_minus_actual_gross_pp": -0.2761459687499969,
+        "plan_minus_actual_net_pp": -0.18388394062484414
+      }
+    },
+    "by_buffer": {
+      "0.0": {
+        "missed": 0.03229278794402583,
+        "plan_minus_actual_gross_pp": 0.9218469218750015
+      },
+      "0.001": {
+        "missed": 0.025834230355220665,
+        "plan_minus_actual_gross_pp": 0.547862203125018
+      },
+      "0.0025": {
+        "missed": 0.0193756727664155,
+        "plan_minus_actual_gross_pp": 0.3907031218750257
+      }
+    },
+    "by_variant": {
+      "observed": {
+        "n": 1858,
+        "missed": 0.03229278794402583,
+        "sl": 0.06404736275565123,
+        "tp": 0.04682454251883746,
+        "discretionary": 0.8266953713670614,
+        "plan_minus_actual_gross_pp": 0.9218469218750015
+      },
+      "backfill": {
+        "n": 1858,
+        "missed": 0.03444564047362756,
+        "sl": 0.06350914962325081,
+        "tp": 0.04682454251883746,
+        "discretionary": 0.8250807319698601,
+        "plan_minus_actual_gross_pp": 0.8997147187500018
+      },
+      "entry": {
+        "n": 1858,
+        "missed": 0.031216361679224973,
+        "sl": 0.06458557588805167,
+        "tp": 0.04682454251883746,
+        "discretionary": 0.8272335844994618,
+        "plan_minus_actual_gross_pp": 0.8598478468750036
+      },
+      "unlinked": {
+        "n": 4954,
+        "missed": 0.1871215179652806,
+        "sl": 0.13302381913605169,
+        "tp": 0.062373839321760195,
+        "discretionary": 0.5985062575696407,
+        "plan_minus_actual_gross_pp": 2.4340729250000233
+      }
+    },
+    "candle_crossings_not_seen_in_prints": 3,
+    "candle_checked_episodes": 1783
+  },
+  "limitations": [
+    "Plans are observed only at hourly organiser snapshots; episodes closed before a snapshot have no observed plan, and revisions inside an hour are not seen.",
+    "Pooled prints of 32 accounts are not the venue price; four-hour candles show additional crossings.",
+    "The plan-follow counterfactual holds all other decisions fixed and ignores funding and price impact.",
+    "Invalidation conditions are free text and are not evaluated.",
+    "One run per model-arm cell; associations are descriptive."
+  ],
+  "input_sha256": {
+    "data/derived/fills.parquet": "e0690242e8f4572b64d48801890312ac0981775939a1a498368dbdc8781e56fc",
+    "data/derived/panel.parquet": "7817956b47ee06977722801dff7f577660dd9471e31e33ee0014ea85efa3ded1",
+    "data/derived/equity.parquet": "136a874edf76e1bf564691736490c2054380fa4a4d7d2d03ac4bda5f44ec84a4",
+    "data/derived/accounts.parquet": "3a0d1af2b1a76ea2c61cc489893232a1134cd6402c9a45faf2d50fccf8d57033",
+    "data/derived/funding.parquet": "13be491d24250372466447e852086c822171befa539de63561e4624a66481109",
+    "data/raw/nof1_hourly/account_totals_hourly.zip": "bf219c790c6e94ae2e42725ead6f17d4f1bf70bf65d4f5ee0f6df6fa50318b3a",
+    "data/derived/a1_pnl_decomposition.csv": "95edbf408cc6346c1e8bf16e340c64cc3cf2fba273bae4884e665171e7855104"
+  },
+  "source_sha256": {
+    "exit_plan_adherence.py": "5088d91c939d6eb012eb71c069beae60968701189f62f50220070913a665248e",
+    "organiser_hourly.py": "517632120199c70541e3815561d90f7ac03582aef3a526a3f0646c2ff754e6e4"
+  }
+}

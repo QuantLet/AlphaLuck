@@ -1,0 +1,38 @@
+\begin{table}[ht]
+\centering\small
+\caption{Exits against declared plans, Season~1.5. Episodes run from flat to
+flat in one account and instrument; ``planned'' episodes have at least one
+organiser snapshot with a declared stop or target. Shares are per cent of
+planned episodes. Stop and target exits close within \alExitGrace{} minutes of
+the first pooled print at or beyond the level, or within \alExitNear{} per
+cent of it before any crossing; missed exits stay open longer after a
+crossing. Other: liquidations and positions open at the close without a
+crossing. Plan$-$actual is the gross P\&L change from closing at the first
+crossing print, and $B-X$ the timing and execution contribution, both
+percentage points of the group's initial capital (models four accounts,
+arms eight, all 32). Descriptive; one run per model--arm cell.}
+\label{tab:exitplan}
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+ & Planned & \multicolumn{2}{c}{Exit at} & Discre- & \multicolumn{2}{c}{Missed} & & Plan$-$ & \\
+ & /all & stop & target & tionary & stop & target & Other & actual & $B-X$ \\
+\midrule
+Claude Sonnet 4.5 & 154/1{,}443 & 3 & 5 & 90 & 0 & 1 & 1 & $0.19$ & $\ensuremath{-}25.94$ \\
+DeepSeek V3.1 & 239/1{,}786 & 6 & 5 & 83 & 2 & 3 & 1 & $2.47$ & $\ensuremath{-}22.87$ \\
+Gemini 3 Pro & 200/1{,}946 & 14 & 6 & 69 & 4 & 2 & 4 & $1.00$ & $\ensuremath{-}21.68$ \\
+GPT-5.1 & 162/1{,}484 & 6 & 6 & 81 & 2 & 1 & 3 & $0.56$ & $\ensuremath{-}2.53$ \\
+Grok 4 & 330/1{,}496 & 3 & 2 & 87 & 2 & 1 & 5 & $2.16$ & $\ensuremath{-}46.38$ \\
+Kimi K2 Thinking & 329/1{,}289 & 3 & 2 & 92 & 1 & 1 & 2 & $1.11$ & $\ensuremath{-}18.61$ \\
+Qwen3 Max & 341/2{,}415 & 11 & 6 & 79 & 2 & 0 & 2 & $\ensuremath{-}1.95$ & $\ensuremath{-}15.02$ \\
+typhoon & 103/367 & 7 & 9 & 69 & 6 & 3 & 7 & $1.84$ & $\ensuremath{-}1.99$ \\
+\midrule
+Arm 1 & 403/3{,}261 & 10 & 6 & 73 & 4 & 2 & 5 & $1.49$ & $\ensuremath{-}24.59$ \\
+Arm 2 & 488/2{,}249 & 3 & 4 & 88 & 1 & 0 & 3 & $0.59$ & $\ensuremath{-}3.70$ \\
+Arm 3 & 686/4{,}689 & 4 & 3 & 90 & 2 & 1 & 1 & $0.78$ & $\ensuremath{-}22.11$ \\
+Arm 4 & 281/2{,}027 & 13 & 7 & 70 & 2 & 2 & 6 & $0.84$ & $\ensuremath{-}27.12$ \\
+\midrule
+All & 1{,}858/12{,}226 & 6 & 5 & 83 & 2 & 1 & 3 & $0.92$ & $\ensuremath{-}19.38$ \\
+\bottomrule
+\end{tabular}
+\end{table}

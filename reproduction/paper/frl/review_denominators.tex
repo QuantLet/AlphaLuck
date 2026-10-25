@@ -1,0 +1,29 @@
+\begin{table}[ht]
+\centering\small
+\caption{Risk measures on current equity and initial capital, Season~1.5.}
+\label{tab:trait}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+ & \multicolumn{2}{c}{$F$} & \multicolumn{2}{c}{$W$} & \multicolumn{2}{c}{$\rho$} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Measure & Equity & Initial & Equity & Initial & Equity & Initial \\
+\midrule
+Volatility & $12.69$ & $7.87$ & $0.87$ & $0.79$ & $-0.51$ & $-0.36$ \\
+ & ($<0.001$) & ($<0.001$) & ($<0.001$) & ($<0.001$) & ($0.006$) & ($0.052$) \\
+Gross exposure & $8.18$ & $2.11$ & $0.69$ & $0.31$ & $-0.35$ & $0.26$ \\
+ & ($<0.001$) & ($0.087$) & ($<0.001$) & ($0.286$) & ($0.064$) & ($0.183$) \\
+Turnover & $1.54$ & $2.40$ & $0.47$ & $0.53$ & $-0.45$ & $-0.12$ \\
+ & ($0.108$) & ($0.044$) & ($0.044$) & ($0.020$) & ($0.016$) & ($0.539$) \\
+\bottomrule
+\end{tabular}
+\par\smallskip\parbox{0.92\linewidth}{\footnotesize\textit{Note.} Equity
+uses lagged daily equity for volatility, contemporaneous equity for gross
+exposure and mean date-end equity for turnover; initial uses starting capital
+throughout. $F$ is the additive model/residual mean-square ratio, $W$ is rank
+concordance across arms, and $\rho$ is mean within-arm rank correlation with
+final return. Permutation $p$-values in parentheses (two-sided for $\rho$,
+one-sided for $F$ and $W$; 20{,}000 within-arm draws) condition on the
+observed panel and market path; Holm adjustment and an exact profile test are
+in the Online Appendix.}
+\end{table}

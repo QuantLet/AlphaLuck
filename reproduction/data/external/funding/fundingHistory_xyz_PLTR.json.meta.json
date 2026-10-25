@@ -1,0 +1,17 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:PLTR",
+    "startTime": 1763510400000,
+    "endTime": 1764806400000
+  },
+  "fetched_at_utc": "2026-10-12T06:25:33.194723+00:00",
+  "timestamp_source": "request start",
+  "status": 200,
+  "bytes": 34319,
+  "sha256": "dc5ec2ee70e214570c3b90541f8451cda67b79fea621ce0ae8567683d25813fb",
+  "etag": null,
+  "last_modified": null,
+  "path": "/private/tmp/alphaluck-frl-20261012/dataset_agent/raw/funding/fundingHistory_xyz_PLTR.json"
+}

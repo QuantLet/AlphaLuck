@@ -1,0 +1,119 @@
+{
+ "correlations": [
+  {
+   "match_set": "strict (same version)",
+   "n": 4,
+   "metric": "mean_leverage",
+   "spearman": -0.19999999999999998,
+   "spearman_p_exact": 0.8,
+   "perm_p_one_sided": 0.6208189590520474,
+   "pearson": 0.4383706969370117,
+   "S1_mean": 6.487507433687099,
+   "S15_mean": 6.4616050816857795,
+   "S15_over_S1": 0.9960073491605084
+  },
+  {
+   "match_set": "strict (same version)",
+   "n": 4,
+   "metric": "daily_vol",
+   "spearman": 0.39999999999999997,
+   "spearman_p_exact": 0.6,
+   "perm_p_one_sided": 0.3790310484475776,
+   "pearson": 0.5460119659406804,
+   "S1_mean": 0.164884877344358,
+   "S15_mean": 0.09840734893658826,
+   "S15_over_S1": 0.5968245876853032
+  },
+  {
+   "match_set": "strict (same version)",
+   "n": 4,
+   "metric": "share_in_market",
+   "spearman": 1.0,
+   "spearman_p_exact": 0.0,
+   "perm_p_one_sided": 0.043247837608119594,
+   "pearson": 0.9527667805582096,
+   "S1_mean": 0.9980162767039674,
+   "S15_mean": 0.9707746043521266,
+   "S15_over_S1": 0.9727041802947255
+  },
+  {
+   "match_set": "strict (same version)",
+   "n": 4,
+   "metric": "turnover_per_day",
+   "spearman": 0.0,
+   "spearman_p_exact": 1.0,
+   "perm_p_one_sided": 0.5392730363481826,
+   "pearson": 0.11132655056308739,
+   "S1_mean": 15.04928360420617,
+   "S15_mean": 62.20700622084246,
+   "S15_over_S1": 4.133552656516888
+  },
+  {
+   "match_set": "strict + family",
+   "n": 6,
+   "metric": "mean_leverage",
+   "spearman": -0.3142857142857143,
+   "spearman_p_exact": 0.5440932944606414,
+   "perm_p_one_sided": 0.7477126143692815,
+   "pearson": 0.12359370481745267,
+   "S1_mean": 6.964871184953715,
+   "S15_mean": 5.844709518134171,
+   "S15_over_S1": 0.8391697940890219
+  },
+  {
+   "match_set": "strict + family",
+   "n": 6,
+   "metric": "daily_vol",
+   "spearman": -0.08571428571428573,
+   "spearman_p_exact": 0.8717434402332361,
+   "perm_p_one_sided": 0.599570021498925,
+   "pearson": -0.1664276952336979,
+   "S1_mean": 0.181785987308724,
+   "S15_mean": 0.0829440740449622,
+   "S15_over_S1": 0.4562731994523852
+  },
+  {
+   "match_set": "strict + family",
+   "n": 6,
+   "metric": "share_in_market",
+   "spearman": 0.6377481392176932,
+   "spearman_p_exact": 0.17307111024125976,
+   "perm_p_one_sided": 0.10014499275036248,
+   "pearson": 0.9526246386913118,
+   "S1_mean": 0.9985757884028484,
+   "S15_mean": 0.9761477909660402,
+   "S15_over_S1": 0.9775400147917864
+  },
+  {
+   "match_set": "strict + family",
+   "n": 6,
+   "metric": "turnover_per_day",
+   "spearman": -0.4285714285714286,
+   "spearman_p_exact": 0.3965014577259474,
+   "perm_p_one_sided": 0.8193090345482726,
+   "pearson": -0.4558414876027322,
+   "S1_mean": 20.319906404238097,
+   "S15_mean": 52.78307869209552,
+   "S15_over_S1": 2.59760442012108
+  }
+ ],
+ "common_models": [
+  "claude-sonnet-4-5",
+  "deepseek-chat-v3.1",
+  "grok-4",
+  "qwen3-max"
+ ],
+ "n_common": 4,
+ "family_pairs": [
+  [
+   "gpt-5",
+   "gpt-5.1"
+  ],
+  [
+   "gemini-2.5-pro",
+   "gemini-3-pro-preview"
+  ]
+ ],
+ "S1_days": 17,
+ "S15_days": 15
+}

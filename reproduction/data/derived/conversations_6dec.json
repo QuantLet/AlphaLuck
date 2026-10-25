@@ -1,0 +1,29 @@
+{
+  "archive_sha256": "63d31779c616dabcf3ef520c5ca6fee24733e2aae6130e158b04da3f4a9d35fe",
+  "records": 100,
+  "accounts": 32,
+  "first_utc": "2025-12-06 13:31:01.315954924",
+  "last_utc": "2025-12-06 13:51:07.373122931",
+  "days_after_official_close": 2.6465430087268516,
+  "records_by_competition": {
+    "1": 29,
+    "2": 27,
+    "3": 25,
+    "4": 19
+  },
+  "instrument_decisions": 290,
+  "signals": {
+    "hold": 252,
+    "buy_to_enter": 35,
+    "close_position": 3
+  },
+  "hold_share": 0.8689655172413793,
+  "decision_interval_minutes": {
+    "intervals": 68,
+    "median": 3.687161076068878,
+    "min": 1.5383228143056233,
+    "max": 16.403463013966878
+  },
+  "median_prompt_characters": 22739.5,
+  "interpretation": "Post-season continuation records only; not evidence on in-season prompts, information sets or causal effects of competition design."
+}

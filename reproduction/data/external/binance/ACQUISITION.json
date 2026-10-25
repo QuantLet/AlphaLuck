@@ -1,0 +1,17 @@
+{
+  "description": "Metadata and optional downloader only. No raw archives, normalized price panels or price-path files are included here.",
+  "source_documentation": "https://github.com/binance/binance-public-data",
+  "dataset_terms_url": "https://github.com/binance/binance-public-data/blob/master/TERMS_AND_CONDITIONS.md",
+  "dataset_terms_observed": "CC BY-NC-SA 4.0, version 1.0 dated 2026-08-26; distinct from repository code MIT licence.",
+  "provenance_note": "PROVENANCE.json preserves original acquisition paths as historical records; re-download paths are chosen with --output-dir. URLs, requests, timestamps, checksum matches and hashes remain unchanged.",
+  "download_command": "python data/external/binance/download_binance_s1.py --output-dir /path/to/private/binance",
+  "analysis_command": "python src/s1_binance_benchmark_sensitivity.py --root . --prices /path/to/private/binance/binance_s1_5m_marks_no_lookahead.csv --out /path/to/private/sensitivity --reference-benchmark-script src/exante_benchmark.py",
+  "analysis_scope": "Independent-venue spot-price sensitivity, not exact Hyperliquid oracle prices; both actual and frozen positions are revalued while the input cash ledger is retained.",
+  "release_policy": "Exclude archives and normalized prices from public release. Review licence terms for any redistribution or derivative work.",
+  "files_in_this_directory": [
+    "PROVENANCE.json",
+    "coverage.json",
+    "download_binance_s1.py",
+    "ACQUISITION.json"
+  ]
+}

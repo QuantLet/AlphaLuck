@@ -1,0 +1,11 @@
+ab7988215e3b087c884e0c14ce1994a64aac31dc9a37a4bcf29f5b45f3506e2e *models--Qwen--Qwen3-32B-AWQ/snapshots/0499c3ac83fdef8810b907a23894ba91e95eddd8/model-00001-of-00004.safetensors
+46faff349f1dd18ffe76993edd3d9fd32941d042331dc590525409bbe3d37edf *models--Qwen--Qwen3-32B-AWQ/snapshots/0499c3ac83fdef8810b907a23894ba91e95eddd8/model-00002-of-00004.safetensors
+6e9f763d8c31ad19f1cd67b0b599a38edffd76a4465a22ff5f7fcac46d820e63 *models--Qwen--Qwen3-32B-AWQ/snapshots/0499c3ac83fdef8810b907a23894ba91e95eddd8/model-00003-of-00004.safetensors
+87f180889fead12b00b1bdf4dca3a3a14e4510e1e200bf56e31898e120b993d8 *models--Qwen--Qwen3-32B-AWQ/snapshots/0499c3ac83fdef8810b907a23894ba91e95eddd8/model-00004-of-00004.safetensors
+7af271eee64112ff647490b169f3844db5f3058120191abf30c4f7658758cb73 *models--abhishekchohan--gemma-3-27b-it-quantized-W4A16/snapshots/d15b68f50c67a54bed6624e1b2e8e006776d951f/model-00001-of-00004.safetensors
+9b0e800b5c11a670aea5708708eb55030436de3b3ef766c1040d6836218847ac *models--abhishekchohan--gemma-3-27b-it-quantized-W4A16/snapshots/d15b68f50c67a54bed6624e1b2e8e006776d951f/model-00002-of-00004.safetensors
+9d4a90a21f88c907b78719e952ef609db02805e5ab73c896c7ac8092890556b8 *models--abhishekchohan--gemma-3-27b-it-quantized-W4A16/snapshots/d15b68f50c67a54bed6624e1b2e8e006776d951f/model-00003-of-00004.safetensors
+ad07eb464c3d525e65ddd6469d9df83e5dce4970f655a5c9b9788124f0f8f6aa *models--abhishekchohan--gemma-3-27b-it-quantized-W4A16/snapshots/d15b68f50c67a54bed6624e1b2e8e006776d951f/model-00004-of-00004.safetensors
+28402feb149fc3058ff6c720d555b45b4148310ab8c74ad2c519122ae3127c7e *models--stelterlab--Mistral-Small-24B-Instruct-2501-AWQ/snapshots/cbda099649a0188dd888d44f0e4964d8d982dc9a/model-00001-of-00003.safetensors
+a7285d38926303021463667f6f6889a567529aa17d75546e1c287fa46486c0b6 *models--stelterlab--Mistral-Small-24B-Instruct-2501-AWQ/snapshots/cbda099649a0188dd888d44f0e4964d8d982dc9a/model-00002-of-00003.safetensors
+7becfaf74a91d9b2b915568eb3b5d92c51d8167a43e667259ce5e6dea7b9ac66 *models--stelterlab--Mistral-Small-24B-Instruct-2501-AWQ/snapshots/cbda099649a0188dd888d44f0e4964d8d982dc9a/model-00003-of-00003.safetensors

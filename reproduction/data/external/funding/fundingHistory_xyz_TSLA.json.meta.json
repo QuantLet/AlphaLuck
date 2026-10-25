@@ -1,0 +1,17 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:TSLA",
+    "startTime": 1763510400000,
+    "endTime": 1764806400000
+  },
+  "fetched_at_utc": "2026-10-12T06:25:36.066132+00:00",
+  "timestamp_source": "request start",
+  "status": 200,
+  "bytes": 33672,
+  "sha256": "0631b05656d88a1c9f748c539dfa1833ba1e9ae7175c6d44a52607b5e7db0635",
+  "etag": null,
+  "last_modified": null,
+  "path": "/private/tmp/alphaluck-frl-20261012/dataset_agent/raw/funding/fundingHistory_xyz_TSLA.json"
+}

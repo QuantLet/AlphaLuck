@@ -1,0 +1,65 @@
+{
+ "nperm": 10000,
+ "rows": [
+  {
+   "metric": "daily_vol",
+   "mean_within_arm_rho": -0.511904761904762,
+   "perm_p_one_sided": 0.0022997700229977,
+   "perm_p_two_sided": 0.0046995300469953,
+   "pooled_centred_rank_rho": -0.5119047619047619,
+   "pooled_perm_p_one_sided": 0.0022997700229977,
+   "pooled_perm_p_two_sided": 0.0046995300469953,
+   "naive_spearman_all32": -0.4967008797653959,
+   "naive_p_all32": 0.0038312654691543243,
+   "rho_arm1": -0.4285714285714286,
+   "rho_arm2": -0.11904761904761905,
+   "rho_arm3": -0.6666666666666669,
+   "rho_arm4": -0.8333333333333335
+  },
+  {
+   "metric": "mean_leverage",
+   "mean_within_arm_rho": -0.34523809523809534,
+   "perm_p_one_sided": 0.0342965703429657,
+   "perm_p_two_sided": 0.0670932906709329,
+   "pooled_centred_rank_rho": -0.3452380952380952,
+   "pooled_perm_p_one_sided": 0.0364963503649635,
+   "pooled_perm_p_two_sided": 0.07089291070892911,
+   "naive_spearman_all32": -0.4325513196480938,
+   "naive_p_all32": 0.013415108846203472,
+   "rho_arm1": -0.04761904761904763,
+   "rho_arm2": -0.11904761904761905,
+   "rho_arm3": -0.7142857142857144,
+   "rho_arm4": -0.5000000000000001
+  },
+  {
+   "metric": "turnover_per_day",
+   "mean_within_arm_rho": -0.44642857142857145,
+   "perm_p_one_sided": 0.0086991300869913,
+   "perm_p_two_sided": 0.017198280171982803,
+   "pooled_centred_rank_rho": -0.44642857142857145,
+   "pooled_perm_p_one_sided": 0.0086991300869913,
+   "pooled_perm_p_two_sided": 0.017198280171982803,
+   "naive_spearman_all32": -0.6114369501466276,
+   "naive_p_all32": 0.0002009472804759451,
+   "rho_arm1": -0.6428571428571429,
+   "rho_arm2": 0.0,
+   "rho_arm3": -0.9523809523809524,
+   "rho_arm4": -0.19047619047619052
+  },
+  {
+   "metric": "share_in_market",
+   "mean_within_arm_rho": 0.27463178202478666,
+   "perm_p_one_sided": 0.9257074292570743,
+   "perm_p_two_sided": 0.1488851114888511,
+   "pooled_centred_rank_rho": 0.27462808923457793,
+   "pooled_perm_p_one_sided": 0.9273072692730727,
+   "pooled_perm_p_two_sided": 0.15098490150984903,
+   "naive_spearman_all32": -0.06491840336931337,
+   "naive_p_all32": 0.7240915036171478,
+   "rho_arm1": 0.19047619047619052,
+   "rho_arm2": 0.3571428571428572,
+   "rho_arm3": 0.7784570702436182,
+   "rho_arm4": -0.22754898976351917
+  }
+ ]
+}

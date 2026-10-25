@@ -1,0 +1,15 @@
+{
+  "mode": "normalized-cache; raw ingestion not rerun",
+  "input_sha256": {
+    "fills": "e0690242e8f4572b64d48801890312ac0981775939a1a498368dbdc8781e56fc",
+    "funding": "13be491d24250372466447e852086c822171befa539de63561e4624a66481109"
+  },
+  "fills": 245474,
+  "funding": 20366,
+  "roundtrips": 19486,
+  "panel_rows": 1796012,
+  "equity_rows": 260786,
+  "comparison_rows": 260786,
+  "max_abs_equity_change_usd": 680.2391199999984,
+  "equity_rows_changed_gt_1e_8": 84487
+}

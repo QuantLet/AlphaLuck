@@ -1,0 +1,82 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# data/raw/hl/ IS committed in full: Hyperliquid fills, funding, ledger and
+# candles are public on-chain records and are safe to redistribute.
+
+# The organiser's own API payloads are NOT redistributed. Nof1 publishes no
+# licence or terms of use for alphaarena.ai, so these are fetched rather than
+# shipped: run `python src/download_organiser.py` (or `make download`). Every
+# file is logged in PROVENANCE.csv with its SHA-256, so a re-downloaded copy
+# can be verified against the one the published results were computed from.
+# See DATA.md.
+data/raw/nof1/
+# Paginated hourly account-totals export (positions, margins, liquidation
+# prices) and the 6 December conversations feed: organiser payloads supplied
+# as zip archives; their SHA-256 values are in PROVENANCE.csv. Per-snapshot
+# derived detail reproduces organiser values and stays local as well.
+data/raw/nof1_hourly/
+data/derived/organiser_hourly/
+# Superseded locations of per-episode / per-snapshot organiser-derived rows,
+# now written under data/derived/organiser_hourly/.
+/data/derived/exit_plan_episodes.csv
+/data/derived/oracle_in_season_aggregates.csv
+/data/derived/oracle_snapshot_comparison.csv
+/data/derived/oracle_liquidation_check.csv
+/data/derived/tournament_panel.csv
+/data/derived/tournament_conversations.csv
+/Archive.zip
+/conversations_6dec.zip
+data/raw/nof1_s1/
+data/raw/nof1_app_bundle.js
+data/raw/nof1_s1_bundle.js
+data/raw/alphaarena_home.html
+data/raw/traderank/
+
+# EODHD 5-minute bars used only for the P&L robustness check. Licensed
+# market data from a paid subscription: fetched at run time via
+# EODHD_API_KEY, never redistributed. See DATA.md.
+data/raw/eodhd/
+
+# Dual-background eye-check sheets: QA output of paper/code/check_figures.py,
+# regenerated on demand, not a paper deliverable.
+paper/figures/_check/
+
+# LaTeX build artefacts
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/frl/*.aux
+paper/frl/*.log
+paper/frl/*.out
+paper/frl/*.bbl
+paper/frl/*.blg
+paper/frl/*.fls
+paper/frl/*.fdb_latexmk
+paper/frl/*.spl
+paper/frl/*.synctex.gz
+
+# Pilot archives: 8 MB and 21 MB tarballs of the replicated-pilot run, kept
+# out of git deliberately. The results archive is extracted to
+# data/derived/pilot/ (derived tables and documentation only, no raw market
+# JSON and no model cache), and its name, SHA-256 and pilot commit are
+# recorded in PROVENANCE.csv and DATA.md. See archives/README_ARCHIVE.md.
+archives/
+
+# Optional Binance Vision licensed source archives and normalized prices.
+data/raw/binance/
+
+# Pre-revision snapshots taken before each revision round; local only, the
+# history of record is git.
+paper/frl/revision_backup_*/
+
+# Collaborator's working notes on sources and analysis ideas; not an input.
+/idei.docx

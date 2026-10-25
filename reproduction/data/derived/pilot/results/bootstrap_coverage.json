@@ -1,0 +1,30 @@
+[
+ {
+  "true_iota": 0.0,
+  "coverage": 1.0,
+  "mean_width": 0.046129744781079875,
+  "nsim": 200,
+  "B": 400
+ },
+ {
+  "true_iota": 0.25,
+  "coverage": 0.97,
+  "mean_width": 0.0950287677152405,
+  "nsim": 200,
+  "B": 400
+ },
+ {
+  "true_iota": 0.5,
+  "coverage": 0.95,
+  "mean_width": 0.10332899015577134,
+  "nsim": 200,
+  "B": 400
+ },
+ {
+  "true_iota": 0.9,
+  "coverage": 0.95,
+  "mean_width": 0.03391890521960595,
+  "nsim": 200,
+  "B": 400
+ }
+]

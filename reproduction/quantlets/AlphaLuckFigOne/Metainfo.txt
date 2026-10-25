@@ -1,0 +1,17 @@
+Name of QuantLet: AlphaLuckFigOne
+
+Published in: Risk appetite, not skill: what a real-money LLM trading arena can and cannot identify
+
+Description: 'Plots the reconstructed equity of all 38 Alpha Arena wallets, rebuilt from Hyperliquid fills, funding and transfers and reconciled against the organiser's published equity. Panels (a)-(d) are the four Season-1.5 rule sets, panel (e) the six Season-1 wallets. The organiser's official window is shaded; curves continue past it because on-chain trading did.'
+
+Keywords: 'LLM, trading, equity curve, Hyperliquid, Alpha Arena, reconciliation, perpetual futures, real money'
+
+Author: Daniel Traian Pele
+
+Submitted: 8 October 2026
+
+Datafile: data/derived/equity.parquet
+
+Output: fig1_equity_curves.pdf, fig1_equity_curves.png
+
+Note: 'Run from the repository root after `make all`. Requires style.py, the shared figure style, which is included here.'

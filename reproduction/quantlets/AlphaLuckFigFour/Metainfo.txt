@@ -1,0 +1,17 @@
+Name of QuantLet: AlphaLuckFigFour
+
+Published in: Risk appetite, not skill: what a real-money LLM trading arena can and cannot identify
+
+Description: 'Panel (a) gives the arm-adjusted intraclass correlation of the model effect with its exact F-based 95% interval as the outcome is progressively stripped of risk-taking. Panel (b) splits the variance into model, rule set and residual; the residual mixes model-by-arm interaction with luck and cannot be separated at one wallet per cell.'
+
+Keywords: 'intraclass correlation, ANOVA, variance decomposition, skill versus luck, LLM, trading'
+
+Author: Daniel Traian Pele
+
+Submitted: 8 October 2026
+
+Datafile: data/derived/c2_anova.csv, data/derived/c3_variance_shares.csv
+
+Output: fig4_model_effect.pdf, fig4_model_effect.png
+
+Note: 'Run from the repository root after `make all`. Requires style.py, the shared figure style, which is included here.'

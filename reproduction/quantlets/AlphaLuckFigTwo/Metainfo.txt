@@ -1,0 +1,17 @@
+Name of QuantLet: AlphaLuckFigTwo
+
+Published in: Risk appetite, not skill: what a real-money LLM trading arena can and cannot identify
+
+Description: 'Shows mean gross leverage and realised daily volatility for each model under each of the four rule sets, with lines joining the same model across rule sets. Near-parallel lines are the visual form of the result that risk appetite is a stable model trait.'
+
+Keywords: 'leverage, volatility, risk appetite, intraclass correlation, Kendall W, LLM, trading'
+
+Author: Daniel Traian Pele
+
+Submitted: 8 October 2026
+
+Datafile: data/derived/c4_wallet_risk.csv, data/derived/i6_vol_denominator.csv
+
+Output: fig2_risk_trait.pdf, fig2_risk_trait.png
+
+Note: 'Run from the repository root after `make all`. Requires style.py, the shared figure style, which is included here.'

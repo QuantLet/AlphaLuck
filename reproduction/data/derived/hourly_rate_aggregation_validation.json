@@ -1,0 +1,11 @@
+{
+  "n": 2558,
+  "q_weighted_rate_max_error": 5.0000000017050295e-11,
+  "correlation": 0.9999980444419182,
+  "dollar_mae": 0.005235590357335185,
+  "dollar_rmse": 0.02221533235102183,
+  "max_abs_error": 0.5186490096399154,
+  "sum_actual": 1162.975136,
+  "sum_predicted": 1165.7956579773966,
+  "net_difference": 2.8205219773964134
+}

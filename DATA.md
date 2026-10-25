@@ -1,5 +1,9 @@
 # Included numerical inputs
 
+This file describes the inputs of the six standalone Quantlets. The full reconstruction package in [`reproduction/`](reproduction), including the raw Hyperliquid records, is documented in [`reproduction/DATA.md`](reproduction/DATA.md).
+
+## Standalone Quantlets
+
 Only derived analytical extracts needed to run the six Quantlets are included. The original source project reconstructs public Alpha Arena competition accounts from Hyperliquid exchange records. This compact publication begins at the derived-data boundary.
 
 | Directory | Included input rows |
@@ -13,7 +17,7 @@ Only derived analytical extracts needed to run the six Quantlets are included. T
 
 The figure Quantlets retain only the columns they use. Shared extracts are duplicated where necessary so each folder can run independently. Provenance JSON in the sensitivity folders records input hashes and the upstream analysis boundary. References to source-project scripts in those records identify provenance; those scripts are not required by, or included in, this compact repository.
 
-No raw exchange archive, organiser API response (including the hourly organiser snapshots used upstream for liquidation prices), licensed external-price dataset, full wallet registry, manuscript or backup is included. Account tags identify competition model/arm combinations rather than personal account holders. No new live runs are represented by the sensitivity outputs.
+The standalone folders contain no raw exchange archive (that is in `reproduction/`), organiser API response (including the hourly organiser snapshots used upstream for liquidation prices), licensed external-price dataset, manuscript or backup. Account tags identify competition model/arm combinations rather than personal account holders. No new live runs are represented by the sensitivity outputs.
 
 The code licence does not purport to license third-party source records. The included files are authored derived numerical research extracts. Their interpretation is subject to the limitations in each Quantlet's README.
 

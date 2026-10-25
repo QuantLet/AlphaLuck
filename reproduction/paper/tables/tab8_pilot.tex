@@ -1,0 +1,18 @@
+\begin{table}[ht]
+\centering
+\small
+\caption{Replicated pilot: three open-weight models, two asset arms, \alPilotDays{} days, $R=\alPilotR$ replicates per cell at each model's default temperature. $\rho^m$ is the correlation of the models' market responses and $B/A$ the ratio of sampling to market variance; $T$ is the season length in years required to detect a gap of one in annualised Sharpe ratios. $\rho^m$ is undefined where the estimated $\omega^2$ is negative.}
+\label{tab:pilot}
+\begin{tabular}{llccccc}
+\toprule
+Arm & Pair & $\rho^m$ & $B/A$ & $R=1$ & $R=20$ & $R=\infty$ \\
+\midrule
+crypto & Gemma 3 vs Mistral Small 3 & 0.88 & 0.82 & 3.6 & 2.1 & 2.0 \\
+crypto & Gemma 3 vs Qwen3 & n/a & 0.33 & 15.3 & 11.6 & 11.4 \\
+crypto & Mistral Small 3 vs Qwen3 & n/a & 0.81 & 15.2 & 8.7 & 8.4 \\
+equity & Gemma 3 vs Mistral Small 3 & 0.87 & 0.61 & 7.1 & 4.5 & 4.4 \\
+equity & Gemma 3 vs Qwen3 & 0.20 & 0.77 & 14.9 & 8.7 & 8.4 \\
+equity & Mistral Small 3 vs Qwen3 & 0.16 & 0.29 & 15.3 & 12.0 & 11.8 \\
+\bottomrule
+\end{tabular}
+\end{table}

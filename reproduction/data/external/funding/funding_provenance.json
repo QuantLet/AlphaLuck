@@ -1,0 +1,163 @@
+{
+  "scope": "public API read-only; exact response bytes preserved",
+  "sources": [
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "request_payload": {
+        "type": "fundingHistory",
+        "coin": "xyz:AMZN",
+        "startTime": 1763510400000,
+        "endTime": 1764806400000
+      },
+      "fetched_at_utc": "2026-10-12T06:25:25.146807+00:00",
+      "timestamp_source": "request start",
+      "status": 200,
+      "bytes": 33750,
+      "sha256": "d0db2f65ad2d13a22951d9503e3750a11fa002b1b63e892512dabcb0ede1f32e",
+      "etag": null,
+      "last_modified": null,
+      "path": "/private/tmp/alphaluck-frl-20261012/dataset_agent/raw/funding/fundingHistory_xyz_AMZN.json",
+      "row_count": 360,
+      "first_time": 1763510400026,
+      "last_time": 1764802800029
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "request_payload": {
+        "type": "fundingHistory",
+        "coin": "xyz:GOOGL",
+        "startTime": 1763510400000,
+        "endTime": 1764806400000
+      },
+      "fetched_at_utc": "2026-10-12T06:25:27.900912+00:00",
+      "timestamp_source": "request start",
+      "status": 200,
+      "bytes": 34117,
+      "sha256": "0fe193338e693f4d396f37b5cc489399ef4e506b92d027fe896642338a210636",
+      "etag": null,
+      "last_modified": null,
+      "path": "/private/tmp/alphaluck-frl-20261012/dataset_agent/raw/funding/fundingHistory_xyz_GOOGL.json",
+      "row_count": 360,
+      "first_time": 1763510400026,
+      "last_time": 1764802800029
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "request_payload": {
+        "type": "fundingHistory",
+        "coin": "xyz:MSFT",
+        "startTime": 1763510400000,
+        "endTime": 1764806400000
+      },
+      "fetched_at_utc": "2026-10-12T06:25:30.273896+00:00",
+      "timestamp_source": "request start",
+      "status": 200,
+      "bytes": 32202,
+      "sha256": "f7e79f78f461b004fe89aec1ac96cf545c83d00a5413c84af20ca174b4e8b4d2",
+      "etag": null,
+      "last_modified": null,
+      "path": "/private/tmp/alphaluck-frl-20261012/dataset_agent/raw/funding/fundingHistory_xyz_MSFT.json",
+      "row_count": 345,
+      "first_time": 1763564400004,
+      "last_time": 1764802800029
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "request_payload": {
+        "type": "fundingHistory",
+        "coin": "xyz:NVDA",
+        "startTime": 1763510400000,
+        "endTime": 1764806400000
+      },
+      "fetched_at_utc": "2026-10-12T06:24:15.296087+00:00",
+      "timestamp_source": "filesystem mtime after completed response write",
+      "status": 200,
+      "bytes": 33750,
+      "sha256": "86de8c8dc93fc70c9fa04c0308a97832aafbcfe68fd8d658da8d84ca556a035a",
+      "path": "/private/tmp/alphaluck-frl-20261012/dataset_agent/raw/funding/fundingHistory_xyz_NVDA.json",
+      "row_count": 360,
+      "first_time": 1763510400026,
+      "last_time": 1764802800029
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "request_payload": {
+        "type": "fundingHistory",
+        "coin": "xyz:PLTR",
+        "startTime": 1763510400000,
+        "endTime": 1764806400000
+      },
+      "fetched_at_utc": "2026-10-12T06:25:33.194723+00:00",
+      "timestamp_source": "request start",
+      "status": 200,
+      "bytes": 34319,
+      "sha256": "dc5ec2ee70e214570c3b90541f8451cda67b79fea621ce0ae8567683d25813fb",
+      "etag": null,
+      "last_modified": null,
+      "path": "/private/tmp/alphaluck-frl-20261012/dataset_agent/raw/funding/fundingHistory_xyz_PLTR.json",
+      "row_count": 360,
+      "first_time": 1763510400026,
+      "last_time": 1764802800029
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "request_payload": {
+        "type": "fundingHistory",
+        "coin": "xyz:TSLA",
+        "startTime": 1763510400000,
+        "endTime": 1764806400000
+      },
+      "fetched_at_utc": "2026-10-12T06:25:36.066132+00:00",
+      "timestamp_source": "request start",
+      "status": 200,
+      "bytes": 33672,
+      "sha256": "0631b05656d88a1c9f748c539dfa1833ba1e9ae7175c6d44a52607b5e7db0635",
+      "etag": null,
+      "last_modified": null,
+      "path": "/private/tmp/alphaluck-frl-20261012/dataset_agent/raw/funding/fundingHistory_xyz_TSLA.json",
+      "row_count": 360,
+      "first_time": 1763510400026,
+      "last_time": 1764802800029
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "request_payload": {
+        "type": "fundingHistory",
+        "coin": "xyz:XYZ100",
+        "startTime": 1763510400000,
+        "endTime": 1764806400000
+      },
+      "fetched_at_utc": "2026-10-12T06:25:38.966370+00:00",
+      "timestamp_source": "request start",
+      "status": 200,
+      "bytes": 34280,
+      "sha256": "892a4eeaedca8232320538c2f5beb30df4215acbe5c0aab8d7a4763ad60e9db7",
+      "etag": null,
+      "last_modified": null,
+      "path": "/private/tmp/alphaluck-frl-20261012/dataset_agent/raw/funding/fundingHistory_xyz_XYZ100.json",
+      "row_count": 360,
+      "first_time": 1763510400026,
+      "last_time": 1764802800029
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "request_payload": {
+        "type": "userFunding",
+        "user": "0xefc0c8f700025554624797fe8b46d36756a5e47c",
+        "startTime": 1763510400000,
+        "endTime": 1763596800000
+      },
+      "fetched_at_utc": "2026-10-12T06:25:41.358936+00:00",
+      "timestamp_source": "request start",
+      "status": 200,
+      "bytes": 2218,
+      "sha256": "7f4790ac56b3b9210530a61924eabb5d003984ba62b02fa40578332d0e38131d",
+      "etag": null,
+      "last_modified": null,
+      "path": "/private/tmp/alphaluck-frl-20261012/dataset_agent/raw/funding/userFunding_S15_c1_gpt51_startday.json",
+      "row_count": 10,
+      "first_time": 1763510400000,
+      "last_time": 1763596800000
+    }
+  ]
+}

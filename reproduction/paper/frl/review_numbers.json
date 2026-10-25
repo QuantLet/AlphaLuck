@@ -1,0 +1,18 @@
+{
+  "alReviewEndpointBreak": "4.25",
+  "alReviewAccountBound": "3.59",
+  "alReviewCostBreak": "845.82",
+  "alReviewCloseStress": "100",
+  "alReviewCloseGap": "25.68",
+  "alReviewFundingBound": "28.57",
+  "alReviewMinMargin": "5.12",
+  "alReviewFeeBps": "2.42",
+  "alReviewFrozenGross": "1{,}101{,}713",
+  "alReviewActualGross": "1{,}751{,}364",
+  "alReviewDateDeltaLo": "0.077",
+  "alReviewDateDeltaHi": "0.268",
+  "alReviewModelDeltaLo": "0.116",
+  "alReviewModelDeltaHi": "0.205",
+  "alReviewArmDeltaLo": "0.103",
+  "alReviewArmDeltaHi": "0.198"
+}

@@ -1,0 +1,532 @@
+{
+  "scope": "Descriptive common-date reweighting; not a test of model-population differences.",
+  "n_models": 8,
+  "n_arms": 4,
+  "n_accounts": 32,
+  "n_daily_changes": 14,
+  "observed": {
+    "fixed_F": 7.865185551694616,
+    "fixed_W": 0.7946428571428571,
+    "fixed_rho": -0.3630952380952381,
+    "fixed_partial_model_ss": 0.7238887467014222,
+    "equity_F": 12.693627384922946,
+    "equity_W": 0.8690476190476191,
+    "equity_rho": -0.5119047619047619,
+    "equity_partial_model_ss": 0.8088396056298536,
+    "delta_F": -4.8284418332283305,
+    "delta_W": -0.07440476190476197,
+    "delta_rho": 0.14880952380952378,
+    "delta_partial_model_ss": -0.08495085892843135
+  },
+  "seed_base": 20261015,
+  "draws_per_block": 20000,
+  "block_lengths": [
+    1,
+    2,
+    3
+  ],
+  "block_scheme": "Overlapping non-circular moving blocks; truncate to 14 dates.",
+  "preserved": "Same date indices for all 32 accounts, both denominators; observed temporal order within each block.",
+  "fixed": "The 32 observed season-final returns and account/model/arm labels.",
+  "interpretation": "Quantiles are central 95% resampling ranges. No confidence-interval coverage or p-values are claimed.",
+  "limitations": [
+    "Fourteen observed dates cannot establish stationarity, choose block length reliably, or reveal unobserved market regimes.",
+    "Dependence beyond the chosen block length is not preserved; the partial final day is treated as one observation, as in the historical analysis.",
+    "Reweighted return/P&L tuples are measurements from the observed path, not a dynamically self-consistent wealth or policy replay.",
+    "Holding final outcomes fixed examines sensitivity of measured risk and its association with this realised ranking; it does not estimate joint uncertainty in future risk and returns.",
+    "One account per model-arm cell leaves implementation, interaction, and run variation inseparable; no random assignment or random sampling of models is introduced.",
+    "Current-equity and initial-capital denominators are economically distinct legitimate estimands; the contrast is not causal evidence that losses generated an association."
+  ],
+  "checks": [
+    "Vectorised F agrees with existing scalar ANOVA; rank correlation agrees with scipy including ties.",
+    "Kendall W agrees with independent explicit tie correction.",
+    "Paired contrast is identically zero for identical denominator inputs.",
+    "Block indexing preserves contiguous order within every block.",
+    "All 32 account volatilities, final returns, and F/W/rho match existing results.",
+    "All four input/result file SHA-256 values unchanged after execution."
+  ],
+  "source_sha256": {
+    "data/derived/equity.parquet": "136a874edf76e1bf564691736490c2054380fa4a4d7d2d03ac4bda5f44ec84a4",
+    "data/derived/fills.parquet": "e0690242e8f4572b64d48801890312ac0981775939a1a498368dbdc8781e56fc",
+    "data/derived/i6_vol_denominator.csv": "59ede333462a02f1f8d60423941389caceec999dae1da34b7d68064b915867f1",
+    "data/derived/i6_vol_denominator.json": "f4f70af9598b0f7e54f39107764ede24319d52eee66a2c09548bc66444eb2327"
+  },
+  "summary": [
+    {
+      "block_days": 1,
+      "statistic": "fixed_F",
+      "observed": 7.865185551694616,
+      "q025": 1.2942497819299024,
+      "median": 4.449971711119865,
+      "q975": 9.749653970408724,
+      "draws": 20000
+    },
+    {
+      "block_days": 1,
+      "statistic": "fixed_W",
+      "observed": 0.7946428571428571,
+      "q025": 0.291592261904762,
+      "median": 0.6666666666666666,
+      "q975": 0.8154761904761905,
+      "draws": 20000
+    },
+    {
+      "block_days": 1,
+      "statistic": "fixed_rho",
+      "observed": -0.3630952380952381,
+      "q025": -0.5059523809523809,
+      "median": -0.3273809523809524,
+      "q975": 0.1845238095238095,
+      "draws": 20000
+    },
+    {
+      "block_days": 1,
+      "statistic": "fixed_partial_model_ss",
+      "observed": 0.7238887467014222,
+      "q025": 0.30139135941749795,
+      "median": 0.5973139071457443,
+      "q975": 0.764699496386004,
+      "draws": 20000
+    },
+    {
+      "block_days": 1,
+      "statistic": "equity_F",
+      "observed": 12.693627384922946,
+      "q025": 2.5758700320385577,
+      "median": 6.601374319410914,
+      "q975": 12.80735797827653,
+      "draws": 20000
+    },
+    {
+      "block_days": 1,
+      "statistic": "equity_W",
+      "observed": 0.8690476190476191,
+      "q025": 0.5148809523809523,
+      "median": 0.7321428571428571,
+      "q975": 0.8601190476190477,
+      "draws": 20000
+    },
+    {
+      "block_days": 1,
+      "statistic": "equity_rho",
+      "observed": -0.5119047619047619,
+      "q025": -0.5952380952380951,
+      "median": -0.4464285714285714,
+      "q975": -0.22023809523809523,
+      "draws": 20000
+    },
+    {
+      "block_days": 1,
+      "statistic": "equity_partial_model_ss",
+      "observed": 0.8088396056298536,
+      "q025": 0.4619673730934755,
+      "median": 0.6875447285596318,
+      "q975": 0.8102149641578232,
+      "draws": 20000
+    },
+    {
+      "block_days": 1,
+      "statistic": "delta_F",
+      "observed": -4.8284418332283305,
+      "q025": -5.792948355705582,
+      "median": -1.9576797177481908,
+      "q975": 0.6292603264166632,
+      "draws": 20000
+    },
+    {
+      "block_days": 1,
+      "statistic": "delta_W",
+      "observed": -0.07440476190476197,
+      "q025": -0.29166666666666663,
+      "median": -0.06845238095238093,
+      "q975": 0.04761904761904767,
+      "draws": 20000
+    },
+    {
+      "block_days": 1,
+      "statistic": "delta_rho",
+      "observed": 0.14880952380952378,
+      "q025": 0.011904761904761973,
+      "median": 0.12500000000000006,
+      "q975": 0.488095238095238,
+      "draws": 20000
+    },
+    {
+      "block_days": 1,
+      "statistic": "delta_partial_model_ss",
+      "observed": -0.08495085892843135,
+      "q025": -0.23997578379587897,
+      "median": -0.07586345541483447,
+      "q975": 0.0289903198921094,
+      "draws": 20000
+    },
+    {
+      "block_days": 2,
+      "statistic": "fixed_F",
+      "observed": 7.865185551694616,
+      "q025": 1.2049887391825564,
+      "median": 4.848304757700374,
+      "q975": 10.041407576760237,
+      "draws": 20000
+    },
+    {
+      "block_days": 2,
+      "statistic": "fixed_W",
+      "observed": 0.7946428571428571,
+      "q025": 0.22321428571428573,
+      "median": 0.6488095238095238,
+      "q975": 0.8214285714285714,
+      "draws": 20000
+    },
+    {
+      "block_days": 2,
+      "statistic": "fixed_rho",
+      "observed": -0.3630952380952381,
+      "q025": -0.5178571428571429,
+      "median": -0.32738095238095244,
+      "q975": 0.31547619047619047,
+      "draws": 20000
+    },
+    {
+      "block_days": 2,
+      "statistic": "fixed_partial_model_ss",
+      "observed": 0.7238887467014222,
+      "q025": 0.2865617041811633,
+      "median": 0.6177518465930173,
+      "q975": 0.769963480945541,
+      "draws": 20000
+    },
+    {
+      "block_days": 2,
+      "statistic": "equity_F",
+      "observed": 12.693627384922946,
+      "q025": 2.588502006947552,
+      "median": 5.074190951005779,
+      "q975": 13.18920586332217,
+      "draws": 20000
+    },
+    {
+      "block_days": 2,
+      "statistic": "equity_W",
+      "observed": 0.8690476190476191,
+      "q025": 0.5148809523809523,
+      "median": 0.6964285714285714,
+      "q975": 0.8630952380952381,
+      "draws": 20000
+    },
+    {
+      "block_days": 2,
+      "statistic": "equity_rho",
+      "observed": -0.5119047619047619,
+      "q025": -0.5892857142857143,
+      "median": -0.4642857142857143,
+      "q975": -0.20238095238095238,
+      "draws": 20000
+    },
+    {
+      "block_days": 2,
+      "statistic": "equity_partial_model_ss",
+      "observed": 0.8088396056298536,
+      "q025": 0.4631835155944758,
+      "median": 0.6284457441080085,
+      "q975": 0.8146913427758171,
+      "draws": 20000
+    },
+    {
+      "block_days": 2,
+      "statistic": "delta_F",
+      "observed": -4.8284418332283305,
+      "q025": -4.713426630973285,
+      "median": -1.3254417139134558,
+      "q975": 0.6241218917042489,
+      "draws": 20000
+    },
+    {
+      "block_days": 2,
+      "statistic": "delta_W",
+      "observed": -0.07440476190476197,
+      "q025": -0.32738095238095233,
+      "median": -0.059523809523809534,
+      "q975": 0.050595238095238027,
+      "draws": 20000
+    },
+    {
+      "block_days": 2,
+      "statistic": "delta_rho",
+      "observed": 0.14880952380952378,
+      "q025": 0.01785714285714285,
+      "median": 0.14880952380952378,
+      "q975": 0.5773809523809523,
+      "draws": 20000
+    },
+    {
+      "block_days": 2,
+      "statistic": "delta_partial_model_ss",
+      "observed": -0.08495085892843135,
+      "q025": -0.20506027115508954,
+      "median": -0.05908059882134975,
+      "q975": 0.029243486145893872,
+      "draws": 20000
+    },
+    {
+      "block_days": 3,
+      "statistic": "fixed_F",
+      "observed": 7.865185551694616,
+      "q025": 1.3221049645022014,
+      "median": 4.322591503143526,
+      "q975": 9.95134155980772,
+      "draws": 20000
+    },
+    {
+      "block_days": 3,
+      "statistic": "fixed_W",
+      "observed": 0.7946428571428571,
+      "q025": 0.21726190476190477,
+      "median": 0.6041666666666666,
+      "q975": 0.8214285714285714,
+      "draws": 20000
+    },
+    {
+      "block_days": 3,
+      "statistic": "fixed_rho",
+      "observed": -0.3630952380952381,
+      "q025": -0.5178571428571428,
+      "median": -0.2916666666666667,
+      "q975": 0.47023809523809523,
+      "draws": 20000
+    },
+    {
+      "block_days": 3,
+      "statistic": "fixed_partial_model_ss",
+      "observed": 0.7238887467014222,
+      "q025": 0.3058937659683781,
+      "median": 0.5903089775372387,
+      "q975": 0.76836376477708,
+      "draws": 20000
+    },
+    {
+      "block_days": 3,
+      "statistic": "equity_F",
+      "observed": 12.693627384922946,
+      "q025": 2.7340062687025375,
+      "median": 4.667434412671461,
+      "q975": 12.994910092164895,
+      "draws": 20000
+    },
+    {
+      "block_days": 3,
+      "statistic": "equity_W",
+      "observed": 0.8690476190476191,
+      "q025": 0.5357142857142857,
+      "median": 0.6696428571428571,
+      "q975": 0.8690476190476191,
+      "draws": 20000
+    },
+    {
+      "block_days": 3,
+      "statistic": "equity_rho",
+      "observed": -0.5119047619047619,
+      "q025": -0.5952380952380952,
+      "median": -0.4523809523809524,
+      "q975": -0.19642857142857142,
+      "draws": 20000
+    },
+    {
+      "block_days": 3,
+      "statistic": "equity_partial_model_ss",
+      "observed": 0.8088396056298536,
+      "q025": 0.47680558757014607,
+      "median": 0.6087348337741112,
+      "q975": 0.8124403336615471,
+      "draws": 20000
+    },
+    {
+      "block_days": 3,
+      "statistic": "delta_F",
+      "observed": -4.8284418332283305,
+      "q025": -4.573795776887394,
+      "median": -1.2156944256544602,
+      "q975": 0.6058586714371944,
+      "draws": 20000
+    },
+    {
+      "block_days": 3,
+      "statistic": "delta_W",
+      "observed": -0.07440476190476197,
+      "q025": -0.36904761904761907,
+      "median": -0.07738095238095233,
+      "q975": 0.04761904761904756,
+      "draws": 20000
+    },
+    {
+      "block_days": 3,
+      "statistic": "delta_rho",
+      "observed": 0.14880952380952378,
+      "q025": 0.02380952380952378,
+      "median": 0.18452380952380953,
+      "q975": 0.6666666666666667,
+      "draws": 20000
+    },
+    {
+      "block_days": 3,
+      "statistic": "delta_partial_model_ss",
+      "observed": -0.08495085892843135,
+      "q025": -0.20345211728923518,
+      "median": -0.06216115600211858,
+      "q975": 0.030518632831789357,
+      "draws": 20000
+    }
+  ],
+  "leave_one_out_ranges": {
+    "date": {
+      "fixed_F": {
+        "min": 3.077952488144304,
+        "max": 8.886771717687113
+      },
+      "fixed_W": {
+        "min": 0.5684523809523809,
+        "max": 0.8065476190476191
+      },
+      "fixed_rho": {
+        "min": -0.4583333333333333,
+        "max": -0.10714285714285715
+      },
+      "fixed_partial_model_ss": {
+        "min": 0.5064127260205109,
+        "max": 0.7476186073687188
+      },
+      "equity_F": {
+        "min": 5.127416082903737,
+        "max": 14.008983798145808
+      },
+      "equity_W": {
+        "min": 0.6845238095238095,
+        "max": 0.8839285714285714
+      },
+      "equity_rho": {
+        "min": -0.5595238095238095,
+        "max": -0.375
+      },
+      "equity_partial_model_ss": {
+        "min": 0.6308789940863752,
+        "max": 0.8236226199282383
+      },
+      "delta_F": {
+        "min": -5.581106812223613,
+        "max": -0.3558361649809356
+      },
+      "delta_W": {
+        "min": -0.1160714285714286,
+        "max": 0.02678571428571419
+      },
+      "delta_rho": {
+        "min": 0.07738095238095238,
+        "max": 0.26785714285714285
+      },
+      "delta_partial_model_ss": {
+        "min": -0.2362766348694083,
+        "max": -0.016900888177872053
+      }
+    },
+    "model": {
+      "fixed_F": {
+        "min": 6.450344940734226,
+        "max": 9.148647555054298
+      },
+      "fixed_W": {
+        "min": 0.7276785714285714,
+        "max": 0.875
+      },
+      "fixed_rho": {
+        "min": -0.5446428571428571,
+        "max": -0.23214285714285715
+      },
+      "fixed_partial_model_ss": {
+        "min": 0.6825512699468809,
+        "max": 0.7530589321646848
+      },
+      "equity_F": {
+        "min": 9.435623560604965,
+        "max": 16.008220230047556
+      },
+      "equity_W": {
+        "min": 0.8035714285714286,
+        "max": 0.9285714285714286
+      },
+      "equity_rho": {
+        "min": -0.6785714285714286,
+        "max": -0.4107142857142857
+      },
+      "equity_partial_model_ss": {
+        "min": 0.7587575737252329,
+        "max": 0.8421735457769108
+      },
+      "delta_F": {
+        "min": -7.832380406119684,
+        "max": -2.0591307070894684
+      },
+      "delta_W": {
+        "min": -0.1294642857142857,
+        "max": -0.017857142857142905
+      },
+      "delta_rho": {
+        "min": 0.1160714285714286,
+        "max": 0.20535714285714285
+      },
+      "delta_partial_model_ss": {
+        "min": -0.11060974809048485,
+        "max": -0.04787259961604895
+      }
+    },
+    "arm": {
+      "fixed_F": {
+        "min": 5.309423772989705,
+        "max": 7.0666334789647385
+      },
+      "fixed_W": {
+        "min": 0.7566137566137566,
+        "max": 0.8677248677248677
+      },
+      "fixed_rho": {
+        "min": -0.4444444444444445,
+        "max": -0.24603174603174602
+      },
+      "fixed_partial_model_ss": {
+        "min": 0.7263806201262348,
+        "max": 0.7794109572599193
+      },
+      "equity_F": {
+        "min": 6.961245788039518,
+        "max": 21.40024988209354
+      },
+      "equity_W": {
+        "min": 0.8412698412698413,
+        "max": 0.9788359788359788
+      },
+      "equity_rho": {
+        "min": -0.6428571428571428,
+        "max": -0.4047619047619047
+      },
+      "equity_partial_model_ss": {
+        "min": 0.7768167454273625,
+        "max": 0.9145308272314456
+      },
+      "delta_F": {
+        "min": -14.959185776630896,
+        "max": -0.5824838751847059
+      },
+      "delta_W": {
+        "min": -0.11111111111111116,
+        "max": -0.010582010582010581
+      },
+      "delta_rho": {
+        "min": 0.10317460317460314,
+        "max": 0.19841269841269832
+      },
+      "delta_partial_model_ss": {
+        "min": -0.15146777913845688,
+        "max": -0.013316198334272666
+      }
+    }
+  }
+}

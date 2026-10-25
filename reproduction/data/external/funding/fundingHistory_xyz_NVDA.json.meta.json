@@ -1,0 +1,15 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:NVDA",
+    "startTime": 1763510400000,
+    "endTime": 1764806400000
+  },
+  "fetched_at_utc": "2026-10-12T06:24:15.296087+00:00",
+  "timestamp_source": "filesystem mtime after completed response write",
+  "status": 200,
+  "bytes": 33750,
+  "sha256": "86de8c8dc93fc70c9fa04c0308a97832aafbcfe68fd8d658da8d84ca556a035a",
+  "path": "/private/tmp/alphaluck-frl-20261012/dataset_agent/raw/funding/fundingHistory_xyz_NVDA.json"
+}

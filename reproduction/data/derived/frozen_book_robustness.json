@@ -1,0 +1,174 @@
+{
+  "specification": "Hourly-funding pooled-price-proxy accounting comparison, Season 1.5",
+  "freeze_hours": [
+    12,
+    24,
+    48
+  ],
+  "primary_freeze_hours": 24,
+  "numerical_reproduction": "All 96 frozen/actual endpoint pairs match existing hourly-funding output within 1e-6 USD.",
+  "definitions": {
+    "terminal_friction": "c times gross terminal notional; frozen_only leaves actual marked, both_books charges both.",
+    "endpoint_price_error": "Revalue both terminal books by the same per-asset price perturbation. Common-market direction minimizes aggregate paired gap; accountwise bounds allow different worst directions and need not be simultaneously attainable.",
+    "funding_price_error": "Keep recorded hourly rates fixed; bound changes in funding-gap cash flows from proportional errors in oracle proxy. Pre-formation contributions cancel.",
+    "margin_screen": "Minimum hourly-funded account equity / frozen gross on five-minute pooled-print grid; conservative bounded-price-error version. No isolated collateral or actual tier schedule."
+  },
+  "limitations": [
+    "This is not a tested trading strategy or a causal effect of trading.",
+    "The formation choices are retrospective; 32 accounts share one market path.",
+    "Funding uses actual rates but pooled fills in place of historical oracle prices.",
+    "Terminal prices and grid marks are pooled fills, possibly stale.",
+    "No complete historical mark/oracle series, margin-mode changes, isolated collateral allocations or order-book replay is present.",
+    "Current API documentation illustrates strict-isolated XYZ markets; account-wide equity cannot certify per-position isolated solvency.",
+    "No margin screen here establishes executable performance or excludes intra-grid liquidation.",
+    "Stress magnitudes are hypothetical; thresholds are conditional break-even amounts, not confidence intervals."
+  ],
+  "empirical_fee_context": {
+    "recorded_fees": 36892.627018,
+    "traded_notional": 152366929.19590002,
+    "notional_weighted_fee_bps": 2.4213014735347653,
+    "fill_fee_bps_quantiles": {
+      "0": 0.18061408789885613,
+      "0.25": 0.799654285036528,
+      "0.5": 0.7999886751261411,
+      "0.75": 2.999996173126405,
+      "0.95": 8.999990026284868,
+      "1": 9.000000000000002
+    },
+    "interpretation": "Observed fees only; excludes spread, impact and hypothetical closing liquidity."
+  },
+  "terminal_price_coverage": [
+    {
+      "coin": "xyz:AMZN",
+      "terminal_pooled_price": 232.44,
+      "last_fill_timestamp_ms": 1764798863070,
+      "age_minutes": 5.6155
+    },
+    {
+      "coin": "xyz:GOOGL",
+      "terminal_pooled_price": 319.62,
+      "last_fill_timestamp_ms": 1764798143700,
+      "age_minutes": 17.605
+    },
+    {
+      "coin": "xyz:MSFT",
+      "terminal_pooled_price": 478.62,
+      "last_fill_timestamp_ms": 1764797401563,
+      "age_minutes": 29.97395
+    },
+    {
+      "coin": "xyz:NVDA",
+      "terminal_pooled_price": 179.88,
+      "last_fill_timestamp_ms": 1764799165703,
+      "age_minutes": 0.5716166666666667
+    },
+    {
+      "coin": "xyz:PLTR",
+      "terminal_pooled_price": 175.63,
+      "last_fill_timestamp_ms": 1764799166688,
+      "age_minutes": 0.5552
+    },
+    {
+      "coin": "xyz:TSLA",
+      "terminal_pooled_price": 446.48,
+      "last_fill_timestamp_ms": 1764799199538,
+      "age_minutes": 0.0077
+    },
+    {
+      "coin": "xyz:XYZ100",
+      "terminal_pooled_price": 25605.0,
+      "last_fill_timestamp_ms": 1764797188080,
+      "age_minutes": 33.532
+    }
+  ],
+  "summaries": [
+    {
+      "freeze_hours": 12,
+      "accounts": 32,
+      "frozen_return_pct": 1.0277367209918404,
+      "actual_return_pct": -26.300479979963526,
+      "gap_dollars": 87450.29344305716,
+      "advantage_pp": 27.328216700955362,
+      "accounts_ahead": 26,
+      "frozen_terminal_gross": 1737859.72398,
+      "actual_terminal_gross": 1751363.8219900005,
+      "frozen_only_break_even_friction_bps": 503.2068597733587,
+      "symmetric_break_even_friction_bps": null,
+      "endpoint_error_common_market_l1": 2239898.6947300006,
+      "endpoint_error_accountwise_l1": 3122515.3502100008,
+      "endpoint_common_market_break_even_pct": 3.904207527278304,
+      "endpoint_accountwise_bound_break_even_pct": 2.8006361421786385,
+      "funding_error_common_market_l1": 20131.650388990387,
+      "funding_error_accountwise_l1": 28796.66381318911,
+      "funding_oracle_10pct_common_error_gap_lower_bound_pp": 26.699102626299414,
+      "funding_oracle_10pct_accountwise_error_gap_lower_bound_pp": 26.428320956793208,
+      "minimum_aggregate_equity_to_gross": 0.00977376009299308,
+      "positive_gap_accounts_with_zero_frozen_exposure": 2
+    },
+    {
+      "freeze_hours": 24,
+      "accounts": 32,
+      "frozen_return_pct": 2.8198317322181525,
+      "actual_return_pct": -26.300479979963526,
+      "gap_dollars": 93184.99747898137,
+      "advantage_pp": 29.120311712181678,
+      "accounts_ahead": 26,
+      "frozen_terminal_gross": 1101712.77666,
+      "actual_terminal_gross": 1751363.8219900005,
+      "frozen_only_break_even_friction_bps": 845.8193410580664,
+      "symmetric_break_even_friction_bps": null,
+      "endpoint_error_common_market_l1": 2190344.9259700007,
+      "endpoint_error_accountwise_l1": 2597749.537410001,
+      "endpoint_common_market_break_even_pct": 4.2543526535079454,
+      "endpoint_accountwise_bound_break_even_pct": 3.587143261389562,
+      "funding_error_common_market_l1": 17714.16561124973,
+      "funding_error_accountwise_l1": 21634.142031329488,
+      "funding_oracle_10pct_common_error_gap_lower_bound_pp": 28.566744036830123,
+      "funding_oracle_10pct_accountwise_error_gap_lower_bound_pp": 28.444244773702632,
+      "minimum_aggregate_equity_to_gross": 0.05118866228750705,
+      "positive_gap_accounts_with_zero_frozen_exposure": 3
+    },
+    {
+      "freeze_hours": 48,
+      "accounts": 32,
+      "frozen_return_pct": 0.7731253823593743,
+      "actual_return_pct": -26.300479979963526,
+      "gap_dollars": 86635.53715943328,
+      "advantage_pp": 27.073605362322905,
+      "accounts_ahead": 25,
+      "frozen_terminal_gross": 1290802.5935900002,
+      "actual_terminal_gross": 1751363.8219900005,
+      "frozen_only_break_even_friction_bps": 671.1757288810613,
+      "symmetric_break_even_friction_bps": null,
+      "endpoint_error_common_market_l1": 1871651.5386400006,
+      "endpoint_error_accountwise_l1": 2567143.1329600005,
+      "endpoint_common_market_break_even_pct": 4.628828356713522,
+      "endpoint_accountwise_bound_break_even_pct": 3.374784056529784,
+      "funding_error_common_market_l1": 15707.587785982172,
+      "funding_error_accountwise_l1": 20182.795726624878,
+      "funding_oracle_10pct_common_error_gap_lower_bound_pp": 26.582743244010956,
+      "funding_oracle_10pct_accountwise_error_gap_lower_bound_pp": 26.44289299586587,
+      "minimum_aggregate_equity_to_gross": 0.05411570718822954,
+      "positive_gap_accounts_with_zero_frozen_exposure": 1
+    }
+  ],
+  "input_sha256": {
+    "data/derived/fills.parquet": "e0690242e8f4572b64d48801890312ac0981775939a1a498368dbdc8781e56fc",
+    "data/derived/panel.parquet": "7817956b47ee06977722801dff7f577660dd9471e31e33ee0014ea85efa3ded1",
+    "data/derived/equity.parquet": "136a874edf76e1bf564691736490c2054380fa4a4d7d2d03ac4bda5f44ec84a4",
+    "data/derived/accounts.parquet": "3a0d1af2b1a76ea2c61cc489893232a1134cd6402c9a45faf2d50fccf8d57033",
+    "data/external/funding/fundingHistory_xyz_AMZN.json": "d0db2f65ad2d13a22951d9503e3750a11fa002b1b63e892512dabcb0ede1f32e",
+    "data/external/funding/fundingHistory_xyz_GOOGL.json": "0fe193338e693f4d396f37b5cc489399ef4e506b92d027fe896642338a210636",
+    "data/external/funding/fundingHistory_xyz_MSFT.json": "f7e79f78f461b004fe89aec1ac96cf545c83d00a5413c84af20ca174b4e8b4d2",
+    "data/external/funding/fundingHistory_xyz_NVDA.json": "86de8c8dc93fc70c9fa04c0308a97832aafbcfe68fd8d658da8d84ca556a035a",
+    "data/external/funding/fundingHistory_xyz_PLTR.json": "dc5ec2ee70e214570c3b90541f8451cda67b79fea621ce0ae8567683d25813fb",
+    "data/external/funding/fundingHistory_xyz_TSLA.json": "0631b05656d88a1c9f748c539dfa1833ba1e9ae7175c6d44a52607b5e7db0635",
+    "data/external/funding/fundingHistory_xyz_XYZ100.json": "892a4eeaedca8232320538c2f5beb30df4215acbe5c0aab8d7a4763ad60e9db7",
+    "data/derived/funding_hourly_sensitivity_accounts.csv": "85d9a56dab12b8828fe9aa838e2452e8aa8136111dcd7231d809b00976cd2c9f"
+  },
+  "source_sha256": {
+    "src/frozen_book_robustness.py": "903a90e730c9d6eb4a6edfa5c6efbc8256683e1e1d6444dde0531f6d73a1725d",
+    "src/funding_hourly_sensitivity.py": "86df094ba26c688e6914658e1615ef16ed1caf813605394ee9a53e8a992b7fd9",
+    "src/wallets.py": "72fb0b8b778283ed543e9dc077c4778ec3054955e1f4349e47c2dfeee3ca7d9c"
+  }
+}

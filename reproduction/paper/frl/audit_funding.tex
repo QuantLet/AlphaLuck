@@ -1,0 +1,40 @@
+\paragraph{Hourly-funding accounting specification.}
+We fetch the exchange's historical hourly rates and reconstruct payments as
+$-q_{ik,h}P_{k,h}r_{k,h}$, using actual positions just before each nominal
+UTC settlement hour and the last pooled trade price at that hour in place of
+historical oracle prices not obtained for this analysis. API timestamps are floored to the
+hour. Zero positions contribute zero; every nonzero position must have a
+finite rate and price. The official window includes 338 hourly observations
+for each of seven instruments. Daily aggregates of the reconstructed actual
+payments have correlation 0.999998 with recorded cash flows and mean absolute
+error of \$0.0052 across 2,558 rows. This agreement supports the aggregation
+interpretation, not the oracle prices on every hypothetical position.
+
+For each path we remove daily-booked funding and add reconstructed hourly
+payments only through formation or the official close, as appropriate.
+After formation the frozen path uses fixed signed quantities. Its hourly
+payments enter the equity path before the margin-proxy check. Table~\ref{tab:hourfund}
+reports the result; closing costs and market impact remain excluded.
+The descriptive volatility mean-square ratio becomes $F=\alFundingVolF$ and its rank
+concordance is unchanged. Pooled prices may be hours old, especially when
+equity markets are closed. Historical oracle prices and actual liquidation
+rules remain unverified. This is the primary conditional accounting
+comparison, not a liquidation replay.
+
+\begin{table}[ht]
+\centering\small
+\caption{Hourly funding with pooled-price proxy, Season~1.5. Returns and
+advantages are per cent of initial capital; screen flags use assumed
+aggregate thresholds of 2.5 and 5 per cent of gross notional. They are not
+simulated liquidations.}
+\label{tab:hourfund}
+\begin{tabular}{rrrrrr}
+\toprule
+Freeze (h) & Frozen & Realised & Advantage & Ahead & Flags \\
+\midrule
+12 & 1.03 & \ensuremath{-}26.30 & 27.33 & 26/32 & 2/3 \\
+24 & 2.82 & \ensuremath{-}26.30 & 29.12 & 26/32 & 0/0 \\
+48 & 0.77 & \ensuremath{-}26.30 & 27.07 & 25/32 & 0/0 \\
+\bottomrule
+\end{tabular}
+\end{table}

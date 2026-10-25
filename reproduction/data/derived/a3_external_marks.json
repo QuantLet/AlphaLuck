@@ -1,0 +1,94 @@
+{
+ "S1": {
+  "season": "S1",
+  "totals": {
+   "int_exposure": -9103.20101082759,
+   "int_timing": -3321.4844491724143,
+   "int_slippage": -512.7958570000142,
+   "ext_exposure": -9429.183523173413,
+   "ext_timing": -3797.1073237782384,
+   "ext_slippage": -1314.4012439516619
+  },
+  "true_gross": -11911.889602999992,
+  "gross_internal": -12424.685460000004,
+  "gross_external": -13226.290846951651,
+  "gross_err_internal": -0.04304907735804275,
+  "gross_err_external": -0.11034363881450253,
+  "n_wallets": 6,
+  "n_grid": 4915,
+  "n_session": 4915,
+  "n_marked": 4910,
+  "coverage": 0.9989827060020345,
+  "rth_only": false,
+  "corr_exposure": 0.9981714685957581,
+  "corr_timing": 0.9939657505829906,
+  "agreement": {
+   "exposure": {
+    "mad_usd": 96.67378474441735,
+    "max_usd": 232.124561954613,
+    "mad_rel": 0.055592523512097126,
+    "sign_agree": 5,
+    "spearman": 1.0,
+    "n": 6
+   },
+   "timing": {
+    "mad_usd": 438.6297926434554,
+    "max_usd": 687.1733318599227,
+    "mad_rel": 0.11342924252421532,
+    "sign_agree": 6,
+    "spearman": 1.0,
+    "n": 6
+   }
+  },
+  "proxy": [],
+  "no_external": [
+   "@156"
+  ]
+ },
+ "S15": {
+  "season": "S15",
+  "totals": {
+   "int_exposure": 39191.93645918578,
+   "int_timing": -46091.170099186274,
+   "int_slippage": -4902.754503532608,
+   "ext_exposure": 10290.44723810745,
+   "ext_timing": -14867.262915706042,
+   "ext_slippage": -2580.336541130711
+  },
+  "true_gross": -1996.479136467883,
+  "gross_internal": -6899.233640000493,
+  "gross_external": -4576.815677598592,
+  "gross_err_internal": -2.455700344660967,
+  "gross_err_external": -1.2924435292100123,
+  "n_wallets": 32,
+  "n_grid": 4044,
+  "n_session": 1078,
+  "n_marked": 1039,
+  "coverage": 0.2569238377843719,
+  "rth_only": true,
+  "corr_exposure": 0.6800257165677921,
+  "corr_timing": 0.7808570229810351,
+  "agreement": {
+   "exposure": {
+    "mad_usd": 916.8293098422678,
+    "max_usd": 4139.870790366148,
+    "mad_rel": 0.7356616001449082,
+    "sign_agree": 32,
+    "spearman": 0.7349706744868034,
+    "n": 32
+   },
+   "timing": {
+    "mad_usd": 1040.0244064184658,
+    "max_usd": 3359.3947537515337,
+    "mad_rel": 0.6526237041367025,
+    "sign_agree": 26,
+    "spearman": 0.7467008797653958,
+    "n": 32
+   }
+  },
+  "proxy": [
+   "xyz:XYZ100"
+  ],
+  "no_external": []
+ }
+}

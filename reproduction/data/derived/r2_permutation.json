@@ -1,0 +1,250 @@
+{
+ "nperm": 10000,
+ "rows": [
+  {
+   "outcome": "final return % (published, sec 9/13)",
+   "test": "F_model_oneway",
+   "df": "(7,24)",
+   "F": 3.254393605026061,
+   "p_F": 0.014189954950213449,
+   "p_perm": 0.0036996300369963003,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "final return % (published, sec 9/13)",
+   "test": "F_model_armFE",
+   "df": "(7,21)",
+   "F": 4.253308873444067,
+   "p_F": 0.004557601285214046,
+   "p_perm": 0.0036996300369963003,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "final return % (published, sec 9/13)",
+   "test": "F_arm",
+   "df": "(3,21)",
+   "F": 3.455548749543483,
+   "p_F": 0.03486149508357647,
+   "p_perm": 0.036996300369963,
+   "perm_scheme": "arm labels within model"
+  },
+  {
+   "outcome": "cumulative return % arithmetic (sec 15)",
+   "test": "F_model_oneway",
+   "df": "(7,24)",
+   "F": 2.130969329931865,
+   "p_F": 0.07905780053555188,
+   "p_perm": 0.0105989401059894,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "cumulative return % arithmetic (sec 15)",
+   "test": "F_model_armFE",
+   "df": "(7,21)",
+   "F": 2.808303113130986,
+   "p_F": 0.03139582458387749,
+   "p_perm": 0.0105989401059894,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "cumulative return % arithmetic (sec 15)",
+   "test": "F_arm",
+   "df": "(3,21)",
+   "F": 3.5428194528572705,
+   "p_F": 0.03215793482983246,
+   "p_perm": 0.026197380261973803,
+   "perm_scheme": "arm labels within model"
+  },
+  {
+   "outcome": "leverage-scaled cumulative % (sec 15/16)",
+   "test": "F_model_oneway",
+   "df": "(7,24)",
+   "F": 2.444814768290355,
+   "p_F": 0.048300974995056055,
+   "p_perm": 0.0324967503249675,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "leverage-scaled cumulative % (sec 15/16)",
+   "test": "F_model_armFE",
+   "df": "(7,21)",
+   "F": 2.8387830964169467,
+   "p_F": 0.030057505188234315,
+   "p_perm": 0.0324967503249675,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "leverage-scaled cumulative % (sec 15/16)",
+   "test": "F_arm",
+   "df": "(3,21)",
+   "F": 2.289155589982273,
+   "p_F": 0.10791937734840173,
+   "p_perm": 0.1156884311568843,
+   "perm_scheme": "arm labels within model"
+  },
+  {
+   "outcome": "vol-standardised cumulative (sec 15)",
+   "test": "F_model_oneway",
+   "df": "(7,24)",
+   "F": 1.8440738062315296,
+   "p_F": 0.12460834685394505,
+   "p_perm": 0.04739526047395261,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "vol-standardised cumulative (sec 15)",
+   "test": "F_model_armFE",
+   "df": "(7,21)",
+   "F": 2.4687819496372203,
+   "p_F": 0.05140165189288727,
+   "p_perm": 0.04739526047395261,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "vol-standardised cumulative (sec 15)",
+   "test": "F_arm",
+   "df": "(3,21)",
+   "F": 3.710122084244849,
+   "p_F": 0.0275879777738867,
+   "p_perm": 0.030796920307969204,
+   "perm_scheme": "arm labels within model"
+  },
+  {
+   "outcome": "daily Sharpe (sec 16)",
+   "test": "F_model_oneway",
+   "df": "(7,24)",
+   "F": 1.8440738062315294,
+   "p_F": 0.12460834685394505,
+   "p_perm": 0.045995400459954004,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "daily Sharpe (sec 16)",
+   "test": "F_model_armFE",
+   "df": "(7,21)",
+   "F": 2.4687819496372203,
+   "p_F": 0.05140165189288727,
+   "p_perm": 0.045995400459954004,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "daily Sharpe (sec 16)",
+   "test": "F_arm",
+   "df": "(3,21)",
+   "F": 3.71012208424485,
+   "p_F": 0.0275879777738867,
+   "p_perm": 0.0268973102689731,
+   "perm_scheme": "arm labels within model"
+  },
+  {
+   "outcome": "realised daily volatility (sec 17)",
+   "test": "F_model_oneway",
+   "df": "(7,24)",
+   "F": 6.887414603246898,
+   "p_F": 0.000153204505781817,
+   "p_perm": 9.999000099990002e-05,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "realised daily volatility (sec 17)",
+   "test": "F_model_armFE",
+   "df": "(7,21)",
+   "F": 12.693627384922904,
+   "p_F": 2.778932295277147e-06,
+   "p_perm": 9.999000099990002e-05,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "realised daily volatility (sec 17)",
+   "test": "F_arm",
+   "df": "(3,21)",
+   "F": 7.744142022684472,
+   "p_F": 0.0011415244852563018,
+   "p_perm": 0.0021997800219978004,
+   "perm_scheme": "arm labels within model"
+  },
+  {
+   "outcome": "mean gross leverage (sec 17)",
+   "test": "F_model_oneway",
+   "df": "(7,24)",
+   "F": 3.75490714498322,
+   "p_F": 0.006928947407150404,
+   "p_perm": 0.0005999400059994001,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "mean gross leverage (sec 17)",
+   "test": "F_model_armFE",
+   "df": "(7,21)",
+   "F": 8.180452769308953,
+   "p_F": 7.82821855673577e-05,
+   "p_perm": 0.0005999400059994001,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "mean gross leverage (sec 17)",
+   "test": "F_arm",
+   "df": "(3,21)",
+   "F": 10.42882570129816,
+   "p_F": 0.00020843313988837543,
+   "p_perm": 0.00019998000199980003,
+   "perm_scheme": "arm labels within model"
+  },
+  {
+   "outcome": "share of time in market (sec 17)",
+   "test": "F_model_oneway",
+   "df": "(7,24)",
+   "F": 0.6875575676346253,
+   "p_F": 0.6814960961654952,
+   "p_perm": 0.33486651334866513,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "share of time in market (sec 17)",
+   "test": "F_model_armFE",
+   "df": "(7,21)",
+   "F": 1.1263986464118858,
+   "p_F": 0.3840635533746957,
+   "p_perm": 0.33486651334866513,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "share of time in market (sec 17)",
+   "test": "F_arm",
+   "df": "(3,21)",
+   "F": 6.106086814367986,
+   "p_F": 0.0037374197721765545,
+   "p_perm": 0.0051994800519948,
+   "perm_scheme": "arm labels within model"
+  },
+  {
+   "outcome": "turnover per day (sec 17)",
+   "test": "F_model_oneway",
+   "df": "(7,24)",
+   "F": 0.6842488807864548,
+   "p_F": 0.6840777669985373,
+   "p_perm": 0.12058794120587941,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "turnover per day (sec 17)",
+   "test": "F_model_armFE",
+   "df": "(7,21)",
+   "F": 1.4759411809998833,
+   "p_F": 0.22934731672901992,
+   "p_perm": 0.12058794120587941,
+   "perm_scheme": "model labels within arm"
+  },
+  {
+   "outcome": "turnover per day (sec 17)",
+   "test": "F_arm",
+   "df": "(3,21)",
+   "F": 10.256191101734576,
+   "p_F": 0.00023072487022519008,
+   "p_perm": 0.00019998000199980003,
+   "perm_scheme": "arm labels within model"
+  }
+ ],
+ "max_abs_diff": 0.5634898257926578,
+ "n_verdict_flips": 5
+}

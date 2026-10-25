@@ -1,0 +1,30 @@
+[
+ {
+  "metric": "pnl",
+  "arm": "crypto",
+  "cell": "main",
+  "model_k": "gemma-3-27b",
+  "model_l": "qwen3-32b",
+  "rho_m": NaN,
+  "omega2_k": 0.0007033556716172486,
+  "omega2_l": -4.694562596248778e-06,
+  "omega2_neg_k": 0.0,
+  "omega2_neg_l": 0.5035,
+  "rho_gt1": 0.0205,
+  "any": 0.524
+ },
+ {
+  "metric": "pnl",
+  "arm": "crypto",
+  "cell": "main",
+  "model_k": "mistral-24b",
+  "model_l": "qwen3-32b",
+  "rho_m": NaN,
+  "omega2_k": 0.0004455198418231818,
+  "omega2_l": -4.694562596248778e-06,
+  "omega2_neg_k": 0.0,
+  "omega2_neg_l": 0.5205,
+  "rho_gt1": 0.015,
+  "any": 0.5355
+ }
+]

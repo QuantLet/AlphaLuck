@@ -1,0 +1,96 @@
+{
+ "icc": {
+  "estimand": "Ratio of the between-model variance component to the sum of the between-model and residual components in a two-way layout with arm fixed effects and one account per model-arm cell, i.e. ICC(3,1) in the Shrout-Fleiss scheme (McGraw and Wong case 3A).",
+  "model_effects": "Models are treated as random for the purpose of forming the ratio, arms as fixed. The eight models are not a sample from a population of models -- they are the eight the organiser selected -- so the ratio is read as a descriptive partition of variance among these eight implementations and not as an estimate of a population reliability.",
+  "interval": "Exact F-based interval of Shrout and Fleiss (1979), inverting the distribution of the ratio of mean squares. It is exact under that model's assumptions -- additivity of model and arm effects, normal and homoscedastic residuals -- and not merely because the formula is closed-form.",
+  "negative_lower_limit": "The interval is computed on the variance-ratio scale and then mapped to the ICC scale. When the model mean square is below the residual mean square the implied between-model variance is negative, and the mapped lower limit is negative with it. A variance cannot be negative; the limit should be read as 'not distinguishable from zero', and it is reported untruncated so that the width of the interval is not misrepresented."
+ },
+ "profile": [
+  {
+   "metric": "vol_fixed",
+   "obs": -0.3630952380952381,
+   "p_profile": 0.15731646825396825,
+   "n_perm": 40320
+  },
+  {
+   "metric": "leverage_fixed",
+   "obs": 0.25595238095238093,
+   "p_profile": 0.22457837301587302,
+   "n_perm": 40320
+  },
+  {
+   "metric": "share_in_market",
+   "obs": 0.27463178202478666,
+   "p_profile": 0.20161210317460318,
+   "n_perm": 40320
+  },
+  {
+   "metric": "turnover_fixed",
+   "obs": -0.11904761904761907,
+   "p_profile": 0.6294146825396826,
+   "n_perm": 40320
+  }
+ ],
+ "loo": [
+  {
+   "metric": "vol_fixed",
+   "F_min": 6.4503449407342375,
+   "F_max": 9.14864755505432,
+   "F_drop_worst": "gpt-5.1",
+   "rho_min": -0.5446428571428573,
+   "rho_max": -0.2321428571428572,
+   "rho_drop_worst": "gpt-5.1"
+  },
+  {
+   "metric": "leverage_fixed",
+   "F_min": 1.6365654341305287,
+   "F_max": 2.704852896213389,
+   "F_drop_worst": "qwen3-max",
+   "rho_min": 0.10714285714285715,
+   "rho_max": 0.4017857142857144,
+   "rho_drop_worst": "gpt-5.1"
+  },
+  {
+   "metric": "share_in_market",
+   "F_min": 0.9785012064763604,
+   "F_max": 1.3036661817905537,
+   "F_drop_worst": "kimi-k2-thinking",
+   "rho_min": 0.09821428571428575,
+   "rho_max": 0.5108678481897914,
+   "rho_drop_worst": "grok-4"
+  },
+  {
+   "metric": "turnover_fixed",
+   "F_min": 1.1019052256446962,
+   "F_max": 3.265509691366278,
+   "F_drop_worst": "typhoon",
+   "rho_min": -0.25000000000000006,
+   "rho_max": 0.16964285714285718,
+   "rho_drop_worst": "typhoon"
+  }
+ ],
+ "holm": {
+  "family_size": 8,
+  "raw": {
+   "F:vol_fixed": 0.00014999250037498125,
+   "F:leverage_fixed": 0.08739563021848908,
+   "F:share_in_market": 0.32123393830308483,
+   "F:turnover_fixed": 0.04354782260886956,
+   "rho:vol_fixed": 0.05174741262936853,
+   "rho:leverage_fixed": 0.18349082545872705,
+   "rho:share_in_market": 0.1488851114888511,
+   "rho:turnover_fixed": 0.5394230288485575
+  },
+  "adjusted": {
+   "F:vol_fixed": 0.00119994000299985,
+   "F:turnover_fixed": 0.3048347582620869,
+   "rho:vol_fixed": 0.3104844757762112,
+   "F:leverage_fixed": 0.43697815109244537,
+   "rho:share_in_market": 0.5955404459554045,
+   "rho:leverage_fixed": 0.5955404459554045,
+   "F:share_in_market": 0.6424678766061697,
+   "rho:turnover_fixed": 0.6424678766061697
+  },
+  "n_survive": 1
+ }
+}

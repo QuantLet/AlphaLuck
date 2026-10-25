@@ -1,0 +1,214 @@
+{
+  "scenario": "Hourly funding rates with pooled account prices as an oracle-price proxy",
+  "limitations": "Sensitivity, not exact valuation. Pooled prints may be stale; historical oracle prices, actual liquidation rules, and closing costs are not reconstructed.",
+  "settlement_convention": "Floor fundingHistory timestamps to nominal UTC hour; include through freeze/close hour; positions use fills strictly before settlement; frozen funding strictly after freeze.",
+  "pooled_price_order": "time, tid, px; mergesort; last print per coin/time",
+  "opening_date_funding_proxy": 28.771956721713003,
+  "validation": {
+    "funding_rows": 2558,
+    "aggregate_rows": 2558,
+    "accounts": 32,
+    "hourly_samples": 33742,
+    "position_count_and_mean_matches": 2558,
+    "max_abs_szi_error": 4.787636953551555e-11,
+    "max_abs_q_weighted_rate_error": 5.0000000017050295e-11,
+    "cash_correlation": 0.9999980444419182,
+    "dollar_mae": 0.005235590357335185,
+    "dollar_rmse": 0.02221533235102183,
+    "max_abs_dollar_error": 0.5186490096399154,
+    "actual_usdc_sum": 1162.975136,
+    "predicted_usdc_sum": 1165.7956579773966,
+    "net_dollar_error": 2.8205219773964134
+  },
+  "coverage": [
+    {
+      "coin": "xyz:AMZN",
+      "expected_hours": 338,
+      "rate_hours": 338,
+      "initial_unpriced_hours": 1,
+      "median_hourly_mark_age_minutes": 12.850966666666666,
+      "max_hourly_mark_age_minutes": 330.22816666666665
+    },
+    {
+      "coin": "xyz:GOOGL",
+      "expected_hours": 338,
+      "rate_hours": 338,
+      "initial_unpriced_hours": 1,
+      "median_hourly_mark_age_minutes": 5.4824,
+      "max_hourly_mark_age_minutes": 157.29488333333333
+    },
+    {
+      "coin": "xyz:MSFT",
+      "expected_hours": 338,
+      "rate_hours": 338,
+      "initial_unpriced_hours": 3,
+      "median_hourly_mark_age_minutes": 11.65415,
+      "max_hourly_mark_age_minutes": 432.35966666666667
+    },
+    {
+      "coin": "xyz:NVDA",
+      "expected_hours": 338,
+      "rate_hours": 338,
+      "initial_unpriced_hours": 1,
+      "median_hourly_mark_age_minutes": 2.792883333333333,
+      "max_hourly_mark_age_minutes": 81.56796666666666
+    },
+    {
+      "coin": "xyz:PLTR",
+      "expected_hours": 338,
+      "rate_hours": 338,
+      "initial_unpriced_hours": 1,
+      "median_hourly_mark_age_minutes": 3.10135,
+      "max_hourly_mark_age_minutes": 80.03181666666667
+    },
+    {
+      "coin": "xyz:TSLA",
+      "expected_hours": 338,
+      "rate_hours": 338,
+      "initial_unpriced_hours": 1,
+      "median_hourly_mark_age_minutes": 7.263916666666667,
+      "max_hourly_mark_age_minutes": 266.482
+    },
+    {
+      "coin": "xyz:XYZ100",
+      "expected_hours": 338,
+      "rate_hours": 338,
+      "initial_unpriced_hours": 1,
+      "median_hourly_mark_age_minutes": 5.632216666666666,
+      "max_hourly_mark_age_minutes": 104.87336666666667
+    }
+  ],
+  "scenarios": [
+    {
+      "freeze_hours": 12,
+      "accounts": 32,
+      "baseline": {
+        "hold_net": -2422.4311976949884,
+        "actual_net": -84230.78831521665,
+        "hold_return_pct": -0.7570097492796839,
+        "actual_return_pct": -26.3221213485052,
+        "advantage_dollars": 81808.35711752166,
+        "advantage_pp": 25.565111599225517,
+        "accounts_ahead": 26,
+        "margin_proxy_breaches": {
+          "0.01": 1,
+          "0.025": 2,
+          "0.05": 3
+        }
+      },
+      "proxy": {
+        "hold_net": 3288.7575071738884,
+        "actual_net": -84161.53593588328,
+        "hold_return_pct": 1.02773672099184,
+        "actual_return_pct": -26.300479979963526,
+        "advantage_dollars": 87450.29344305716,
+        "advantage_pp": 27.328216700955362,
+        "accounts_ahead": 26,
+        "margin_proxy_breaches": {
+          "0.01": 1,
+          "0.025": 2,
+          "0.05": 3
+        }
+      },
+      "frozen_postfreeze_funding": 6218.177197239274,
+      "inherited_funding_adjustment": -506.9884923703966
+    },
+    {
+      "freeze_hours": 24,
+      "accounts": 32,
+      "baseline": {
+        "hold_net": 3538.2640134171643,
+        "actual_net": -84230.78831521665,
+        "hold_return_pct": 1.1057075041928637,
+        "actual_return_pct": -26.3221213485052,
+        "advantage_dollars": 87769.05232863381,
+        "advantage_pp": 27.427828852698067,
+        "accounts_ahead": 26,
+        "margin_proxy_breaches": {
+          "0.01": 0,
+          "0.025": 0,
+          "0.05": 1
+        }
+      },
+      "proxy": {
+        "hold_net": 9023.461543098088,
+        "actual_net": -84161.53593588328,
+        "hold_return_pct": 2.8198317322181525,
+        "actual_return_pct": -26.300479979963526,
+        "advantage_dollars": 93184.99747898137,
+        "advantage_pp": 29.120311712181678,
+        "accounts_ahead": 26,
+        "margin_proxy_breaches": {
+          "0.01": 0,
+          "0.025": 0,
+          "0.05": 0
+        }
+      },
+      "frozen_postfreeze_funding": 5528.205489786689,
+      "inherited_funding_adjustment": -43.00796010575348
+    },
+    {
+      "freeze_hours": 48,
+      "accounts": 32,
+      "baseline": {
+        "hold_net": -582.0726981643165,
+        "actual_net": -84230.78831521665,
+        "hold_return_pct": -0.18189771817634892,
+        "actual_return_pct": -26.3221213485052,
+        "advantage_dollars": 83648.71561705234,
+        "advantage_pp": 26.140223630328855,
+        "accounts_ahead": 25,
+        "margin_proxy_breaches": {
+          "0.01": 0,
+          "0.025": 0,
+          "0.05": 0
+        }
+      },
+      "proxy": {
+        "hold_net": 2474.001223549998,
+        "actual_net": -84161.53593588328,
+        "hold_return_pct": 0.7731253823593743,
+        "actual_return_pct": -26.300479979963526,
+        "advantage_dollars": 86635.53715943328,
+        "advantage_pp": 27.073605362322905,
+        "accounts_ahead": 25,
+        "margin_proxy_breaches": {
+          "0.01": 0,
+          "0.025": 0,
+          "0.05": 0
+        }
+      },
+      "frozen_postfreeze_funding": 3082.733323827317,
+      "inherited_funding_adjustment": -26.659402113005196
+    }
+  ],
+  "volatility": {
+    "baseline": {
+      "F": 7.865185551694624,
+      "W": 0.7946428571428571
+    },
+    "proxy": {
+      "F": 7.864905535063705,
+      "W": 0.7946428571428571
+    }
+  },
+  "source_code_sha256": {
+    "funding_hourly_sensitivity.py": "86df094ba26c688e6914658e1615ef16ed1caf813605394ee9a53e8a992b7fd9",
+    "exante_benchmark.py": "eb7b4584ac0d20e805967e017f9d34906aa14b339d2710c11e5ef282b2b05ad1",
+    "wallets.py": "72fb0b8b778283ed543e9dc077c4778ec3054955e1f4349e47c2dfeee3ca7d9c"
+  },
+  "input_sha256": {
+    "data/derived/fills.parquet": "e0690242e8f4572b64d48801890312ac0981775939a1a498368dbdc8781e56fc",
+    "data/derived/panel.parquet": "7817956b47ee06977722801dff7f577660dd9471e31e33ee0014ea85efa3ded1",
+    "data/derived/equity.parquet": "136a874edf76e1bf564691736490c2054380fa4a4d7d2d03ac4bda5f44ec84a4",
+    "data/derived/accounts.parquet": "3a0d1af2b1a76ea2c61cc489893232a1134cd6402c9a45faf2d50fccf8d57033",
+    "data/external/funding/user_funding_enriched.parquet": "5d7fa7a147b92c1917b4851811af5005266082a47f3d53c857666980eb433b0e",
+    "data/external/funding/fundingHistory_xyz_AMZN.json": "d0db2f65ad2d13a22951d9503e3750a11fa002b1b63e892512dabcb0ede1f32e",
+    "data/external/funding/fundingHistory_xyz_GOOGL.json": "0fe193338e693f4d396f37b5cc489399ef4e506b92d027fe896642338a210636",
+    "data/external/funding/fundingHistory_xyz_MSFT.json": "f7e79f78f461b004fe89aec1ac96cf545c83d00a5413c84af20ca174b4e8b4d2",
+    "data/external/funding/fundingHistory_xyz_NVDA.json": "86de8c8dc93fc70c9fa04c0308a97832aafbcfe68fd8d658da8d84ca556a035a",
+    "data/external/funding/fundingHistory_xyz_PLTR.json": "dc5ec2ee70e214570c3b90541f8451cda67b79fea621ce0ae8567683d25813fb",
+    "data/external/funding/fundingHistory_xyz_TSLA.json": "0631b05656d88a1c9f748c539dfa1833ba1e9ae7175c6d44a52607b5e7db0635",
+    "data/external/funding/fundingHistory_xyz_XYZ100.json": "892a4eeaedca8232320538c2f5beb30df4215acbe5c0aab8d7a4763ad60e9db7"
+  }
+}

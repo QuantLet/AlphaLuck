@@ -1,0 +1,139 @@
+{
+ "S1": {
+  "formation_hours": 24,
+  "n_accounts": 6,
+  "hold_net": -1744.020949000008,
+  "hold_net_pct": -2.9067015816666797,
+  "realised": -18157.020832999995,
+  "realised_pct": -30.261701388333325,
+  "gap_pct": 27.35499980666664,
+  "n_better_than_realised": 4,
+  "hold_net_pct_with_actual_funding": -4.53310163666668,
+  "median_paired_diff_pp": -17.28704924999996,
+  "mean_instruments_held": 4.166666666666667,
+  "by_arm": {
+   "1": -17.28704924999996
+  },
+  "margin": {
+   "0.01": {
+    "n_breach": 0,
+    "n_feasible": 6,
+    "feasible_hold_pct": -2.9067015816666797,
+    "feasible_realised_pct": -30.261701388333325,
+    "feasible_better": 4
+   },
+   "0.025": {
+    "n_breach": 1,
+    "n_feasible": 5,
+    "feasible_hold_pct": -11.623963738000011,
+    "feasible_realised_pct": -25.32301923399997,
+    "feasible_better": 3
+   },
+   "0.05": {
+    "n_breach": 2,
+    "n_feasible": 4,
+    "feasible_hold_pct": -24.394010150000017,
+    "feasible_realised_pct": -16.07300748999997,
+    "feasible_better": 2
+   }
+  },
+  "cutoffs": {
+   "12": {
+    "hold_pct": -3.930789063333355,
+    "realised_pct": -30.261701388333325,
+    "better": 4,
+    "n": 6,
+    "breach_0.025": 1,
+    "breach_0.05": 2
+   },
+   "24": {
+    "hold_pct": -2.9067015816666797,
+    "realised_pct": -30.261701388333325,
+    "better": 4,
+    "n": 6,
+    "breach_0.025": 1,
+    "breach_0.05": 2
+   },
+   "48": {
+    "hold_pct": -35.68596619166672,
+    "realised_pct": -30.261701388333325,
+    "better": 3,
+    "n": 6,
+    "breach_0.025": 0,
+    "breach_0.05": 1
+   }
+  },
+  "sweep_lo_pct": -35.68596619166672,
+  "sweep_hi_pct": -2.9067015816666797
+ },
+ "S15": {
+  "formation_hours": 24,
+  "n_accounts": 32,
+  "hold_net": 3538.2640134171643,
+  "hold_net_pct": 1.1057075041928637,
+  "realised": -84230.78831521665,
+  "realised_pct": -26.3221213485052,
+  "gap_pct": 27.427828852698067,
+  "n_better_than_realised": 26,
+  "hold_net_pct_with_actual_funding": 1.2740514829428642,
+  "median_paired_diff_pp": -22.709099869999722,
+  "mean_instruments_held": 2.46875,
+  "by_arm": {
+   "1": -22.709099869999722,
+   "2": -5.932723000000124,
+   "3": -48.48849229499976,
+   "4": -21.92836886000006
+  },
+  "margin": {
+   "0.01": {
+    "n_breach": 0,
+    "n_feasible": 32,
+    "feasible_hold_pct": 1.1057075041928637,
+    "feasible_realised_pct": -26.3221213485052,
+    "feasible_better": 26
+   },
+   "0.025": {
+    "n_breach": 0,
+    "n_feasible": 32,
+    "feasible_hold_pct": 1.1057075041928637,
+    "feasible_realised_pct": -26.3221213485052,
+    "feasible_better": 26
+   },
+   "0.05": {
+    "n_breach": 1,
+    "n_feasible": 31,
+    "feasible_hold_pct": 2.535731631322614,
+    "feasible_realised_pct": -26.00405496562759,
+    "feasible_better": 26
+   }
+  },
+  "cutoffs": {
+   "12": {
+    "hold_pct": -0.7570097492796839,
+    "realised_pct": -26.3221213485052,
+    "better": 26,
+    "n": 32,
+    "breach_0.025": 2,
+    "breach_0.05": 3
+   },
+   "24": {
+    "hold_pct": 1.1057075041928637,
+    "realised_pct": -26.3221213485052,
+    "better": 26,
+    "n": 32,
+    "breach_0.025": 0,
+    "breach_0.05": 1
+   },
+   "48": {
+    "hold_pct": -0.18189771817634892,
+    "realised_pct": -26.3221213485052,
+    "better": 25,
+    "n": 32,
+    "breach_0.025": 0,
+    "breach_0.05": 0
+   }
+  },
+  "sweep_lo_pct": -0.7570097492796839,
+  "sweep_hi_pct": 1.1057075041928637
+ }
+}

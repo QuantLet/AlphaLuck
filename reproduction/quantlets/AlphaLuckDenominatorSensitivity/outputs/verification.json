@@ -1,0 +1,56 @@
+{
+  "analysis": "Descriptive risk-denominator contrasts and common-date reweighting",
+  "n_accounts": 32,
+  "n_daily_changes": 14,
+  "draws_per_block": 20000,
+  "block_lengths": [
+    1,
+    2,
+    3
+  ],
+  "seed_base": 20261015,
+  "scheme": "Overlapping non-circular blocks, concatenated and truncated at 14 dates",
+  "fixed": "Season-final returns, account/model/arm labels",
+  "interpretation": "Central 95% resampling ranges, not confidence intervals or significance tests",
+  "limitations": [
+    "No independent model runs are generated.",
+    "Dependence beyond block length is not retained.",
+    "Only fourteen observed dates; no validated stationarity, block selection or coverage.",
+    "Reweighted observations are not dynamically consistent trading or wealth paths.",
+    "Initial and current equity are economically distinct legitimate estimands.",
+    "Inputs are derived data; raw transaction reconstruction is outside this compact Quantlet."
+  ],
+  "versions": {
+    "python": "3.13.9",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.6"
+  },
+  "input_sha256": {
+    "account_measures.csv": "8b93ffa6c7c6910fd0a030cff58032c3fed867ffd1650209f0121b3f16f1d57d",
+    "paired_daily_inputs.csv": "c469d9e0ec9f608f6ea73d9643d3366a84ac4594db9e4ef8bb0afecb53db9c40"
+  },
+  "checks_passed": [
+    "input hashes",
+    "balanced complete panel",
+    "independent scalar F/W/rho checks with ties",
+    "common contiguous blocks",
+    "zero contrast for identical inputs",
+    "historical numerical regression checks"
+  ],
+  "observed_volatility": {
+    "fixed_F": 7.865185551694612,
+    "fixed_W": 0.7946428571428571,
+    "fixed_rho": -0.3630952380952381,
+    "fixed_partial_model_ss": 0.7238887467014221,
+    "equity_F": 12.693627384922948,
+    "equity_W": 0.8690476190476191,
+    "equity_rho": -0.5119047619047619,
+    "equity_partial_model_ss": 0.8088396056298536,
+    "delta_F": -4.828441833228336,
+    "delta_W": -0.07440476190476197,
+    "delta_rho": 0.14880952380952378,
+    "delta_partial_model_ss": -0.08495085892843146
+  }
+}

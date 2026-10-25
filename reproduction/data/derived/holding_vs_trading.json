@@ -1,0 +1,492 @@
+{
+ "benchmark": {
+  "accounts": 32,
+  "freeze_hours": 24,
+  "hold_pct": 2.819831732218154,
+  "actual_pct": -26.300479979963526,
+  "advantage_pp": 29.120311712181685,
+  "fees_after_pp": 9.619606296250002,
+  "funding_diff_pp": 1.524138880733616,
+  "advantage_before_costs_pp": 17.976566535198064,
+  "ahead": 26,
+  "ahead_before_costs": 22,
+  "gross_scale_median": 1.111982856641592,
+  "mean_gross_hold_pct": 334.5318112121898,
+  "mean_gross_actual_pct": 414.5435931210259,
+  "mean_net_hold_pct": -129.26181348170664,
+  "mean_net_actual_pct": 181.81067489228283,
+  "hold_matched_pct": 2.7090300884536496,
+  "gross_scale_max": 162.14956540647333,
+  "gross_scale_pooled": 1.2391754064252067,
+  "advantage_matched_pooled_pp": 28.97094844149862,
+  "advantage_matched_pp": 29.00951006841718,
+  "ahead_matched": 26,
+  "hedge_hold_pp": -7.950313588170199,
+  "hedge_actual_pp": -0.1091404095782751,
+  "advantage_hedged_pp": 36.961484890773605,
+  "ahead_hedged": 31,
+  "index_return_pct": 6.3065681308644095
+ },
+ "deviations": {
+  "reduce_pp": 0.3658977125000007,
+  "add_pp": 2.1343791187500023,
+  "reverse_pp": 0.5971170250000095,
+  "new_pp": 9.481836765625028,
+  "execution_pp": 5.406803143749838,
+  "total_pp": 17.986033765624878,
+  "pairs": 224,
+  "pairs_positive": 133,
+  "top10_share": 0.6672364339817013,
+  "by_coin_pp": {
+   "xyz:XYZ100": -5.991922281250193,
+   "xyz:GOOGL": -3.523516890624963,
+   "xyz:AMZN": -0.07127848124999654,
+   "xyz:MSFT": 0.20900165625002054,
+   "xyz:TSLA": 5.606056353125019,
+   "xyz:NVDA": 7.6304543531249776,
+   "xyz:PLTR": 14.12723905625001
+  },
+  "max_abs_residual_usd": 3.8551940000434115
+ },
+ "robustness": {
+  "deviation_grids_pp": {
+   "15min": {
+    "reduce": 0.20178336250000029,
+    "add": 1.931753425000002,
+    "reverse": -0.10071531875000019,
+    "new": 7.435671553125013,
+    "execution": 8.517540743749862
+   },
+   "1h": {
+    "reduce": 0.5454191218750071,
+    "add": 2.8736842875000033,
+    "reverse": -0.9458700968749967,
+    "new": 5.056692971875017,
+    "execution": 10.456107481249852
+   },
+   "4h": {
+    "reduce": -0.23210361562500165,
+    "add": 0.8308993531250025,
+    "reverse": -0.26263754687500124,
+    "new": 5.321902868750019,
+    "execution": 12.32797270624986
+   }
+  },
+  "leave_one_model_min": {
+   "advantage": 23.452625374785082,
+   "before_costs": 13.006587496677044,
+   "isolated_A": 15.647585179584597,
+   "isolated_B": 4.068873584056007
+  },
+  "leave_one_model_max": {
+   "advantage": 33.49959308879583,
+   "before_costs": 21.340493265359598,
+   "isolated_A": 25.45203529963678,
+   "isolated_B": 14.428615099399254
+  },
+  "leave_one_instrument_before_costs": {
+   "xyz:AMZN": 18.057312246874876,
+   "xyz:GOOGL": 21.50955065624984,
+   "xyz:MSFT": 17.777032109374854,
+   "xyz:NVDA": 10.355579412499901,
+   "xyz:PLTR": 3.8587947093748634,
+   "xyz:TSLA": 12.379977412499857,
+   "xyz:XYZ100": 23.977956046875068
+  }
+ },
+ "index_windows": {
+  "72h": {
+   "formations": 265,
+   "index_median_pct": 1.114560942600118,
+   "index_min_pct": -3.3984437033508064,
+   "index_max_pct": 3.7243642329778615,
+   "index_negative": 50,
+   "spearman_with_advantage": -0.1155112824730025
+  },
+  "168h": {
+   "formations": 169,
+   "index_median_pct": 3.524941385722369,
+   "index_min_pct": 0.10312549579565289,
+   "index_max_pct": 5.63914475055225,
+   "index_negative": 0,
+   "spearman_with_advantage": 0.007408908342159107
+  }
+ },
+ "rank_pairs": {
+  "1": {
+   "separated_pairs": 8,
+   "pairs": [
+    [
+     "gpt-5.1",
+     "claude-sonnet-4-5"
+    ],
+    [
+     "gpt-5.1",
+     "grok-4"
+    ],
+    [
+     "gpt-5.1",
+     "qwen3-max"
+    ],
+    [
+     "qwen3-max",
+     "grok-4"
+    ],
+    [
+     "typhoon",
+     "claude-sonnet-4-5"
+    ],
+    [
+     "typhoon",
+     "gemini-3-pro-preview"
+    ],
+    [
+     "typhoon",
+     "grok-4"
+    ],
+    [
+     "typhoon",
+     "qwen3-max"
+    ]
+   ],
+   "joint_frequency": 0.96975,
+   "beats": {
+    "claude-sonnet-4-5": {
+     "claude-sonnet-4-5": 0.0,
+     "deepseek-chat-v3.1": 0.6145,
+     "gemini-3-pro-preview": 0.6812,
+     "gpt-5.1": 0.9931,
+     "grok-4": 0.2122,
+     "kimi-k2-thinking": 0.621,
+     "qwen3-max": 0.7104,
+     "typhoon": 0.9982
+    },
+    "deepseek-chat-v3.1": {
+     "claude-sonnet-4-5": 0.3855,
+     "deepseek-chat-v3.1": 0.0,
+     "gemini-3-pro-preview": 0.5552,
+     "gpt-5.1": 0.8012,
+     "grok-4": 0.2926,
+     "kimi-k2-thinking": 0.4212,
+     "qwen3-max": 0.544,
+     "typhoon": 0.9159
+    },
+    "gemini-3-pro-preview": {
+     "claude-sonnet-4-5": 0.3188,
+     "deepseek-chat-v3.1": 0.4448,
+     "gemini-3-pro-preview": 0.0,
+     "gpt-5.1": 0.9318,
+     "grok-4": 0.0678,
+     "kimi-k2-thinking": 0.4096,
+     "qwen3-max": 0.4508,
+     "typhoon": 1.0
+    },
+    "gpt-5.1": {
+     "claude-sonnet-4-5": 0.0069,
+     "deepseek-chat-v3.1": 0.1988,
+     "gemini-3-pro-preview": 0.0682,
+     "gpt-5.1": 0.0,
+     "grok-4": 0.0038,
+     "kimi-k2-thinking": 0.1342,
+     "qwen3-max": 0.0045,
+     "typhoon": 0.8887
+    },
+    "grok-4": {
+     "claude-sonnet-4-5": 0.7878,
+     "deepseek-chat-v3.1": 0.7074,
+     "gemini-3-pro-preview": 0.9322,
+     "gpt-5.1": 0.9962,
+     "grok-4": 0.0,
+     "kimi-k2-thinking": 0.7357,
+     "qwen3-max": 0.9808,
+     "typhoon": 1.0
+    },
+    "kimi-k2-thinking": {
+     "claude-sonnet-4-5": 0.379,
+     "deepseek-chat-v3.1": 0.5788,
+     "gemini-3-pro-preview": 0.5904,
+     "gpt-5.1": 0.8658,
+     "grok-4": 0.2643,
+     "kimi-k2-thinking": 0.0,
+     "qwen3-max": 0.5714,
+     "typhoon": 0.9476
+    },
+    "qwen3-max": {
+     "claude-sonnet-4-5": 0.2896,
+     "deepseek-chat-v3.1": 0.456,
+     "gemini-3-pro-preview": 0.5492,
+     "gpt-5.1": 0.9955,
+     "grok-4": 0.0192,
+     "kimi-k2-thinking": 0.4286,
+     "qwen3-max": 0.0,
+     "typhoon": 0.9999
+    },
+    "typhoon": {
+     "claude-sonnet-4-5": 0.0018,
+     "deepseek-chat-v3.1": 0.0841,
+     "gemini-3-pro-preview": 0.0,
+     "gpt-5.1": 0.1113,
+     "grok-4": 0.0,
+     "kimi-k2-thinking": 0.0524,
+     "qwen3-max": 0.0001,
+     "typhoon": 0.0
+    }
+   }
+  },
+  "2": {
+   "separated_pairs": 10,
+   "pairs": [
+    [
+     "gpt-5.1",
+     "claude-sonnet-4-5"
+    ],
+    [
+     "gpt-5.1",
+     "grok-4"
+    ],
+    [
+     "gpt-5.1",
+     "kimi-k2-thinking"
+    ],
+    [
+     "gpt-5.1",
+     "qwen3-max"
+    ],
+    [
+     "typhoon",
+     "claude-sonnet-4-5"
+    ],
+    [
+     "typhoon",
+     "deepseek-chat-v3.1"
+    ],
+    [
+     "typhoon",
+     "gemini-3-pro-preview"
+    ],
+    [
+     "typhoon",
+     "grok-4"
+    ],
+    [
+     "typhoon",
+     "kimi-k2-thinking"
+    ],
+    [
+     "typhoon",
+     "qwen3-max"
+    ]
+   ],
+   "joint_frequency": 0.9681,
+   "beats": {
+    "claude-sonnet-4-5": {
+     "claude-sonnet-4-5": 0.0,
+     "deepseek-chat-v3.1": 0.5059,
+     "gemini-3-pro-preview": 0.8451,
+     "gpt-5.1": 0.9994,
+     "grok-4": 0.3873,
+     "kimi-k2-thinking": 0.525,
+     "qwen3-max": 0.9487,
+     "typhoon": 1.0
+    },
+    "deepseek-chat-v3.1": {
+     "claude-sonnet-4-5": 0.4941,
+     "deepseek-chat-v3.1": 0.0,
+     "gemini-3-pro-preview": 0.7618,
+     "gpt-5.1": 0.9704,
+     "grok-4": 0.451,
+     "kimi-k2-thinking": 0.4918,
+     "qwen3-max": 0.794,
+     "typhoon": 1.0
+    },
+    "gemini-3-pro-preview": {
+     "claude-sonnet-4-5": 0.1549,
+     "deepseek-chat-v3.1": 0.2382,
+     "gemini-3-pro-preview": 0.0,
+     "gpt-5.1": 0.8903,
+     "grok-4": 0.1736,
+     "kimi-k2-thinking": 0.1422,
+     "qwen3-max": 0.5108,
+     "typhoon": 1.0
+    },
+    "gpt-5.1": {
+     "claude-sonnet-4-5": 0.0006,
+     "deepseek-chat-v3.1": 0.0296,
+     "gemini-3-pro-preview": 0.1097,
+     "gpt-5.1": 0.0,
+     "grok-4": 0.0116,
+     "kimi-k2-thinking": 0.024,
+     "qwen3-max": 0.0016,
+     "typhoon": 0.8718
+    },
+    "grok-4": {
+     "claude-sonnet-4-5": 0.6127,
+     "deepseek-chat-v3.1": 0.549,
+     "gemini-3-pro-preview": 0.8264,
+     "gpt-5.1": 0.9884,
+     "grok-4": 0.0,
+     "kimi-k2-thinking": 0.5372,
+     "qwen3-max": 0.9615,
+     "typhoon": 1.0
+    },
+    "kimi-k2-thinking": {
+     "claude-sonnet-4-5": 0.475,
+     "deepseek-chat-v3.1": 0.5082,
+     "gemini-3-pro-preview": 0.8578,
+     "gpt-5.1": 0.976,
+     "grok-4": 0.4628,
+     "kimi-k2-thinking": 0.0,
+     "qwen3-max": 0.7792,
+     "typhoon": 1.0
+    },
+    "qwen3-max": {
+     "claude-sonnet-4-5": 0.0513,
+     "deepseek-chat-v3.1": 0.206,
+     "gemini-3-pro-preview": 0.4892,
+     "gpt-5.1": 0.9984,
+     "grok-4": 0.0385,
+     "kimi-k2-thinking": 0.2208,
+     "qwen3-max": 0.0,
+     "typhoon": 0.9998
+    },
+    "typhoon": {
+     "claude-sonnet-4-5": 0.0,
+     "deepseek-chat-v3.1": 0.0,
+     "gemini-3-pro-preview": 0.0,
+     "gpt-5.1": 0.1281,
+     "grok-4": 0.0,
+     "kimi-k2-thinking": 0.0,
+     "qwen3-max": 0.0002,
+     "typhoon": 0.0
+    }
+   }
+  },
+  "3": {
+   "separated_pairs": 9,
+   "pairs": [
+    [
+     "gpt-5.1",
+     "claude-sonnet-4-5"
+    ],
+    [
+     "gpt-5.1",
+     "grok-4"
+    ],
+    [
+     "gpt-5.1",
+     "qwen3-max"
+    ],
+    [
+     "typhoon",
+     "claude-sonnet-4-5"
+    ],
+    [
+     "typhoon",
+     "deepseek-chat-v3.1"
+    ],
+    [
+     "typhoon",
+     "gemini-3-pro-preview"
+    ],
+    [
+     "typhoon",
+     "grok-4"
+    ],
+    [
+     "typhoon",
+     "kimi-k2-thinking"
+    ],
+    [
+     "typhoon",
+     "qwen3-max"
+    ]
+   ],
+   "joint_frequency": 0.9885,
+   "beats": {
+    "claude-sonnet-4-5": {
+     "claude-sonnet-4-5": 0.0,
+     "deepseek-chat-v3.1": 0.4625,
+     "gemini-3-pro-preview": 0.8193,
+     "gpt-5.1": 0.9997,
+     "grok-4": 0.4117,
+     "kimi-k2-thinking": 0.431,
+     "qwen3-max": 0.9476,
+     "typhoon": 1.0
+    },
+    "deepseek-chat-v3.1": {
+     "claude-sonnet-4-5": 0.5375,
+     "deepseek-chat-v3.1": 0.0,
+     "gemini-3-pro-preview": 0.8358,
+     "gpt-5.1": 0.9716,
+     "grok-4": 0.5114,
+     "kimi-k2-thinking": 0.4608,
+     "qwen3-max": 0.8206,
+     "typhoon": 1.0
+    },
+    "gemini-3-pro-preview": {
+     "claude-sonnet-4-5": 0.1807,
+     "deepseek-chat-v3.1": 0.1642,
+     "gemini-3-pro-preview": 0.0,
+     "gpt-5.1": 0.9301,
+     "grok-4": 0.2039,
+     "kimi-k2-thinking": 0.1358,
+     "qwen3-max": 0.584,
+     "typhoon": 1.0
+    },
+    "gpt-5.1": {
+     "claude-sonnet-4-5": 0.0003,
+     "deepseek-chat-v3.1": 0.0284,
+     "gemini-3-pro-preview": 0.0699,
+     "gpt-5.1": 0.0,
+     "grok-4": 0.0108,
+     "kimi-k2-thinking": 0.048,
+     "qwen3-max": 0.0001,
+     "typhoon": 0.8232
+    },
+    "grok-4": {
+     "claude-sonnet-4-5": 0.5883,
+     "deepseek-chat-v3.1": 0.4886,
+     "gemini-3-pro-preview": 0.7961,
+     "gpt-5.1": 0.9892,
+     "grok-4": 0.0,
+     "kimi-k2-thinking": 0.4646,
+     "qwen3-max": 0.9432,
+     "typhoon": 1.0
+    },
+    "kimi-k2-thinking": {
+     "claude-sonnet-4-5": 0.569,
+     "deepseek-chat-v3.1": 0.5392,
+     "gemini-3-pro-preview": 0.8642,
+     "gpt-5.1": 0.952,
+     "grok-4": 0.5354,
+     "kimi-k2-thinking": 0.0,
+     "qwen3-max": 0.8,
+     "typhoon": 1.0
+    },
+    "qwen3-max": {
+     "claude-sonnet-4-5": 0.0524,
+     "deepseek-chat-v3.1": 0.1794,
+     "gemini-3-pro-preview": 0.416,
+     "gpt-5.1": 0.9999,
+     "grok-4": 0.0568,
+     "kimi-k2-thinking": 0.2,
+     "qwen3-max": 0.0,
+     "typhoon": 0.9996
+    },
+    "typhoon": {
+     "claude-sonnet-4-5": 0.0,
+     "deepseek-chat-v3.1": 0.0,
+     "gemini-3-pro-preview": 0.0,
+     "gpt-5.1": 0.1768,
+     "grok-4": 0.0,
+     "kimi-k2-thinking": 0.0,
+     "qwen3-max": 0.0004,
+     "typhoon": 0.0
+    }
+   }
+  }
+ },
+ "draws": 20000,
+ "seed": 20261022,
+ "block_scheme": "Overlapping non-circular moving blocks of common dates; truncate to 14 dates; central 95% ranges."
+}

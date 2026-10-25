@@ -1,0 +1,39 @@
+{
+  "initial_capital": 320000.0,
+  "frozen_profit": 3538.2640134171643,
+  "realised_profit": -84230.78831521665,
+  "advantage_dollars": 87769.05232863381,
+  "scenarios": [
+    {
+      "debit_pp": 0,
+      "frozen_return_pct": 1.1057075041928637,
+      "advantage_pp": 27.427828852698067,
+      "accounts_ahead": 26
+    },
+    {
+      "debit_pp": 1,
+      "frozen_return_pct": 0.10570750419286368,
+      "advantage_pp": 26.427828852698067,
+      "accounts_ahead": 25
+    },
+    {
+      "debit_pp": 5,
+      "frozen_return_pct": -3.8942924958071363,
+      "advantage_pp": 22.427828852698067,
+      "accounts_ahead": 23
+    },
+    {
+      "debit_pp": 10,
+      "frozen_return_pct": -8.894292495807136,
+      "advantage_pp": 17.427828852698067,
+      "accounts_ahead": 21
+    },
+    {
+      "debit_pp": 20,
+      "frozen_return_pct": -18.894292495807136,
+      "advantage_pp": 7.427828852698067,
+      "accounts_ahead": 17
+    }
+  ],
+  "limitation": "Terminal adjustment only; no new margin test."
+}

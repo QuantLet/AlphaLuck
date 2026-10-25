@@ -1,0 +1,100 @@
+{
+  "window_start_ms": 1760738400000,
+  "window_start_utc": "2025-10-17T22:00:00+00:00",
+  "window_end_exclusive_ms": 1762214400000,
+  "window_end_exclusive_utc": "2025-11-04T00:00:00+00:00",
+  "official_freeze_ms": 1762214399000,
+  "official_freeze_utc": "2025-11-03T23:59:59+00:00",
+  "full_rows": 105408,
+  "window_rows": 29520,
+  "mark_rows": 29520,
+  "coverage": [
+    {
+      "coin": "BTC",
+      "expected_bars": 4920,
+      "actual_bars": 4920,
+      "missing_bars": 0,
+      "missing_open_times_ms": [],
+      "duplicate_bars": 0,
+      "invalid_ohlc_or_time_rows": 0,
+      "zero_volume_bars": 0,
+      "first_open_utc": "2025-10-17T22:00:00+00:00",
+      "last_open_utc": "2025-11-03T23:55:00+00:00",
+      "last_close_utc": "2025-11-03T23:59:59.999000+00:00"
+    },
+    {
+      "coin": "ETH",
+      "expected_bars": 4920,
+      "actual_bars": 4920,
+      "missing_bars": 0,
+      "missing_open_times_ms": [],
+      "duplicate_bars": 0,
+      "invalid_ohlc_or_time_rows": 0,
+      "zero_volume_bars": 0,
+      "first_open_utc": "2025-10-17T22:00:00+00:00",
+      "last_open_utc": "2025-11-03T23:55:00+00:00",
+      "last_close_utc": "2025-11-03T23:59:59.999000+00:00"
+    },
+    {
+      "coin": "SOL",
+      "expected_bars": 4920,
+      "actual_bars": 4920,
+      "missing_bars": 0,
+      "missing_open_times_ms": [],
+      "duplicate_bars": 0,
+      "invalid_ohlc_or_time_rows": 0,
+      "zero_volume_bars": 0,
+      "first_open_utc": "2025-10-17T22:00:00+00:00",
+      "last_open_utc": "2025-11-03T23:55:00+00:00",
+      "last_close_utc": "2025-11-03T23:59:59.999000+00:00"
+    },
+    {
+      "coin": "BNB",
+      "expected_bars": 4920,
+      "actual_bars": 4920,
+      "missing_bars": 0,
+      "missing_open_times_ms": [],
+      "duplicate_bars": 0,
+      "invalid_ohlc_or_time_rows": 0,
+      "zero_volume_bars": 0,
+      "first_open_utc": "2025-10-17T22:00:00+00:00",
+      "last_open_utc": "2025-11-03T23:55:00+00:00",
+      "last_close_utc": "2025-11-03T23:59:59.999000+00:00"
+    },
+    {
+      "coin": "DOGE",
+      "expected_bars": 4920,
+      "actual_bars": 4920,
+      "missing_bars": 0,
+      "missing_open_times_ms": [],
+      "duplicate_bars": 0,
+      "invalid_ohlc_or_time_rows": 0,
+      "zero_volume_bars": 0,
+      "first_open_utc": "2025-10-17T22:00:00+00:00",
+      "last_open_utc": "2025-11-03T23:55:00+00:00",
+      "last_close_utc": "2025-11-03T23:59:59.999000+00:00"
+    },
+    {
+      "coin": "XRP",
+      "expected_bars": 4920,
+      "actual_bars": 4920,
+      "missing_bars": 0,
+      "missing_open_times_ms": [],
+      "duplicate_bars": 0,
+      "invalid_ohlc_or_time_rows": 0,
+      "zero_volume_bars": 0,
+      "first_open_utc": "2025-10-17T22:00:00+00:00",
+      "last_open_utc": "2025-11-03T23:55:00+00:00",
+      "last_close_utc": "2025-11-03T23:59:59.999000+00:00"
+    }
+  ],
+  "mark_alignment": "t in [start,end) every five minutes; px is close of the preceding completed bar, available at t; never use contemporaneous future bar close",
+  "original_timestamp_unit": "microseconds; converted to milliseconds by exact integer operations",
+  "source_license_terms_url": "https://github.com/binance/binance-public-data/blob/master/TERMS_AND_CONDITIONS.md",
+  "use": "Internal academic sensitivity analysis only; raw archives and price panels are not published or copied into original project",
+  "limitations": [
+    "Binance spot USDT is a separate venue/instrument from Hyperliquid perpetual marks.",
+    "Checksum authenticates downloaded bytes; it does not guarantee economic correctness.",
+    "Bars starting before end_exclusive include a final close 999 ms after the official freeze timestamp; no-lookahead grid marks stop at 23:55 and do not use that close."
+  ]
+}

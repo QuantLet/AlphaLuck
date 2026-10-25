@@ -1,0 +1,202 @@
+{
+  "method": "Refresh comparison against cached published targets without raw organiser I/O.\n\nThe cache retains every prior-grid timestamp consistent with the previously\nreported reconstructed equity. Refresh is permitted only when all candidates\nmap to the same new equity. This recovers the comparison value, not the exact\npublished timestamp, and does not claim new organiser data were fetched.\n",
+  "reference": "data/external/reconciliation/cached_reference.json",
+  "reference_input_sha256": {
+    "equity.parquet": "6e6d9b726365597d343c6e5a017c9ff5a12119c12ea3733e1f495c66ff4797e8",
+    "recon.parquet": "86176fb36e8569840dbf7bc2fd2122aee22d4282251d9d12e86ff8f5142826bd"
+  },
+  "accounts": [
+    {
+      "tag": "S1__claude-sonnet-4-5",
+      "n_candidate_grid_points": 6,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S1__deepseek-chat-v3.1",
+      "n_candidate_grid_points": 12,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S1__gemini-2.5-pro",
+      "n_candidate_grid_points": 19,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S1__gpt-5",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S1__grok-4",
+      "n_candidate_grid_points": 19,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S1__qwen3-max",
+      "n_candidate_grid_points": 12,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c1__gpt-5.1",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c2__gpt-5.1",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c3__gpt-5.1",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c4__gpt-5.1",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c1__kimi-k2-thinking",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c2__kimi-k2-thinking",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c1__grok-4",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c2__grok-4",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c3__grok-4",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c4__grok-4",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c3__kimi-k2-thinking",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c4__kimi-k2-thinking",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c1__deepseek-chat-v3.1",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c2__deepseek-chat-v3.1",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c3__deepseek-chat-v3.1",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c4__deepseek-chat-v3.1",
+      "n_candidate_grid_points": 12,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c1__typhoon",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c2__typhoon",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c1__qwen3-max",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c2__qwen3-max",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c3__qwen3-max",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c4__qwen3-max",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c3__typhoon",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c4__typhoon",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c1__gemini-3-pro-preview",
+      "n_candidate_grid_points": 10,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c2__gemini-3-pro-preview",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c3__gemini-3-pro-preview",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c4__gemini-3-pro-preview",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c1__claude-sonnet-4-5",
+      "n_candidate_grid_points": 10,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c2__claude-sonnet-4-5",
+      "n_candidate_grid_points": 10,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c3__claude-sonnet-4-5",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    },
+    {
+      "tag": "S15__c4__claude-sonnet-4-5",
+      "n_candidate_grid_points": 1,
+      "new_candidate_equity_range_usd": 0.0
+    }
+  ],
+  "max_abs_relative_pct": 2.3750515192087818,
+  "median_abs_relative_pct": 0.36073297090440193
+}

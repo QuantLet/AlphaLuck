@@ -1,8 +1,11 @@
 # AlphaLuck
 
-Six standalone Quantlets accompanying the working paper **Risk Measurement and Performance Benchmarks in a Live LLM Trading Competition**, by Daniel Traian Pele. The association with a working paper does not imply journal acceptance.
+Code and data for **Trading versus Holding in a Live Language-Model Competition**, by Daniel Traian Pele, Diana Ioana Micu and Victor Rareș Curescu. The association with a working paper does not imply journal acceptance.
 
-This repository contains the six Quantlets, their minimal derived numerical inputs, generated results and reproduction instructions. It does not contain the manuscript or the full transaction reconstruction project.
+The repository has two parts:
+
+- [`reproduction/`](reproduction) — the full reconstruction package: the public Hyperliquid fills, funding, ledger and candle records for all 38 accounts, the AI-Trader inputs, the derived data, and the code that rebuilds every number, table and figure. Hyperliquid's API now returns only each wallet's most recent 10,000 fills and recent candles, so nine of the 38 wallets and the 5-minute price history for the season can no longer be re-downloaded in full; the copy here is the one the results were computed from, with SHA-256 hashes in `reproduction/PROVENANCE.csv`. See [`reproduction/README.md`](reproduction/README.md) and [`reproduction/DATA.md`](reproduction/DATA.md).
+- Six standalone Quantlets (below) that reproduce selected results from minimal derived inputs.
 
 | Quantlet | Reproduces |
 |---|---|
@@ -13,7 +16,7 @@ This repository contains the six Quantlets, their minimal derived numerical inpu
 | [AlphaLuckFrozenBenchmark](AlphaLuckFrozenBenchmark) | Aggregation of hourly-funded endpoints and conditional closing-cost and common-price stresses |
 | [AlphaLuckFormationHour](AlphaLuckFormationHour) | The frozen-book comparison for every formation hour, to the close and over fixed 1-, 3- and 7-day horizons, under account-wide and passive-isolated margin policies |
 
-## Reproduce
+## Reproduce the standalone Quantlets
 
 Tested with Python 3.13 and the pinned packages in `requirements.txt`.
 
@@ -34,8 +37,22 @@ The frozen-position comparison aggregates derived endpoints: 2.82% versus -26.30
 
 These compact Quantlets reproduce calculations **from the included derived inputs**. They do not independently reconstruct the original exchange ledger, the funding stream or the market-price history. See each Quantlet's README and [DATA.md](DATA.md) for the precise boundary.
 
+## Reproduce the full package
+
+Tested with Python 3.13 and the pinned packages in `reproduction/requirements.lock`.
+
+```sh
+cd reproduction
+python -m venv .venv && .venv/bin/pip install -r requirements.lock
+make verify-raw   # SHA-256 of every shipped raw file against PROVENANCE.csv
+make test         # identities, reconciliation and every reported macro
+make frl-figures  # the letter's figures
+```
+
+The organiser's own API payloads (alphaarena.ai, nof1.ai) carry no licence and are not redistributed; `make download` re-fetches those that are still served, and `make verify-raw` reports them as missing until then. Licensed EODHD prices, used in one optional robustness check, are also not included. Steps that need either use the committed derived outputs.
+
 ## Citation, licensing and catalogue
 
-Use [CITATION.cff](CITATION.cff) to cite this software. Code and authored documentation use the [MIT licence](LICENSE); this does not grant rights over third-party raw records. Raw exchange and organiser data are not redistributed here.
+Use [CITATION.cff](CITATION.cff) to cite this software. Code and authored documentation use the [MIT licence](LICENSE); this does not grant rights over third-party raw records. Public Hyperliquid records are redistributed in `reproduction/data/raw/hl/`; AI-Trader inputs keep their MIT licence; organiser payloads and licensed external prices are not redistributed.
 
 Metadata follow the [QuantLet style guide](https://github.com/QuantLet/Styleguide-and-FAQ). GitHub publication and indexing by [quantlet.com](https://quantlet.com/) are separate steps; this README does not assert that catalogue indexing has completed.

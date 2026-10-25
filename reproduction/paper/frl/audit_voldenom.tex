@@ -1,0 +1,23 @@
+% Submission copy: zero-rounded p-values shown as limits.
+\begin{table}[ht]
+\centering
+\footnotesize
+\caption{Each risk measure on two denominators. \emph{Equity} uses current equity (mean equity for turnover); \emph{fixed} uses analytical initial capital of \$10{,}000, the same number for every account on every day. The letter reports both capital bases. Conditional diagnostics require the assumptions stated in the appendix.}
+\label{tab:voldenom}
+\begin{tabular}{lcccccc}
+\toprule
+ & \multicolumn{2}{c}{Volatility} & \multicolumn{2}{c}{Turnover} & \multicolumn{2}{c}{Exposure} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+ & Equity & Fixed & Equity & Fixed & Equity & Fixed \\
+\midrule
+Model effect, $F_{7,21}$ & 12.69 & 7.87 & 1.54 & 2.40 & 8.18 & 2.11 \\
+\quad permutation $p$ & $<0.001$ & $<0.001$ & 0.108 & 0.044 & $<0.001$ & 0.087 \\
+Arm-adjusted ICC & 0.75 & 0.63 & 0.12 & 0.26 & 0.64 & 0.22 \\
+Kendall's $W$ across arms & 0.87 & 0.79 & 0.47 & 0.53 & 0.69 & 0.31 \\
+Arm effect, $F_{3,21}$ & 7.74 & 3.87 & 10.69 & 11.63 & 10.43 & 3.42 \\
+Continuation ranks, $\rho$ & 0.61 & 0.19 & 0.82 & 0.69 & 0.90 & 0.84 \\
+Association with return, $\rho$ & \ensuremath{-}0.51 & \ensuremath{-}0.36 & \ensuremath{-}0.45 & \ensuremath{-}0.12 & \ensuremath{-}0.35 & 0.26 \\
+\quad permutation $p$ & 0.006 & 0.052 & 0.016 & 0.539 & 0.064 & 0.183 \\
+\bottomrule
+\end{tabular}
+\end{table}

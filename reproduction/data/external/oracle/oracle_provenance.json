@@ -1,0 +1,215 @@
+{
+ "scope": "Hyperliquid public info API, no credentials; exact response bytes preserved",
+ "sources": [
+  {
+   "url": "https://api.hyperliquid.xyz/info",
+   "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:NVDA",
+    "startTime": 1763510400000,
+    "endTime": 1765756800000
+   },
+   "fetched_at_utc": "2026-10-21T17:26:24.347630+00:00",
+   "status": 200,
+   "bytes": 46870,
+   "sha256": "98e824d647f6fd4c7deb0576d5b980fe91c11012382dde82cb2bfdc1a7c3eb47",
+   "file": "data/external/oracle/hl_info/fundingHistory_xyz_NVDA_1763510400000.json",
+   "row_count": 500
+  },
+  {
+   "url": "https://api.hyperliquid.xyz/info",
+   "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:NVDA",
+    "startTime": 1765306800067,
+    "endTime": 1765756800000
+   },
+   "fetched_at_utc": "2026-10-21T17:26:25.652218+00:00",
+   "status": 200,
+   "bytes": 11619,
+   "sha256": "3921774d9c57d72d5e57af6b2be7c4f59257f16ffd407a6aaacd81b985517d94",
+   "file": "data/external/oracle/hl_info/fundingHistory_xyz_NVDA_1765306800067.json",
+   "row_count": 124
+  },
+  {
+   "url": "https://api.hyperliquid.xyz/info",
+   "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:MSFT",
+    "startTime": 1763510400000,
+    "endTime": 1765756800000
+   },
+   "fetched_at_utc": "2026-10-21T17:26:25.951178+00:00",
+   "status": 200,
+   "bytes": 46708,
+   "sha256": "406f862172355422056a2c8ce30afa4c7475106414f7c22b7dfd7098245e734d",
+   "file": "data/external/oracle/hl_info/fundingHistory_xyz_MSFT_1763510400000.json",
+   "row_count": 500
+  },
+  {
+   "url": "https://api.hyperliquid.xyz/info",
+   "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:MSFT",
+    "startTime": 1765360800109,
+    "endTime": 1765756800000
+   },
+   "fetched_at_utc": "2026-10-21T17:26:26.761846+00:00",
+   "status": 200,
+   "bytes": 10165,
+   "sha256": "99eb10040acc1e161d0bfb0132175c5a064fa7c38d56dc21c21f6261c0add83e",
+   "file": "data/external/oracle/hl_info/fundingHistory_xyz_MSFT_1765360800109.json",
+   "row_count": 109
+  },
+  {
+   "url": "https://api.hyperliquid.xyz/info",
+   "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:TSLA",
+    "startTime": 1763510400000,
+    "endTime": 1765756800000
+   },
+   "fetched_at_utc": "2026-10-21T17:26:27.061003+00:00",
+   "status": 200,
+   "bytes": 46776,
+   "sha256": "78b52cb3131c2ffd513a537291fc74ad981b92f7ab33d5687a58811c01b5ac8a",
+   "file": "data/external/oracle/hl_info/fundingHistory_xyz_TSLA_1763510400000.json",
+   "row_count": 500
+  },
+  {
+   "url": "https://api.hyperliquid.xyz/info",
+   "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:TSLA",
+    "startTime": 1765306800067,
+    "endTime": 1765756800000
+   },
+   "fetched_at_utc": "2026-10-21T17:26:27.858933+00:00",
+   "status": 200,
+   "bytes": 11573,
+   "sha256": "735e78e8100acc84441147991e9eb44d1bfa9d22759339802cdbef7773e19dea",
+   "file": "data/external/oracle/hl_info/fundingHistory_xyz_TSLA_1765306800067.json",
+   "row_count": 124
+  },
+  {
+   "url": "https://api.hyperliquid.xyz/info",
+   "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:GOOGL",
+    "startTime": 1763510400000,
+    "endTime": 1765756800000
+   },
+   "fetched_at_utc": "2026-10-21T17:26:28.151629+00:00",
+   "status": 200,
+   "bytes": 47391,
+   "sha256": "c120b365e0308ce3e5d444345705bf42ebe5cdd529c79f2a7cecfa03594482b9",
+   "file": "data/external/oracle/hl_info/fundingHistory_xyz_GOOGL_1763510400000.json",
+   "row_count": 500
+  },
+  {
+   "url": "https://api.hyperliquid.xyz/info",
+   "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:GOOGL",
+    "startTime": 1765306800067,
+    "endTime": 1765756800000
+   },
+   "fetched_at_utc": "2026-10-21T17:26:29.434918+00:00",
+   "status": 200,
+   "bytes": 11708,
+   "sha256": "a68fadfb22be2018aa08d57962e2c146acf072f3a72ea502df88ff0b3fbfcaf9",
+   "file": "data/external/oracle/hl_info/fundingHistory_xyz_GOOGL_1765306800067.json",
+   "row_count": 124
+  },
+  {
+   "url": "https://api.hyperliquid.xyz/info",
+   "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:AMZN",
+    "startTime": 1763510400000,
+    "endTime": 1765756800000
+   },
+   "fetched_at_utc": "2026-10-21T17:26:29.732932+00:00",
+   "status": 200,
+   "bytes": 46842,
+   "sha256": "fc6a0a2f5065c1b5af044e8a5ad2ad379abc1b203a4dec4fd6ab5fb28c9c3e03",
+   "file": "data/external/oracle/hl_info/fundingHistory_xyz_AMZN_1763510400000.json",
+   "row_count": 500
+  },
+  {
+   "url": "https://api.hyperliquid.xyz/info",
+   "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:AMZN",
+    "startTime": 1765306800067,
+    "endTime": 1765756800000
+   },
+   "fetched_at_utc": "2026-10-21T17:26:31.128990+00:00",
+   "status": 200,
+   "bytes": 11520,
+   "sha256": "8e3d82c134a1a1c6687283e927ef5cd1b52d091a4c97081a29ce99485e0251fc",
+   "file": "data/external/oracle/hl_info/fundingHistory_xyz_AMZN_1765306800067.json",
+   "row_count": 124
+  },
+  {
+   "url": "https://api.hyperliquid.xyz/info",
+   "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:PLTR",
+    "startTime": 1763510400000,
+    "endTime": 1765756800000
+   },
+   "fetched_at_utc": "2026-10-21T17:26:31.431007+00:00",
+   "status": 200,
+   "bytes": 47666,
+   "sha256": "c897837f276b7d9c5451de67cdd5cdc692c32b8445249fb1d0c8fab7d68061c8",
+   "file": "data/external/oracle/hl_info/fundingHistory_xyz_PLTR_1763510400000.json",
+   "row_count": 500
+  },
+  {
+   "url": "https://api.hyperliquid.xyz/info",
+   "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:PLTR",
+    "startTime": 1765306800067,
+    "endTime": 1765756800000
+   },
+   "fetched_at_utc": "2026-10-21T17:26:32.240843+00:00",
+   "status": 200,
+   "bytes": 11631,
+   "sha256": "31964c229c98cba73d7361a40f61d4ab7b55bb260e3ffda7ace18fd624d203ee",
+   "file": "data/external/oracle/hl_info/fundingHistory_xyz_PLTR_1765306800067.json",
+   "row_count": 124
+  },
+  {
+   "url": "https://api.hyperliquid.xyz/info",
+   "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:XYZ100",
+    "startTime": 1763510400000,
+    "endTime": 1765756800000
+   },
+   "fetched_at_utc": "2026-10-21T17:26:32.535975+00:00",
+   "status": 200,
+   "bytes": 47698,
+   "sha256": "b5d0c28842659b3f1a415ac9185d758d75a839c8829ce509c47d02c679b8f6ba",
+   "file": "data/external/oracle/hl_info/fundingHistory_xyz_XYZ100_1763510400000.json",
+   "row_count": 500
+  },
+  {
+   "url": "https://api.hyperliquid.xyz/info",
+   "request_payload": {
+    "type": "fundingHistory",
+    "coin": "xyz:XYZ100",
+    "startTime": 1765306800067,
+    "endTime": 1765756800000
+   },
+   "fetched_at_utc": "2026-10-21T17:26:33.828548+00:00",
+   "status": 200,
+   "bytes": 11822,
+   "sha256": "9f098030a02332a1508afa485822ab1454900fe2e9b5016046c15df3bd754cd8",
+   "file": "data/external/oracle/hl_info/fundingHistory_xyz_XYZ100_1765306800067.json",
+   "row_count": 124
+  }
+ ]
+}
