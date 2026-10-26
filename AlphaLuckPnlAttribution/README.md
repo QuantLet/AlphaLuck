@@ -1,13 +1,31 @@
-# AlphaLuckPnlAttribution
+<div style="margin: 0; padding: 0; text-align: center; border: none;">
+<a href="https://quantlet.com" target="_blank" style="text-decoration: none; border: none;">
+<img src="https://github.com/StefanGam/test-repo/blob/main/quantlet_design.png?raw=true" alt="Header Image" width="100%" style="margin: 0; padding: 0; display: block; border: none;" />
+</a>
+</div>
 
-Signed accounting attribution combining timing and residual execution adjustment alongside exposure, fees and daily-booked funding. Intermediate-mark invariance is conditional on fixed endpoint valuations; the combined contribution is not measured trading cost.
+```
+Name of Quantlet: AlphaLuckPnlAttribution
 
-Run from this folder:
+Published in: Trading versus Holding in a Live Language-Model Competition (working paper; not yet published)
 
-```sh
-python AlphaLuckPnlAttribution.py
+Description: Signed accounting attribution combining timing and residual execution adjustment alongside exposure, fees and daily-booked funding. Intermediate-mark invariance is conditional on fixed endpoint valuations; the combined contribution is not measured trading cost.
+
+Keywords: profit and loss, accounting attribution, execution adjustment, funding, large language models, trading
+
+Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu
+
+Submitted: 15 October 2026
+
+Datafile: data/a1_pnl_decomposition.csv
+
+Output: AlphaLuckPnlAttribution.png, AlphaLuckPnlAttribution.pdf
+
+Note: Run the named Python script from any directory. Inputs are included derived data, not raw organiser payloads. One run per model-arm cell; no population-model significance claim.
+
 ```
 
-The `data/` files and local `style.py` are sufficient. Install the repository requirements first. The output is a PNG preview and a vector PDF. This is a descriptive reproduction of one observed competition, not a trading recommendation or a replicated skill test.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/QuantLet/AlphaLuck/main/AlphaLuckPnlAttribution/AlphaLuckPnlAttribution.png" alt="Image" width="600"/>
+</div>
 
-The included CSV files retain only the rows and columns used by this Quantlet.
