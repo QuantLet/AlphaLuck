@@ -1,0 +1,63 @@
+{
+  "release": "v2.1.0",
+  "date": "2026-11-02",
+  "checks": [
+    {
+      "check": "alpha_offline",
+      "passed": true
+    },
+    {
+      "check": "alpha_timing_tests",
+      "passed": true
+    },
+    {
+      "check": "reconstruction_tests",
+      "passed": true
+    },
+    {
+      "check": "additional_checks",
+      "passed": true
+    },
+    {
+      "check": "prediction_calculate_replication",
+      "passed": true
+    },
+    {
+      "check": "prediction_calculate_twr",
+      "passed": true
+    },
+    {
+      "check": "prediction_formation_sensitivity",
+      "passed": true
+    },
+    {
+      "check": "prediction_tests",
+      "passed": true
+    },
+    {
+      "check": "history_tests",
+      "passed": true
+    },
+    {
+      "check": "prediction_results_unchanged_at_reported_precision",
+      "passed": true,
+      "maximum_decimal_rounding_difference": "9E-26"
+    },
+    {
+      "check": "deterministic_outputs_with_different_hash_seed",
+      "passed": true
+    },
+    {
+      "check": "paper_alphaluck_frl",
+      "passed": true
+    },
+    {
+      "check": "paper_online_appendix",
+      "passed": true
+    },
+    {
+      "check": "abstract_without_numbers",
+      "passed": true
+    }
+  ]
+}

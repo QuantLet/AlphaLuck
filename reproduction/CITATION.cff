@@ -2,12 +2,11 @@ cff-version: 1.2.0
 message: "If you use this software or data, please cite it as below."
 title: "AlphaLuck: Trading versus Holding in a Live Language-Model Competition"
 abstract: >-
-  Transaction-based reconstruction of 38 Alpha Arena accounts in two seasons.
-  The main 32-account panel supports descriptive comparisons of current-equity
-  and initial-capital risk measures, accounting attribution and hourly-funded
-  frozen-position benchmarks. Shared-date and exposure-specific sensitivities
-  delimit interpretation. The short unreplicated design does not establish
-  persistent model skill; historical liquidation feasibility remains unverified.
+  Data and code for trading-versus-holding comparisons in Alpha Arena,
+  AI-Trader and Prediction Arena. This release adds independently reconciled
+  Prediction Arena transactions and valuation checks, corrected Alpha Arena
+  funding alignment, and formation-threshold sensitivity calculations.
+  The comparisons are descriptive and do not establish persistent model skill.
 type: software
 authors:
   - family-names: Pele
@@ -21,7 +20,10 @@ authors:
     given-names: "Victor Rareș"
     affiliation: "Bucharest University of Economic Studies"
 license: MIT
-version: "0.2.0-review"
+version: "2.1.0"
+date-released: "2026-11-02"
+url: "https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.0"
+repository-code: "https://github.com/QuantLet/AlphaLuck"
 keywords:
   - large language models
   - algorithmic trading
@@ -30,31 +32,3 @@ keywords:
   - reproducibility
   - Hyperliquid
   - Alpha Arena
-references:
-  - type: article
-    authors:
-      - family-names: Lo
-        given-names: Andrew W.
-    title: "The Statistics of Sharpe Ratios"
-    journal: "Financial Analysts Journal"
-    volume: 58
-    issue: 4
-    start: 36
-    end: 52
-    year: 2002
-    doi: "10.2469/faj.v58.n4.2453"
-  - type: article
-    authors:
-      - family-names: Shrout
-        given-names: Patrick E.
-      - family-names: Fleiss
-        given-names: Joseph L.
-    title: "Intraclass Correlations: Uses in Assessing Rater Reliability"
-    journal: "Psychological Bulletin"
-    volume: 86
-    issue: 2
-    start: 420
-    end: 428
-    year: 1979
-    doi: "10.1037/0033-2909.86.2.420"
-repository-code: "https://github.com/QuantLet/AlphaLuck"

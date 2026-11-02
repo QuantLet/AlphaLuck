@@ -158,16 +158,15 @@ def main():
                 f"{a['isolated_B_hours_positive']}/{a['hours']} $>0$ \\\\")
     table = r"""\begin{table}[ht]
 \centering\small
-\caption{Frozen-book comparison by formation hour with organiser margin data,
-Season~1.5. Advantages are percentage points of initial capital, frozen minus
-realised, with hourly funding. ``Organiser close'' revalues both terminal
-books at the organiser's prices within 15 minutes of the close. Account-wide
-counts accounts whose frozen equity falls below summed asset maintenance
-margins on the five-minute grid. Passive isolated keeps each position's
-formation isolated margin, uses the organiser's liquidation price for the
-same position and triggers on pooled trade prints; liquidation returns (A)
-or forfeits (B) the remaining maintenance margin. Neither convention is an
-exchange replay. The last row summarises all formation hours.}
+\caption{Holding versus trading under alternative margin assumptions,
+Season~1.5. Advantages are frozen minus realised returns, in percentage
+points of initial capital, including hourly funding. Organiser close uses
+prices reported within 15 minutes of the close. Account-wide counts
+accounts with equity below their combined maintenance requirements.
+Isolated margin retains estimated formation collateral and uses
+reported thresholds aligned for funding, with remaining maintenance margin
+returned (A) or forfeited (B). Transaction prices approximate the
+unavailable historical mark prices. The last row covers all formation hours.}
 \label{tab:orghourly}
 \setlength{\tabcolsep}{4pt}
 \begin{tabular}{rrrrrrrr}
@@ -282,8 +281,8 @@ of price towards (earlier) or away from (later) the formation price;
 slippage executes the liquidation beyond the trigger, 1.3\% being the
 largest gap between an actual liquidation fill and the organiser threshold
 in the archive; the charge is levied on the liquidated notional, above the
-largest recorded fee rate; the two unscreened positions are closed at their
-worst grid mark. The joint rows combine 1\% trigger shift, 1.3\% slippage,
+largest recorded fee rate; the two positions without matching margin observations are closed at
+the price giving their lowest equity on the grid. The joint rows combine 1\% trigger shift, 1.3\% slippage,
 a 10\,bp charge and worst marks. The last two rows give the median
 seven-day advantage and the number of formation hours with holding ahead,
 of all formation hours.}

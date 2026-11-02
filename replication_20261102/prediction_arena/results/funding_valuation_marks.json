@@ -1,0 +1,280 @@
+{
+  "glm-4.7": {
+    "cutoff_exclusive": "1771103759.0",
+    "marks": {
+      "104741298490564136839934000321070769198562631158798130963971796215056165331933": {
+        "price": "0.97",
+        "method": "last_transaction_VWAP",
+        "transaction_hash": "0x6f1a969ab0ba0aa9457c8726e4e69a51578d0106c6ab497de778f4a426c1620e",
+        "evidence_time": "1771099873",
+        "age_seconds": "3886.0",
+        "quantity": "1.0309",
+        "cash_USDCE": "0.999973",
+        "fill_selection": "taker_summary",
+        "fill_event_ids": [
+          "137_82989925_460"
+        ]
+      },
+      "19180751334892649957685662514970856594118361572000181281162861811532650604260": {
+        "price": "0.08",
+        "method": "last_transaction_VWAP",
+        "transaction_hash": "0x519804ad82e88f93f41b9d7d3b78d177477b58aad4ef1145733ca2517d05ac2c",
+        "evidence_time": "1771099083",
+        "age_seconds": "4676.0",
+        "quantity": "124",
+        "cash_USDCE": "9.92",
+        "fill_selection": "taker_summary",
+        "fill_event_ids": [
+          "137_82989530_1226"
+        ]
+      },
+      "20002636398944597965698652220992177552927816915094913583821579024925426590022": {
+        "price": "0.97",
+        "method": "last_transaction_VWAP",
+        "transaction_hash": "0xaf3832ad0a109620e1d77365582850178431408118288a199dfc00d1c1cf250d",
+        "evidence_time": "1771100539",
+        "age_seconds": "3220.0",
+        "quantity": "16",
+        "cash_USDCE": "15.52",
+        "fill_selection": "maker_components",
+        "fill_event_ids": [
+          "137_82990258_1988"
+        ]
+      },
+      "2067891916326150127826753884863730268931932594834881748788499812590988545417": {
+        "price": "0.1096502760978175124901393637",
+        "method": "last_transaction_VWAP",
+        "transaction_hash": "0x8b67490ae54161cae3cc856ecb427088f3094fcb55fb1e1c9c58886dc92e2650",
+        "evidence_time": "1771102685",
+        "age_seconds": "1074.0",
+        "quantity": "76.06",
+        "cash_USDCE": "8.34",
+        "fill_selection": "maker_components",
+        "fill_event_ids": [
+          "137_82991331_2812",
+          "137_82991331_2822"
+        ]
+      },
+      "43946269812975261940442841140057396362355013850035195910637438338242851933505": {
+        "price": "0.99",
+        "method": "last_transaction_VWAP",
+        "transaction_hash": "0xe38b42fe7ab649ac29a0891cdaeb9f08bb822c84a20be04a25f0a409db64b316",
+        "evidence_time": "1771103749",
+        "age_seconds": "10.0",
+        "quantity": "195",
+        "cash_USDCE": "193.05",
+        "fill_selection": "maker_components",
+        "fill_event_ids": [
+          "137_82991863_1322",
+          "137_82991863_1328",
+          "137_82991863_1338"
+        ]
+      },
+      "50221315964000194764695024582522009520159992363520263771661265416131198909217": {
+        "price": "0.9199998282665842346270992877",
+        "method": "last_transaction_VWAP",
+        "transaction_hash": "0xcf37ec97f9a02b2ec0a1048b1cf3b8f765e496467f16a77e6d88a21041e670b3",
+        "evidence_time": "1771102213",
+        "age_seconds": "1546.0",
+        "quantity": "3.260868",
+        "cash_USDCE": "2.999998",
+        "fill_selection": "maker_components",
+        "fill_event_ids": [
+          "137_82991095_2397"
+        ]
+      },
+      "70308501195956323589797156800521969197358506986152833648253437673484286051597": {
+        "price": "0.999",
+        "method": "last_transaction_VWAP",
+        "transaction_hash": "0x2a6278fbc685f169fa499cffcd7562b0004bab587dfb4a687c7c38fc33b76750",
+        "evidence_time": "1771072509",
+        "age_seconds": "31250.0",
+        "quantity": "2000",
+        "cash_USDCE": "1998",
+        "fill_selection": "maker_components",
+        "fill_event_ids": [
+          "137_82976243_2344"
+        ]
+      },
+      "7648925155044397287047798308912067661131447591491670430094875295487039626662": {
+        "price": "0.01",
+        "method": "last_transaction_VWAP",
+        "transaction_hash": "0xe38b42fe7ab649ac29a0891cdaeb9f08bb822c84a20be04a25f0a409db64b316",
+        "evidence_time": "1771103749",
+        "age_seconds": "10.0",
+        "quantity": "5",
+        "cash_USDCE": "0.05",
+        "fill_selection": "maker_components",
+        "fill_event_ids": [
+          "137_82991863_1332"
+        ]
+      }
+    }
+  },
+  "claude-opus-4-5-20251101": {
+    "cutoff_exclusive": "1771103695.0",
+    "marks": {
+      "2067891916326150127826753884863730268931932594834881748788499812590988545417": {
+        "price": "0.1096502760978175124901393637",
+        "method": "last_transaction_VWAP",
+        "transaction_hash": "0x8b67490ae54161cae3cc856ecb427088f3094fcb55fb1e1c9c58886dc92e2650",
+        "evidence_time": "1771102685",
+        "age_seconds": "1010.0",
+        "quantity": "76.06",
+        "cash_USDCE": "8.34",
+        "fill_selection": "maker_components",
+        "fill_event_ids": [
+          "137_82991331_2812",
+          "137_82991331_2822"
+        ]
+      }
+    }
+  },
+  "gemini-3-pro-preview": {
+    "cutoff_exclusive": "1771103727.0",
+    "marks": {
+      "103693433518125527001416636574099415821922498558487623412396163292963814003978": {
+        "price": "0.87",
+        "method": "last_transaction_VWAP",
+        "transaction_hash": "0xa4a2001482bcc14f7c4aac7164323b836f88885dff2d2c89381819e4d2dc6e2f",
+        "evidence_time": "1771094685",
+        "age_seconds": "9042.0",
+        "quantity": "4.19",
+        "cash_USDCE": "3.6453",
+        "fill_selection": "maker_components",
+        "fill_event_ids": [
+          "137_82987331_361"
+        ]
+      },
+      "34554555827438551101000555305203609600029621153428996114009350892614396532498": {
+        "price": "0.46",
+        "method": "last_transaction_VWAP",
+        "transaction_hash": "0xe462134074ae18293e57b290c9dc2f53be0e708538824b71e6d110ddabfa423b",
+        "evidence_time": "1771103655",
+        "age_seconds": "72.0",
+        "quantity": "2.22",
+        "cash_USDCE": "1.0212",
+        "fill_selection": "taker_summary",
+        "fill_event_ids": [
+          "137_82991816_1036"
+        ]
+      },
+      "36883565831904087508226394713200686731489552227586350779373674841157301472898": {
+        "price": "0.71",
+        "method": "last_transaction_VWAP",
+        "transaction_hash": "0xccc262960bd1cb70aa6743bf2a4b3a707cdca19879be4d165df59e3308399fc2",
+        "evidence_time": "1771099935",
+        "age_seconds": "3792.0",
+        "quantity": "30",
+        "cash_USDCE": "21.3",
+        "fill_selection": "taker_summary",
+        "fill_event_ids": [
+          "137_82989956_3335"
+        ]
+      },
+      "47007608451866222038776815593966565869166804758074270988104838992146410355645": {
+        "price": "0.7199998559995967988710368389",
+        "method": "last_transaction_VWAP",
+        "transaction_hash": "0x8cf0cd4f03414092b15d030f549cc880171cf10a571a6ccd33acba51a4ce4525",
+        "evidence_time": "1771103563",
+        "age_seconds": "164.0",
+        "quantity": "1.388885",
+        "cash_USDCE": "0.999997",
+        "fill_selection": "taker_summary",
+        "fill_event_ids": [
+          "137_82991770_3294"
+        ]
+      },
+      "51338236787729560681434534660841415073585974762690814047670810862722808070955": {
+        "price": "0.959",
+        "method": "last_transaction_VWAP",
+        "transaction_hash": "0x930295d642b8618d1cc35b217ed9259cc701d4bdc229fe47e8888b262d51bf55",
+        "evidence_time": "1771103493",
+        "age_seconds": "234.0",
+        "quantity": "1000",
+        "cash_USDCE": "959",
+        "fill_selection": "taker_summary",
+        "fill_event_ids": [
+          "137_82991735_872"
+        ]
+      },
+      "68639196051170795150992485552561385006521521637825690332014642323694437969760": {
+        "price": "0.76",
+        "method": "last_transaction_VWAP",
+        "transaction_hash": "0x4a3aef8767e26fc09c94288c09007610ee6f65351c4098e359a94f0f75c10dd1",
+        "evidence_time": "1771103629",
+        "age_seconds": "98.0",
+        "quantity": "2.631575",
+        "cash_USDCE": "1.999997",
+        "fill_selection": "taker_summary",
+        "fill_event_ids": [
+          "137_82991803_650"
+        ]
+      }
+    }
+  },
+  "gpt-5.2": {
+    "cutoff_exclusive": "1771103879.0",
+    "marks": {
+      "78475515974904973486520650032359781413670391408858976557583153729448334433111": {
+        "price": "0",
+        "method": "contractual_payout",
+        "condition": "0x3c6cea5ea25e20359757ea90f4a2f559aacafe12bc07f0e64daf7f27a1326071",
+        "evidence_time": "1770774053",
+        "evidence_event_id": "137_82827015_409"
+      },
+      "13974700985240075332118756604045908736371738526924981600158142606410215481417": {
+        "price": "1",
+        "method": "contractual_payout",
+        "condition": "0xa40d206194c1ce5007d664a0be65336a9591c96516cef47be05f6041e683ed0b",
+        "evidence_time": "1770701617",
+        "evidence_event_id": "137_82790797_1051"
+      },
+      "80467209035316733248182241854481357574974859397287948244490439418859525643972": {
+        "price": "1",
+        "method": "contractual_payout",
+        "condition": "0x8e757ef155e36d4f8f1170b9cc466f26951eb926b7ffdfa6b6974e1a668e7289",
+        "evidence_time": "1770791073",
+        "evidence_event_id": "137_82835525_1322"
+      },
+      "14381317742642288562069333171404338221972403876918192870287824769888574096370": {
+        "price": "1",
+        "method": "contractual_payout",
+        "condition": "0x1f4cb71b16fa7b569467447b9632e618effa64193c0ee80504589991c6c5250e",
+        "evidence_time": "1770870505",
+        "evidence_event_id": "137_82875241_1460"
+      },
+      "67792722355142458543405804667173576496727766412314185614681981725121852085429": {
+        "price": "1",
+        "method": "contractual_payout",
+        "condition": "0xa053035c6b33499a44efca57cd900df707f4bbbe1382928ac13e22fe757d2a48",
+        "evidence_time": "1770874669",
+        "evidence_event_id": "137_82877323_1706"
+      },
+      "58559942104124834610354386615778861574513981419650657693895447808079812075872": {
+        "price": "1",
+        "method": "contractual_payout",
+        "condition": "0x3272ec6dd6dfa64714c6cd56d694d515459497b673378b6e34ea3a60b27cee53",
+        "evidence_time": "1770797509",
+        "evidence_event_id": "137_82838743_2247"
+      },
+      "42278252558046940014991595990628759801692726198478046188873057685686228021663": {
+        "price": "0.993",
+        "method": "last_transaction_VWAP",
+        "transaction_hash": "0x16265a70035620bed2c1c36e00d2bfc665cec6e7b499474cd2f131c99e446dc8",
+        "evidence_time": "1771100197",
+        "age_seconds": "3682.0",
+        "quantity": "44.28",
+        "cash_USDCE": "43.97004",
+        "fill_selection": "taker_summary",
+        "fill_event_ids": [
+          "137_82990087_1795"
+        ]
+      }
+    }
+  },
+  "mystery-model-alpha": {
+    "cutoff_exclusive": "1771103803.0",
+    "marks": {}
+  }
+}

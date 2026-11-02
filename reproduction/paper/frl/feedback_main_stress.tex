@@ -1,0 +1,21 @@
+\begin{table}[ht]
+\centering\small
+\caption{Joint liquidation stresses from formation at 24 hours to the
+close, Season~1.5. The trigger moves 1\% earlier or later; execution occurs
+1.3\% beyond it with a 10 bp charge. Positions without a matching margin
+observation are valued at the price giving their lowest equity. A returns
+remaining maintenance margin; B forfeits it. Total returns include the
+first day; gaps are relative to realised trading, in percentage points of
+initial capital. Ahead counts accounts outperforming realised trading.}
+\label{tab:jointformation}
+\begin{tabular}{lrrr}
+\toprule
+Scenario & Total return (\%) & Gap (pp) & Ahead /32 \\
+\midrule
+Joint stress, earlier, A & \alFeedbackEarlyAReturn & \alFeedbackEarlyAGap & \alFeedbackEarlyAAhead \\
+Joint stress, earlier, B & \alFeedbackEarlyBReturn & \alFeedbackEarlyBGap & \alFeedbackEarlyBAhead \\
+Joint stress, later, A & \alFeedbackLateAReturn & \alFeedbackLateAGap & \alFeedbackLateAAhead \\
+Joint stress, later, B & \alFeedbackLateBReturn & \alFeedbackLateBGap & \alFeedbackLateBAhead \\
+\bottomrule
+\end{tabular}
+\end{table}

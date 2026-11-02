@@ -1,0 +1,63 @@
+{
+  "group": 17,
+  "group_rows": 1001472,
+  "owner_matches_before_time_filter": 5,
+  "bytes_read": 15187245,
+  "rows": [
+    {
+      "id": "137_83414446_2618",
+      "timestamp": "1771948920",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x76ccc95393f89f2af45f7391661be540833d61da56a02a5bc36d561743fe486e",
+      "indexSets": [
+        "1",
+        "2"
+      ],
+      "payout": "1098900"
+    },
+    {
+      "id": "137_83423971_1002",
+      "timestamp": "1771967970",
+      "redeemer": "0xC93ECB0Aa64635ee352db9602F5424E8006596D5",
+      "condition": "0x4ba66a93e7669ccbefada2a06ecc7a1384939c4b5983fba702620aa1ae4e88ab",
+      "indexSets": [
+        "1",
+        "2"
+      ],
+      "payout": "22182000"
+    },
+    {
+      "id": "137_83424546_1276",
+      "timestamp": "1771969120",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x01dd8795176ff3add669f0c5be2bbba86ef480fe25ce165ba1bda063d91304f3",
+      "indexSets": [
+        "1",
+        "2"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83424550_1087",
+      "timestamp": "1771969128",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x25d64251c46b88664af087312a4a1abde2406b0962a5d3b6f0cb2488e50b8084",
+      "indexSets": [
+        "1",
+        "2"
+      ],
+      "payout": "1026634"
+    },
+    {
+      "id": "137_83444711_4661",
+      "timestamp": "1772009450",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x67b6bb4cda704d6d3a42d2319f4f1cec8a61977374e465e0a639b2f0212ce20d",
+      "indexSets": [
+        "1",
+        "2"
+      ],
+      "payout": "3508768"
+    }
+  ]
+}

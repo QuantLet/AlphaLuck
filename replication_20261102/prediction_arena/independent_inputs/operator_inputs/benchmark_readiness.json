@@ -1,0 +1,169 @@
+{
+  "status": "availability_diagnostic_only",
+  "common_start_proxy_utc": "2026-02-09T03:45:09.366855+00:00",
+  "formation_utc": "2026-02-10T03:45:09.366855+00:00",
+  "endpoint_utc": "2026-03-10T00:00:00+00:00",
+  "models": [
+    {
+      "model_id": "claude-opus-4-5-20251101",
+      "formation_snapshot_cycle": "trading-claude-opus-4-5-20251101-cycle-20260210-033550",
+      "formation_snapshot_completed_at": "2026-02-10T03:44:46.877037+00:00",
+      "formation_snapshot_lag_minutes": 0.3748303,
+      "formation_equity_identity_residual": 0.0022999999992023845,
+      "formation_positions": [
+        {
+          "asset": "2067891916326150127826753884863730268931932594834881748788499812590988545417",
+          "title": "Will the U.S. collect less than $100b in revenue in 2025?",
+          "quantity": 232.7499,
+          "formation_price": 0.181,
+          "terminal_mark_any_agent": {
+            "timestamp": "2026-03-09T23:48:51.988244+00:00",
+            "price": 0,
+            "cycle_id": "trading-glm-4.7-cycle-20260309-233658",
+            "stage": "post",
+            "model_id": "glm-4.7"
+          }
+        }
+      ],
+      "formation_assets": 1,
+      "formation_assets_without_terminal_mark": [],
+      "terminal_snapshot_cycle": "trading-claude-opus-4-5-20251101-cycle-20260309-150644",
+      "terminal_snapshot_completed_at": "2026-03-09T15:17:29.643237+00:00",
+      "terminal_snapshot_lag_minutes": 522.50594605,
+      "terminal_equity_identity_residual": -5.886000000000585,
+      "eligible": false,
+      "trading_return": null,
+      "holding_return": null
+    },
+    {
+      "model_id": "gemini-3-pro-preview",
+      "formation_snapshot_cycle": "trading-gemini-3-pro-preview-cycle-20260210-033008",
+      "formation_snapshot_completed_at": "2026-02-10T03:35:42.440302+00:00",
+      "formation_snapshot_lag_minutes": 9.448775883333333,
+      "formation_equity_identity_residual": 0.0022999999999200327,
+      "formation_positions": [
+        {
+          "asset": "34554555827438551101000555305203609600029621153428996114009350892614396532498",
+          "title": "Starmer out by June 30, 2026?",
+          "quantity": 64.9371,
+          "formation_price": 0.61,
+          "terminal_mark_any_agent": null
+        },
+        {
+          "asset": "103693433518125527001416636574099415821922498558487623412396163292963814003978",
+          "title": "Kraken IPO by March 31, 2026?",
+          "quantity": 23.0598,
+          "formation_price": 0.855,
+          "terminal_mark_any_agent": {
+            "timestamp": "2026-03-09T23:08:17.866922+00:00",
+            "price": 0.957,
+            "cycle_id": "trading-gemini-3-pro-preview-cycle-20260309-230012",
+            "stage": "post",
+            "model_id": "gemini-3-pro-preview"
+          }
+        }
+      ],
+      "formation_assets": 2,
+      "formation_assets_without_terminal_mark": [
+        "34554555827438551101000555305203609600029621153428996114009350892614396532498"
+      ],
+      "terminal_snapshot_cycle": "trading-gemini-3-pro-preview-cycle-20260309-230012",
+      "terminal_snapshot_completed_at": "2026-03-09T23:08:17.866922+00:00",
+      "terminal_snapshot_lag_minutes": 51.702217966666666,
+      "terminal_equity_identity_residual": -9.25295161999955,
+      "eligible": false,
+      "trading_return": null,
+      "holding_return": null
+    },
+    {
+      "model_id": "glm-4.7",
+      "formation_snapshot_cycle": "trading-glm-4.7-cycle-20260210-025241",
+      "formation_snapshot_completed_at": "2026-02-10T03:00:01.644964+00:00",
+      "formation_snapshot_lag_minutes": 45.128698183333334,
+      "formation_equity_identity_residual": -0.0003000000000739078,
+      "formation_positions": [
+        {
+          "asset": "2067891916326150127826753884863730268931932594834881748788499812590988545417",
+          "title": "Will the U.S. collect less than $100b in revenue in 2025?",
+          "quantity": 192.3828,
+          "formation_price": 0.163,
+          "terminal_mark_any_agent": {
+            "timestamp": "2026-03-09T23:48:51.988244+00:00",
+            "price": 0,
+            "cycle_id": "trading-glm-4.7-cycle-20260309-233658",
+            "stage": "post",
+            "model_id": "glm-4.7"
+          }
+        },
+        {
+          "asset": "50221315964000194764695024582522009520159992363520263771661265416131198909217",
+          "title": "Will the U.S. collect between $200b and $500b in revenue in 2025?",
+          "quantity": 5.6179,
+          "formation_price": 0.885,
+          "terminal_mark_any_agent": null
+        }
+      ],
+      "formation_assets": 2,
+      "formation_assets_without_terminal_mark": [
+        "50221315964000194764695024582522009520159992363520263771661265416131198909217"
+      ],
+      "terminal_snapshot_cycle": "trading-glm-4.7-cycle-20260309-233658",
+      "terminal_snapshot_completed_at": "2026-03-09T23:48:51.988244+00:00",
+      "terminal_snapshot_lag_minutes": 11.133529266666667,
+      "terminal_equity_identity_residual": -19.784893580999857,
+      "eligible": false,
+      "trading_return": null,
+      "holding_return": null
+    },
+    {
+      "model_id": "gpt-5.2",
+      "formation_snapshot_cycle": "trading-gpt-5.2-cycle-20260210-030010",
+      "formation_snapshot_completed_at": "2026-02-10T03:02:10.910013+00:00",
+      "formation_snapshot_lag_minutes": 42.9742807,
+      "formation_equity_identity_residual": -0.0024000000005059974,
+      "formation_positions": [
+        {
+          "asset": "80467209035316733248182241854481357574974859397287948244490439418859525643972",
+          "title": "Mavericks vs. Suns",
+          "quantity": 62.4999,
+          "formation_price": 0.725,
+          "terminal_mark_any_agent": null
+        }
+      ],
+      "formation_assets": 1,
+      "formation_assets_without_terminal_mark": [
+        "80467209035316733248182241854481357574974859397287948244490439418859525643972"
+      ],
+      "terminal_snapshot_cycle": "trading-gpt-5.2-cycle-20260309-234859",
+      "terminal_snapshot_completed_at": "2026-03-09T23:50:46.196127+00:00",
+      "terminal_snapshot_lag_minutes": 9.23006455,
+      "terminal_equity_identity_residual": 20.216293387998917,
+      "eligible": false,
+      "trading_return": null,
+      "holding_return": null
+    },
+    {
+      "model_id": "mystery-model-alpha",
+      "formation_snapshot_cycle": "trading-mystery-model-alpha-cycle-20260210-024421",
+      "formation_snapshot_completed_at": "2026-02-10T02:52:33.347496+00:00",
+      "formation_snapshot_lag_minutes": 52.600322649999995,
+      "formation_equity_identity_residual": 0.0,
+      "formation_positions": [],
+      "formation_assets": 0,
+      "formation_assets_without_terminal_mark": [],
+      "terminal_snapshot_cycle": "trading-mystery-model-alpha-cycle-20260309-233026",
+      "terminal_snapshot_completed_at": "2026-03-09T23:36:50.994912+00:00",
+      "terminal_snapshot_lag_minutes": 23.1500848,
+      "terminal_equity_identity_residual": 0.05999999999949068,
+      "eligible": false,
+      "trading_return": null,
+      "holding_return": null
+    }
+  ],
+  "limitations": [
+    "First observed cycle is a proxy for common start, not independently verified experiment start.",
+    "Formation snapshots precede cutoff; exact positions require processing intervening executions.",
+    "Terminal marks may be from another agent and are not independently verified exchange quotes.",
+    "No returns computed: funding, fees, settlements and execution finality remain unreconciled."
+  ]
+}

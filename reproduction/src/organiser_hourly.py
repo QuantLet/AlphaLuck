@@ -35,10 +35,11 @@ headline:
    conventions bracket feasibility, neither of which is established:
      * account-wide: equity against the sum of asset maintenance margins,
        as if collateral could be moved between positions freely;
-     * passive isolated: each frozen position keeps the isolated margin it
-       had at formation, with no transfers. Its liquidation price is the
+     * passive isolated: each frozen position keeps its estimated isolated margin
+       at formation, with no transfers. Its liquidation price is the
        organiser's value from the nearest snapshot with the same quantity and
-       no intervening fill in that instrument, shifted for frozen funding.
+       no intervening fill in that instrument, aligned for funding between snapshot and formation, then shifted
+       for frozen funding. This assumes no unobserved margin transfers.
        This uses the actual position's threshold only because at formation
        the frozen and actual positions are the same object; it ceases to
        describe the actual account after formation. Pooled trade prints are
@@ -415,8 +416,12 @@ def validate_trigger(m, cells, events):
 class Sweep:
     """Hourly-funded frozen-book comparison for any formation hour."""
 
-    def __init__(self, m, cells, rates):
+    def __init__(self, m, cells, rates, threshold_policy='nearest', align_funding=True):
         self.m, self.rates = m, rates
+        if threshold_policy not in ('nearest', 'prior'):
+            raise ValueError(threshold_policy)
+        self.threshold_policy = threshold_policy
+        self.align_funding = align_funding
         p = m.panel[m.panel.t.between(m.lo, m.hi)]
         self.grid = np.sort(p.t.unique())
         if self.grid[-1] != m.hi:
@@ -453,11 +458,19 @@ class Sweep:
         self.fill_times = {k: np.sort(g.time.to_numpy()) for k, g in m.fills.groupby(['tag', 'coin'])}
 
     def threshold(self, tag, coin, q0, t0):
-        """Organiser liquidation price for the same position nearest formation."""
+        """Estimate formation threshold, assuming no unobserved margin transfers.
+
+        Nearest may use a later snapshot; prior never does. Both require the
+        same quantity and no intervening fill. Funding is moved from the
+        snapshot timestamp to formation before the frozen path is funded.
+        """
         if (tag, coin) not in self.org:
             return None
         snaps = self.org[(tag, coin)]
         same = snaps[np.abs(snaps[:, 1] - q0) < EPS]
+        same = same[np.isfinite(same).all(axis=1)]
+        if self.threshold_policy == 'prior':
+            same = same[same[:, 0] <= t0]
         if not len(same):
             return None
         fills = self.fill_times.get((tag, coin), np.array([]))
@@ -468,7 +481,14 @@ class Sweep:
             return None
         same = same[clean]
         best = same[np.argmin(np.abs(same[:, 0] - t0))]
-        return best[0], best[2]
+        ts, _, L = best
+        if self.align_funding:
+            between = (self.m.hours > min(ts, t0)) & (self.m.hours <= max(ts, t0))
+            unit = self.m.unit[coin][between]
+            fh.finite(unit, (tag, coin, 'funding between snapshot and formation'))
+            paid = -q0 * unit.sum() * np.sign(t0 - ts)
+            L += paid / (q0 - self.rates[coin] * abs(q0))
+        return ts, L
 
     def run(self, hour, organiser_close=None, stress=None):
         """stress: trigger buffer and slippage beyond it (fractions of price),

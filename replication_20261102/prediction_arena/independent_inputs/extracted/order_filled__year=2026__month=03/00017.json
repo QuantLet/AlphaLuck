@@ -1,0 +1,21 @@
+{
+  "group": 17,
+  "group_rows": 1001472,
+  "owner_matches_before_time_filter": 1,
+  "bytes_read": 64699402,
+  "rows": [
+    {
+      "id": "137_83676393_729",
+      "takerAmountFilled": "4612510",
+      "fee": "0",
+      "transactionHash": "0xda2b65c427846d118ccd47bdccaf04d938fbecc59602d99015e53258d686ac33",
+      "timestamp": "1772472817",
+      "orderHash": "0xab985f331dbfed5fc54eef97e76876afd9569db8f5a3deadb02e5068c2a98f75",
+      "maker": "0xf2327959aabFa0C1Cff3b2dbfb942cD6efAC42Ab",
+      "taker": "0xC5d563A36AE78145C45a50134d48A1215220f80a",
+      "makerAssetId": "114290161874157245250589598292483979672149874046976714151832026831209657750839",
+      "takerAssetId": "0",
+      "makerAmountFilled": "5030000"
+    }
+  ]
+}

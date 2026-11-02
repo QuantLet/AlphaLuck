@@ -1,0 +1,86 @@
+PREDICTION ARENA — ISTORICUL INDEPENDENT AL CELOR CINCI WALLETURI
+Audit încheiat la 1 noiembrie 2026
+
+Concluzie
+Am reconstruit numerarul în USDC și USDC.e, execuțiile și cantitățile deținute pentru toate cele cinci walleturi în perioada analizată. Alimentările, conversiile și decontările pot fi separate de rezultatul tranzacționării. Blocajul legat de istoricul conturilor a fost depășit.
+Datele permit continuarea unei replicări pe GLM, Claude, Gemini și mystery-model-alpha, folosind execuțiile confirmate. GPT trebuie tratat separat: are o tranzacție după formarea portofoliului care nu poate fi legată de jurnalul LLM disponibil. Nu avem încă o replicare completă a randamentelor din articol: lipsesc unele evaluări de piață la data finală și conversia istorică în dolari a taxelor plătite în POL.
+
+Perioada și comparația
+Fereastra de verificare a evenimentelor: 1 februarie – 9 martie 2026 inclusiv. Începutul comun observat în auditul precedent: 9 februarie, 03:45:09 UTC. Portofoliul holding este fixat după 24 de ore, la 10 februarie, 03:45:09 UTC; evaluarea finală este la 10 martie, 00:00 UTC. Începutul comun rămâne un reper al arhivei disponibile, nu o dată de lansare certificată independent.
+Exporturile exploratoarelor acoperă și activitatea din afara acestui interval. Numai perioada de studiu a fost reconciliată integral. În calcule nu intră ordinele paper.
+
+Ce am obținut
+Arhiva Envio/Hugging Face: 474 de execuții ale celor cinci walleturi și 202 evenimente de decontare. Dintre decontări, 21 au plată pozitivă, în total 284,782866 USDC.e; celelalte nu sunt venituri. Exporturile PolygonScan includ 506 transferuri de poziții în fereastra analizată: 474 asociate tranzacțiilor și 32 retrageri de poziții la decontare. Diferența față de cele 202 evenimente vine din apelurile repetate ori fără poziții de retras.
+Toate cele 536 de perechi tranzacție–monedă din registrul numerarului au o valoare identificată. Nu mai există solduri parțiale negative sau diferențe neexplicate între sursele folosite. Toate transferurile de cantități din perioada analizată au fost reconciliate.
+
+Model | Ordine raportate | Confirmate și legate de jurnal | Execuții totale | Decontări cu plată
+GLM | 95 | 95 | 95 | 16
+Claude | 79 | 79 | 79 | 4
+Gemini | 155 | 152 | 152 | 0
+GPT | 126 | 124 | 130 | 0
+Mystery | 18 | 18 | 18 | 1
+
+Cinci ordine raportate ca matched nu au execuție în arhiva independentă, iar PolygonScan nu găsește tranzacțiile indicate: trei pentru Gemini și două pentru GPT. Le păstrăm ca neconfirmate, fără să le includem în tranzacțiile realizate. Această constatare nu dovedește falsificarea jurnalului.
+La șase ordine confirmate, cantitatea ori suma din jurnal diferă de execuția independentă, sau cantitatea lipsește. Registrul reconstruit folosește valorile executate. Cele șase ordine GPT fără legătură cu jurnalul sunt cinci înainte de formare și unul la 11 februarie, 18:35:27 UTC, după formare.
+
+Capitalul real și alimentările
+Soldurile de mai jos sunt numerar, nu averea totală: la final există și poziții. Sumele USDC și USDC.e sunt adunate la paritate pentru prezentare. Cei 10.000 USD din jurnal nu reprezintă depunerile efective observate în aceste walleturi.
+Model | Numerar la început | Alimentări ulterioare | Numerar final USDC | Numerar final USDC.e
+GLM | 46.419720 | 297.419063 | 297.419063 | 5.902760
+Claude | 46.079712 | 297.419063 | 0.000000 | 60.062525
+Gemini | 67.480810 | 297.419064 | 0.000000 | 26.913741
+GPT | 50.717550 | 297.419064 | 0.000000 | 125.639584
+Mystery | 47.104820 | 297.419063 | 0.000000 | 156.528411
+
+Fiecare cont a primit aproximativ 297,42 USDC în timpul experimentului. Această sumă trebuie acordată și portofoliului holding, la aceeași dată. GLM a păstrat alimentarea în USDC; nu trebuie confundată cu disponibilul USDC.e folosit de exchange. Conversiile între monede și costul lor sunt păstrate separat. Nu au fost identificate retrageri externe de stablecoins în perioada de studiu.
+
+Comisioanele
+Evenimentele celor 474 de execuții au fee egal cu zero. Cantitățile și transferurile monetare confirmă această constatare pentru intervalul analizat. Există mici restituiri de o milionime de USDC.e la unele cumpărări; ele sunt incluse distinct în registru și nu sunt confundate cu evenimentele FeeRefunded.
+Taxele de rețea sunt contabilizate o singură dată pentru fiecare tranzacție și numai dacă expeditorul este walletul agentului. Taxa totală a unei tranzacții plătite de exchange sau de alt expeditor nu este imputată agentului.
+Model | Taxe suportate de wallet în POL, 9 februarie – 9 martie | Rânduri cu taxă afișată la 8 zecimale
+GLM | 3.80085408 | 61
+Claude | 2.37240316 | 20
+Gemini | 5.51949399 | 2
+GPT | 0.27285154 | 1
+Mystery | 0.26473524 | 1
+
+Taxele exacte sunt păstrate unde sunt disponibile. Pentru restul, sursa afișează opt zecimale în POL; incertitudinea cumulată este sub 0,000001 POL. Nu am folosit cotația POL din noiembrie pentru tranzacțiile din februarie–martie. Registrul nu reprezintă o evaluare completă în dolari a soldului nativ POL.
+
+Ce putem spune deja despre trading față de holding
+Putem delimita diferența de avere finală chiar înainte de a recupera toate prețurile. Pentru contractele cu dovadă de decontare înainte de data finală folosim plata contractuală. Pentru restul lăsăm valoarea între zero și un dolar. Același token are același preț în ambele portofolii. Depunerile ulterioare sunt identice, iar costurile conversiilor efectuate rămân în portofoliul tranzacționat.
+Aceste intervale nu sunt randamente estimate, intervale de încredere sau rezultate nete de taxele de rețea în dolari. Ele presupun USDC = USDC.e = 1 USD și exclud evaluarea soldului POL. Nu cuantifică incertitudinea de eșantionare.
+Model | Diferența finală trading minus holding, USD, înainte de taxele în POL
+GLM | [9.095619; 33.207385]
+Claude | [-237.553907; -237.541203]
+Gemini | [-330.639087; 87.874668]
+GPT | [-238.345445; 12.414035]
+Mystery | [-187.992631; -187.907359]
+
+În aceste condiții, semnul este stabil pentru trei agenți: GLM este peste holding, iar Claude și mystery-model-alpha sunt sub holding. Pentru Gemini, intervalul include ambele situații. Rezultatul GPT descrie walletul, nu exclusiv deciziile LLM identificabile.
+
+Ce mai trebuie pentru replicarea completă
+1. Prețuri istorice comparabile pentru evaluarea portofoliilor la formare și la închidere, ori dovezi suplimentare că anumite contracte erau deja decontate. Lista exactă a tokenurilor fără evaluare finală este în results/replication_feasibility.json.
+2. Cotații istorice POL/USD și o regulă comună pentru costurile scenariului holding. Taxele în POL sunt deja colectate.
+3. O definiție a randamentului care tratează alimentările intermediare identic. Diferența de avere finală calculată aici evită atribuirea depunerilor tranzacționării, dar nu înlocuiește rata de rentabilitate.
+4. GPT exclus din comparația principală până la identificarea ordinului fără jurnal de după formare; poate rămâne într-o analiză separată a walletului.
+
+Surse și limite de colectare
+Datele independente provin din arhiva Polygon indexată de Envio (CC BY 4.0), din PolygonScan și din Blockscout. Adresele asociate modelelor provin din Prediction Arena; blockchainul confirmă activitatea adreselor, nu identitatea modelului care a semnat o decizie.
+https://huggingface.co/datasets/moose-code/polymarket-onchain-v1
+Versiunea arhivei: 7eeb860dea5b79d5c74f3182b70bd08c85c8f833; evenimente până la 24 aprilie 2026, 07:43:41 UTC. Au fost verificate toate grupurile relevante din lunile februarie și martie, cu filtrare înainte de 10 martie. Starea ulterioară a contractelor nu este tratată singură ca dovadă de decontare înainte de închidere.
+https://github.com/enviodev/polymarket-indexer
+https://github.com/gnosis/conditional-tokens-contracts/blob/master/contracts/ConditionalTokens.sol
+Contractul permite decontarea numai după stabilirea plății, iar plata nu poate fi rescrisă ulterior. De aceea un eveniment de decontare din interval, inclusiv cu plată zero, stabilește că rezultatul era cunoscut până atunci.
+https://polygonscan.com/  |  https://polygon.blockscout.com/
+Exporturile Blockscout singure sunt incomplete pentru aceste conturi. Exportul rapid PolygonScan rotunjește unele sume, iar exportul pozițiilor lasă coloana Item goală. Sumele au fost completate din evenimentele independente și din detalii de tranzacție; tokenurile tranzacționate au fost identificate prin execuții. Pentru retragerile de poziții, identificarea folosește o potrivire unică a cantității în cadrul contractului decontat, verificată și prin suma plătită. Originea fiecărei valori este păstrată în rezultate.
+Exportul complet PolygonScan cere CAPTCHA și nu a fost utilizat; au fost folosite exporturile publice ale fiecărei pagini. Nu s-au creat conturi și nu s-au folosit chei private. Transferurile fără valoare și tokenurile spam pot fi ascunse implicit în interfață; analiza monetară include numai cele două contracte autentice USDC. Nu este o certificare a tuturor activelor posibile ale adreselor.
+
+Fișiere utile
+results/wallet_summary.csv — sinteza celor cinci conturi.
+results/cash_ledger.json și positions_ledger.json — registrele reconstruite.
+results/network_fees.json și redemptions_crosschecked.json — taxe și decontări.
+results/order_linkage.json — fiecare ordin raportat și verificarea sa independentă.
+results/replication_feasibility.json — intervalele comparative și evaluările încă lipsă.
+blockscout/ și polygonscan/ — exporturile originale; extracted/ — evenimentele independente extrase.
+
+Validare: 10 teste trecute. Articolul, anexa, cover letter, highlights și arhiva Overleaf nu au fost modificate. Auditul precedent este păstrat separat.

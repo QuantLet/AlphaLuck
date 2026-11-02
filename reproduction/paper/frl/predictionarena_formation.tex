@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Prediction Arena: sensitivity to formation time. Entries are trading minus holding terminal wealth in dollars, net of wallet-paid network costs. All formations use the same endpoint and credit identical subsequent deposits to both paths. Negative values favour holding.}
+\label{tab:predictionformation}
+\begin{tabular}{lrrr}
+\toprule
+Account & 12 hours & 24 hours & 48 hours \\
+\midrule
+GLM & -5.10 & 19.29 & 20.13 \\
+Claude & -237.78 & -237.78 & -232.78 \\
+Gemini & -187.31 & -177.57 & -177.67 \\
+Mystery (cash) & -187.95 & -187.95 & -187.95 \\
+GPT (separate) & -52.46 & -68.31 & -52.54 \\
+\midrule
+Eligible accounts: holding ahead & 4/4 & 3/4 & 3/4 \\
+With positions: holding ahead & 3/3 & 2/3 & 2/3 \\
+\bottomrule
+\end{tabular}
+\end{table}

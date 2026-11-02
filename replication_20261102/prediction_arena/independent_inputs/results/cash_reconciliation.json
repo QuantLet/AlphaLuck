@@ -1,0 +1,152 @@
+[
+  {
+    "model_id": "glm-4.7",
+    "transaction_contract_groups": 118,
+    "unresolved_groups": 0,
+    "negative_partial_balance_transactions": 0,
+    "checkpoints": {
+      "start": {
+        "cutoff_utc": "2026-02-09T03:45:09.366855+00:00",
+        "unresolved_transaction_contract_groups": 0,
+        "USDC": "36.548731",
+        "USDCE": "9.870989"
+      },
+      "formation": {
+        "cutoff_utc": "2026-02-10T03:45:09.366855+00:00",
+        "unresolved_transaction_contract_groups": 0,
+        "USDC": "0.000000",
+        "USDCE": "11.098767"
+      },
+      "endpoint": {
+        "cutoff_utc": "2026-03-10T00:00:00+00:00",
+        "unresolved_transaction_contract_groups": 0,
+        "USDC": "297.419063",
+        "USDCE": "5.902760"
+      }
+    },
+    "cross_source_cash_mismatches": 0,
+    "external_funding_since_start": "297.419063",
+    "external_withdrawals_since_start": "0",
+    "conversion_cash_change_since_start": "-0.320960"
+  },
+  {
+    "model_id": "claude-opus-4-5-20251101",
+    "transaction_contract_groups": 92,
+    "unresolved_groups": 0,
+    "negative_partial_balance_transactions": 0,
+    "checkpoints": {
+      "start": {
+        "cutoff_utc": "2026-02-09T03:45:09.366855+00:00",
+        "unresolved_transaction_contract_groups": 0,
+        "USDC": "0.000000",
+        "USDCE": "46.079712"
+      },
+      "formation": {
+        "cutoff_utc": "2026-02-10T03:45:09.366855+00:00",
+        "unresolved_transaction_contract_groups": 0,
+        "USDC": "0.000000",
+        "USDCE": "6.079715"
+      },
+      "endpoint": {
+        "cutoff_utc": "2026-03-10T00:00:00+00:00",
+        "unresolved_transaction_contract_groups": 0,
+        "USDC": "0.000000",
+        "USDCE": "60.062525"
+      }
+    },
+    "cross_source_cash_mismatches": 0,
+    "external_funding_since_start": "297.419063",
+    "external_withdrawals_since_start": "0",
+    "conversion_cash_change_since_start": "-3.542526"
+  },
+  {
+    "model_id": "gemini-3-pro-preview",
+    "transaction_contract_groups": 162,
+    "unresolved_groups": 0,
+    "negative_partial_balance_transactions": 0,
+    "checkpoints": {
+      "start": {
+        "cutoff_utc": "2026-02-09T03:45:09.366855+00:00",
+        "unresolved_transaction_contract_groups": 0,
+        "USDC": "58.475833",
+        "USDCE": "9.004977"
+      },
+      "formation": {
+        "cutoff_utc": "2026-02-10T03:45:09.366855+00:00",
+        "unresolved_transaction_contract_groups": 0,
+        "USDC": "0.000000",
+        "USDCE": "6.968464"
+      },
+      "endpoint": {
+        "cutoff_utc": "2026-03-10T00:00:00+00:00",
+        "unresolved_transaction_contract_groups": 0,
+        "USDC": "0.000000",
+        "USDCE": "26.913741"
+      }
+    },
+    "cross_source_cash_mismatches": 0,
+    "external_funding_since_start": "297.419064",
+    "external_withdrawals_since_start": "0",
+    "conversion_cash_change_since_start": "-3.097668"
+  },
+  {
+    "model_id": "gpt-5.2",
+    "transaction_contract_groups": 136,
+    "unresolved_groups": 0,
+    "negative_partial_balance_transactions": 0,
+    "checkpoints": {
+      "start": {
+        "cutoff_utc": "2026-02-09T03:45:09.366855+00:00",
+        "unresolved_transaction_contract_groups": 0,
+        "USDC": "0.000000",
+        "USDCE": "50.71755"
+      },
+      "formation": {
+        "cutoff_utc": "2026-02-10T03:45:09.366855+00:00",
+        "unresolved_transaction_contract_groups": 0,
+        "USDC": "0.000000",
+        "USDCE": "4.069560"
+      },
+      "endpoint": {
+        "cutoff_utc": "2026-03-10T00:00:00+00:00",
+        "unresolved_transaction_contract_groups": 0,
+        "USDC": "0.000000",
+        "USDCE": "125.639584"
+      }
+    },
+    "cross_source_cash_mismatches": 0,
+    "external_funding_since_start": "297.419064",
+    "external_withdrawals_since_start": "0",
+    "conversion_cash_change_since_start": "-2.615705"
+  },
+  {
+    "model_id": "mystery-model-alpha",
+    "transaction_contract_groups": 28,
+    "unresolved_groups": 0,
+    "negative_partial_balance_transactions": 0,
+    "checkpoints": {
+      "start": {
+        "cutoff_utc": "2026-02-09T03:45:09.366855+00:00",
+        "unresolved_transaction_contract_groups": 0,
+        "USDC": "0.000000",
+        "USDCE": "47.104820"
+      },
+      "formation": {
+        "cutoff_utc": "2026-02-10T03:45:09.366855+00:00",
+        "unresolved_transaction_contract_groups": 0,
+        "USDC": "0.000000",
+        "USDCE": "47.104820"
+      },
+      "endpoint": {
+        "cutoff_utc": "2026-03-10T00:00:00+00:00",
+        "unresolved_transaction_contract_groups": 0,
+        "USDC": "0.000000",
+        "USDCE": "156.528411"
+      }
+    },
+    "cross_source_cash_mismatches": 0,
+    "external_funding_since_start": "297.419063",
+    "external_withdrawals_since_start": "0",
+    "conversion_cash_change_since_start": "-2.615460"
+  }
+]

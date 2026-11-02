@@ -1,0 +1,14 @@
+{
+  "i6_vol_denominator.csv": "59ede333462a02f1f8d60423941389caceec999dae1da34b7d68064b915867f1",
+  "fills.parquet": "e0690242e8f4572b64d48801890312ac0981775939a1a498368dbdc8781e56fc",
+  "panel.parquet": "7817956b47ee06977722801dff7f577660dd9471e31e33ee0014ea85efa3ded1",
+  "equity.parquet": "136a874edf76e1bf564691736490c2054380fa4a4d7d2d03ac4bda5f44ec84a4",
+  "accounts.parquet": "3a0d1af2b1a76ea2c61cc489893232a1134cd6402c9a45faf2d50fccf8d57033",
+  "funding.parquet": "e1c8148682015ed9c79ebb7b58558c52e080bb03b96f2d91848834e81ae03664",
+  "holding_vs_trading_accounts.csv": "869b8eb863937838df994dc325372ba97b73eb368769c33d199639eec27b88fe",
+  "holding_vs_trading_deviations.csv": "e99a111b48ed7f476ce0b0e346c11e1a7350f494afcb69714aa8585cc10afcce",
+  "organiser_hourly.json": "7c902185c160ac3c4105234fe56067fa5a9b752196f76be30d8aec2d65676d7e",
+  "organiser_hourly_trigger_validation.csv": "ec1c635fad5aa376a9142fe90df0acc7a5eb359b8567020c9a4b8560fd196a30",
+  "organiser_hourly_sweep.csv": "de65e156e9a107eebe001853536e0aece9542d19b7f0b40f3af3bfe379375925",
+  "organiser_hourly_sweep_accounts.csv": "afa621d3753dc93dbcd61e51226e69ec187bbb9dc7196d5d6ebd770f78a8a17d"
+}

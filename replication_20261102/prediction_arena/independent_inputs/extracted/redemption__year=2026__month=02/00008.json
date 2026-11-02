@@ -1,0 +1,198 @@
+{
+  "group": 8,
+  "group_rows": 1001472,
+  "owner_matches_before_time_filter": 19,
+  "bytes_read": 16072210,
+  "rows": [
+    {
+      "id": "137_83005521_1837",
+      "timestamp": "1771131065",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0xb51ef0ffaaca4559f39359ae9793cba168b1b1fa2376b696b3046d6a27bce6be",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "3333332"
+    },
+    {
+      "id": "137_83012075_1249",
+      "timestamp": "1771144173",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "2"
+      ],
+      "payout": "36507934"
+    },
+    {
+      "id": "137_83012079_1482",
+      "timestamp": "1771144181",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83012770_1692",
+      "timestamp": "1771145563",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83013838_1302",
+      "timestamp": "1771147699",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83014668_2022",
+      "timestamp": "1771149359",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83015575_2550",
+      "timestamp": "1771151173",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83016341_2161",
+      "timestamp": "1771152705",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83016793_1818",
+      "timestamp": "1771153609",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83017215_1886",
+      "timestamp": "1771154453",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83017693_2294",
+      "timestamp": "1771155409",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83018119_2419",
+      "timestamp": "1771156261",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83018604_3005",
+      "timestamp": "1771157231",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83019497_2579",
+      "timestamp": "1771159017",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83023391_1984",
+      "timestamp": "1771166805",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83023563_2252",
+      "timestamp": "1771167149",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83023981_3253",
+      "timestamp": "1771167985",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83024430_2533",
+      "timestamp": "1771168883",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83024898_4643",
+      "timestamp": "1771169819",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "indexSets": [
+        "1"
+      ],
+      "payout": "0"
+    }
+  ]
+}

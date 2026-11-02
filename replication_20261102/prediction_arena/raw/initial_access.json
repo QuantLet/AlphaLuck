@@ -1,0 +1,18 @@
+[
+  {
+    "name": "clob_probe",
+    "url": "https://clob.polymarket.com/prices-history?market=50221315964000194764695024582522009520159992363520263771661265416131198909217&startTs=1773014400&endTs=1773100800&fidelity=60",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "name": "binance_feb",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/POLUSDT/1m/POLUSDT-1m-2026-02.zip",
+    "status": 200,
+    "bytes": 1329628
+  },
+  {
+    "name": "coinbase_probe",
+    "url": "https://api.exchange.coinbase.com/products/POL-USD/candles?start=2026-02-14T00:00:00Z&end=2026-02-15T00:00:00Z&granularity=3600",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

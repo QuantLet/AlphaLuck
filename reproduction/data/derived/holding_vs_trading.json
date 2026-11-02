@@ -75,14 +75,14 @@
   "leave_one_model_min": {
    "advantage": 23.452625374785082,
    "before_costs": 13.006587496677044,
-   "isolated_A": 15.647585179584597,
-   "isolated_B": 4.068873584056007
+   "isolated_A": 15.644112312257613,
+   "isolated_B": 4.065396862320548
   },
   "leave_one_model_max": {
    "advantage": 33.49959308879583,
    "before_costs": 21.340493265359598,
-   "isolated_A": 25.45203529963678,
-   "isolated_B": 14.428615099399254
+   "isolated_A": 25.448916336123325,
+   "isolated_B": 14.425483383280651
   },
   "leave_one_instrument_before_costs": {
    "xyz:AMZN": 18.057312246874876,

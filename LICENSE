@@ -21,7 +21,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ---
-
-This licence covers code and authored documentation. Included numerical inputs
-are derived analytical extracts; it does not grant rights over third-party raw
-records. No raw exchange or organiser records are included. See DATA.md.
+This licence covers code and authored documentation, not third-party data.
+Public Hyperliquid records are retained in reproduction/data/raw/hl/.
+AI-Trader inputs retain their MIT licence. Extracted and transformed Envio /
+moose-code Polymarket records retain CC BY 4.0 attribution. Explorer and Binance
+records retain their source notices. Organiser API payloads and licensed
+external-price data are not redistributed. See DATA.md.

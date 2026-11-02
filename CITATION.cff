@@ -2,12 +2,11 @@ cff-version: 1.2.0
 message: "If you use this software or data, please cite it as below."
 title: "AlphaLuck: Trading versus Holding in a Live Language-Model Competition"
 abstract: >-
-  Reconstruction of the 38 accounts of the Alpha Arena language-model trading
-  competition from public Hyperliquid records, with the raw on-chain data, the
-  derived data and the code that reproduces every number, table and figure of
-  the letter, plus six standalone Quantlets that reproduce selected results
-  from minimal derived inputs. Organiser payloads and licensed prices are not
-  redistributed.
+  Data and code for trading-versus-holding comparisons in Alpha Arena,
+  AI-Trader and Prediction Arena. This release adds independently reconciled
+  Prediction Arena transactions and valuation checks, corrected Alpha Arena
+  funding alignment, and formation-threshold sensitivity calculations.
+  The comparisons are descriptive and do not establish persistent model skill.
 type: software
 authors:
   - family-names: Pele
@@ -21,8 +20,9 @@ authors:
     given-names: "Victor Rareș"
     affiliation: "Bucharest University of Economic Studies"
 license: MIT
-version: "2.0.0"
-date-released: "2026-10-25"
+version: "2.1.0"
+date-released: "2026-11-02"
+url: "https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.0"
 repository-code: "https://github.com/QuantLet/AlphaLuck"
 keywords:
   - large language models

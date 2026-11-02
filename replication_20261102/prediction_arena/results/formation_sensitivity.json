@@ -1,0 +1,450 @@
+{
+  "method": "Same common endpoint, identical external funding, terminal dollar comparison; no formation valuation needed.",
+  "rows": [
+    {
+      "formation_hour": 12,
+      "model_id": "claude-opus-4-5-20251101",
+      "formation_time": "1770651909.366855",
+      "formation_positions": 1,
+      "formation_positions_raw": {
+        "2067891916326150127826753884863730268931932594834881748788499812590988545417": 232749938
+      },
+      "formation_cash": "6.079715",
+      "post_formation_external_funding": "297.419063",
+      "post_formation_gas": "0.24202925584286466383020000",
+      "trading_terminal_net": "65.71554574415713533616980000",
+      "holding_terminal": "303.498778",
+      "trading_minus_holding": "-237.7832322558428646638302000",
+      "unlinked_orders_after_formation": 0,
+      "eligible": true,
+      "cash_only": false,
+      "bounds": {
+        "settlement_only": {
+          "lower": "-237.7832322558428646638302000",
+          "upper": "-237.7832322558428646638302000"
+        },
+        "max_trade_age_1h": {
+          "lower": "-237.7832322558428646638302000",
+          "upper": "-237.7832322558428646638302000"
+        }
+      }
+    },
+    {
+      "formation_hour": 12,
+      "model_id": "gemini-3-pro-preview",
+      "formation_time": "1770651909.366855",
+      "formation_positions": 1,
+      "formation_positions_raw": {
+        "103693433518125527001416636574099415821922498558487623412396163292963814003978": 5617976
+      },
+      "formation_cash": "61.968457",
+      "post_formation_external_funding": "297.419064",
+      "post_formation_gas": "0.56219394219400995622520000",
+      "trading_terminal_net": "177.4578208118123383249601959",
+      "holding_terminal": "364.763924032",
+      "trading_minus_holding": "-187.3061032201876616750398041",
+      "unlinked_orders_after_formation": 0,
+      "eligible": true,
+      "cash_only": false,
+      "bounds": {
+        "settlement_only": {
+          "lower": "-320.9594979421940099562252000",
+          "upper": "49.6812230578059900437748000"
+        },
+        "max_trade_age_1h": {
+          "lower": "-252.0090982371876616750398041",
+          "upper": "-159.4326492371876616750398041"
+        }
+      }
+    },
+    {
+      "formation_hour": 12,
+      "model_id": "glm-4.7",
+      "formation_time": "1770651909.366855",
+      "formation_positions": 1,
+      "formation_positions_raw": {
+        "2067891916326150127826753884863730268931932594834881748788499812590988545417": 29301753
+      },
+      "formation_cash": "41.098761",
+      "post_formation_external_funding": "297.419063",
+      "post_formation_gas": "0.38851327047855993050060000",
+      "trading_terminal_net": "333.4216491667980647288344432",
+      "holding_terminal": "338.517824",
+      "trading_minus_holding": "-5.0961748332019352711655568",
+      "unlinked_orders_after_formation": 0,
+      "eligible": true,
+      "cash_only": false,
+      "bounds": {
+        "settlement_only": {
+          "lower": "-15.65753827047855993050060000",
+          "upper": "2.81776072952144006949940000"
+        },
+        "max_trade_age_1h": {
+          "lower": "-11.30807976860371187119774710",
+          "upper": "-4.89461876860371187119774710"
+        }
+      }
+    },
+    {
+      "formation_hour": 12,
+      "model_id": "gpt-5.2",
+      "formation_time": "1770651909.366855",
+      "formation_positions": 0,
+      "formation_positions_raw": {},
+      "formation_cash": "50.717550",
+      "post_formation_external_funding": "297.419064",
+      "post_formation_gas": "0.02963167771444004899680000",
+      "trading_terminal_net": "295.6781959992029928599909271",
+      "holding_terminal": "348.136614",
+      "trading_minus_holding": "-52.4584180007970071400090729",
+      "unlinked_orders_after_formation": 6,
+      "eligible": false,
+      "cash_only": true,
+      "bounds": {
+        "settlement_only": {
+          "lower": "-222.4710116777144400489968000",
+          "upper": "-34.2644966777144400489968000"
+        },
+        "max_trade_age_1h": {
+          "lower": "-61.5178359250770071400090730",
+          "upper": "-52.4145629250770071400090730"
+        }
+      }
+    },
+    {
+      "formation_hour": 12,
+      "model_id": "mystery-model-alpha",
+      "formation_time": "1770651909.366855",
+      "formation_positions": 0,
+      "formation_positions_raw": {},
+      "formation_cash": "47.104820",
+      "post_formation_external_funding": "297.419063",
+      "post_formation_gas": "0.02852311721801069094680000",
+      "trading_terminal_net": "156.5745341107128305369840412",
+      "holding_terminal": "344.523883",
+      "trading_minus_holding": "-187.9493488892871694630159588",
+      "unlinked_orders_after_formation": 0,
+      "eligible": true,
+      "cash_only": true,
+      "bounds": {
+        "settlement_only": {
+          "lower": "-187.9494181172180106909468000",
+          "upper": "-187.9417261172180106909468000"
+        },
+        "max_trade_age_1h": {
+          "lower": "-187.9493488892871694630159588",
+          "upper": "-187.9493488892871694630159588"
+        }
+      }
+    },
+    {
+      "formation_hour": 24,
+      "model_id": "claude-opus-4-5-20251101",
+      "formation_time": "1770695109.366855",
+      "formation_positions": 1,
+      "formation_positions_raw": {
+        "2067891916326150127826753884863730268931932594834881748788499812590988545417": 232749938
+      },
+      "formation_cash": "6.079715",
+      "post_formation_external_funding": "297.419063",
+      "post_formation_gas": "0.24202925584286466383020000",
+      "trading_terminal_net": "65.71554574415713533616980000",
+      "holding_terminal": "303.498778",
+      "trading_minus_holding": "-237.7832322558428646638302000",
+      "unlinked_orders_after_formation": 0,
+      "eligible": true,
+      "cash_only": false,
+      "bounds": {
+        "settlement_only": {
+          "lower": "-237.7832322558428646638302000",
+          "upper": "-237.7832322558428646638302000"
+        },
+        "max_trade_age_1h": {
+          "lower": "-237.7832322558428646638302000",
+          "upper": "-237.7832322558428646638302000"
+        }
+      }
+    },
+    {
+      "formation_hour": 24,
+      "model_id": "gemini-3-pro-preview",
+      "formation_time": "1770695109.366855",
+      "formation_positions": 2,
+      "formation_positions_raw": {
+        "103693433518125527001416636574099415821922498558487623412396163292963814003978": 23059835,
+        "34554555827438551101000555305203609600029621153428996114009350892614396532498": 64937146
+      },
+      "formation_cash": "6.968464",
+      "post_formation_external_funding": "297.419064",
+      "post_formation_gas": "0.56219394219400995622520000",
+      "trading_terminal_net": "177.4578208118123383249601959",
+      "holding_terminal": "355.028134335",
+      "trading_minus_holding": "-177.5703135231876616750398041",
+      "unlinked_orders_after_formation": 0,
+      "eligible": true,
+      "cash_only": false,
+      "bounds": {
+        "settlement_only": {
+          "lower": "-330.8895049421940099562252000",
+          "upper": "87.2322110578059900437748000"
+        },
+        "max_trade_age_1h": {
+          "lower": "-261.9391052371876616750398041",
+          "upper": "-121.8816612371876616750398041"
+        }
+      }
+    },
+    {
+      "formation_hour": 24,
+      "model_id": "glm-4.7",
+      "formation_time": "1770695109.366855",
+      "formation_positions": 2,
+      "formation_positions_raw": {
+        "2067891916326150127826753884863730268931932594834881748788499812590988545417": 192382855,
+        "50221315964000194764695024582522009520159992363520263771661265416131198909217": 5617972
+      },
+      "formation_cash": "11.098767",
+      "post_formation_external_funding": "297.419063",
+      "post_formation_gas": "0.38851327047855993050060000",
+      "trading_terminal_net": "333.4216491667980647288344432",
+      "holding_terminal": "314.135802",
+      "trading_minus_holding": "19.2858471667980647288344432",
+      "unlinked_orders_after_formation": 0,
+      "eligible": true,
+      "cash_only": false,
+      "bounds": {
+        "settlement_only": {
+          "lower": "8.72448372952144006949940000",
+          "upper": "27.19978272952144006949940000"
+        },
+        "max_trade_age_1h": {
+          "lower": "13.07394223139628812880225290",
+          "upper": "19.48740323139628812880225290"
+        }
+      }
+    },
+    {
+      "formation_hour": 24,
+      "model_id": "gpt-5.2",
+      "formation_time": "1770695109.366855",
+      "formation_positions": 2,
+      "formation_positions_raw": {
+        "13974700985240075332118756604045908736371738526924981600158142606410215481417": 4473,
+        "80467209035316733248182241854481357574974859397287948244490439418859525643972": 62499991
+      },
+      "formation_cash": "4.069560",
+      "post_formation_external_funding": "297.419064",
+      "post_formation_gas": "0.02963167771444004899680000",
+      "trading_terminal_net": "295.6781959992029928599909271",
+      "holding_terminal": "363.993088",
+      "trading_minus_holding": "-68.3148920007970071400090729",
+      "unlinked_orders_after_formation": 1,
+      "eligible": false,
+      "cash_only": false,
+      "bounds": {
+        "settlement_only": {
+          "lower": "-238.3274856777144400489968000",
+          "upper": "-50.1209706777144400489968000"
+        },
+        "max_trade_age_1h": {
+          "lower": "-77.3743099250770071400090730",
+          "upper": "-68.2710369250770071400090730"
+        }
+      }
+    },
+    {
+      "formation_hour": 24,
+      "model_id": "mystery-model-alpha",
+      "formation_time": "1770695109.366855",
+      "formation_positions": 0,
+      "formation_positions_raw": {},
+      "formation_cash": "47.104820",
+      "post_formation_external_funding": "297.419063",
+      "post_formation_gas": "0.02852311721801069094680000",
+      "trading_terminal_net": "156.5745341107128305369840412",
+      "holding_terminal": "344.523883",
+      "trading_minus_holding": "-187.9493488892871694630159588",
+      "unlinked_orders_after_formation": 0,
+      "eligible": true,
+      "cash_only": true,
+      "bounds": {
+        "settlement_only": {
+          "lower": "-187.9494181172180106909468000",
+          "upper": "-187.9417261172180106909468000"
+        },
+        "max_trade_age_1h": {
+          "lower": "-187.9493488892871694630159588",
+          "upper": "-187.9493488892871694630159588"
+        }
+      }
+    },
+    {
+      "formation_hour": 48,
+      "model_id": "claude-opus-4-5-20251101",
+      "formation_time": "1770781509.366855",
+      "formation_positions": 1,
+      "formation_positions_raw": {
+        "2067891916326150127826753884863730268931932594834881748788499812590988545417": 260787566
+      },
+      "formation_cash": "1.079717",
+      "post_formation_external_funding": "297.419063",
+      "post_formation_gas": "0.24202925584286466383020000",
+      "trading_terminal_net": "65.71554574415713533616980000",
+      "holding_terminal": "298.498780",
+      "trading_minus_holding": "-232.7832342558428646638302000",
+      "unlinked_orders_after_formation": 0,
+      "eligible": true,
+      "cash_only": false,
+      "bounds": {
+        "settlement_only": {
+          "lower": "-232.7832342558428646638302000",
+          "upper": "-232.7832342558428646638302000"
+        },
+        "max_trade_age_1h": {
+          "lower": "-232.7832342558428646638302000",
+          "upper": "-232.7832342558428646638302000"
+        }
+      }
+    },
+    {
+      "formation_hour": 48,
+      "model_id": "gemini-3-pro-preview",
+      "formation_time": "1770781509.366855",
+      "formation_positions": 4,
+      "formation_positions_raw": {
+        "103693433518125527001416636574099415821922498558487623412396163292963814003978": 23059835,
+        "34554555827438551101000555305203609600029621153428996114009350892614396532498": 64937146,
+        "68639196051170795150992485552561385006521521637825690332014642323694437969760": 6756755,
+        "51338236787729560681434534660841415073585974762690814047670810862722808070955": 1043840
+      },
+      "formation_cash": "0.968468",
+      "post_formation_external_funding": "297.419064",
+      "post_formation_gas": "0.56219394219400995622520000",
+      "trading_terminal_net": "177.4578208118123383249601959",
+      "holding_terminal": "355.1328062560946851777590885",
+      "trading_minus_holding": "-177.6749854442823468527988926",
+      "unlinked_orders_after_formation": 0,
+      "eligible": true,
+      "cash_only": false,
+      "bounds": {
+        "settlement_only": {
+          "lower": "-325.9333489421940099562252000",
+          "upper": "85.4316120578059900437748000"
+        },
+        "max_trade_age_1h": {
+          "lower": "-262.0437771582823468527988925",
+          "upper": "-121.9863331582823468527988925"
+        }
+      }
+    },
+    {
+      "formation_hour": 48,
+      "model_id": "glm-4.7",
+      "formation_time": "1770781509.366855",
+      "formation_positions": 2,
+      "formation_positions_raw": {
+        "2067891916326150127826753884863730268931932594834881748788499812590988545417": 192382855,
+        "50221315964000194764695024582522009520159992363520263771661265416131198909217": 7972
+      },
+      "formation_cash": "15.867267",
+      "post_formation_external_funding": "297.419063",
+      "post_formation_gas": "0.38851327047855993050060000",
+      "trading_terminal_net": "333.4216491667980647288344432",
+      "holding_terminal": "313.294302",
+      "trading_minus_holding": "20.1273471667980647288344432",
+      "unlinked_orders_after_formation": 0,
+      "eligible": true,
+      "cash_only": false,
+      "bounds": {
+        "settlement_only": {
+          "lower": "9.56598372952144006949940000",
+          "upper": "28.04128272952144006949940000"
+        },
+        "max_trade_age_1h": {
+          "lower": "13.91544223139628812880225290",
+          "upper": "20.32890323139628812880225290"
+        }
+      }
+    },
+    {
+      "formation_hour": 48,
+      "model_id": "gpt-5.2",
+      "formation_time": "1770781509.366855",
+      "formation_positions": 4,
+      "formation_positions_raw": {
+        "13974700985240075332118756604045908736371738526924981600158142606410215481417": 4473,
+        "80467209035316733248182241854481357574974859397287948244490439418859525643972": 3586,
+        "78475515974904973486520650032359781413670391408858976557583153729448334433111": 688,
+        "58559942104124834610354386615778861574513981419650657693895447808079812075872": 9837
+      },
+      "formation_cash": "50.782881",
+      "post_formation_external_funding": "297.419064",
+      "post_formation_gas": "0.02963167771444004899680000",
+      "trading_terminal_net": "295.6781959992029928599909271",
+      "holding_terminal": "348.219841",
+      "trading_minus_holding": "-52.5416450007970071400090729",
+      "unlinked_orders_after_formation": 1,
+      "eligible": false,
+      "cash_only": false,
+      "bounds": {
+        "settlement_only": {
+          "lower": "-222.5542386777144400489968000",
+          "upper": "-34.3477236777144400489968000"
+        },
+        "max_trade_age_1h": {
+          "lower": "-61.6010629250770071400090730",
+          "upper": "-52.4977899250770071400090730"
+        }
+      }
+    },
+    {
+      "formation_hour": 48,
+      "model_id": "mystery-model-alpha",
+      "formation_time": "1770781509.366855",
+      "formation_positions": 0,
+      "formation_positions_raw": {},
+      "formation_cash": "47.104820",
+      "post_formation_external_funding": "297.419063",
+      "post_formation_gas": "0.02852311721801069094680000",
+      "trading_terminal_net": "156.5745341107128305369840412",
+      "holding_terminal": "344.523883",
+      "trading_minus_holding": "-187.9493488892871694630159588",
+      "unlinked_orders_after_formation": 0,
+      "eligible": true,
+      "cash_only": true,
+      "bounds": {
+        "settlement_only": {
+          "lower": "-187.9494181172180106909468000",
+          "upper": "-187.9417261172180106909468000"
+        },
+        "max_trade_age_1h": {
+          "lower": "-187.9493488892871694630159588",
+          "upper": "-187.9493488892871694630159588"
+        }
+      }
+    }
+  ],
+  "summary": [
+    {
+      "formation_hour": 12,
+      "eligible": 4,
+      "holding_ahead": 4,
+      "with_positions": 3,
+      "holding_ahead_with_positions": 3
+    },
+    {
+      "formation_hour": 24,
+      "eligible": 4,
+      "holding_ahead": 3,
+      "with_positions": 3,
+      "holding_ahead_with_positions": 2
+    },
+    {
+      "formation_hour": 48,
+      "eligible": 4,
+      "holding_ahead": 3,
+      "with_positions": 3,
+      "holding_ahead_with_positions": 2
+    }
+  ]
+}

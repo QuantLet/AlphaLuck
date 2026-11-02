@@ -1,0 +1,13 @@
+{
+  "path": "split/year=2026/month=03.parquet",
+  "file_size": 20311799,
+  "revision": "7eeb860dea5b79d5c74f3182b70bd08c85c8f833",
+  "owner_column": "stakeholder",
+  "all_row_groups": 1,
+  "recorded_row_groups": 1,
+  "rows_extracted": 0,
+  "row_groups_with_matches": 0,
+  "range_bytes_read_this_run": 2045909,
+  "period_start": 1769904000,
+  "period_end_exclusive": 1773100800
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "tx": "0xa634cb574cfcb30c8043e13fb160056e714b74c13891dee38a221b5bd3169685",
+    "model_short": "gemini",
+    "block": 82991852,
+    "time": "2026-02-14 21:15:27",
+    "net_USDC_raw": 297419064,
+    "net_USDCE_raw": 0,
+    "fee_POL": "0.055740708720559477",
+    "wallet_pays_gas": false,
+    "source_url": "https://polygonscan.com/tx/0xa634cb574cfcb30c8043e13fb160056e714b74c13891dee38a221b5bd3169685",
+    "observed_at_utc": "2026-11-01",
+    "method": "Read exact transfer quantities and gas fee from transaction detail UI; not quick-export rounded values."
+  },
+  {
+    "tx": "0x2f18cde6ae97c7ecedd7656724fb43601a6e2e3ddf018b38b9a72e1970b47390",
+    "model_short": "glm",
+    "block": 82991868,
+    "time": "2026-02-14 21:15:59",
+    "net_USDC_raw": 297419063,
+    "net_USDCE_raw": 0,
+    "fee_POL": "0.060204556757125792",
+    "wallet_pays_gas": false,
+    "source_url": "https://polygonscan.com/tx/0x2f18cde6ae97c7ecedd7656724fb43601a6e2e3ddf018b38b9a72e1970b47390",
+    "observed_at_utc": "2026-11-01",
+    "method": "Read exact transfer quantities and gas fee from transaction detail UI; not quick-export rounded values."
+  },
+  {
+    "tx": "0x9fe5ededc7af14f6d9077271f73d985d39d5a5b7e1d95724e1fadb2a09d1561c",
+    "model_short": "gpt",
+    "block": 82992438,
+    "time": "2026-02-14 21:34:59",
+    "net_USDC_raw": -297419064,
+    "net_USDCE_raw": 294803359,
+    "fee_POL": "0.230204484331860488",
+    "wallet_pays_gas": true,
+    "source_url": "https://polygonscan.com/tx/0x9fe5ededc7af14f6d9077271f73d985d39d5a5b7e1d95724e1fadb2a09d1561c",
+    "observed_at_utc": "2026-11-01",
+    "method": "Read exact transfer quantities and gas fee from transaction detail UI; not quick-export rounded values."
+  },
+  {
+    "tx": "0xf571130a413aa16d6c0cde06d78e110886e1af779db068e33f85b2b69393f5e9",
+    "model_short": "mystery",
+    "block": 82992410,
+    "time": "2026-02-14 21:34:03",
+    "net_USDC_raw": -297419063,
+    "net_USDCE_raw": 294803603,
+    "fee_POL": "0.205473935251612269",
+    "wallet_pays_gas": true,
+    "source_url": "https://polygonscan.com/tx/0xf571130a413aa16d6c0cde06d78e110886e1af779db068e33f85b2b69393f5e9",
+    "observed_at_utc": "2026-11-01",
+    "method": "Read exact transfer quantities and gas fee from transaction detail UI; not quick-export rounded values."
+  }
+]

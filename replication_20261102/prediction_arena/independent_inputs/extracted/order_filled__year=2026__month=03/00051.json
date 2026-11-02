@@ -1,0 +1,34 @@
+{
+  "group": 51,
+  "group_rows": 1001472,
+  "owner_matches_before_time_filter": 2,
+  "bytes_read": 64543096,
+  "rows": [
+    {
+      "id": "137_83810631_1277",
+      "takerAmountFilled": "1015200",
+      "fee": "0",
+      "transactionHash": "0x99135cfc9e37f8cb4ebef42068859d906faf2a48d2b22eaa10525200583d6bda",
+      "timestamp": "1772741293",
+      "orderHash": "0xbd462eb18900e875aeb0fc6ec8c808ab902ba97a682ea6eac5699957ebf530bb",
+      "maker": "0xf2327959aabFa0C1Cff3b2dbfb942cD6efAC42Ab",
+      "taker": "0xC5d563A36AE78145C45a50134d48A1215220f80a",
+      "makerAssetId": "0",
+      "takerAssetId": "88810070936591149970302010849086605822007095338039913649825854409411582753382",
+      "makerAmountFilled": "999972"
+    },
+    {
+      "id": "137_83813414_1078",
+      "takerAmountFilled": "1015200",
+      "fee": "0",
+      "transactionHash": "0x57b47ef7da394a3d97f4d8b715d63c9242b223b524a026c683a937e9449c242b",
+      "timestamp": "1772746859",
+      "orderHash": "0xd4228e52b8a8d4125c81843caa8f60b2f52f1664fb65c30e71792ce66772a17f",
+      "maker": "0xf2327959aabFa0C1Cff3b2dbfb942cD6efAC42Ab",
+      "taker": "0xC5d563A36AE78145C45a50134d48A1215220f80a",
+      "makerAssetId": "0",
+      "takerAssetId": "88810070936591149970302010849086605822007095338039913649825854409411582753382",
+      "makerAmountFilled": "999972"
+    }
+  ]
+}

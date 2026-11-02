@@ -1,0 +1,19 @@
+{
+  "group": 13,
+  "group_rows": 1001472,
+  "owner_matches_before_time_filter": 1,
+  "bytes_read": 15799858,
+  "rows": [
+    {
+      "id": "137_83250508_2034",
+      "timestamp": "1771621040",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0xcab7ba4a9133cfd407d7e73e5757e5abbace413b59421527a31113406c97815c",
+      "indexSets": [
+        "1",
+        "2"
+      ],
+      "payout": "7291054"
+    }
+  ]
+}

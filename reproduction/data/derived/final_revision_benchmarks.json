@@ -1,0 +1,44 @@
+[
+  {
+    "path": "Realised trading",
+    "total": -26.300479979963526,
+    "post": -29.74480430912334,
+    "gap": 0.0,
+    "ahead": 0
+  },
+  {
+    "path": "Frozen, isolated A",
+    "total": -5.862888221674034,
+    "post": -9.307212550833846,
+    "gap": 20.437591758289496,
+    "ahead": 26
+  },
+  {
+    "path": "Frozen, isolated B",
+    "total": -16.199123071482042,
+    "post": -19.64344740064185,
+    "gap": 10.101356908481486,
+    "ahead": 21
+  },
+  {
+    "path": "Frozen, shared collateral",
+    "total": 2.8198317322181543,
+    "post": -0.6244925969416568,
+    "gap": 29.12031171218168,
+    "ahead": 26
+  },
+  {
+    "path": "Cash from formation",
+    "total": 3.444324329159812,
+    "post": 0.0,
+    "gap": 29.74480430912334,
+    "ahead": 27
+  },
+  {
+    "path": "Index price reference",
+    "total": 9.968111120490624,
+    "post": 6.523786791330812,
+    "gap": 36.26859110045415,
+    "ahead": 30
+  }
+]

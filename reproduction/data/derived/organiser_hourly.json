@@ -580,7 +580,7 @@
       "hour_at_min": 108,
       "isolated_A_hours_positive": 307,
       "isolated_B_hours_positive": 251,
-      "isolated_B_advantage_pp_min": -15.599880710459741,
+      "isolated_B_advantage_pp_min": -15.600330546143336,
       "isolated_B_advantage_pp_median": 2.208269294004484,
       "isolated_accounts_liquidated_median": 4.0,
       "endpoint_break_even_pct_min": -1.6318428848727524,
@@ -599,8 +599,8 @@
       "hour_at_min": 108,
       "isolated_A_hours_positive": 158,
       "isolated_B_hours_positive": 103,
-      "isolated_B_advantage_pp_min": -15.599880710459741,
-      "isolated_B_advantage_pp_median": 4.185494240672184,
+      "isolated_B_advantage_pp_min": -15.600330546143336,
+      "isolated_B_advantage_pp_median": 4.188764297087196,
       "isolated_accounts_liquidated_median": 24.0,
       "endpoint_break_even_pct_min": -1.6318428848727524,
       "endpoint_break_even_pct_median": 0.785740152774286
@@ -617,8 +617,8 @@
       "hour_at_min": 43,
       "isolated_A_hours_positive": 48,
       "isolated_B_hours_positive": 47,
-      "isolated_B_advantage_pp_min": -1.1332035372549558,
-      "isolated_B_advantage_pp_median": 12.157400777036194,
+      "isolated_B_advantage_pp_min": -1.1332089853886078,
+      "isolated_B_advantage_pp_median": 12.16011586318654,
       "isolated_accounts_liquidated_median": 26.0,
       "endpoint_break_even_pct_min": 0.16893358613421247,
       "endpoint_break_even_pct_median": 3.8934515926551714
@@ -641,10 +641,10 @@
       "accounts_ahead_median": 22.0,
       "isolated_A_median": 1.0351378057517238,
       "isolated_A_positive": 254,
-      "isolated_A_at_24h": 7.763121528514801,
+      "isolated_A_at_24h": 7.761729248176908,
       "isolated_B_median": 0.6226416128732944,
       "isolated_B_positive": 224,
-      "isolated_B_at_24h": 3.989424868616305
+      "isolated_B_at_24h": 3.9881022497177705
     },
     "horizon_72h": {
       "formations": 265,
@@ -657,10 +657,10 @@
       "accounts_ahead_median": 21.0,
       "isolated_A_median": 2.417878007901047,
       "isolated_A_positive": 212,
-      "isolated_A_at_24h": 11.826345420672709,
+      "isolated_A_at_24h": 11.825025395781223,
       "isolated_B_median": 1.5601541896099484,
       "isolated_B_positive": 191,
-      "isolated_B_at_24h": 6.878334046211795
+      "isolated_B_at_24h": 6.87708729662323
     },
     "horizon_168h": {
       "formations": 169,
@@ -673,10 +673,10 @@
       "accounts_ahead_median": 23.0,
       "isolated_A_median": 8.974647170140196,
       "isolated_A_positive": 153,
-      "isolated_A_at_24h": 17.54478735387782,
-      "isolated_B_median": 4.80757036611005,
+      "isolated_A_at_24h": 17.54174859496671,
+      "isolated_B_median": 4.797750300060913,
       "isolated_B_positive": 108,
-      "isolated_B_at_24h": 7.2085558766772255
+      "isolated_B_at_24h": 7.205513745158701
     }
   },
   "liquidation_stress": {
@@ -689,12 +689,12 @@
         "worst_unscreened": false,
         "actual_return_pct": -26.300479979963526,
         "isolated_positions_liquidated": 52,
-        "advantage_pp_A": 20.440630517200606,
-        "advantage_pp_B": 10.104399040000013,
+        "advantage_pp_A": 20.437591758289496,
+        "advantage_pp_B": 10.101356908481486,
         "accounts_ahead_A": 26,
         "accounts_ahead_B": 21,
-        "advantage_pp_168h_A": 17.54478735387782,
-        "advantage_pp_168h_B": 7.2085558766772255
+        "advantage_pp_168h_A": 17.54174859496671,
+        "advantage_pp_168h_B": 7.205513745158701
       },
       {
         "scenario": "unscreened at worst mark",
@@ -704,12 +704,12 @@
         "worst_unscreened": true,
         "actual_return_pct": -26.300479979963526,
         "isolated_positions_liquidated": 52,
-        "advantage_pp_A": 20.425436455253738,
-        "advantage_pp_B": 10.08920497805315,
+        "advantage_pp_A": 20.422397696342635,
+        "advantage_pp_B": 10.086162846534622,
         "accounts_ahead_A": 26,
         "accounts_ahead_B": 21,
-        "advantage_pp_168h_A": 17.53265172662325,
-        "advantage_pp_168h_B": 7.196420249422658
+        "advantage_pp_168h_A": 17.52961296771214,
+        "advantage_pp_168h_B": 7.193378117904133
       },
       {
         "scenario": "trigger 1% earlier",
@@ -719,12 +719,12 @@
         "worst_unscreened": false,
         "actual_return_pct": -26.300479979963526,
         "isolated_positions_liquidated": 57,
-        "advantage_pp_A": 21.13536060709747,
-        "advantage_pp_B": 10.328125799448422,
+        "advantage_pp_A": 21.13237524034635,
+        "advantage_pp_B": 10.325135944535864,
         "accounts_ahead_A": 26,
         "accounts_ahead_B": 21,
-        "advantage_pp_168h_A": 18.848996546604845,
-        "advantage_pp_168h_B": 8.041761738955795
+        "advantage_pp_168h_A": 18.846011179853722,
+        "advantage_pp_168h_B": 8.038771884043237
       },
       {
         "scenario": "trigger 1% later",
@@ -734,12 +734,12 @@
         "worst_unscreened": false,
         "actual_return_pct": -26.300479979963526,
         "isolated_positions_liquidated": 44,
-        "advantage_pp_A": 23.63472190169533,
-        "advantage_pp_B": 14.780965588419559,
+        "advantage_pp_A": 23.63231658328116,
+        "advantage_pp_B": 14.778523652378098,
         "accounts_ahead_A": 27,
         "accounts_ahead_B": 22,
-        "advantage_pp_168h_A": 18.77505504530143,
-        "advantage_pp_168h_B": 10.189025219788851
+        "advantage_pp_168h_A": 18.77264972688726,
+        "advantage_pp_168h_B": 10.186583283747394
       },
       {
         "scenario": "slippage 0.25%",
@@ -749,12 +749,12 @@
         "worst_unscreened": false,
         "actual_return_pct": -26.300479979963526,
         "isolated_positions_liquidated": 52,
-        "advantage_pp_A": 19.828429998263314,
-        "advantage_pp_B": 9.49219852106272,
+        "advantage_pp_A": 19.82539060385661,
+        "advantage_pp_B": 9.489155754048605,
         "accounts_ahead_A": 26,
         "accounts_ahead_B": 19,
-        "advantage_pp_168h_A": 16.932586834940526,
-        "advantage_pp_168h_B": 6.5963553577399345
+        "advantage_pp_168h_A": 16.929547440533824,
+        "advantage_pp_168h_B": 6.593312590725822
       },
       {
         "scenario": "slippage 1.3%",
@@ -764,12 +764,12 @@
         "worst_unscreened": false,
         "actual_return_pct": -26.300479979963526,
         "isolated_positions_liquidated": 52,
-        "advantage_pp_A": 17.257187818726624,
-        "advantage_pp_B": 6.920956341526027,
+        "advantage_pp_A": 17.25414575523845,
+        "advantage_pp_B": 6.917910905430443,
         "accounts_ahead_A": 26,
         "accounts_ahead_B": 18,
-        "advantage_pp_168h_A": 14.361344655403835,
-        "advantage_pp_168h_B": 4.025113178203244
+        "advantage_pp_168h_A": 14.358302591915661,
+        "advantage_pp_168h_B": 4.022067742107659
       },
       {
         "scenario": "charge 10 bp",
@@ -779,12 +779,12 @@
         "worst_unscreened": false,
         "actual_return_pct": -26.300479979963526,
         "isolated_positions_liquidated": 52,
-        "advantage_pp_A": 20.19575030962568,
-        "advantage_pp_B": 9.859518832425088,
+        "advantage_pp_A": 20.192711296516336,
+        "advantage_pp_B": 9.856476446708326,
         "accounts_ahead_A": 26,
         "accounts_ahead_B": 20,
-        "advantage_pp_168h_A": 17.299907146302896,
-        "advantage_pp_168h_B": 6.963675669102304
+        "advantage_pp_168h_A": 17.296868133193552,
+        "advantage_pp_168h_B": 6.960633283385541
       },
       {
         "scenario": "joint, earlier trigger",
@@ -794,12 +794,12 @@
         "worst_unscreened": true,
         "actual_return_pct": -26.300479979963526,
         "isolated_positions_liquidated": 57,
-        "advantage_pp_A": 17.564381411935887,
-        "advantage_pp_B": 6.75714660428684,
+        "advantage_pp_A": 17.561392161123457,
+        "advantage_pp_B": 6.754152865312976,
         "accounts_ahead_A": 25,
         "accounts_ahead_B": 18,
-        "advantage_pp_168h_A": 15.281075786135558,
-        "advantage_pp_168h_B": 4.473840978486507
+        "advantage_pp_168h_A": 15.278086535323126,
+        "advantage_pp_168h_B": 4.470847239512644
       },
       {
         "scenario": "joint, later trigger",
@@ -809,35 +809,35 @@
         "worst_unscreened": true,
         "actual_return_pct": -26.300479979963526,
         "isolated_positions_liquidated": 44,
-        "advantage_pp_A": 20.598945564764655,
-        "advantage_pp_B": 11.745189251488883,
+        "advantage_pp_A": 20.596527327125095,
+        "advantage_pp_B": 11.742734396222028,
         "accounts_ahead_A": 26,
         "accounts_ahead_B": 21,
-        "advantage_pp_168h_A": 15.892282488241394,
-        "advantage_pp_168h_B": 7.306252662728818
+        "advantage_pp_168h_A": 15.889864250601828,
+        "advantage_pp_168h_B": 7.303797807461966
       }
     ],
     "joint_earlier_all_hours": {
       "formations_168h": 169,
-      "A_168h_median": 8.025774612639054,
+      "A_168h_median": 8.02586863872536,
       "A_168h_positive": 145,
-      "A_168h_min": -5.677869942505961,
-      "B_168h_median": 1.505445916351136,
+      "A_168h_min": -5.678634327976749,
+      "B_168h_median": 1.496240436899339,
       "B_168h_positive": 95,
-      "B_168h_min": -12.328325548570573,
-      "A_close_median": 2.460659037227761,
+      "B_168h_min": -12.32947225595478,
+      "A_close_median": 2.4606575677129285,
       "A_close_positive": 280,
-      "B_close_median": 1.689882118053567,
+      "B_close_median": 1.689880529199951,
       "B_close_positive": 234
     },
     "joint_later_all_hours": {
       "formations_168h": 169,
       "A_168h_median": 7.200430227072254,
       "A_168h_positive": 144,
-      "A_168h_min": -5.897356913831457,
-      "B_168h_median": 0.1317735726536431,
+      "A_168h_min": -5.895285881187875,
+      "B_168h_median": 0.14728928327857516,
       "B_168h_positive": 87,
-      "B_168h_min": -15.768192233446008,
+      "B_168h_min": -15.768652774497465,
       "A_close_median": 2.1933041147300507,
       "A_close_positive": 281,
       "B_close_median": 1.930775231791797,
@@ -863,19 +863,19 @@
       "isolated_accounts_unscreened": 2,
       "advantage_pp_24h": 6.7600144675669505,
       "accounts_ahead_24h": 21.0,
-      "isolated_A_advantage_pp_24h": 8.863528222658845,
-      "isolated_B_advantage_pp_24h": 4.0029295425302776,
+      "isolated_A_advantage_pp_24h": 8.863885121078342,
+      "isolated_B_advantage_pp_24h": 4.003273589514647,
       "advantage_pp_72h": 11.6481265598554,
       "accounts_ahead_72h": 23.0,
-      "isolated_A_advantage_pp_72h": 13.924087446699385,
-      "isolated_B_advantage_pp_72h": 7.663756424451269,
+      "isolated_A_advantage_pp_72h": 13.924030318287802,
+      "isolated_B_advantage_pp_72h": 7.663707145946112,
       "advantage_pp_168h": 22.562472675100658,
       "accounts_ahead_168h": 28.0,
-      "isolated_A_advantage_pp_168h": 19.874013447250324,
-      "isolated_B_advantage_pp_168h": 5.355896667347911,
-      "isolated_A_advantage_pp": 20.357347167911545,
+      "isolated_A_advantage_pp_168h": 19.864118425336866,
+      "isolated_B_advantage_pp_168h": 5.345517452087895,
+      "isolated_A_advantage_pp": 20.347452145998087,
       "isolated_A_accounts_ahead": 25,
-      "isolated_B_advantage_pp": 5.7376528153810105,
+      "isolated_B_advantage_pp": 5.727273600120995,
       "isolated_B_accounts_ahead": 21
     },
     {
@@ -896,19 +896,19 @@
       "isolated_accounts_unscreened": 1,
       "advantage_pp_24h": 10.66898418202797,
       "accounts_ahead_24h": 25.0,
-      "isolated_A_advantage_pp_24h": 7.763121528514801,
-      "isolated_B_advantage_pp_24h": 3.989424868616305,
+      "isolated_A_advantage_pp_24h": 7.761729248176908,
+      "isolated_B_advantage_pp_24h": 3.9881022497177705,
       "advantage_pp_72h": 14.015871534236634,
       "accounts_ahead_72h": 27.0,
-      "isolated_A_advantage_pp_72h": 11.826345420672709,
-      "isolated_B_advantage_pp_72h": 6.878334046211795,
+      "isolated_A_advantage_pp_72h": 11.825025395781223,
+      "isolated_B_advantage_pp_72h": 6.87708729662323,
       "advantage_pp_168h": 22.1965931877473,
       "accounts_ahead_168h": 27.0,
-      "isolated_A_advantage_pp_168h": 17.54478735387782,
-      "isolated_B_advantage_pp_168h": 7.2085558766772255,
-      "isolated_A_advantage_pp": 20.440630517200606,
+      "isolated_A_advantage_pp_168h": 17.54174859496671,
+      "isolated_B_advantage_pp_168h": 7.205513745158701,
+      "isolated_A_advantage_pp": 20.437591758289496,
       "isolated_A_accounts_ahead": 26,
-      "isolated_B_advantage_pp": 10.104399040000013,
+      "isolated_B_advantage_pp": 10.101356908481486,
       "isolated_B_accounts_ahead": 21
     },
     {
@@ -933,15 +933,15 @@
       "isolated_B_advantage_pp_24h": 0.9432697387628501,
       "advantage_pp_72h": 19.73172019170031,
       "accounts_ahead_72h": 30.0,
-      "isolated_A_advantage_pp_72h": 20.296289984052194,
-      "isolated_B_advantage_pp_72h": 16.256238183661342,
+      "isolated_A_advantage_pp_72h": 20.2962209930889,
+      "isolated_B_advantage_pp_72h": 16.256165742505093,
       "advantage_pp_168h": 23.64321270691483,
       "accounts_ahead_168h": 28.0,
-      "isolated_A_advantage_pp_168h": 25.1454180970769,
-      "isolated_B_advantage_pp_168h": 19.893960432086192,
-      "isolated_A_advantage_pp": 29.56822441004883,
+      "isolated_A_advantage_pp_168h": 25.14538849104492,
+      "isolated_B_advantage_pp_168h": 19.893923161846583,
+      "isolated_A_advantage_pp": 29.56819480401685,
       "isolated_A_accounts_ahead": 27,
-      "isolated_B_advantage_pp": 24.31676674505812,
+      "isolated_B_advantage_pp": 24.316729474818512,
       "isolated_B_accounts_ahead": 25
     }
   ],
@@ -950,7 +950,8 @@
     "Snapshots fall about an hour after their nominal marker and are missing for some accounts in hours 2-28 and 118-143.",
     "Pooled trade prints are the liquidation trigger; they miss some mark-price crossings.",
     "Account-wide and passive-isolated conventions bracket, but do not establish, feasibility; mark prices, partial liquidation, fees and backstop rules are not replayed.",
-    "The formation-hour sweep is descriptive; hours are not independent and share one market path."
+    "The formation-hour sweep is descriptive; hours are not independent and share one market path.",
+    "Nearest thresholds can come from after formation; funding is aligned to formation. Unchanged quantities do not establish unchanged collateral. Prior-only scenarios are reported separately in formation_timing_audit.json."
   ],
   "input_sha256": {
     "data/derived/fills.parquet": "e0690242e8f4572b64d48801890312ac0981775939a1a498368dbdc8781e56fc",
@@ -968,7 +969,7 @@
     "data/derived/funding_hourly_sensitivity_accounts.csv": "85d9a56dab12b8828fe9aa838e2452e8aa8136111dcd7231d809b00976cd2c9f"
   },
   "source_sha256": {
-    "organiser_hourly.py": "ebaa161f1e8444111ee1dfe6089e688de5fabb7575a1a3a432205c3c9477f69d",
+    "organiser_hourly.py": "4ab5b91fff30b837a0ef102b15c070ade619cdea6c5cbcc1d12b010aa65d2042",
     "funding_hourly_sensitivity.py": "86df094ba26c688e6914658e1615ef16ed1caf813605394ee9a53e8a992b7fd9",
     "wallets.py": "72fb0b8b778283ed543e9dc077c4778ec3054955e1f4349e47c2dfeee3ca7d9c"
   }

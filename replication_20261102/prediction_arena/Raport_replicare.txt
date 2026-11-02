@@ -1,0 +1,89 @@
+PREDICTION ARENA — COMPARAȚIA TRADING VERSUS HOLDING
+Rezultate și verificări, 2 noiembrie 2026
+
+Concluzie
+Datele permit acum o replicare descriptivă a comparației, folosind istoricul independent al conturilor și prețuri din tranzacții. Pentru cele patru conturi cu execuțiile atribuibile jurnalelor disponibile, trading aduce mai multă avere finală decât holding numai în cazul GLM. Claude, Gemini și mystery-model-alpha încheie cu mai puțin. Randamentele calculate separat înainte și după alimentare păstrează aceeași ordine. GPT este raportat separat: recuperarea prețurilor nu rezolvă lipsa unei decizii pentru ordinul său suplimentar de după formare.
+Rezultatele sunt condiționate de evaluarea la prețuri de tranzacție, de paritatea stablecoinurilor și de definiția perioadei. Nu reprezintă prețuri garantate de lichidare ori dovada unui avantaj general al holdingului.
+
+Rezultatul principal
+Portofoliile sunt fixate la 10 februarie 2026, 03:45:09.366855 UTC, după primele 24 de ore ale ferestrei comune observate. Închiderea este la 10 martie 2026, 00:00 UTC, exclusiv. Fiecare portofoliu holding păstrează pozițiile și numerarul de la formare și primește exact aceeași alimentare ulterioară, la aceeași dată. Alimentarea rămâne numerar; nu se cumpără poziții suplimentare.
+Valorile finale includ numerarul și pozițiile încă deținute. Contractele decontate sunt evaluate la plata contractuală, chiar dacă titlul nu a fost încă răscumpărat. Pentru celelalte folosim ultima tranzacție anterioară închiderii. Costul conversiilor USDC/USDC.e este deja în numerarul efectiv. Taxele POL plătite de wallet după formare sunt deduse separat, o singură dată.
+
+Model | Avere finală trading, USD | Avere finală holding, USD | Trading minus holding, USD | TWR trading estimat | TWR holding estimat
+GLM | 333.42 | 314.14 | 19.29 | 24.77% | -30.58%
+Claude | 65.72 | 303.50 | -237.78 | -87.57% | -39.24%
+Gemini | 177.46 | 355.03 | -177.57 | -57.85% | -13.00%
+GPT | 295.68 | 363.99 | -68.31 | -10.18% | 33.95%
+Mystery | 156.57 | 344.52 | -187.95 | -54.55% | 0.00%
+
+GPT nu intră în grupul principal. Mystery păstrează eticheta din arhiva deciziilor. Toate sumele în dolari presupun USDC = USDC.e = 1 USD. Acestea sunt valorile segmentului de portofoliu format din numerar stabil și contracte de predicție, după costurile de rețea; nu includ câștigul sau pierderea din deținerea POL ca activ.
+
+Cum sunt tratate depunerile
+Fiecare wallet a primit aproximativ 297,42 USDC pe 14 februarie, mult peste capitalul de la formare. O variație procentuală simplă a soldului ar atribui depunerea tranzacționării. Am evaluat separat portofoliul imediat înaintea alimentării fiecărui cont și am legat geometric randamentele celor două subperioade:
+R = (V înainte de alimentare / V la formare) × (V final / (V înainte de alimentare + alimentare)) − 1.
+TWR în tabel înseamnă acest randament ponderat în timp, estimat pe baza prețurilor de tranzacție. Datele exacte ale celor cinci alimentări diferă; fiecare calcul folosește data walletului respectiv. Valoarea holding este evaluată la aceeași dată. Taxele de rețea sunt tratate ca o cheltuială cumulată a segmentului analizat. Nu este presupusă vânzarea efectivă de USDC pentru a plăti POL.
+Diferența de avere finală măsoară rezultatul în bani al celor două politici cu aceleași alimentări. TWR acordă aceeași importanță unei unități de capital în fiecare subperioadă. De aceea un TWR pozitiv poate coexista cu un rezultat monetar total negativ: de exemplu, GLM a avut rezultate diferite înainte și după creșterea capitalului. Nu comparăm direct nivelul TWR cu profitul raportat la totalul sumelor depuse.
+Ca verificare separată am păstrat și Modified Dietz, care aproximează tratarea fluxurilor folosind durata lor în portofoliu. Nu este măsura principală aici, deoarece alimentarea este mare:
+Model | Modified Dietz trading | Modified Dietz holding
+GLM | -4.88% | -11.36%
+Claude | -94.84% | -14.21%
+Gemini | -59.37% | -2.54%
+GPT | -17.34% | 5.69%
+Mystery | -63.93% | 0.00%
+
+Ce date noi au fost recuperate
+— Toate cele șase tokenuri distincte deținute la formare au un preț observat anterior formării.
+— Toate cele 93 de tokenuri distincte din reuniunea portofoliilor de la formare și închidere pot fi evaluate: 48 prin decontări demonstrate înainte de închidere și 45 prin tranzacții anterioare.
+— Scanarea decontărilor pentru contractele relevante a identificat 48.376 de evenimente, provenite de la toate adresele, pentru 44 de condiții. Acestea sunt dovezi privind momentul rezolvării, nu încasări ale celor cinci agenți.
+— Pentru evaluări au fost extrase 17.764 de evenimente de execuție din fereastra formării, 19.817 din fereastra alimentării și 15.182 din fereastra închiderii. Sunt evenimente de piață, nu numere de ordine LLM. Pot include reprezentarea individuală și agregată a aceleiași execuții; evaluarea elimină această dublare.
+— Seriile POL/USDC la un minut pentru februarie și martie permit evaluarea tuturor taxelor relevante. Se folosește închiderea ultimului minut complet anterior tranzacției, fără prețuri din viitor. Costurile după formare sunt sub 0,57 USD pentru fiecare wallet.
+
+Evaluarea contractelor și vechimea prețurilor
+O plată contractuală este utilizată numai dacă există un eveniment de răscumpărare anterior momentului evaluării. Inclusiv un eveniment cu plată zero confirmă că rezultatul fusese stabilit. Valorile de rezolvare din fotografia arhivei din aprilie nu sunt folosite singure pentru a atribui retrospectiv rezultate în februarie sau martie.
+Pentru contractele fără această dovadă, evaluarea folosește prețul mediu ponderat cu cantitatea din ultima tranzacție disponibilă a tokenului, într-o fereastră anterioară de cel mult 24 de ore. Sunt folosite execuțiile individuale ale ordinelor maker, iar rezumatul ordinului taker numai dacă pentru același token și aceeași tranzacție nu există acele execuții. Datele fiecărui preț și evenimentele folosite sunt păstrate în fișiere.
+Prețurile sunt observate în tranzacții. Nu reprezintă mijlocul spreadului, un bid executabil pentru întreaga poziție sau prețuri oficiale de marcare. La formare, un preț Gemini are aproximativ 1,77 ore vechime. La alimentare există și un preț GLM de aproximativ 8,68 ore. Aceste limite contează mai ales pentru estimările procentuale TWR.
+Model | Vechime maximă la formare, ore | La alimentare, ore | La închidere, ore
+GLM | 0.12 | 8.68 | 8.40
+Claude | 0.01 | 0.28 | 0.00
+Gemini | 1.77 | 2.51 | 10.56
+GPT | 0.01 | 1.02 | 4.06
+Mystery | 0.00 | 0.00 | 0.12
+Zero în tabel poate însemna că nu există poziții ori că toate valorile relevante sunt plăți contractuale, nu o cotație observată chiar în acel moment.
+
+Verificarea sensibilității
+Am recalculat limitele diferenței de avere finală în două variante. Prima folosește numai decontările demonstrate și lasă toate celelalte prețuri între zero și un dolar. A doua păstrează și tranzacțiile din ultima oră, dar lasă liber între zero și un dolar fiecare preț mai vechi. Același token primește același preț în trading și holding. Depunerile, numerarul și taxele rămân identice cu cele din calculul principal.
+Model | Numai decontări: interval diferență, USD | Decontări și tranzacții din ultima oră: interval, USD
+GLM | [8.72; 27.20] | [13.07; 19.49]
+Claude | [-237.78; -237.78] | [-237.78; -237.78]
+Gemini | [-330.89; 87.23] | [-261.94; -121.88]
+GPT | [-238.33; -50.12] | [-77.37; -68.27]
+Mystery | [-187.95; -187.94] | [-187.95; -187.95]
+În a doua variantă, GLM rămâne peste holding, iar Claude, Gemini și Mystery rămân sub holding pentru toate valorile admise ale prețurilor mai vechi. În prima variantă, care nu folosește niciun preț de tranzacție la închidere, semnul Gemini nu este determinat. Intervalele sunt limite de evaluare, nu intervale de încredere. Ele nu acoperă o posibilă abatere de la paritatea stablecoinurilor și nu demonstrează că o poziție putea fi lichidată integral la prețul observat. Rezultatele de sensibilitate privesc diferența de avere finală, nu precizia randamentelor TWR.
+
+Ce poate intra în articol
+Comparația este utilă ca verificare suplimentară pe tranzacții efective dintr-o piață diferită. Rezultatul descriptiv este că holding încheie cu mai multă avere pentru trei dintre cele patru conturi atribuibile, iar GLM constituie o excepție. Aș raporta diferența de avere finală, randamentele TWR ca estimări suplimentare și verificarea cu prețurile vechi lăsate necunoscute. Nu aș prezenta această comparație ca o replicare identică a mecanismelor de marjă sau lichidare din piața inițială.
+Sunt patru conturi în comparația principală, o singură perioadă și capital efectiv redus. Nu calculăm semnificație statistică din patru observații și nu extrapolăm la profitabilitatea generală a agenților LLM. Data de început comun este un reper al arhivei, nu lansarea certificată a experimentului. Blockchainul verifică activitatea walleturilor; identitatea modelului și legătura cu decizia provin din jurnalele Prediction Arena. Cele cinci ordine raportate fără execuție confirmată rămân excluse. GPT păstrează problema de atribuire documentată în auditul anterior.
+
+Surse și reproducere
+Envio / moose-code, Polymarket On-Chain Complete v1, CC BY 4.0. Versiune fixată: 7eeb860dea5b79d5c74f3182b70bd08c85c8f833. Datele au fost extrase și transformate pentru această comparație.
+https://huggingface.co/datasets/moose-code/polymarket-onchain-v1
+https://github.com/enviodev/polymarket-indexer
+https://github.com/gnosis/conditional-tokens-contracts/blob/master/contracts/ConditionalTokens.sol
+Binance, date publice POL/USDC, bare la un minut; timpul este în microsecunde UTC în arhiva spot din 2026.
+https://github.com/binance/binance-public-data
+https://data.binance.vision/data/spot/monthly/klines/POLUSDC/1m/POLUSDC-1m-2026-02.zip
+https://data.binance.vision/data/spot/monthly/klines/POLUSDC/1m/POLUSDC-1m-2026-03.zip
+Convenții de măsurare a performanței și motivul reevaluării la fluxuri mari:
+https://www.gipsstandards.org/standards/gips-standards-for-firms/gips-standards-handbook-for-firms/
+Aceste referințe susțin metoda; nu se afirmă conformitate GIPS a studiului.
+
+Fișiere
+results/comparison.csv: tabelul sintetic.
+results/replication_results.json: numerar, evaluări, Modified Dietz și intervale.
+results/time_weighted_returns.json: randamentele pe subperioade și evaluarea înaintea alimentării.
+results/valuation_marks.json și funding_valuation_marks.json: fiecare preț și dovada sa.
+results/gas_valued.json: taxele în POL și conversia lor.
+raw/: evenimentele și prețurile recuperate. independent_inputs/: auditul independent anterior, inclusiv exporturile și registrele.
+README.txt: instrucțiuni de refacere a calculelor și limitele accesului la surse.
+
+Validare: 10 verificări automate ale acestei replicări, suplimentar celor 10 ale auditului registrelor. Articolul, anexa și arhiva Overleaf nu au fost modificate în această etapă. Rezultatele precedente sunt păstrate separat.

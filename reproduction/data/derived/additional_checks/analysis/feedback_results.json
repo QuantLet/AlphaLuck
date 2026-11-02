@@ -1,0 +1,72 @@
+{
+  "rho_full": {
+    "Omitted model": "None",
+    "Current equity": -0.6190476190476191,
+    "Initial capital": -0.4761904761904762,
+    "Difference": 0.14285714285714285
+  },
+  "rho_loo_ranges": {
+    "Current equity": [
+      -0.7142857142857144,
+      -0.5
+    ],
+    "Initial capital": [
+      -0.7142857142857144,
+      -0.3214285714285715
+    ],
+    "Difference": [
+      0.0,
+      0.2142857142857143
+    ]
+  },
+  "fees_pct_initial": 11.528945943125,
+  "fees_share_loss_pct": 43.79945594232932,
+  "fee_hurdle_bp": 2.4213014735347653,
+  "turnover_times": 476.1466537371876,
+  "fees_return_spearman": -0.5714285714285715,
+  "cash_formation_total_pct": 3.444324329159812,
+  "index_price_return_pct": 6.3065681308644095,
+  "drop_instrument_net_min": 12.546672228503706,
+  "drop_instrument_net_max": 32.122029662798646,
+  "drop_pltr_net": 12.546672228503706,
+  "decomposition_residual_pp": -0.00946723042681242,
+  "organiser_close_ahead": 26,
+  "liquidation_methods": {
+    "market": 17
+  },
+  "liquidations_detected": 12,
+  "liquidations_evaluable": 14,
+  "liquidations_not_evaluable": 3,
+  "first_hour_coverage": {
+    "open_positions": 43,
+    "active_accounts": 28,
+    "minimum": 0
+  },
+  "first_all_active_hour": 26,
+  "window_duration_hours": 337.0,
+  "week_first_last": [
+    1.0,
+    169.0
+  ],
+  "validation": "All identity, fee, funding, endpoint and panel checks passed.",
+  "nonoverlapping_windows": {
+    "1": {
+      "advantage_168h": 24.924459559341628,
+      "isolated_A_advantage_168h": 23.105170938083685,
+      "isolated_B_advantage_168h": 19.398718213882844
+    },
+    "169": {
+      "advantage_168h": 11.53091547709794,
+      "isolated_A_advantage_168h": 11.530915477097938,
+      "isolated_B_advantage_168h": 11.530915477097938
+    }
+  },
+  "all_active_windows": {
+    "windows": 35,
+    "positive": {
+      "advantage_168h": 34,
+      "isolated_A_advantage_168h": 35,
+      "isolated_B_advantage_168h": 33
+    }
+  }
+}

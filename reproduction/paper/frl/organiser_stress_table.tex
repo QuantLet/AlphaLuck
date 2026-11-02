@@ -7,8 +7,8 @@ of price towards (earlier) or away from (later) the formation price;
 slippage executes the liquidation beyond the trigger, 1.3\% being the
 largest gap between an actual liquidation fill and the organiser threshold
 in the archive; the charge is levied on the liquidated notional, above the
-largest recorded fee rate; the two unscreened positions are closed at their
-worst grid mark. The joint rows combine 1\% trigger shift, 1.3\% slippage,
+largest recorded fee rate; the two positions without matching margin observations are closed at
+the price giving their lowest equity on the grid. The joint rows combine 1\% trigger shift, 1.3\% slippage,
 a 10\,bp charge and worst marks. The last two rows give the median
 seven-day advantage and the number of formation hours with holding ahead,
 of all formation hours.}

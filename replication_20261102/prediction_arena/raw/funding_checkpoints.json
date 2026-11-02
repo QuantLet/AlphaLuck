@@ -1,0 +1,133 @@
+[
+  {
+    "model_id": "glm-4.7",
+    "funding": {
+      "model_id": "glm-4.7",
+      "wallet": "0x12148aa1a8f2f8f36ba38bc48db86cb08c092bda",
+      "transaction_hash": "0x2f18cde6ae97c7ecedd7656724fb43601a6e2e3ddf018b38b9a72e1970b47390",
+      "contract": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+      "block": 82991868,
+      "time_utc": "2026-02-14 21:15:59",
+      "category": "external_funding",
+      "transfer_rows": 1,
+      "net_cash_raw": 297419063,
+      "precision_source": "polygonscan_exact_transaction_details",
+      "polygonscan_display_net": "297.41",
+      "within_display_rounding": true,
+      "observed_rounding_refund_raw": 0,
+      "independent_event_cash_raw": null,
+      "exact_cross_source_difference_raw": null
+    },
+    "before_funding_positions_raw": {
+      "2067891916326150127826753884863730268931932594834881748788499812590988545417": 192382855,
+      "50221315964000194764695024582522009520159992363520263771661265416131198909217": 7972,
+      "19180751334892649957685662514970856594118361572000181281162861811532650604260": 9089,
+      "20002636398944597965698652220992177552927816915094913583821579024925426590022": 5112408,
+      "104741298490564136839934000321070769198562631158798130963971796215056165331933": 2666664,
+      "43946269812975261940442841140057396362355013850035195910637438338242851933505": 36507934,
+      "70308501195956323589797156800521969197358506986152833648253437673484286051597": 3333332,
+      "7648925155044397287047798308912067661131447591491670430094875295487039626662": 1069507
+    }
+  },
+  {
+    "model_id": "claude-opus-4-5-20251101",
+    "funding": {
+      "model_id": "claude-opus-4-5-20251101",
+      "wallet": "0xc93ecb0aa64635ee352db9602f5424e8006596d5",
+      "transaction_hash": "0x72dcb375924bf6753fd1afc38283c6c5cb18b650c55f14224a9d4014b35033d0",
+      "contract": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+      "block": 82991836,
+      "time_utc": "2026-02-14 21:14:55",
+      "category": "external_funding",
+      "transfer_rows": 1,
+      "net_cash_raw": 297419063,
+      "precision_source": "blockscout_transfers_crosschecked_with_polygonscan",
+      "polygonscan_display_net": "297.41",
+      "within_display_rounding": true,
+      "observed_rounding_refund_raw": 0,
+      "independent_event_cash_raw": null,
+      "exact_cross_source_difference_raw": null
+    },
+    "before_funding_positions_raw": {
+      "2067891916326150127826753884863730268931932594834881748788499812590988545417": 260787566
+    }
+  },
+  {
+    "model_id": "gemini-3-pro-preview",
+    "funding": {
+      "model_id": "gemini-3-pro-preview",
+      "wallet": "0xb16582e1de16d044567db61a4216f4aa48f1d9ff",
+      "transaction_hash": "0xa634cb574cfcb30c8043e13fb160056e714b74c13891dee38a221b5bd3169685",
+      "contract": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+      "block": 82991852,
+      "time_utc": "2026-02-14 21:15:27",
+      "category": "external_funding",
+      "transfer_rows": 1,
+      "net_cash_raw": 297419064,
+      "precision_source": "polygonscan_exact_transaction_details",
+      "polygonscan_display_net": "297.41",
+      "within_display_rounding": true,
+      "observed_rounding_refund_raw": 0,
+      "independent_event_cash_raw": null,
+      "exact_cross_source_difference_raw": null
+    },
+    "before_funding_positions_raw": {
+      "103693433518125527001416636574099415821922498558487623412396163292963814003978": 28873787,
+      "34554555827438551101000555305203609600029621153428996114009350892614396532498": 32937146,
+      "68639196051170795150992485552561385006521521637825690332014642323694437969760": 4006752,
+      "51338236787729560681434534660841415073585974762690814047670810862722808070955": 1043840,
+      "36883565831904087508226394713200686731489552227586350779373674841157301472898": 12245678,
+      "47007608451866222038776815593966565869166804758074270988104838992146410355645": 1388885
+    }
+  },
+  {
+    "model_id": "gpt-5.2",
+    "funding": {
+      "model_id": "gpt-5.2",
+      "wallet": "0xf2327959aabfa0c1cff3b2dbfb942cd6efac42ab",
+      "transaction_hash": "0x52aa798b9fda296833a0c00904fefb321030b039e46e74dc7bba150667e25b3e",
+      "contract": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+      "block": 82991928,
+      "time_utc": "2026-02-14 21:17:59",
+      "category": "external_funding",
+      "transfer_rows": 1,
+      "net_cash_raw": 297419064,
+      "precision_source": "blockscout_transfers_crosschecked_with_polygonscan",
+      "polygonscan_display_net": "297.41",
+      "within_display_rounding": true,
+      "observed_rounding_refund_raw": 0,
+      "independent_event_cash_raw": null,
+      "exact_cross_source_difference_raw": null
+    },
+    "before_funding_positions_raw": {
+      "13974700985240075332118756604045908736371738526924981600158142606410215481417": 4473,
+      "80467209035316733248182241854481357574974859397287948244490439418859525643972": 3586,
+      "78475515974904973486520650032359781413670391408858976557583153729448334433111": 688,
+      "58559942104124834610354386615778861574513981419650657693895447808079812075872": 9837,
+      "67792722355142458543405804667173576496727766412314185614681981725121852085429": 5554,
+      "42278252558046940014991595990628759801692726198478046188873057685686228021663": 10070428,
+      "14381317742642288562069333171404338221972403876918192870287824769888574096370": 7770
+    }
+  },
+  {
+    "model_id": "mystery-model-alpha",
+    "funding": {
+      "model_id": "mystery-model-alpha",
+      "wallet": "0xba272f27074326a6d3f112280ef46eb178aca7f2",
+      "transaction_hash": "0xd6e92320bf63d0f8a47b639547a6e48458e47989c19fbcf5da8cfc8b15ad211b",
+      "contract": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+      "block": 82991890,
+      "time_utc": "2026-02-14 21:16:43",
+      "category": "external_funding",
+      "transfer_rows": 1,
+      "net_cash_raw": 297419063,
+      "precision_source": "blockscout_transfers_crosschecked_with_polygonscan",
+      "polygonscan_display_net": "297.41",
+      "within_display_rounding": true,
+      "observed_rounding_refund_raw": 0,
+      "independent_event_cash_raw": null,
+      "exact_cross_source_difference_raw": null
+    },
+    "before_funding_positions_raw": {}
+  }
+]

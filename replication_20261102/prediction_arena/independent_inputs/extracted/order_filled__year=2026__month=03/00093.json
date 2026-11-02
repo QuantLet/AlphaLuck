@@ -1,0 +1,60 @@
+{
+  "group": 93,
+  "group_rows": 1001472,
+  "owner_matches_before_time_filter": 4,
+  "bytes_read": 64960702,
+  "rows": [
+    {
+      "id": "137_83988796_2976",
+      "takerAmountFilled": "28281440",
+      "fee": "0",
+      "transactionHash": "0x30b19861e3c4d66f546d861ec80be546c22cdcfbfed9891968dd573288af8b52",
+      "timestamp": "1773097625",
+      "orderHash": "0x5d054614123a13b4db9fc9fa7391c1f8bd3e22983d12030488d32dec8635e3fe",
+      "maker": "0xB16582e1De16d044567dB61A4216F4AA48f1d9Ff",
+      "taker": "0xC5d563A36AE78145C45a50134d48A1215220f80a",
+      "makerAssetId": "107310412053206155502134878830001857135409545986442943995751633404361679341850",
+      "takerAssetId": "0",
+      "makerAmountFilled": "46810000"
+    },
+    {
+      "id": "137_83988819_2067",
+      "takerAmountFilled": "15151514",
+      "fee": "0",
+      "transactionHash": "0xa6f4470eb88eb69606b0a5e05a3851c9376a6407e7063af8d91b17c477388bb0",
+      "timestamp": "1773097671",
+      "orderHash": "0x22121ad93afc1dad120b0e59d0b0dce277e19ebb21b497cc228f1bba32bf1d4c",
+      "maker": "0xB16582e1De16d044567dB61A4216F4AA48f1d9Ff",
+      "taker": "0xC5d563A36AE78145C45a50134d48A1215220f80a",
+      "makerAssetId": "0",
+      "takerAssetId": "58685817664292296726620290139440291356982179626401042907081562589316381635900",
+      "makerAmountFilled": "4999999"
+    },
+    {
+      "id": "137_83988821_1381",
+      "takerAmountFilled": "14966175",
+      "fee": "0",
+      "transactionHash": "0xea4c7e0be358a222ef6555823593d1f2d1d825f3914481c2fba68ad5d6a4c530",
+      "timestamp": "1773097675",
+      "orderHash": "0x89a94cce4f97123f4a61525196f7e6ae26106aac61672a1bbe4490ac96c3185d",
+      "maker": "0xB16582e1De16d044567dB61A4216F4AA48f1d9Ff",
+      "taker": "0xC5d563A36AE78145C45a50134d48A1215220f80a",
+      "makerAssetId": "0",
+      "takerAssetId": "58685817664292296726620290139440291356982179626401042907081562589316381635900",
+      "makerAmountFilled": "4999999"
+    },
+    {
+      "id": "137_83990102_1314",
+      "takerAmountFilled": "10466220",
+      "fee": "0",
+      "transactionHash": "0x2a50afbfa4e30166b271177df73ea55aa7df120efddf94582b003611efa6b652",
+      "timestamp": "1773100237",
+      "orderHash": "0x80ed25ca11d462cc52c3c60f58f2539840be08056e64556a19f95b6c335b0558",
+      "maker": "0xf2327959aabFa0C1Cff3b2dbfb942cD6efAC42Ab",
+      "taker": "0xC5d563A36AE78145C45a50134d48A1215220f80a",
+      "makerAssetId": "44651234374326292732132798198773139789365522604948438030315814871540092454599",
+      "takerAssetId": "0",
+      "makerAmountFilled": "10540000"
+    }
+  ]
+}

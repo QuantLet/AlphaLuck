@@ -1,0 +1,56 @@
+[
+  {
+    "type": "directory",
+    "oid": "d45c2a977a25354cb83d69e9b50563588761aaf2",
+    "size": 0,
+    "path": "fee_refunded/year=2026"
+  },
+  {
+    "type": "file",
+    "oid": "513b78f49b95900291ebfdce39bad93ae3e00569",
+    "size": 2485833773,
+    "lfs": {
+      "oid": "3ce1ae156fe8ab53b4923723ea54a1b445fe3e1e313e1df134bc7850af0df95b",
+      "size": 2485833773,
+      "pointerSize": 135
+    },
+    "xetHash": "13609cd0f4656714f4d031a5bec0a9b10d20b4af6214e50e3060cd8a15d00f37",
+    "path": "fee_refunded/year=2026/month=01.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "b68d1922828c8eadcbb6ffba0c1ae3b8776b105a",
+    "size": 6288190734,
+    "lfs": {
+      "oid": "9267bd0638b5a82aa76af08f6136659d99319378b10020dcd8c56738ef397704",
+      "size": 6288190734,
+      "pointerSize": 135
+    },
+    "xetHash": "ffeb100f16108f2ada188a2235781fa73c2b52b696ddb1ca5810fe4d18d6de26",
+    "path": "fee_refunded/year=2026/month=02.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "b30ff8202dc6db69725c10cab4893645d96051ad",
+    "size": 10777956286,
+    "lfs": {
+      "oid": "f05839292bae13cde5bd03394ab30c8eb90f86aeda0bd60359a4e95e6008eaa2",
+      "size": 10777956286,
+      "pointerSize": 136
+    },
+    "xetHash": "25e5911c4e5af6c7d03eec3d41ea50ac04b263aca45ef10b98017840fd3df0ac",
+    "path": "fee_refunded/year=2026/month=03.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "e4a8ad3e5eaac2515b64b6d2730789dfed316dfb",
+    "size": 7911372535,
+    "lfs": {
+      "oid": "badbb31e510dc301e562fbb974ef851c0a0889e4f07fc3148732ba3d9ca400cc",
+      "size": 7911372535,
+      "pointerSize": 135
+    },
+    "xetHash": "832d1d17cc93e37529b77ae6a449ba8f7a697b10ca3db3a9b161f6b94b4415cd",
+    "path": "fee_refunded/year=2026/month=04.parquet"
+  }
+]

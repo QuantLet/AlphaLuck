@@ -1,0 +1,112 @@
+[
+  {
+    "model_short": "glm",
+    "kind": "transfers",
+    "original_download": "polygon_mainnet_address_token_transfers_0x12148aa1a8f2f8f36ba38bc48db86cb08c092bda_from_2020-01-01-00-00_to_2026-11-01-00-00.csv",
+    "saved": "glm_transfers.csv",
+    "rows": 172,
+    "first_time": "2026-02-04 17:48:39.000000Z",
+    "last_time": "2026-09-25 23:11:42.000000Z",
+    "export_limit": 10000,
+    "ui_internal_transactions": 0
+  },
+  {
+    "model_short": "glm",
+    "kind": "transactions",
+    "original_download": "polygon_mainnet_address_txs_0x12148aa1a8f2f8f36ba38bc48db86cb08c092bda_from_2020-01-01-00-00_to_2026-11-01-21-18.csv",
+    "saved": "glm_transactions.csv",
+    "rows": 108,
+    "first_time": "2026-02-07 03:19:19.000000Z",
+    "last_time": "2026-09-25 23:18:21.000000Z",
+    "export_limit": 10000,
+    "ui_internal_transactions": 0
+  },
+  {
+    "model_short": "claude",
+    "kind": "transfers",
+    "original_download": "polygon_mainnet_address_token_transfers_0xc93ecb0aa64635ee352db9602f5424e8006596d5_from_2020-01-01-00-00_to_2026-11-01-21-13.csv",
+    "saved": "claude_transfers.csv",
+    "rows": 326,
+    "first_time": "2026-02-04 01:00:20.000000Z",
+    "last_time": "2026-09-25 23:14:03.000000Z",
+    "export_limit": 10000,
+    "ui_internal_transactions": 0
+  },
+  {
+    "model_short": "claude",
+    "kind": "transactions",
+    "original_download": "polygon_mainnet_address_txs_0xc93ecb0aa64635ee352db9602f5424e8006596d5_from_2020-01-01-00-00_to_2026-11-01-21-17.csv",
+    "saved": "claude_transactions.csv",
+    "rows": 78,
+    "first_time": "2026-02-03 23:18:26.000000Z",
+    "last_time": "2026-09-25 23:19:02.000000Z",
+    "export_limit": 10000,
+    "ui_internal_transactions": 0
+  },
+  {
+    "model_short": "gemini",
+    "kind": "transfers",
+    "original_download": "polygon_mainnet_address_token_transfers_0xb16582e1de16d044567db61a4216f4aa48f1d9ff_from_2020-01-01-00-00_to_2026-11-01-21-14.csv",
+    "saved": "gemini_transfers.csv",
+    "rows": 634,
+    "first_time": "2026-02-04 17:47:43.000000Z",
+    "last_time": "2026-09-25 23:13:39.000000Z",
+    "export_limit": 10000,
+    "ui_internal_transactions": 0
+  },
+  {
+    "model_short": "gemini",
+    "kind": "transactions",
+    "original_download": "polygon_mainnet_address_txs_0xb16582e1de16d044567db61a4216f4aa48f1d9ff_from_2020-01-01-00-00_to_2026-11-01-21-17.csv",
+    "saved": "gemini_transactions.csv",
+    "rows": 71,
+    "first_time": "2026-02-07 03:18:47.000000Z",
+    "last_time": "2026-09-25 23:18:38.000000Z",
+    "export_limit": 10000,
+    "ui_internal_transactions": 0
+  },
+  {
+    "model_short": "gpt",
+    "kind": "transfers",
+    "original_download": "polygon_mainnet_address_token_transfers_0xf2327959aabfa0c1cff3b2dbfb942cd6efac42ab_from_2020-01-01-00-00_to_2026-11-01-21-14.csv",
+    "saved": "gpt_transfers.csv",
+    "rows": 293,
+    "first_time": "2026-02-07 03:33:31.000000Z",
+    "last_time": "2026-09-25 23:20:33.000000Z",
+    "export_limit": 10000,
+    "ui_internal_transactions": 0
+  },
+  {
+    "model_short": "gpt",
+    "kind": "transactions",
+    "original_download": "polygon_mainnet_address_txs_0xf2327959aabfa0c1cff3b2dbfb942cd6efac42ab_from_2020-01-01-00-00_to_2026-11-01-21-17.csv",
+    "saved": "gpt_transactions.csv",
+    "rows": 30,
+    "first_time": "2026-02-07 03:20:39.000000Z",
+    "last_time": "2026-09-25 23:16:12.000000Z",
+    "export_limit": 10000,
+    "ui_internal_transactions": 0
+  },
+  {
+    "model_short": "mystery",
+    "kind": "transfers",
+    "original_download": "polygon_mainnet_address_token_transfers_0xba272f27074326a6d3f112280ef46eb178aca7f2_from_2020-01-01-00-00_to_2026-11-01-21-15.csv",
+    "saved": "mystery_transfers.csv",
+    "rows": 37,
+    "first_time": "2026-02-06 17:53:17.000000Z",
+    "last_time": "2026-09-25 23:07:33.000000Z",
+    "export_limit": 10000,
+    "ui_internal_transactions": 0
+  },
+  {
+    "model_short": "mystery",
+    "kind": "transactions",
+    "original_download": "polygon_mainnet_address_txs_0xba272f27074326a6d3f112280ef46eb178aca7f2_from_2020-01-01-00-00_to_2026-11-01-21-17.csv",
+    "saved": "mystery_transactions.csv",
+    "rows": 19,
+    "first_time": "2026-02-06 17:58:25.000000Z",
+    "last_time": "2026-09-25 23:17:54.000000Z",
+    "export_limit": 10000,
+    "ui_internal_transactions": 0
+  }
+]

@@ -1,0 +1,374 @@
+[
+  {
+    "type": "directory",
+    "oid": "3e73dbba2532e4b1177a181c567c0d867f7d4223",
+    "size": 0,
+    "path": "neg_risk_conversion/year=2023"
+  },
+  {
+    "type": "directory",
+    "oid": "7251183bd9d026a07c21f5c44faa804d928c4d01",
+    "size": 0,
+    "path": "neg_risk_conversion/year=2024"
+  },
+  {
+    "type": "directory",
+    "oid": "b41db2da6cb129eb2c5557852d9ca034cfa72cab",
+    "size": 0,
+    "path": "neg_risk_conversion/year=2025"
+  },
+  {
+    "type": "directory",
+    "oid": "2a01a3abb3267dd4f21c5d68b000df4ea4e7b6da",
+    "size": 0,
+    "path": "neg_risk_conversion/year=2026"
+  },
+  {
+    "type": "file",
+    "oid": "53e1fbec41159d4ce38cffe008b00f59bd55bbb1",
+    "size": 2734,
+    "lfs": {
+      "oid": "abbd3c7f8bd0a3264eefd8b4dea13755b92699bb072fe5acce292e15951d3eb8",
+      "size": 2734,
+      "pointerSize": 129
+    },
+    "xetHash": "3a7ac49221e42895a883b18a290442946e012171934e0d57c842792f59bf97e7",
+    "path": "neg_risk_conversion/year=2023/month=12.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "9bf31356ad7dd0a8c83c8e967ced73b233549ce1",
+    "size": 37819,
+    "lfs": {
+      "oid": "caa3d296008446f1b0abf83f080a927eb7ab22544c74480825c2264c4b0e5d72",
+      "size": 37819,
+      "pointerSize": 130
+    },
+    "xetHash": "c078f1ca1d4b95a0e9529408254571b1731d2513fd90b05b5c3429b76dba28d7",
+    "path": "neg_risk_conversion/year=2024/month=01.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "5771cbb84cdeac57c12afc0076267904256dff44",
+    "size": 35541,
+    "lfs": {
+      "oid": "064a240b3fcf1f4d931dd0c45ae85b763009350f6fec17813a0204e7f355b1fe",
+      "size": 35541,
+      "pointerSize": 130
+    },
+    "xetHash": "9165db646b0ebf8c738111b9c0fa4e57dcb894d251415dc3e401015275ecfeab",
+    "path": "neg_risk_conversion/year=2024/month=02.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "90365bcf42de227b3c085c236d5b640373fa5442",
+    "size": 43898,
+    "lfs": {
+      "oid": "4cbfc3c4ba530fdb5535f5bc749f5376a6fa294889befa7c8268360994c5845f",
+      "size": 43898,
+      "pointerSize": 130
+    },
+    "xetHash": "61b7732aa86d01831aeaf4be9b3e1c72f99f86efa537c3c77305bc26f3ba50d0",
+    "path": "neg_risk_conversion/year=2024/month=03.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "06cba0edccd9149e9860f92610fb7d1853004b83",
+    "size": 38905,
+    "lfs": {
+      "oid": "c2dbed80a9a9ae4f6864b79bc6ad9335460c06e225155376635492f043b0c74b",
+      "size": 38905,
+      "pointerSize": 130
+    },
+    "xetHash": "7fa54369a8c97b78ad92b8da5be24384666b394a244d18f95b27c882c088a44a",
+    "path": "neg_risk_conversion/year=2024/month=04.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "81a252f3f1343ab7fcccd9ef377d0d9920e53dc9",
+    "size": 66858,
+    "lfs": {
+      "oid": "77c72eb9199064e2ee0866552ce77b828a7573ae11e6b9919434e7c973be0fac",
+      "size": 66858,
+      "pointerSize": 130
+    },
+    "xetHash": "dedd10f79eb0238729e72214f90d02a78612fe684440986a5a04cbf27763d2fe",
+    "path": "neg_risk_conversion/year=2024/month=05.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "141ec94084499dde23f1a7e909d23506bad568a6",
+    "size": 191310,
+    "lfs": {
+      "oid": "cbee2bc5aeddb7f77a9d9af1366c11f41bdcd37d19e714cfa970673605224da0",
+      "size": 191310,
+      "pointerSize": 131
+    },
+    "xetHash": "1e0bb2dfb3f01b88648d9c82d1309d947a7d21fec0c466e5aa71a93667e430a6",
+    "path": "neg_risk_conversion/year=2024/month=06.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "704b0892029d6bb2237c4df036767196c37265d9",
+    "size": 485655,
+    "lfs": {
+      "oid": "255d849402cdff271705a946cd5214e3d597a87a7e0cb229899afc2147cb29fa",
+      "size": 485655,
+      "pointerSize": 131
+    },
+    "xetHash": "894bbc8f24cb5e7e4c00e2138b4837f8ba131e33e7a682c607768bf994742759",
+    "path": "neg_risk_conversion/year=2024/month=07.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "24e88c86c488f8b9006ffafbe7bebea89ffc8fe2",
+    "size": 580307,
+    "lfs": {
+      "oid": "1409ecbd84bcb8b28745fb0c2392dc24f40f45f8d62198e87628e88cd821a817",
+      "size": 580307,
+      "pointerSize": 131
+    },
+    "xetHash": "b0de6c016c6076a978ffbd9d71551b4d6e3c7af8e453048b9849870c81968339",
+    "path": "neg_risk_conversion/year=2024/month=08.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "9a90ba9551a99c56482eeac421c813631e0a57d9",
+    "size": 746499,
+    "lfs": {
+      "oid": "4ba9e8633a1d47c07111e99360349c6dabad29e28e4189f8d2a3ea8b097d3baf",
+      "size": 746499,
+      "pointerSize": 131
+    },
+    "xetHash": "fd09b1bc4e272dd9eaf067a997bb713c8eaeb9e415c59a271f1545ab0eab0075",
+    "path": "neg_risk_conversion/year=2024/month=09.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "1ca07ffed94ca210d8ce0c834c1f34b411192460",
+    "size": 1670113,
+    "lfs": {
+      "oid": "fb86947dc94d1f147fa65e7b82055324d1bd340f61f97cca6e96a70471a817c8",
+      "size": 1670113,
+      "pointerSize": 132
+    },
+    "xetHash": "2df3ef4ec735abdf6edca9ae580367f34be1d41ab7da21721234704d26ee94d8",
+    "path": "neg_risk_conversion/year=2024/month=10.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "c7ff798f9ae48b511d2cb413ed3a8e0747eb0f34",
+    "size": 1892118,
+    "lfs": {
+      "oid": "fd24cfebafa19a1991a39eda3ee90b540b0f3c06b90d6d2fcdc260fe0ecf8321",
+      "size": 1892118,
+      "pointerSize": 132
+    },
+    "xetHash": "1a53e9fd49a6be867271eaf489ad5de65748bdf3a5018b820d98c3c1bf0ba0c9",
+    "path": "neg_risk_conversion/year=2024/month=11.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "4cc837e3ff52ede15bd076bf9513ec5512465527",
+    "size": 950908,
+    "lfs": {
+      "oid": "ccd6a29f64d7d459cd5f7cf794bc1d732b6b8973ee4e94d6e177ec54eeb21bbc",
+      "size": 950908,
+      "pointerSize": 131
+    },
+    "xetHash": "910b3c5034971ca98c7b5ad808f313847a5d00cea74155053e4b4d886d48584d",
+    "path": "neg_risk_conversion/year=2024/month=12.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "11848f38ddea183ffd7295d20541743b4a126ee3",
+    "size": 1053043,
+    "lfs": {
+      "oid": "877fb78817dd98f6c7d60f984369959e571cd536040913be1bba17e0e146e582",
+      "size": 1053043,
+      "pointerSize": 132
+    },
+    "xetHash": "b6454ac3c910a7892bd7ad218fe3ae5fd77b17fa20561afdb6c0d4ce72f42938",
+    "path": "neg_risk_conversion/year=2025/month=01.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "632ef93ca10aff8743f2ca606ba6a2d5f5691491",
+    "size": 1002787,
+    "lfs": {
+      "oid": "aef4c1b90d72aeac61593245d386fa02648f9a5f6269ffdf9f971d9ff2cd9966",
+      "size": 1002787,
+      "pointerSize": 132
+    },
+    "xetHash": "81c4b807e023de16046d2cac3c56607823baf8ab2d5c6037c43ab0e442bf7be6",
+    "path": "neg_risk_conversion/year=2025/month=02.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "d812c0458ee95f8d0b581650f9c9eef983315630",
+    "size": 1001992,
+    "lfs": {
+      "oid": "672cbd267179485c5d30e1ceaefa35dc73d1818d1869891448db9ae880385cff",
+      "size": 1001992,
+      "pointerSize": 132
+    },
+    "xetHash": "7025c99f0f682d59d5a131bab7223ca17b08bc90a19d253095cc493c27f05509",
+    "path": "neg_risk_conversion/year=2025/month=03.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "5137c8473d838bfa00aab6d8a7c729161aa501cc",
+    "size": 1426363,
+    "lfs": {
+      "oid": "f04e11eddd233eaefa0ab1eea94deeaca20401876e9ce56116351ea8ae8095a0",
+      "size": 1426363,
+      "pointerSize": 132
+    },
+    "xetHash": "a02af9427ceeb259697ad989cd0af4df63b80d68cd2529945da59f17fa7d99a9",
+    "path": "neg_risk_conversion/year=2025/month=04.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "fdfeab25f7a8e0244f8f7c7c2bc25d5fb2280fe0",
+    "size": 2012506,
+    "lfs": {
+      "oid": "c0a0a3514a181a81fe4bd3c11338a298de4b920366fc3f0c49e5d82c0bca928e",
+      "size": 2012506,
+      "pointerSize": 132
+    },
+    "xetHash": "b78185bfa091a07638b7061afe11fa57a455edf899f7d52e1b66f24662e2f45a",
+    "path": "neg_risk_conversion/year=2025/month=05.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "67e61b803506b3490a95c6d164800b69dbf3dea7",
+    "size": 1615177,
+    "lfs": {
+      "oid": "a80fa381790991a79d0e6d12b303c236f74b4fe9835f25ed5fc2236a3be3182c",
+      "size": 1615177,
+      "pointerSize": 132
+    },
+    "xetHash": "9d0cd0b2956f9af1ba79ac51a85132553e4c7297326c925b539d597329649622",
+    "path": "neg_risk_conversion/year=2025/month=06.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "8dbfc3877daa477dc2f2c384c6a6bed7fd548af7",
+    "size": 1093324,
+    "lfs": {
+      "oid": "ec909e3ebc2c5c328eca6b32c4b4970c9109428589b03b6e75d8cdb4de946de4",
+      "size": 1093324,
+      "pointerSize": 132
+    },
+    "xetHash": "fb310918605cee86c56572ef8e9d7bd13ca75769ae9328156b0a3cdc09c3e4ac",
+    "path": "neg_risk_conversion/year=2025/month=07.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "c570bdb238a8874770a8198cabe7eedc55c5307d",
+    "size": 928433,
+    "lfs": {
+      "oid": "cd03ddc89226d8a67de3c6123143dc5faa7a88b648488141480565db2560d4e2",
+      "size": 928433,
+      "pointerSize": 131
+    },
+    "xetHash": "63a1eb7fd87c8a75bbb4964d0bbe1dbbbf1eb84aee2cc218e65b3b64601aee62",
+    "path": "neg_risk_conversion/year=2025/month=08.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "603b04ce3d0cd44dcb9dd202254b25aa17387bd7",
+    "size": 1325439,
+    "lfs": {
+      "oid": "f226c8c8880888c0578d841e73e3c5bff056c2ed4ffb0d73dc8cc3dddd2edee9",
+      "size": 1325439,
+      "pointerSize": 132
+    },
+    "xetHash": "a7b8636f720ce3f6311c179c4c965a05927a0550cf862daa6259db8f3dbc14b3",
+    "path": "neg_risk_conversion/year=2025/month=09.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "9bdec97a63c1150edbac70be01a6637442c0b710",
+    "size": 1975520,
+    "lfs": {
+      "oid": "a4e37d34757aac37b07e7dd52a3f03c1d4d5390295f86e55f9750ad47e0c608f",
+      "size": 1975520,
+      "pointerSize": 132
+    },
+    "xetHash": "63dc9a24cf6dd69acf89612986f212e253e708e93b17616b0342f3960a2fdeb9",
+    "path": "neg_risk_conversion/year=2025/month=10.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "e9bce2cb33cec246a0caf378b0b5c23cb88593ff",
+    "size": 3352922,
+    "lfs": {
+      "oid": "8b391e4eb0dc32edc4f1eaa534305925821da2fcd3330d53436e98ef7ea2e148",
+      "size": 3352922,
+      "pointerSize": 132
+    },
+    "xetHash": "e3ba7b64df092bdd10b772375715088d3c55f68365983379fba81f325a74928a",
+    "path": "neg_risk_conversion/year=2025/month=11.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "b3855954475c3131bc16d7bbf0de66e0baa05be7",
+    "size": 4024953,
+    "lfs": {
+      "oid": "6146f78a17ca4f26bad051d914d3039ac8f1277ab3d029857b01da5014601be8",
+      "size": 4024953,
+      "pointerSize": 132
+    },
+    "xetHash": "a1b1babccfd041f63338f60ac6abafd3e0281de3839d72be8c138ee6e31f40d2",
+    "path": "neg_risk_conversion/year=2025/month=12.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "0e33fa2b4fc4f61e7cb0dc3bd5160ad8c61ca82e",
+    "size": 6166194,
+    "lfs": {
+      "oid": "6189c373c72d9582acdff117af7b877e63617b39bf5333de49b4346c31ad9c65",
+      "size": 6166194,
+      "pointerSize": 132
+    },
+    "xetHash": "b8b5983081f0a11b69b89384801a1d91d16bdcd44898e582d29d8204917a553a",
+    "path": "neg_risk_conversion/year=2026/month=01.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "f202d6823286decdd02cc7d9d831105b39d4f8d7",
+    "size": 6071981,
+    "lfs": {
+      "oid": "a3da53dc86396482a29dd899c660d12306f223f18118f80d36b2cc5134897ebe",
+      "size": 6071981,
+      "pointerSize": 132
+    },
+    "xetHash": "ba44d99fd04214de41edbb1220990297a9cd1863c379db74e83200e767e83092",
+    "path": "neg_risk_conversion/year=2026/month=02.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "7b8f215ae54c2c3d1a66fa99023d87722cb29edd",
+    "size": 8880852,
+    "lfs": {
+      "oid": "33c0a5a9fc0f9cbeaaff1dd927fac3c97f1a7811516b4743a1c268d074301bc5",
+      "size": 8880852,
+      "pointerSize": 132
+    },
+    "xetHash": "821f7c57ab5dbf9799847fcce2159e0d763e902f3704668bf0c1e5afe7f57c85",
+    "path": "neg_risk_conversion/year=2026/month=03.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "4270c923f3916573b22ebb06c45c81b8b715529e",
+    "size": 7707235,
+    "lfs": {
+      "oid": "ac3859ed434f55cbdd04f9037eefe20a7ac7dc0bcf0b648dae91df212545ee42",
+      "size": 7707235,
+      "pointerSize": 132
+    },
+    "xetHash": "93b8dada0764ec9b81d9113ba0782a0d95c408b81e14c15f23ec71d05698ffaa",
+    "path": "neg_risk_conversion/year=2026/month=04.parquet"
+  }
+]

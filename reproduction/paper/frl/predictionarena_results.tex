@@ -1,0 +1,28 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Prediction Arena: trading and holding after formation.}
+\label{tab:predictionarena}
+\begin{tabular}{lrrrrr}
+\toprule
+ & \multicolumn{3}{c}{Terminal wealth (USD)} & \multicolumn{2}{c}{Estimated TWR (\%)}\\
+\cmidrule(lr){2-4}\cmidrule(lr){5-6}
+Account & Trading & Holding & Difference & Trading & Holding\\
+\midrule
+GLM & 333.42 & 314.14 & 19.29 & 24.77 & -30.58 \\
+Claude & 65.72 & 303.50 & -237.78 & -87.57 & -39.24 \\
+Gemini & 177.46 & 355.03 & -177.57 & -57.85 & -13.00 \\
+Mystery & 156.57 & 344.52 & -187.95 & -54.55 & 0.00 \\
+GPT (separate) & 295.68 & 363.99 & -68.31 & -10.18 & 33.95 \\
+\bottomrule
+\end{tabular}
+\begin{minipage}{0.98\linewidth}\footnotesize
+\textit{Notes:} Difference is trading minus holding. Formation is 10 February
+2026; closing is 10 March 2026. Both portfolios receive the same later deposit.
+Trading includes wallet-paid network costs. TWR links the returns before and
+after that deposit. All valuations assume stablecoin parity. GLM denotes
+GLM-4.7; Claude, Claude Opus 4.5; Gemini, Gemini 3 Pro; and GPT, GPT-5.2.
+Mystery retains the organiser's undisclosed-model label and has a cash-only
+holding benchmark. GPT is excluded from the main comparison because an
+execution after formation cannot be linked to a recorded decision.
+\end{minipage}
+\end{table}

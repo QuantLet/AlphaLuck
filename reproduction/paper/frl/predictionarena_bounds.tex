@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Bounds on trading-minus-holding terminal wealth, USD.}
+\label{tab:predictionbounds}
+\begin{tabular}{lrr}
+\toprule
+Account & Settlements only & Settlements and final-hour trades\\
+\midrule
+GLM & [8.72, 27.20] & [13.07, 19.49] \\
+Claude & [-237.78, -237.78] & [-237.78, -237.78] \\
+Gemini & [-330.89, 87.23] & [-261.94, -121.88] \\
+Mystery & [-187.95, -187.94] & [-187.95, -187.95] \\
+GPT (separate) & [-238.33, -50.12] & [-77.37, -68.27] \\
+\bottomrule
+\end{tabular}
+\begin{minipage}{0.98\linewidth}\footnotesize
+\textit{Notes:} Unknown outcome prices range independently from zero to one
+dollar, with a common price for the same token in both portfolios. The first
+column fixes only demonstrated settlement values; the second also retains
+transaction prices no more than one hour old. Both include network costs and
+identical external deposits. Intervals are rounded to cents and describe
+valuation uncertainty, not sampling uncertainty. GPT is reported separately.
+\end{minipage}
+\end{table}

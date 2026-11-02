@@ -1,0 +1,228 @@
+{
+  "period_start": "2026-02-09T03:45:09.366855+00:00",
+  "formation": "2026-02-10T03:45:09.366855+00:00",
+  "endpoint_exclusive": "2026-03-10T00:00:00+00:00",
+  "archive_complete_files": {
+    "neg_risk_conversion/year=2026/month=02.parquet": true,
+    "fee_refunded/year=2026/month=02.parquet": true,
+    "neg_risk_conversion/year=2026/month=03.parquet": true,
+    "fee_refunded/year=2026/month=03.parquet": true,
+    "order_filled/year=2026/month=02.parquet": true,
+    "wallet.parquet": true,
+    "order_filled/year=2026/month=03.parquet": true,
+    "split/year=2026/month=02.parquet": true,
+    "split/year=2026/month=03.parquet": true,
+    "redemption/year=2026/month=02.parquet": true,
+    "merge/year=2026/month=02.parquet": true,
+    "redemption/year=2026/month=03.parquet": true,
+    "merge/year=2026/month=03.parquet": true
+  },
+  "fee_refunded_events": 0,
+  "models": [
+    {
+      "model_id": "glm-4.7",
+      "wallet": "0x12148aa1a8f2f8f36ba38bc48db86cb08c092bda",
+      "blockscout_transfer_rows": 172,
+      "polygonscan_transfer_rows": 155,
+      "polygonscan_transfer_transactions_absent_blockscout": 67,
+      "blockscout_transactions": 108,
+      "polygonscan_transactions": 182,
+      "operator_orders": 95,
+      "independent_fill_events": 95,
+      "independent_unique_orders": 95,
+      "operator_orders_found": 95,
+      "independent_orders_not_in_operator_log": 0,
+      "fee_nonzero_fill_events": 0,
+      "redemption_events": 151,
+      "redemption_positive_events": 16,
+      "redemption_total_USDCE": "69.566674",
+      "wallet_paid_gas_POL_study_period": "3.800854084344719503",
+      "wallet_paid_transactions_study_period": 153,
+      "wallet_paid_gas_rows_with_rounded_fee": 61,
+      "checkpoints": {
+        "start": {
+          "cutoff_utc": "2026-02-09T03:45:09.366855+00:00",
+          "blockscout_only_net_USDCE": "9.870989",
+          "blockscout_only_net_USDC": "36.548731",
+          "polygonscan_rows_without_exact_value": 0
+        },
+        "formation": {
+          "cutoff_utc": "2026-02-10T03:45:09.366855+00:00",
+          "blockscout_only_net_USDCE": "11.098767",
+          "blockscout_only_net_USDC": "0.000000",
+          "polygonscan_rows_without_exact_value": 0
+        },
+        "endpoint": {
+          "cutoff_utc": "2026-03-10T00:00:00+00:00",
+          "blockscout_only_net_USDCE": "-22.442032",
+          "blockscout_only_net_USDC": "0.000000",
+          "polygonscan_rows_without_exact_value": 45
+        }
+      }
+    },
+    {
+      "model_id": "claude-opus-4-5-20251101",
+      "wallet": "0xc93ecb0aa64635ee352db9602f5424e8006596d5",
+      "blockscout_transfer_rows": 326,
+      "polygonscan_transfer_rows": 255,
+      "polygonscan_transfer_transactions_absent_blockscout": 94,
+      "blockscout_transactions": 78,
+      "polygonscan_transactions": 107,
+      "operator_orders": 79,
+      "independent_fill_events": 79,
+      "independent_unique_orders": 79,
+      "operator_orders_found": 79,
+      "independent_orders_not_in_operator_log": 0,
+      "fee_nonzero_fill_events": 0,
+      "redemption_events": 47,
+      "redemption_positive_events": 4,
+      "redemption_total_USDCE": "115.116192",
+      "wallet_paid_gas_POL_study_period": "2.372403155770472343",
+      "wallet_paid_transactions_study_period": 62,
+      "wallet_paid_gas_rows_with_rounded_fee": 20,
+      "checkpoints": {
+        "start": {
+          "cutoff_utc": "2026-02-09T03:45:09.366855+00:00",
+          "blockscout_only_net_USDCE": "46.079712",
+          "blockscout_only_net_USDC": "0.000000",
+          "polygonscan_rows_without_exact_value": 0
+        },
+        "formation": {
+          "cutoff_utc": "2026-02-10T03:45:09.366855+00:00",
+          "blockscout_only_net_USDCE": "6.079715",
+          "blockscout_only_net_USDC": "0.000000",
+          "polygonscan_rows_without_exact_value": 0
+        },
+        "endpoint": {
+          "cutoff_utc": "2026-03-10T00:00:00+00:00",
+          "blockscout_only_net_USDCE": "95.893769",
+          "blockscout_only_net_USDC": "0.000000",
+          "polygonscan_rows_without_exact_value": 33
+        }
+      }
+    },
+    {
+      "model_id": "gemini-3-pro-preview",
+      "wallet": "0xb16582e1de16d044567db61a4216f4aa48f1d9ff",
+      "blockscout_transfer_rows": 634,
+      "polygonscan_transfer_rows": 500,
+      "polygonscan_transfer_transactions_absent_blockscout": 190,
+      "blockscout_transactions": 71,
+      "polygonscan_transactions": 90,
+      "operator_orders": 155,
+      "independent_fill_events": 152,
+      "independent_unique_orders": 152,
+      "operator_orders_found": 152,
+      "independent_orders_not_in_operator_log": 0,
+      "fee_nonzero_fill_events": 0,
+      "redemption_events": 3,
+      "redemption_positive_events": 0,
+      "redemption_total_USDCE": "0",
+      "wallet_paid_gas_POL_study_period": "5.519493989369457688",
+      "wallet_paid_transactions_study_period": 6,
+      "wallet_paid_gas_rows_with_rounded_fee": 2,
+      "checkpoints": {
+        "start": {
+          "cutoff_utc": "2026-02-09T03:45:09.366855+00:00",
+          "blockscout_only_net_USDCE": "9.004977",
+          "blockscout_only_net_USDC": "58.475833",
+          "polygonscan_rows_without_exact_value": 0
+        },
+        "formation": {
+          "cutoff_utc": "2026-02-10T03:45:09.366855+00:00",
+          "blockscout_only_net_USDCE": "21.968462",
+          "blockscout_only_net_USDC": "0.000000",
+          "polygonscan_rows_without_exact_value": 1
+        },
+        "endpoint": {
+          "cutoff_utc": "2026-03-10T00:00:00+00:00",
+          "blockscout_only_net_USDCE": "272.558032",
+          "blockscout_only_net_USDC": "-297.419064",
+          "polygonscan_rows_without_exact_value": 55
+        }
+      }
+    },
+    {
+      "model_id": "gpt-5.2",
+      "wallet": "0xf2327959aabfa0c1cff3b2dbfb942cd6efac42ab",
+      "blockscout_transfer_rows": 293,
+      "polygonscan_transfer_rows": 214,
+      "polygonscan_transfer_transactions_absent_blockscout": 68,
+      "blockscout_transactions": 30,
+      "polygonscan_transactions": 39,
+      "operator_orders": 126,
+      "independent_fill_events": 130,
+      "independent_unique_orders": 130,
+      "operator_orders_found": 124,
+      "independent_orders_not_in_operator_log": 6,
+      "fee_nonzero_fill_events": 0,
+      "redemption_events": 0,
+      "redemption_positive_events": 0,
+      "redemption_total_USDCE": "0",
+      "wallet_paid_gas_POL_study_period": "0.272851544331860488",
+      "wallet_paid_transactions_study_period": 2,
+      "wallet_paid_gas_rows_with_rounded_fee": 1,
+      "checkpoints": {
+        "start": {
+          "cutoff_utc": "2026-02-09T03:45:09.366855+00:00",
+          "blockscout_only_net_USDCE": "50.71755",
+          "blockscout_only_net_USDC": "0.000000",
+          "polygonscan_rows_without_exact_value": 0
+        },
+        "formation": {
+          "cutoff_utc": "2026-02-10T03:45:09.366855+00:00",
+          "blockscout_only_net_USDCE": "4.069560",
+          "blockscout_only_net_USDC": "0.000000",
+          "polygonscan_rows_without_exact_value": 0
+        },
+        "endpoint": {
+          "cutoff_utc": "2026-03-10T00:00:00+00:00",
+          "blockscout_only_net_USDCE": "-325.168072",
+          "blockscout_only_net_USDC": "297.419064",
+          "polygonscan_rows_without_exact_value": 53
+        }
+      }
+    },
+    {
+      "model_id": "mystery-model-alpha",
+      "wallet": "0xba272f27074326a6d3f112280ef46eb178aca7f2",
+      "blockscout_transfer_rows": 37,
+      "polygonscan_transfer_rows": 38,
+      "polygonscan_transfer_transactions_absent_blockscout": 13,
+      "blockscout_transactions": 19,
+      "polygonscan_transactions": 22,
+      "operator_orders": 18,
+      "independent_fill_events": 18,
+      "independent_unique_orders": 18,
+      "operator_orders_found": 18,
+      "independent_orders_not_in_operator_log": 0,
+      "fee_nonzero_fill_events": 0,
+      "redemption_events": 1,
+      "redemption_positive_events": 1,
+      "redemption_total_USDCE": "100.1",
+      "wallet_paid_gas_POL_study_period": "0.264735236192699347",
+      "wallet_paid_transactions_study_period": 3,
+      "wallet_paid_gas_rows_with_rounded_fee": 1,
+      "checkpoints": {
+        "start": {
+          "cutoff_utc": "2026-02-09T03:45:09.366855+00:00",
+          "blockscout_only_net_USDCE": "47.104820",
+          "blockscout_only_net_USDC": "0.000000",
+          "polygonscan_rows_without_exact_value": 0
+        },
+        "formation": {
+          "cutoff_utc": "2026-02-10T03:45:09.366855+00:00",
+          "blockscout_only_net_USDCE": "47.104820",
+          "blockscout_only_net_USDC": "0.000000",
+          "polygonscan_rows_without_exact_value": 0
+        },
+        "endpoint": {
+          "cutoff_utc": "2026-03-10T00:00:00+00:00",
+          "blockscout_only_net_USDCE": "-70.533796",
+          "blockscout_only_net_USDC": "297.419063",
+          "polygonscan_rows_without_exact_value": 13
+        }
+      }
+    }
+  ]
+}

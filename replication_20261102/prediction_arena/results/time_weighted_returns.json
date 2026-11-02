@@ -1,0 +1,81 @@
+{
+  "models": [
+    {
+      "model_id": "glm-4.7",
+      "primary_attribution_candidate": true,
+      "funding_time": "2026-02-14 21:15:59",
+      "funding_amount": "297.419063",
+      "actual_cash_before_funding": "1.174349",
+      "actual_wealth_before_funding_net_gas": "69.30649176386733353136961738",
+      "holding_wealth_before_funding": "37.36213344244287108762764438",
+      "gas_before_funding_USDC": "0",
+      "funding_mark_max_age_seconds": "31250.0",
+      "trading_TWR_pct_transaction_marks": "24.76987176333230396720371950",
+      "holding_TWR_pct_transaction_marks": "-30.58213736415212858020848991",
+      "TWR_difference_pp": "55.35200912748443254741220941",
+      "terminal_wealth_difference_USDC": "19.2858471667980647288344432"
+    },
+    {
+      "model_id": "claude-opus-4-5-20251101",
+      "primary_attribution_candidate": true,
+      "funding_time": "2026-02-14 21:14:55",
+      "funding_amount": "297.419063",
+      "actual_cash_before_funding": "1.079717",
+      "actual_wealth_before_funding_net_gas": "29.67514561477780699447804366",
+      "holding_wealth_before_funding": "31.60080996344990796739416251",
+      "gas_before_funding_USDC": "0",
+      "funding_mark_max_age_seconds": "1010.0",
+      "trading_TWR_pct_transaction_marks": "-87.57272752955645022464695096",
+      "holding_TWR_pct_transaction_marks": "-39.23958545333206096802611167",
+      "TWR_difference_pp": "-48.33314207622438925662083929",
+      "terminal_wealth_difference_USDC": "-237.7832322558428646638302000"
+    },
+    {
+      "model_id": "gemini-3-pro-preview",
+      "primary_attribution_candidate": true,
+      "funding_time": "2026-02-14 21:15:27",
+      "funding_amount": "297.419064",
+      "actual_cash_before_funding": "0.821677",
+      "actual_wealth_before_funding_net_gas": "54.83356131000000000000000000",
+      "holding_wealth_before_funding": "56.90160761",
+      "gas_before_funding_USDC": "0",
+      "funding_mark_max_age_seconds": "9042.0",
+      "trading_TWR_pct_transaction_marks": "-57.84622124451145884032201804",
+      "holding_TWR_pct_transaction_marks": "-12.99584983155026799459411177",
+      "TWR_difference_pp": "-44.85037141296119084572790627",
+      "terminal_wealth_difference_USDC": "-177.5703135231876616750398041"
+    },
+    {
+      "model_id": "gpt-5.2",
+      "primary_attribution_candidate": false,
+      "funding_time": "2026-02-14 21:17:59",
+      "funding_amount": "297.419064",
+      "actual_cash_before_funding": "42.856204",
+      "actual_wealth_before_funding_net_gas": "52.887359004",
+      "holding_wealth_before_funding": "66.574024",
+      "gas_before_funding_USDC": "0",
+      "funding_mark_max_age_seconds": "3682.0",
+      "trading_TWR_pct_transaction_marks": "-10.17952623377402650004051968",
+      "holding_TWR_pct_transaction_marks": "33.95442660411653574398419710",
+      "TWR_difference_pp": "-44.13395283789056224402471678",
+      "terminal_wealth_difference_USDC": "-68.3148920007970071400090729"
+    },
+    {
+      "model_id": "mystery-model-alpha",
+      "primary_attribution_candidate": true,
+      "funding_time": "2026-02-14 21:16:43",
+      "funding_amount": "297.419063",
+      "actual_cash_before_funding": "47.104820",
+      "actual_wealth_before_funding_net_gas": "47.104820",
+      "holding_wealth_before_funding": "47.104820",
+      "gas_before_funding_USDC": "0",
+      "funding_mark_max_age_seconds": "0",
+      "trading_TWR_pct_transaction_marks": "-54.55335846464007531896299880",
+      "holding_TWR_pct_transaction_marks": "0",
+      "TWR_difference_pp": "-54.55335846464007531896299880",
+      "terminal_wealth_difference_USDC": "-187.9493488892871694630159588"
+    }
+  ],
+  "method": "Two subperiods split immediately before the single external deposit; geometric linkage. Values estimated from prior on-chain trades or proven settlements. Gas charged as cumulative expense in the stablecoin/outcome sleeve; no native POL investment return.",
+  "formula": "R = (V_before_flow / V_formation) * (V_end / (V_before_flow + flow)) - 1. Wealth differences and TWR differences answer different questions with intermediate funding."
+}

@@ -1,0 +1,41 @@
+{
+  "group": 20,
+  "group_rows": 1001472,
+  "owner_matches_before_time_filter": 3,
+  "bytes_read": 15623538,
+  "rows": [
+    {
+      "id": "137_83540614_3904",
+      "timestamp": "1772201259",
+      "redeemer": "0xC93ECB0Aa64635ee352db9602F5424E8006596D5",
+      "condition": "0xd8c9e85950996faf9b04df48f07fd090d2e0276b7937f2d6f246e242e4050b5d",
+      "indexSets": [
+        "1",
+        "2"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83550852_1997",
+      "timestamp": "1772221735",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0x10a890895d30a9f9c6afea5e9fc17b73a917d7898a453aa17583bf848cb68169",
+      "indexSets": [
+        "1",
+        "2"
+      ],
+      "payout": "0"
+    },
+    {
+      "id": "137_83552531_2994",
+      "timestamp": "1772225093",
+      "redeemer": "0x12148AA1A8F2F8f36ba38BC48DB86cb08c092BDA",
+      "condition": "0xd339236ef1e1bd2bd50d6f4abfae5c11fcb501f3124f399da187c0247d816d2f",
+      "indexSets": [
+        "1",
+        "2"
+      ],
+      "payout": "0"
+    }
+  ]
+}

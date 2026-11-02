@@ -1,8 +1,46 @@
-# Included numerical inputs
+# Research data and scope
 
-This file describes the inputs of the six standalone Quantlets. The full reconstruction package in [`reproduction/`](reproduction), including the raw Hyperliquid records, is documented in [`reproduction/DATA.md`](reproduction/DATA.md).
+## November 2026 release
 
-## Standalone Quantlets
+`replication_20261102/` contains the data and code used for Prediction Arena
+and the revised Alpha Arena threshold checks. It is also distributed as
+`AlphaLuck_replication_supplement_v2.1.0.zip` in release v2.1.0.
+
+Prediction Arena includes derived decision/order linkage records, independently
+indexed Polygon transactions and settlements, explorer extracts, and Binance
+POL/USDC minute prices used for wallet-paid gas. The primary outcome is the
+terminal wealth difference with identical external cash flows. Stablecoins
+are valued at parity; native POL investment returns are excluded. Time-weighted
+returns are secondary estimates using transaction marks at intermediate dates.
+
+The Envio / moose-code source is Polymarket On-Chain Complete v1, CC BY 4.0:
+https://huggingface.co/datasets/moose-code/polymarket-onchain-v1 .
+Its pinned revision is `7eeb860dea5b79d5c74f3182b70bd08c85c8f833`.
+Records are extracted and transformed; source URLs and identifiers are retained.
+See the README files within the replication directory for explorer and price
+sources. Full operator decision logs are not redistributed or asserted to be
+independently verified. Derived order records support the reported linkage.
+
+Alpha Arena includes derived formation thresholds, public exchange-derived
+panels and funding observations. Funding is aligned between the threshold
+observation and portfolio formation. Raw organiser snapshots are excluded.
+Recomputing from derived inputs does not independently verify those source
+observations or establish the absence of margin transfers. Both joint-stress
+directions and the prior-only missing-threshold scenarios are sensitivity
+calculations, not formal bounds.
+
+Machine-specific paths in a small set of funding metadata files have been
+replaced with relative paths. Original response hashes, source URLs and the
+numerical inputs are unchanged. Public collectors verify TLS certificates.
+No private feedback, credentials or user-account exports are included.
+
+## Earlier standalone Quantlets
+
+The six compact Quantlets retain October input snapshots. Their descriptions
+below concern those inputs; the November release supplies the revised margin
+calculations. The reconstruction archive remains in `reproduction/`.
+
+
 
 Only derived analytical extracts needed to run the six Quantlets are included. The original source project reconstructs public Alpha Arena competition accounts from Hyperliquid exchange records. This compact publication begins at the derived-data boundary.
 
