@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "accounts": 32,
+  "model_blocks": 8,
+  "arm_deletion_scenarios": 5,
+  "sign_assignments_per_benchmark": 256,
+  "cash_cost_scenarios": 4,
+  "inference_limitation": "Sign-flip reference assumes the joint null distribution is invariant to independent sign reversals of the eight model means, preserving the four arms within a model. Common market shocks may violate this assumption. References are conditional diagnostics, not calibrated significance levels for repeated markets, causal effects, or the overlapping formation windows."
+}

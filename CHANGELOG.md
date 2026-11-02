@@ -1,5 +1,14 @@
 # Changes
 
+## 2.1.1 — 2 November 2026
+
+- Added model-block sign-flip reference calculations, arm deletions and cash-closing costs.
+- Added cash formation sweeps over the same seven-day windows as retained positions and to the close.
+- Clarified that the zero-cost cash gap is negative realised post-formation P&L.
+- Added cash to the formation figure and separated bridge labels from marker lines.
+- Added verified ORCID identifiers and refreshed versioned citation metadata.
+- Preserved existing Alpha Arena and Prediction Arena data and calculations.
+
 ## 2.1.0 — 2 November 2026
 
 - Added the saved-data Prediction Arena replication, independent wallet

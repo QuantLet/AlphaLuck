@@ -1,0 +1,10 @@
+{
+  "reconstruction_from_public_repository_passed": true,
+  "byte_identical_outputs": [
+    "account_inputs_and_gaps.csv",
+    "cash_hourly_account_inputs.csv",
+    "cash_formation_sweep.csv",
+    "cash_formation_summary.json",
+    "summary.json"
+  ]
+}

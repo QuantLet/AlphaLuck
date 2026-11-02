@@ -1,19 +1,19 @@
 {
   "CITATION.cff": {
-    "bytes": 1291,
-    "sha256": "f63897455b1d8c9db91327776dcacbc3f1f3530b4614195120e5d5fff2c90fc0"
+    "bytes": 1556,
+    "sha256": "0c6a3e2a08ef973e4e9f924a5e10f129d2f32989fc0c41f7f6b996689945946c"
   },
   "LICENSE": {
     "bytes": 1529,
     "sha256": "c26fd3b198080a978d9b8a643f50dda6b71d0242351e9e1219f05dd1cbcf9e16"
   },
   "README.txt": {
-    "bytes": 3420,
-    "sha256": "2fd6b9794f42465907afdb580d9ebc06e78484f7625555b28cd5e016969f08a8"
+    "bytes": 3750,
+    "sha256": "178a7c7cb4157f1f097a6c82315ce56a90c6c7cea3e45a4df18ce1e5de1a5b7c"
   },
   "VALIDATION.json": {
-    "bytes": 1209,
-    "sha256": "eb4ff9deaabc3eea7c22ed3263a314049cbc3872069ee405e035f7a24465142c"
+    "bytes": 3941,
+    "sha256": "e1ad8f5846c0dbdff40141450439451b2ba9fafa637920cc69662a7ba32421cd"
   },
   "alpha_arena/data/derived/accounts.parquet": {
     "bytes": 16848,
@@ -5242,5 +5242,73 @@
   "requirements.txt": {
     "bytes": 57,
     "sha256": "99c2806ed076c64df88a5bee244456d15bc94e5850f4e9fa53efe238b1322366"
+  },
+  "robustness_checks/README.txt": {
+    "bytes": 1623,
+    "sha256": "60a9dba34549f55cbf348af1d294aa97717aa73abac45862567a13cf9959d237"
+  },
+  "robustness_checks/account_inputs_and_gaps.csv": {
+    "bytes": 5394,
+    "sha256": "6498b529eb88d9ec9247e7b8092723a0447670167bbdd021fd7ffed7a2a266bd"
+  },
+  "robustness_checks/analyse_revision.py": {
+    "bytes": 4198,
+    "sha256": "b9e659e6a52e31894d2d66704c0a584153cbb7c7a33e92e45aa4fbb176da2873"
+  },
+  "robustness_checks/cash_closure_sensitivity.csv": {
+    "bytes": 150,
+    "sha256": "4939faf7ad83f22e8c93a4e9f01b2ae3c96ec608cdc7f004a996e8e70ecdb59b"
+  },
+  "robustness_checks/cash_formation_sensitivity.py": {
+    "bytes": 4902,
+    "sha256": "0f712fbb755050f4b965985fbb48971e8c4b7f2e54bae2182284d8aa5b71372e"
+  },
+  "robustness_checks/cash_formation_summary.json": {
+    "bytes": 1989,
+    "sha256": "fe330bafb4cdb9759b5559aef56b51ef127a5b471a5a8fdf17a3b79c9cacb0cf"
+  },
+  "robustness_checks/cash_formation_sweep.csv": {
+    "bytes": 36133,
+    "sha256": "ae73af1436a35e4f3560a031a141acc1b8ec39c8b7572aef2c5c2826b85a9d85"
+  },
+  "robustness_checks/cash_hourly_account_inputs.csv": {
+    "bytes": 691504,
+    "sha256": "1578e761e29844488ce6d390fa16fcce6b0049fec3256cffaaecd0aecf076783"
+  },
+  "robustness_checks/cash_input_validation.json": {
+    "bytes": 3298,
+    "sha256": "dfa7a05e591052f1ada61f9c5e767fecd23f108e5481a62bc187a395e5d3b813"
+  },
+  "robustness_checks/input_hashes.json": {
+    "bytes": 657,
+    "sha256": "053646da51e4cb07bcc6b6886f01dc34c7aaaa53fb2067c0410b2ff84fcd28ae"
+  },
+  "robustness_checks/leave_one_arm_out.csv": {
+    "bytes": 596,
+    "sha256": "11c88095fb8d81839ba65eb21925b6df1cc839e0853561c647c4477761b1da0d"
+  },
+  "robustness_checks/model_means.csv": {
+    "bytes": 740,
+    "sha256": "d6bebd24405ae0aba7c2e9022f32686a25e58111cb969b34dbe6d6f7dd524a0c"
+  },
+  "robustness_checks/model_sign_flip_reference.csv": {
+    "bytes": 243,
+    "sha256": "fbfe7dc0eaea93624e08f276e83c708e8149b94d3f6400fbf0ec8bf0d0faf089"
+  },
+  "robustness_checks/public_input_validation.json": {
+    "bytes": 252,
+    "sha256": "dcc8e127d70977e21a85129753838b7d1b8a3038ad21b8fc1440f98b83b4423d"
+  },
+  "robustness_checks/replay_checks.py": {
+    "bytes": 2126,
+    "sha256": "ce0c42714167438ee069824de3cd60d467963b90fc77a55002d637cad63d0813"
+  },
+  "robustness_checks/replay_validation.json": {
+    "bytes": 556,
+    "sha256": "d57f1c2c6dc522426ce81f1109b5aec43634e4466b268d5b60311fc1b7fd2764"
+  },
+  "robustness_checks/summary.json": {
+    "bytes": 3558,
+    "sha256": "c81d4b88c4176f3b57685682dab1bfb8f1a0458b8f16b7f17e3ccbc23b152216"
   }
 }

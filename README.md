@@ -2,7 +2,7 @@
 
 Data and code for **Trading versus Holding in a Live Language-Model Competition**,
 by Daniel Traian Pele, Diana Ioana Micu and Victor Rareș Curescu.
-The current research release is [v2.1.0](https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.0),
+The current research release is [v2.1.1](https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.1),
 dated 2 November 2026. This is a research deposit, not journal acceptance.
 
 ## Current replication
@@ -46,12 +46,12 @@ the earlier reconstruction; it does not contain raw organiser snapshots.
 ## Reconstruction and earlier standalone analyses
 
 [`reproduction/`](reproduction) retains the public Hyperliquid records,
-AI-Trader inputs and the revised numerical tables, figures and Alpha Arena
+AI-Trader inputs and the numerical tables, figures and Alpha Arena
 code. Its README explains the offline checks and which parts of a complete
 reconstruction still depend on unavailable organiser archives.
 
 The following six compact Quantlets retain their October inputs and results.
-For the revised margin calculations use `replication_20261102`, not the
+For the margin calculations use `replication_20261102`, not the
 older isolated-margin values in `AlphaLuckFormationHour`.
 
 | Quantlet | Reproduces |
@@ -71,7 +71,7 @@ for the boundaries between archived observations and derived numerical inputs.
 
 Cite Pele, Micu and Curescu (2026), *AlphaLuck: Trading versus Holding in a
 Live Language-Model Competition*, research data and code, version 2.1.0.
-Release: https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.0.
+Release: https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.1.
 Machine-readable metadata are in [CITATION.cff](CITATION.cff).
 
 Code and authored documentation use the [MIT licence](LICENSE). The
@@ -80,3 +80,10 @@ third-party records retain their source notices. This does not relicense
 third-party material. Raw organiser snapshots, private feedback and licensed
 external-price datasets are not added. GitHub publication does not establish
 indexing in the QuantLet catalogue.
+
+The v2.1.1 release includes `replication_20261102/robustness_checks/`: arm
+deletions, model-block sign-flip reference calculations, cash closing costs,
+and cash comparisons across 169 overlapping seven-day windows and 336
+formations to the close. These are descriptive sensitivities on one market
+path. Run `python replay_checks.py` and `python cash_formation_sensitivity.py`
+from that directory; both use only the Python standard library.

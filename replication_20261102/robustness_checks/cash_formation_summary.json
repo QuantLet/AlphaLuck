@@ -1,0 +1,64 @@
+{
+  "to_close": {
+    "0": {
+      "windows": 336,
+      "positive": 266,
+      "median_pp": 1.3613775073113363,
+      "minimum_pp": -4.495727894540143,
+      "maximum_pp": 30.303615652263687
+    },
+    "10": {
+      "windows": 336,
+      "positive": 244,
+      "median_pp": 0.9747540049457528,
+      "minimum_pp": -4.739296718430768,
+      "maximum_pp": 29.89646632679494
+    },
+    "100": {
+      "windows": 336,
+      "positive": 116,
+      "median_pp": -2.637698249038806,
+      "minimum_pp": -8.767241000955078,
+      "maximum_pp": 26.988173030957977
+    }
+  },
+  "168h": {
+    "0": {
+      "windows": 169,
+      "positive": 124,
+      "median_pp": 13.042490289295763,
+      "minimum_pp": -8.74731060936872,
+      "maximum_pp": 28.90714838418262
+    },
+    "10": {
+      "windows": 169,
+      "positive": 123,
+      "median_pp": 12.619467000227012,
+      "minimum_pp": -8.990879433259346,
+      "maximum_pp": 28.349633239998244
+    },
+    "100": {
+      "windows": 169,
+      "positive": 116,
+      "median_pp": 8.812257398608262,
+      "minimum_pp": -11.182998848274972,
+      "maximum_pp": 25.823335011136983
+    }
+  },
+  "at_24h": {
+    "formation_hour": 24,
+    "cash_gap_pp_to_close_cost0": 29.74480430912334,
+    "cash_accounts_ahead_to_close_cost0": 27,
+    "cash_gap_pp_to_close_cost10": 29.42451565132959,
+    "cash_accounts_ahead_to_close_cost10": 27,
+    "cash_gap_pp_to_close_cost100": 26.54191773118584,
+    "cash_accounts_ahead_to_close_cost100": 27,
+    "cash_gap_pp_168h_cost0": 28.06405286341335,
+    "cash_accounts_ahead_168h_cost0": 29,
+    "cash_gap_pp_168h_cost10": 27.743764205619605,
+    "cash_accounts_ahead_168h_cost10": 29,
+    "cash_gap_pp_168h_cost100": 24.861166285475857,
+    "cash_accounts_ahead_168h_cost100": 28
+  },
+  "interpretation": "Zero-cost cash gap is negative post-formation realised P&L, not a separate source of alpha. All formation windows overlap on one market path. Costs are hypothetical closure charges on formation gross notional."
+}

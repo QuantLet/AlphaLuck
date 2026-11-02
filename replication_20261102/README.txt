@@ -1,9 +1,9 @@
 AlphaLuck: replication supplement, 2 November 2026
 
 This supplement accompanies Trading versus Holding in a Live Language-Model
-Competition and its online appendix. It covers the revised Alpha Arena
+Competition and its online appendix. It covers the Alpha Arena
 formation-threshold calculations and the Prediction Arena comparison.
-Public research release v2.1.0: https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.0.
+Public research release v2.1.1: https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.1.
 
 No downloads or credentials are needed for the commands below. Use Python 3.11
 or newer. Prediction Arena calculations use only the standard library. The
@@ -58,3 +58,11 @@ src/organiser_hourly.py and the saved result metadata. No raw organiser
 snapshot files or access credentials are distributed in this supplement.
 
 Collection scripts use default TLS certificate verification. Machine-specific paths in funding metadata have been replaced with relative paths; original source URLs, response hashes and numerical observations are preserved.
+
+ROBUSTNESS CHECKS
+  cd robustness_checks
+  python replay_checks.py
+  python cash_formation_sensitivity.py
+These commands need only the standard library. They reproduce omitted-arm,
+model-block sign-flip, closing-cost and cash formation-time comparisons from
+the included account inputs. See robustness_checks/README.txt for assumptions.

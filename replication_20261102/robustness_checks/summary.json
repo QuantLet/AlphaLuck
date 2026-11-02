@@ -1,0 +1,120 @@
+{
+  "units": "percentage points of retained accounts initial capital; each account starts with USD 10000",
+  "model_reference": [
+    {
+      "benchmark": "cash",
+      "gap_pp": 29.744804309123335,
+      "models_ahead": 7,
+      "two_sided_sign_flip_reference": 0.015625,
+      "assignments": 256
+    },
+    {
+      "benchmark": "isolated_A",
+      "gap_pp": 20.437591758289493,
+      "models_ahead": 7,
+      "two_sided_sign_flip_reference": 0.0234375,
+      "assignments": 256
+    },
+    {
+      "benchmark": "isolated_B",
+      "gap_pp": 10.101356908481486,
+      "models_ahead": 7,
+      "two_sided_sign_flip_reference": 0.1953125,
+      "assignments": 256
+    },
+    {
+      "benchmark": "shared",
+      "gap_pp": 29.12031171218168,
+      "models_ahead": 7,
+      "two_sided_sign_flip_reference": 0.015625,
+      "assignments": 256
+    }
+  ],
+  "arm_deletions": [
+    {
+      "omitted_arm": 0,
+      "accounts": 32,
+      "cash_gap_pp": 29.744804309123335,
+      "cash_ahead": 27,
+      "isolated_A_gap_pp": 20.437591758289493,
+      "isolated_A_ahead": 26,
+      "isolated_B_gap_pp": 10.101356908481488,
+      "isolated_B_ahead": 21,
+      "shared_gap_pp": 29.12031171218168,
+      "shared_ahead": 26
+    },
+    {
+      "omitted_arm": 1,
+      "accounts": 24,
+      "cash_gap_pp": 29.82766791697306,
+      "cash_ahead": 20,
+      "isolated_A_gap_pp": 19.45464721450379,
+      "isolated_A_ahead": 19,
+      "isolated_B_gap_pp": 7.805122055846052,
+      "isolated_B_ahead": 15,
+      "shared_gap_pp": 31.035932153005827,
+      "shared_ahead": 20
+    },
+    {
+      "omitted_arm": 2,
+      "accounts": 24,
+      "cash_gap_pp": 33.17989462503497,
+      "cash_ahead": 20,
+      "isolated_A_gap_pp": 23.855181610314787,
+      "isolated_A_ahead": 20,
+      "isolated_B_gap_pp": 12.92104122448025,
+      "isolated_B_ahead": 17,
+      "shared_gap_pp": 35.54370322615194,
+      "shared_ahead": 20
+    },
+    {
+      "omitted_arm": 3,
+      "accounts": 24,
+      "cash_gap_pp": 25.487653967956295,
+      "cash_ahead": 20,
+      "isolated_A_gap_pp": 17.2702416422985,
+      "isolated_A_ahead": 19,
+      "isolated_B_gap_pp": 9.203215178767072,
+      "isolated_B_ahead": 16,
+      "shared_gap_pp": 19.751819759182354,
+      "shared_ahead": 19
+    },
+    {
+      "omitted_arm": 4,
+      "accounts": 24,
+      "cash_gap_pp": 30.484000726529015,
+      "cash_ahead": 21,
+      "isolated_A_gap_pp": 21.170296566040893,
+      "isolated_A_ahead": 20,
+      "isolated_B_gap_pp": 10.476049174832575,
+      "isolated_B_ahead": 15,
+      "shared_gap_pp": 30.149791710386605,
+      "shared_ahead": 19
+    }
+  ],
+  "cash_closure": [
+    {
+      "closure_cost_bp": 0,
+      "cash_gap_pp": 29.744804309123335,
+      "accounts_ahead": 27
+    },
+    {
+      "closure_cost_bp": 2.42,
+      "cash_gap_pp": 29.66729445393725,
+      "accounts_ahead": 27
+    },
+    {
+      "closure_cost_bp": 10,
+      "cash_gap_pp": 29.424515651329585,
+      "accounts_ahead": 27
+    },
+    {
+      "closure_cost_bp": 100,
+      "cash_gap_pp": 26.541917731185837,
+      "accounts_ahead": 27
+    }
+  ],
+  "formation_gross_times_capital": 3.2028865779375,
+  "aggregate_cash_breakeven_closure_bp": 928.6874069789105,
+  "assumptions": "Sign-flip reference assumes the joint null distribution is invariant to independent sign reversals of the eight model means, preserving the four arms within a model. Common market shocks may violate this assumption. References are conditional diagnostics, not calibrated significance levels for repeated markets, causal effects, or the overlapping formation windows."
+}

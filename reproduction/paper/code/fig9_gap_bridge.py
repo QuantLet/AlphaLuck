@@ -49,9 +49,9 @@ def main():
         if liq < 0:
             ax.bar(i, liq, 0.6, bottom=0, color=TERMS[3][2], edgecolor="white",
                    linewidth=1.0, hatch="////", label=TERMS[3][1] if i == 1 else None)
-        ax.plot([i - 0.38, i + 0.38], [net, net], color=style.INK, lw=1.6)
-        ax.annotate(f"{net:.1f}", (i, net), xytext=(0, 3), textcoords="offset points",
-                    va="bottom", ha="center", fontsize=7.5, fontweight="bold",
+        ax.plot([i - 0.38, i + 0.38], [net, net], color=style.INK, lw=1.6, zorder=4)
+        ax.annotate(f"{net:.1f}", (i, net), xytext=(0, 7), textcoords="offset points",
+                    va="bottom", ha="center", fontsize=8, fontweight="bold", zorder=10,
                     bbox=dict(boxstyle="square,pad=0.1", fc="white", ec="none"))
     ax.axhline(0, color=style.INK, lw=0.7)
     ax.set_xticks(x, [r[0] for r in rows], fontsize=7.5)

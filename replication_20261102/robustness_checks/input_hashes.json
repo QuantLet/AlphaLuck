@@ -1,0 +1,9 @@
+{
+  "holding_vs_trading_accounts.csv": "869b8eb863937838df994dc325372ba97b73eb368769c33d199639eec27b88fe",
+  "organiser_hourly_sweep_accounts.csv": "afa621d3753dc93dbcd61e51226e69ec187bbb9dc7196d5d6ebd770f78a8a17d",
+  "fills.parquet": "e0690242e8f4572b64d48801890312ac0981775939a1a498368dbdc8781e56fc",
+  "panel.parquet": "7817956b47ee06977722801dff7f577660dd9471e31e33ee0014ea85efa3ded1",
+  "equity.parquet": "136a874edf76e1bf564691736490c2054380fa4a4d7d2d03ac4bda5f44ec84a4",
+  "accounts.parquet": "3a0d1af2b1a76ea2c61cc489893232a1134cd6402c9a45faf2d50fccf8d57033",
+  "funding.parquet": "e1c8148682015ed9c79ebb7b58558c52e080bb03b96f2d91848834e81ae03664"
+}
