@@ -24,8 +24,7 @@ Output: AlphaLuckRiskReturn.png, AlphaLuckRiskReturn.pdf
 Note: Run the named Python script from any directory. Inputs are included derived data, not raw organiser payloads. One run per model-arm cell; no population-model significance claim.
 
 ```
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/QuantLet/AlphaLuck/main/AlphaLuckRiskReturn/AlphaLuckRiskReturn.png" alt="Image" width="600"/>
+<img src="https://raw.githubusercontent.com/QuantLet/AlphaLuck/main/AlphaLuckRiskReturn/AlphaLuckRiskReturn.png" alt="Image" />
 </div>
 
