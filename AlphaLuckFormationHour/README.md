@@ -28,8 +28,7 @@ Output: output/results.json, output/formation_hour.csv, output/formation_hour.pn
 Example: python AlphaLuckFormationHour.py
 
 ```
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/QuantLet/AlphaLuck/main/AlphaLuckFormationHour/AlphaLuckFormationHour.png" alt="Image" width="600"/>
+<img src="https://raw.githubusercontent.com/QuantLet/AlphaLuck/main/AlphaLuckFormationHour/AlphaLuckFormationHour.png" alt="Image" />
 </div>
 
