@@ -24,8 +24,7 @@ Output: AlphaLuckPnlAttribution.png, AlphaLuckPnlAttribution.pdf
 Note: Run the named Python script from any directory. Inputs are included derived data, not raw organiser payloads. One run per model-arm cell; no population-model significance claim.
 
 ```
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/QuantLet/AlphaLuck/main/reproduction/quantlets/AlphaLuckPnlAttribution/AlphaLuckPnlAttribution.png" alt="Image" width="600"/>
+<img src="https://raw.githubusercontent.com/QuantLet/AlphaLuck/main/reproduction/quantlets/AlphaLuckPnlAttribution/AlphaLuckPnlAttribution.png" alt="Image" />
 </div>
 
