@@ -6,7 +6,7 @@ Description: Signed accounting attribution combining timing and residual executi
   valuations; the combined contribution is not measured trading cost.
 Keywords: profit and loss, accounting attribution, execution adjustment, funding, large language models,
   trading
-Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu
+Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu, Miruna Mazurencu-Marinescu-Pele
 Submitted: 15 October 2026
 Datafile: data/a1_pnl_decomposition.csv
 Output: AlphaLuckPnlAttribution.png, AlphaLuckPnlAttribution.pdf

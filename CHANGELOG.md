@@ -1,5 +1,11 @@
 # Changes
 
+## 2.1.2 — 4 November 2026
+
+- Added Miruna Mazurencu-Marinescu-Pele as the fourth author in citation and QuantLet metadata.
+- Synchronized citation metadata across the repository and replication supplement.
+- Preserved all data, calculation code and numerical results from v2.1.1.
+
 ## 2.1.1 — 2 November 2026
 
 - Added model-block sign-flip reference calculations, arm deletions and cash-closing costs.

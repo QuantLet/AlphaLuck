@@ -5,7 +5,7 @@ Description: Gross exposure and daily profit-and-loss volatility on initial capi
   implementations and four competition arms. Descriptive concordance does not identify persistent model
   preferences.
 Keywords: risk measurement, gross exposure, volatility, large language models, trading, concordance
-Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu
+Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu, Miruna Mazurencu-Marinescu-Pele
 Submitted: 15 October 2026
 Datafile: data/c4_wallet_risk.csv, data/i6_vol_denominator.csv
 Output: AlphaLuckRiskProfiles.png, AlphaLuckRiskProfiles.pdf

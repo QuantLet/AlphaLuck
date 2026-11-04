@@ -6,7 +6,7 @@ Description: Reproduces the Season 1.5 24-hour frozen-position accounting compar
   stresses. It does not simulate an executable strategy, historical liquidations or market impact.
 Keywords: LLM, trading agents, performance evaluation, frozen positions, funding, transaction costs, sensitivity
   analysis, reproducibility
-Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu
+Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu, Miruna Mazurencu-Marinescu-Pele
 Submitted: 2026-10-15
 Datafile: data/accounts.csv, data/positions.csv, data/provenance.json
 Input: Derived hourly-funded dollar profit and loss for 32 accounts and signed terminal quantities for

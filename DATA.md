@@ -4,7 +4,7 @@
 
 `replication_20261102/` contains the data and code used for Prediction Arena
 and the Alpha Arena threshold checks. It is also distributed as
-`AlphaLuck_replication_supplement_v2.1.1.zip` in release v2.1.1.
+`AlphaLuck_replication_supplement_v2.1.2.zip` in release v2.1.2.
 
 Prediction Arena includes derived decision/order linkage records, independently
 indexed Polygon transactions and settlements, explorer extracts, and Binance
@@ -61,7 +61,7 @@ The code licence does not purport to license third-party source records. The inc
 
 Primary source context: [Alpha Arena](https://alphaarena.ai/), [Hyperliquid API documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint/perpetuals).
 
-The v2.1.1 release includes `replication_20261102/robustness_checks/`: arm
+The v2.1.2 release includes `replication_20261102/robustness_checks/`: arm
 deletions, model-block sign-flip reference calculations, cash closing costs,
 and cash comparisons across 169 overlapping seven-day windows and 336
 formations to the close. These are descriptive sensitivities on one market

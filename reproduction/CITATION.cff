@@ -6,23 +6,30 @@ abstract: >-
   AI-Trader and Prediction Arena. This release adds independently reconciled
   Prediction Arena transactions and valuation checks, corrected Alpha Arena
   funding alignment, and formation-threshold sensitivity calculations.
-  The comparisons are descriptive and do not establish persistent model skill.
+  It also provides arm-deletion and model-block comparisons, cash closing
+  costs and cash formation-time sweeps. The comparisons are descriptive and do not establish persistent model skill.
 type: software
 authors:
   - family-names: Pele
     given-names: Daniel Traian
     affiliation: "Bucharest University of Economic Studies"
     email: danpele@ase.ro
+    orcid: "https://orcid.org/0000-0002-5891-5495"
   - family-names: Micu
     given-names: Diana Ioana
+    orcid: "https://orcid.org/0009-0001-3377-8914"
     affiliation: "Bucharest University of Economic Studies"
   - family-names: Curescu
     given-names: "Victor Rareș"
+    orcid: "https://orcid.org/0009-0001-6518-0538"
+    affiliation: "Bucharest University of Economic Studies"
+  - family-names: Mazurencu-Marinescu-Pele
+    given-names: Miruna
     affiliation: "Bucharest University of Economic Studies"
 license: MIT
-version: "2.1.0"
-date-released: "2026-11-02"
-url: "https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.0"
+version: "2.1.2"
+date-released: "2026-11-04"
+url: "https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.2"
 repository-code: "https://github.com/QuantLet/AlphaLuck"
 keywords:
   - large language models

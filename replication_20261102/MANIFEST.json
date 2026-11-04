@@ -1,15 +1,15 @@
 {
   "CITATION.cff": {
-    "bytes": 1556,
-    "sha256": "0c6a3e2a08ef973e4e9f924a5e10f129d2f32989fc0c41f7f6b996689945946c"
+    "bytes": 1683,
+    "sha256": "aa03fb0960c0fa574d99ffec54cdea9c1c8636adc4fbc1ad32b8b193c0042565"
   },
   "LICENSE": {
     "bytes": 1529,
     "sha256": "c26fd3b198080a978d9b8a643f50dda6b71d0242351e9e1219f05dd1cbcf9e16"
   },
   "README.txt": {
-    "bytes": 3750,
-    "sha256": "178a7c7cb4157f1f097a6c82315ce56a90c6c7cea3e45a4df18ce1e5de1a5b7c"
+    "bytes": 3983,
+    "sha256": "3a767c40a839af8869c500bc3f4a70eec5f832a9f76c4495b3d0fbb0f2ed0779"
   },
   "VALIDATION.json": {
     "bytes": 3941,

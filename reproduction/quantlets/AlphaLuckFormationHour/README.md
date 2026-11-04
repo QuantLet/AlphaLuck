@@ -15,7 +15,7 @@ hour from 1 to 336, to the close and over fixed 1-, 3- and 7-day horizons, and u
 
 Keywords: LLM, trading agents, performance evaluation, frozen positions, formation time, isolated margin, liquidation, sensitivity analysis, reproducibility
 
-Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu
+Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu, Miruna Mazurencu-Marinescu-Pele
 
 Submitted: 2026-10-19
 

@@ -2,8 +2,8 @@
 
 This tree contains the archived Hyperliquid and AI-Trader inputs and the
 revised Alpha Arena calculations. The current research release
-is [v2.1.0](https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.0),
-dated 2 November 2026. It has not been submitted by this release process.
+is [v2.1.2](https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.2),
+dated 4 November 2026. It has not been submitted by this release process.
 
 The self-contained [replication supplement](../replication_20261102/README.txt)
 provides the Prediction Arena data and calculations, corrected Alpha Arena

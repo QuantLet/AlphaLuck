@@ -7,7 +7,7 @@ Description: Aggregates the Season 1.5 hourly-funded frozen-position accounting 
   exchange, simulate an executable strategy or redistribute organiser data.
 Keywords: LLM, trading agents, performance evaluation, frozen positions, formation time, isolated margin,
   liquidation, sensitivity analysis, reproducibility
-Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu
+Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu, Miruna Mazurencu-Marinescu-Pele
 Submitted: 2026-10-19
 Datafile: data/sweep_accounts.csv, data/sweep_hours.csv, data/reference.json, data/provenance.json
 Input: Derived account-level frozen and realised results for 32 accounts and 336 formation hours, with

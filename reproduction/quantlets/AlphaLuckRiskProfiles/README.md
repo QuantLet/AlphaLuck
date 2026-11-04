@@ -13,7 +13,7 @@ Description: Gross exposure and daily profit-and-loss volatility on initial capi
 
 Keywords: risk measurement, gross exposure, volatility, large language models, trading, concordance
 
-Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu
+Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu, Miruna Mazurencu-Marinescu-Pele
 
 Submitted: 15 October 2026
 

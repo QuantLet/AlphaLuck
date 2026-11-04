@@ -13,7 +13,7 @@ Description: Signed accounting attribution combining timing and residual executi
 
 Keywords: profit and loss, accounting attribution, execution adjustment, funding, large language models, trading
 
-Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu
+Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu, Miruna Mazurencu-Marinescu-Pele
 
 Submitted: 15 October 2026
 

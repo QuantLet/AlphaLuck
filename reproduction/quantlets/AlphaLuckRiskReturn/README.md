@@ -13,7 +13,7 @@ Description: Descriptive volatility-return associations at model and account lev
 
 Keywords: risk return, Spearman correlation, volatility, large language models, trading, initial capital
 
-Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu
+Author: Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu, Miruna Mazurencu-Marinescu-Pele
 
 Submitted: 15 October 2026
 

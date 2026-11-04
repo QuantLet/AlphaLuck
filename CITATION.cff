@@ -23,10 +23,13 @@ authors:
     given-names: "Victor Rareș"
     orcid: "https://orcid.org/0009-0001-6518-0538"
     affiliation: "Bucharest University of Economic Studies"
+  - family-names: Mazurencu-Marinescu-Pele
+    given-names: Miruna
+    affiliation: "Bucharest University of Economic Studies"
 license: MIT
-version: "2.1.1"
-date-released: "2026-11-02"
-url: "https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.1"
+version: "2.1.2"
+date-released: "2026-11-04"
+url: "https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.2"
 repository-code: "https://github.com/QuantLet/AlphaLuck"
 keywords:
   - large language models
