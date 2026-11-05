@@ -2,8 +2,7 @@
 
 Data and code for **Trading versus Holding in a Live Language-Model Competition**,
 by Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu and Miruna Mazurencu-Marinescu-Pele.
-The current research release is [v2.1.2](https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.2),
-dated 4 November 2026. This is a research deposit, not journal acceptance.
+Repository: https://github.com/QuantLet/AlphaLuck.
 
 ## Current replication
 
@@ -40,8 +39,8 @@ python independent_inputs/test_history.py
 
 Read the [replication instructions](replication_20261102/README.txt) for
 valuation assumptions, source attribution and the limits of the reconstruction.
-The release includes a standalone ZIP of this folder. The archive supplements
-the earlier reconstruction; it does not contain raw organiser snapshots.
+This folder supplements the earlier reconstruction; it does not contain raw
+organiser snapshots.
 
 ## Reconstruction and earlier standalone analyses
 
@@ -70,8 +69,8 @@ for the boundaries between archived observations and derived numerical inputs.
 ## Citation and licences
 
 Cite Pele, Micu, Curescu and Mazurencu-Marinescu-Pele (2026), *AlphaLuck: Trading versus Holding in a
-Live Language-Model Competition*, research data and code, version 2.1.2.
-Release: https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.2.
+Live Language-Model Competition*, research data and code.
+https://github.com/QuantLet/AlphaLuck.
 Machine-readable metadata are in [CITATION.cff](CITATION.cff).
 
 Code and authored documentation use the [MIT licence](LICENSE). The
@@ -81,7 +80,7 @@ third-party material. Raw organiser snapshots, private feedback and licensed
 external-price datasets are not added. GitHub publication does not establish
 indexing in the QuantLet catalogue.
 
-The v2.1.2 release includes `replication_20261102/robustness_checks/`: arm
+The repository includes `replication_20261102/robustness_checks/`: arm
 deletions, model-block sign-flip reference calculations, cash closing costs,
 and cash comparisons across 169 overlapping seven-day windows and 336
 formations to the close. These are descriptive sensitivities on one market

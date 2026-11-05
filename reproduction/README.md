@@ -1,9 +1,8 @@
 # AlphaLuck reconstruction package
 
 This tree contains the archived Hyperliquid and AI-Trader inputs and the
-revised Alpha Arena calculations. The current research release
-is [v2.1.2](https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.2),
-dated 4 November 2026. It has not been submitted by this release process.
+Alpha Arena calculations. The repository is available at
+https://github.com/QuantLet/AlphaLuck.
 
 The self-contained [replication supplement](../replication_20261102/README.txt)
 provides the Prediction Arena data and calculations, corrected Alpha Arena
@@ -33,5 +32,4 @@ The [October documentation](README_legacy_20261025.md) records the earlier
 pipeline and its limitations. It describes an older manuscript and is not a
 statement of the current results. Some end-to-end collection commands need
 organiser archives that are not redistributed or optional licensed prices.
-See [DATA.md](DATA.md). No raw organiser snapshots or credentials are added
-by this release.
+See [DATA.md](DATA.md). No raw organiser snapshots or credentials are included.

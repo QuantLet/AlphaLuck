@@ -3,7 +3,7 @@ message: "If you use this software or data, please cite it as below."
 title: "AlphaLuck: Trading versus Holding in a Live Language-Model Competition"
 abstract: >-
   Data and code for trading-versus-holding comparisons in Alpha Arena,
-  AI-Trader and Prediction Arena. This release adds independently reconciled
+  AI-Trader and Prediction Arena. The repository includes independently reconciled
   Prediction Arena transactions and valuation checks, corrected Alpha Arena
   funding alignment, and formation-threshold sensitivity calculations.
   It also provides arm-deletion and model-block comparisons, cash closing
@@ -27,9 +27,7 @@ authors:
     given-names: Miruna
     affiliation: "Bucharest University of Economic Studies"
 license: MIT
-version: "2.1.2"
-date-released: "2026-11-04"
-url: "https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.2"
+url: "https://github.com/QuantLet/AlphaLuck"
 repository-code: "https://github.com/QuantLet/AlphaLuck"
 keywords:
   - large language models

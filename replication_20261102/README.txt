@@ -3,7 +3,7 @@ AlphaLuck: replication supplement, 4 November 2026
 This supplement accompanies Trading versus Holding in a Live Language-Model
 Competition and its online appendix. It covers the Alpha Arena
 formation-threshold calculations and the Prediction Arena comparison.
-Public research release v2.1.2: https://github.com/QuantLet/AlphaLuck/releases/tag/v2.1.2.
+Repository: https://github.com/QuantLet/AlphaLuck.
 
 No downloads or credentials are needed for the commands below. Use Python 3.11
 or newer. Prediction Arena calculations use only the standard library. The
@@ -70,5 +70,3 @@ the included account inputs. See robustness_checks/README.txt for assumptions.
 AUTHORS
 Daniel Traian Pele, Diana Ioana Micu, Victor Rareș Curescu and
 Miruna Mazurencu-Marinescu-Pele.
-v2.1.2 updates authorship and citation metadata only; all data, analysis
-code and numerical results are unchanged from v2.1.1.
